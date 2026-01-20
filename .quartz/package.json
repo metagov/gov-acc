@@ -12,10 +12,10 @@
     "npm": ">=10.9.2"
   },
   "scripts": {
-    "build": "tsx ./quartz/bootstrap-cli.mts build --directory ..",
-    "serve": "tsx ./quartz/bootstrap-cli.mts build --serve",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mts build --concurrency=1",
-    "check": "tsc --noEmit && tsx ./quartz/bootstrap-cli.mts update --check"
+    "build": "tsx ./quartz/bootstrap-cli.mjs build --directory ..",
+    "serve": "tsx ./quartz/bootstrap-cli.mjs build --serve",
+    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "check": "tsc --noEmit && tsx ./quartz/bootstrap-cli.mjs update --check"
   },
   "keywords": [
     "quartz",
