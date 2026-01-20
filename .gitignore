@@ -1,11 +1,16 @@
-# Quartz build artifacts
-.quartz/
+# Node.js
+node_modules/
+.quartz/node_modules/
+
+# Quartz build artifacts (keep these ignored)
+.quartz/public/
+.quartz/.quartz-cache/
 .quartz-cache/
 public/
 
-# Node.js
-node_modules/
+# Root package-lock.json (but allow .quartz/package-lock.json)
 package-lock.json
+!.quartz/package-lock.json
 
 # Meridian local data
 .meridian/
