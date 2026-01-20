@@ -5,6 +5,7 @@ subtitle: Accelerating Governance Innovation in Web3
 ---
 
 ## Overview
+
 gov/acc is a research program focused on accelerating governance innovation and experimentation in web3 communities. As part of the broader https://vitalik.eth.link/general/2025/01/05/dacc2.html, we believe that better governance infrastructure is essential for building coordination mechanisms that can solve critical problems in novel ways.
 
 This program is conducted in public, with the hope of encouraging more data sharing, collaborative learning, and open research beyond what any single organization could achieve alone. We're building in the open to make governance innovation more accessible, participatory, and impactful.
@@ -24,7 +25,6 @@ Our work begins with:
 ## Project Management
 
 We manage this research program using public GitHub project boards, allowing anyone to follow along with our progress, contribute ideas, or adapt our approach for their own work.
-
 
 View the active project board: [gov/acc Project Tracker](https://github.com/users/[YOUR-USERNAME]/projects/[PROJECT-NUMBER])
 
@@ -49,14 +49,14 @@ We're using a combination of interviews, surveys, and collaborative mapping sess
 
 ### Resources
 
-- Working Methodology Document (in development)
+- [Working Methodology Document](https://docs.google.com/document/d/1f9LN5qlUXXMXinJuzfPmr2USu-2zlx2BZDXEbWpTfdI/edit?usp=sharing) (in development)
 - Public mapping sessions and workshops (scheduled for Jan-Feb 2025)
 
 ---
 
 ## Open Problems in DAOs - Industry Focus Edition
 
-Building on the original Open Problems in DAOs paper, this revision will shift focus toward practical industry challenges facing governance practitioners today.
+Building on the original [Open Problems in DAOs](https://arxiv.org/html/2310.19201v2) paper, this revision will shift focus toward practical industry challenges facing governance practitioners today.
 
 While the original paper provided an academic foundation for understanding DAO research questions, this version will center on the operational, technical, and coordination problems that organizations actually face when implementing decentralized governance. The goal is to bridge academic research with practitioner needs.
 
@@ -76,7 +76,7 @@ This research program benefits from diverse perspectives and lived experience wi
 
 Join the conversation: Connect with us in the Metagov Slack community
 
-Join Metagov Community → Look for the #govacc channel
+[Join Metagov Community](https://metagov.org/join/community) → Look for the #govacc channel
 
 ### Ways to participate:
 
@@ -90,6 +90,6 @@ For research collaborations or specific inquiries, reach out through the Metagov
 
 ---
 
-**gov/acc is a research program of Metagov, a laboratory for self-governance on the internet.
+*gov/acc is a research program of Metagov, a laboratory for self-governance on the internet.*
 
-This site and all research outputs are works in progress, conducted in public for collaborative learning.**
+*This site and all research outputs are works in progress, conducted in public for collaborative learning.*
