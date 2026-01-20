@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 22 # Match the Node version requirement from package.json
       - name: Install Dependencies
-        run: cd .quartz && npm install
+        run: cd .quartz && npm install --legacy-peer-deps
       - name: Build Quartz
         run: npm run build
       - name: Upload artifact

@@ -12,7 +12,7 @@
     "npm": ">=10.9.2"
   },
   "scripts": {
-    "build": "tsx ./quartz/bootstrap-cli.mts build",
+    "build": "tsx ./quartz/bootstrap-cli.mts build --directory ..",
     "serve": "tsx ./quartz/bootstrap-cli.mts build --serve",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mts build --concurrency=1",
     "check": "tsc --noEmit && tsx ./quartz/bootstrap-cli.mts update --check"
@@ -56,7 +56,7 @@
     "chokidar": "^4.0.3",
     "cli-spinner": "^0.2.10",
     "d3": "^7.9.0",
-    "esbuild": "^0.25.5",
+    "esbuild": "^0.27.2",
     "esbuild-sass-plugin": "^3.3.1",
     "flexsearch": "0.7.43",
     "github-slugger": "^2.0.0",
