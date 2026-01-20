@@ -1,0 +1,15 @@
+{
+  "name": "meridian-digital-garden",
+  "version": "1.0.0",
+  "description": "Website built with custom Quartz framework",
+  "type": "module",
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10.9.2"
+  },
+  "scripts": {
+    "build": "cd .quartz && npm run build",
+    "serve": "cd .quartz && npm run serve",
+    "quartz": "cd .quartz && tsx ./quartz/bootstrap-cli.mjs"
+  }
+}
