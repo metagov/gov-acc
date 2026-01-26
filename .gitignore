@@ -15,6 +15,9 @@ package-lock.json
 # Meridian local data
 .meridian/
 
+# Obsidian local data
+.obsidian/
+
 # System files
 .DS_Store
 Thumbs.db

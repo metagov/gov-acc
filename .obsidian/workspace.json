@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "ab1494734e70cce4",
@@ -185,9 +185,9 @@
   },
   "active": "d4b1b8aeaa16884c",
   "lastOpenFiles": [
+    "README.md",
     "Research Program Plan.md",
-    "image1.md",
     "index.md",
-    "README.md"
+    "image1.md"
   ]
 }
