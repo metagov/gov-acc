@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Program Plan.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Research Program Plan"
+              "title": "index"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "d4b1b8aeaa16884c",
   "lastOpenFiles": [
-    "image1.md",
     "Research Program Plan.md",
+    "image1.md",
     "index.md",
     "README.md"
   ]

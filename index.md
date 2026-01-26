@@ -10,7 +10,7 @@ gov/acc is a research program focused on accelerating governance innovation and 
 
 This program is conducted in public, with the hope of encouraging more data sharing, collaborative learning, and open research beyond what any single organization could achieve alone. We're building in the open to make governance innovation more accessible, participatory, and impactful.
 
-Read the introduction: [gov/acc: Accelerating Governance Innovation in Web3](https://medium.com/@eugene.leventhal/gov-acc-accelerating-governance-innovation-in-web3-31309f06ab63)
+Read the introduction: [gov/acc: Accelerating Governance Innovation in Web3](https://medium.com/@eugene.leventhal/gov-acc-accelerating-governance-innovation-in-web3-31309f06ab63), and see our [[Research Program Plan]].
 
 Our work begins with:
 
