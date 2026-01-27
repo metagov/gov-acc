@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/PDF Resources.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PDF Resources"
+              "title": "README"
             }
           }
         ]
@@ -185,10 +185,11 @@
   },
   "active": "d4b1b8aeaa16884c",
   "lastOpenFiles": [
+    "Contribute.md",
+    "README.md",
     "index.md",
     "resources/PDF Resources.md",
     "resources",
-    "README.md",
     "Research Program Plan.md",
     "image1.md"
   ]

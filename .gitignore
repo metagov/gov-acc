@@ -17,6 +17,7 @@ package-lock.json
 
 # Obsidian local data
 .obsidian/
+.obsidian/**/*
 
 # System files
 .DS_Store
