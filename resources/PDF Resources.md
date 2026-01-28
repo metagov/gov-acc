@@ -1,2 +1,3 @@
 - Pdf link: 
-- 
+- Values in Governance Technology - Liz Barry, Joseph Gubbels. https://static1.squarespace.com/static/5ea874746663b45e14a384a4/t/68011b380d60e07bff674a53/1744903889700/Values+in+Governance+Technology
+- Online Governance Surfaces and Attention Economies - Nathan Schneider, Kelsie Nabben, Ronen Tamari, Michael Zargham, https://osf.io/preprints/mediarxiv/cdrmp_v1

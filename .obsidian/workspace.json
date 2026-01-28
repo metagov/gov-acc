@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "17071ac2d77e8df6",
+    "type": "split",
+    "children": [
+      {
+        "id": "06d7452bfcf032bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "385d486c0532bdfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resources/PDF Resources.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PDF Resources"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "764ffd93c564dfff",
+    "type": "split",
+    "children": [
+      {
+        "id": "34035d68e0498d47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d92988c717d4f0f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3a31bf361197f426",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "67fed9794534528b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ab1494734e70cce4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f18cdfb46a00f0f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19ecb3dae20a0a29",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "resources/PDF Resources.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for PDF Resources"
+            }
+          },
+          {
+            "id": "ba98a470723c4ae7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
+            }
+          },
+          {
+            "id": "c752445356e807c3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "423c3a85a13a77e4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2b46a9e40c18e016",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "385d486c0532bdfc",
+  "lastOpenFiles": [
+    "resources/Turning to Trust Experience Design (TXD).md",
+    "resources/Thread by @z0r0zzz.md",
+    "resources/The Dao of the DAO Eastern Philosophies in Decentralized Worlds.md",
+    "resources/The Collective DAO Archives.md",
+    "resources/The Animating Purpose of BlockScience.md",
+    "resources/Signals Protocol - dacc residency 2025.md",
+    "resources/I Built Myself an AI Delegate—And Then I Broke It.md",
+    "resources/Governance as Conflict Constitution of Shared Values Defining Future Margins of Disagreement.md",
+    "resources/GG24 Alignment Dashboard Mapping Problems, Projects, and Funding.md",
+    "resources/Evidence Layer for Digital Public Goods.md",
+    "resources/Deliberative Tools Gallery  Metagov.md",
+    "resources/Constitutions of Web3.md",
+    "resources/Co-Creation Cycle 3 - Final Report - Governance Iterations.md",
+    "resources/CAMF, a New Architecture for Crypto Funding Systems.md",
+    "Untitled.canvas",
+    "resources/PDF Resources.md",
+    "Clippings/Co-Creation Cycle 3 - Final Report - Governance Iterations.md",
+    "Clippings",
+    "index.md",
+    "Clippings/Deliberative Tools Gallery  Metagov.md",
+    "resources",
+    "Research Program Plan.md",
+    "image1.md",
+    "README.md"
+  ]
+}
