@@ -4,6 +4,9 @@ title: gov/acc
 subtitle: Accelerating Governance Innovation in Web3
 ---
 
+> [!info] Call to Action
+> If you want to contribute to gov/acc, please consider completing a [Harmonica session](https://app.harmonica.chat/chat?s=hst_a51081812ed9) to map open problems DAOs are facing, their potential solutions, and who is working on them (whether researching or building). 
+
 ## Overview
 
 gov/acc is a research program focused on accelerating governance innovation and experimentation in web3 communities. As part of the broader https://vitalik.eth.link/general/2025/01/05/dacc2.html, we believe that better governance infrastructure is essential for building coordination mechanisms that can solve critical problems in novel ways.

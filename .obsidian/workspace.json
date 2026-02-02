@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Thread by @governingweb3.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thread by @governingweb3"
+              "title": "index"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "385d486c0532bdfc",
   "lastOpenFiles": [
-    "resources/Governance Has Already Moved.md",
     "resources/Thread by @governingweb3.md",
+    "resources/Governance Has Already Moved.md",
     "resources/Part 1 Analyzing the impact of Retro Funding Season 7 Developer Tooling  Open Source Observer.md",
     "resources/PDF Resources.md",
     "resources/Measuring On-Chain Impact of RetroPGF Season 7 An Exploratory Causal Analysis.md",
