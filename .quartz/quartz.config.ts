@@ -21,10 +21,10 @@ const config: QuartzConfig = {
       // Quartz infrastructure
       ".quartz/**",
       ".quartz-cache/**",
-      
+
       // Meridian infrastructure  
       ".meridian/**",
-      
+
       // Development infrastructure
       ".git/**",
       ".gitignore",
@@ -36,34 +36,34 @@ const config: QuartzConfig = {
       "vite.config.{js,ts}",
       "rollup.config.{js,ts}",
       "webpack.config.{js,ts}",
-      
+
       // Build and temporary
       "dist/**",
-      "build/**", 
+      "build/**",
       "cache/**",
       "*.log",
       "tmp/**",
       "temp/**",
       ".cache/**",
-      
+
       // IDE and system
       ".vscode/**",
       ".idea/**",
       "*.swp",
-      "*.swo", 
+      "*.swo",
       ".DS_Store",
       "Thumbs.db",
-      
+
       // Backup files
       "*~",
       "*.bak",
       "*.tmp",
-      
+
       // Private content
       "private/**",
       "templates/**",
       ".obsidian/**",
-      
+
       // Common documentation that shouldn't be published
       "CHANGELOG.md",
       "CONTRIBUTING.md",
@@ -87,7 +87,7 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
+          secondary: "#04cb99",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "rgba(143, 159, 169, 0.25)",
@@ -98,7 +98,7 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
+          secondary: "#04cb99",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "rgba(143, 159, 169, 0.25)",
@@ -111,9 +111,9 @@ const config: QuartzConfig = {
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({ priority: ["frontmatter", "filesystem"] }),
       Plugin.Latex({ renderEngine: "katex" }),
-      Plugin.SyntaxHighlighting({ 
-        theme: { light: "github-light", dark: "github-dark" }, 
-        keepBackground: false 
+      Plugin.SyntaxHighlighting({
+        theme: { light: "github-light", dark: "github-dark" },
+        keepBackground: false
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
