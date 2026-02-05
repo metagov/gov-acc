@@ -13,7 +13,7 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <img style="width: 30px; height: 30px;" src="/static/globe-dithered.png" alt="Globe" />
+        <img style="width: 120px; height: 120px;" src="/static/globe-dithered.png" alt="Globe" />
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
