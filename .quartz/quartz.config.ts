@@ -18,6 +18,12 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: undefined,
     ignorePatterns: [
+      // Readme
+      "README.md",
+
+      // Internal resources
+      "resources/**",
+
       // Quartz infrastructure
       ".quartz/**",
       ".quartz-cache/**",
@@ -87,7 +93,7 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#04cb99",
+          secondary: "#284b63",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "rgba(143, 159, 169, 0.25)",
@@ -98,7 +104,7 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#04cb99",
+          secondary: "#7b97aa",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "rgba(143, 159, 169, 0.25)",
