@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/PDF Resources.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PDF Resources"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/PDF Resources.md",
+                "file": "resources/Governance Has Already Moved.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PDF Resources"
+              "title": "Backlinks for Governance Has Already Moved"
             }
           },
           {
@@ -185,22 +185,27 @@
   },
   "active": "385d486c0532bdfc",
   "lastOpenFiles": [
+    "resources/Thread by @governingweb3.md",
+    "resources/Governance Has Already Moved.md",
+    "resources/Part 1 Analyzing the impact of Retro Funding Season 7 Developer Tooling  Open Source Observer.md",
+    "resources/PDF Resources.md",
+    "resources/Measuring On-Chain Impact of RetroPGF Season 7 An Exploratory Causal Analysis.md",
+    "resources/I Built Myself an AI Delegate—And Then I Broke It.md",
+    "resources/Governance as Conflict Constitution of Shared Values Defining Future Margins of Disagreement.md",
+    "resources/Evidence Layer for Digital Public Goods.md",
+    "resources/Part 2 Analyzing the impact of Retro Funding Season 7 Onchain Builders  Open Source Observer.md",
     "resources/Turning to Trust Experience Design (TXD).md",
     "resources/Thread by @z0r0zzz.md",
     "resources/The Dao of the DAO Eastern Philosophies in Decentralized Worlds.md",
     "resources/The Collective DAO Archives.md",
     "resources/The Animating Purpose of BlockScience.md",
     "resources/Signals Protocol - dacc residency 2025.md",
-    "resources/I Built Myself an AI Delegate—And Then I Broke It.md",
-    "resources/Governance as Conflict Constitution of Shared Values Defining Future Margins of Disagreement.md",
     "resources/GG24 Alignment Dashboard Mapping Problems, Projects, and Funding.md",
-    "resources/Evidence Layer for Digital Public Goods.md",
     "resources/Deliberative Tools Gallery  Metagov.md",
     "resources/Constitutions of Web3.md",
     "resources/Co-Creation Cycle 3 - Final Report - Governance Iterations.md",
     "resources/CAMF, a New Architecture for Crypto Funding Systems.md",
     "Untitled.canvas",
-    "resources/PDF Resources.md",
     "Clippings/Co-Creation Cycle 3 - Final Report - Governance Iterations.md",
     "Clippings",
     "index.md",
