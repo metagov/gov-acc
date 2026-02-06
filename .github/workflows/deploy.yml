@@ -28,6 +28,8 @@ jobs:
         run: cd .quartz && npm install --legacy-peer-deps
       - name: Build Quartz
         run: npm run build
+      - name: Copy static assets
+        run: cp -r phase1 .quartz/public/phase1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

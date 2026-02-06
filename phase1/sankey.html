@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gov/acc Research — Problem → Solution → Actor</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  body { margin: 0; background: #0d1117; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  h1 { text-align: center; padding: 24px 0 0; font-size: 1.4em; font-weight: 500; }
+  h1 span { color: #7ee787; }
+  p.sub { text-align: center; color: #8b949e; font-size: 0.85em; margin: 4px 0 12px; }
+  #chart { width: 100%; height: calc(100vh - 80px); }
+</style>
+</head>
+<body>
+<h1>gov/acc Phase 1 — <span>Problems → Solutions → Actors</span></h1>
+<p class="sub">33 engaged · 19 completed · Harmonica structured interview · Jan–Feb 2026</p>
+<div id="chart"></div>
+<script>
+// Nodes: Problems (0-7), Solutions (8-15), Actors (16-33)
+const labels = [
+  // Problems (red/orange)
+  "Token Voting Failure",           // 0
+  "Broken Contributor Economies",   // 1
+  "Governance Theater",             // 2
+  "Institutional Amnesia",          // 3
+  "Informal Power Dynamics",        // 4
+  "Over-Reliance on Game Theory",   // 5
+  "Lack of Clear Purpose",          // 6
+  "Technical & Legal Gaps",         // 7
+
+  // Solutions (green/teal)
+  "Reputation & Merit Systems",     // 8
+  "AI-Augmented Governance",        // 9
+  "Deliberation & Signaling",       // 10
+  "Governance Memory Systems",      // 11
+  "Structural & Constitutional",    // 12
+  "Compensation Innovation",        // 13
+  "Security & Verification",        // 14
+  "Alternative Gov Models",         // 15
+
+  // Actors (blue/purple)
+  "Metagov",                        // 16
+  "DeepDAO",                        // 17
+  "Scroll DAO",                     // 18
+  "Polis",                          // 19
+  "immediacy.ai",                   // 20
+  "Mission Public",                 // 21
+  "Aragon",                         // 22
+  "Tally",                          // 23
+  "Karpatkey",                      // 24
+  "a16z",                           // 25
+  "Forward",                        // 26
+  "ENS Labs",                       // 27
+  "Othman (GMS)",                   // 28
+  "Durgadas",                       // 29
+  "Lighthouse",                     // 30
+  "VERP",                           // 31
+  "Kokonut Network",                // 32
+  "Public AI Network",              // 33
+];
+
+// Problem → Solution links
+// [source, target, value]
+const problemToSolution = [
+  // Token Voting Failure →
+  [0, 8, 5],   // Reputation & Merit
+  [0, 10, 4],  // Deliberation
+  [0, 9, 3],   // AI-Augmented
+  [0, 12, 2],  // Structural
+
+  // Broken Contributor Economies →
+  [1, 13, 5],  // Compensation Innovation
+  [1, 8, 3],   // Reputation & Merit
+  [1, 12, 2],  // Structural
+
+  // Governance Theater →
+  [2, 12, 4],  // Structural & Constitutional
+  [2, 15, 3],  // Alternative Gov Models
+  [2, 10, 2],  // Deliberation
+
+  // Institutional Amnesia →
+  [3, 11, 5],  // Governance Memory
+  [3, 9, 2],   // AI-Augmented
+
+  // Informal Power Dynamics →
+  [4, 10, 4],  // Deliberation
+  [4, 8, 3],   // Reputation & Merit
+  [4, 11, 2],  // Governance Memory
+
+  // Over-Reliance on Game Theory →
+  [5, 12, 4],  // Structural & Constitutional
+  [5, 10, 3],  // Deliberation
+  [5, 15, 2],  // Alternative Gov Models
+
+  // Lack of Clear Purpose →
+  [6, 15, 4],  // Alternative Gov Models
+  [6, 12, 3],  // Structural
+
+  // Technical & Legal Gaps →
+  [7, 14, 5],  // Security & Verification
+  [7, 9, 2],   // AI-Augmented
+];
+
+// Solution → Actor links
+const solutionToActor = [
+  // Reputation & Merit → actors
+  [8, 17, 3],   // DeepDAO
+  [8, 26, 3],   // Forward
+  [8, 32, 2],   // Kokonut Network
+  [8, 18, 2],   // Scroll DAO
+
+  // AI-Augmented → actors
+  [9, 20, 3],   // immediacy.ai
+  [9, 27, 2],   // ENS Labs
+
+  // Deliberation & Signaling → actors
+  [10, 19, 4],  // Polis
+  [10, 30, 3],  // Lighthouse
+  [10, 21, 3],  // Mission Public
+  [10, 16, 2],  // Metagov
+
+  // Governance Memory → actors
+  [11, 28, 4],  // Othman (GMS)
+  [11, 16, 3],  // Metagov
+
+  // Structural & Constitutional → actors
+  [12, 29, 4],  // Durgadas
+  [12, 22, 3],  // Aragon
+  [12, 16, 3],  // Metagov
+  [12, 18, 2],  // Scroll DAO
+
+  // Compensation Innovation → actors
+  [13, 24, 3],  // Karpatkey
+  [13, 25, 3],  // a16z
+  [13, 23, 2],  // Tally
+
+  // Security & Verification → actors
+  [14, 27, 3],  // ENS Labs
+  [14, 31, 3],  // VERP
+
+  // Alternative Gov Models → actors
+  [15, 33, 3],  // Public AI Network
+  [15, 16, 2],  // Metagov
+  [15, 22, 2],  // Aragon
+];
+
+const allLinks = [...problemToSolution, ...solutionToActor];
+
+const sources = allLinks.map(l => l[0]);
+const targets = allLinks.map(l => l[1]);
+const values  = allLinks.map(l => l[2]);
+
+// Colors
+const nodeColors = labels.map((_, i) => {
+  if (i <= 7) return 'rgba(248,81,73,0.85)';       // problems — red
+  if (i <= 15) return 'rgba(126,231,135,0.85)';     // solutions — green
+  return 'rgba(121,184,255,0.85)';                   // actors — blue
+});
+
+const linkColors = allLinks.map(l => {
+  if (l[0] <= 7) return 'rgba(248,81,73,0.15)';     // problem→solution
+  return 'rgba(126,231,135,0.15)';                   // solution→actor
+});
+
+Plotly.newPlot('chart', [{
+  type: 'sankey',
+  orientation: 'h',
+  arrangement: 'snap',
+  node: {
+    pad: 20,
+    thickness: 24,
+    line: { color: '#0d1117', width: 1 },
+    label: labels,
+    color: nodeColors,
+    hovertemplate: '%{label}<extra></extra>',
+  },
+  link: {
+    source: sources,
+    target: targets,
+    value: values,
+    color: linkColors,
+    hovertemplate: '%{source.label} → %{target.label}<extra></extra>',
+  }
+}], {
+  paper_bgcolor: '#0d1117',
+  plot_bgcolor: '#0d1117',
+  font: { color: '#c9d1d9', size: 12, family: '-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif' },
+  margin: { l: 20, r: 20, t: 10, b: 10 },
+}, {
+  responsive: true,
+  displayModeBar: false,
+});
+</script>
+</body>
+</html>
