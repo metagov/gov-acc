@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gov/acc — Urgency Matrix</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  body { margin: 0; background: #0d1117; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  h1 { text-align: center; padding: 24px 0 0; font-size: 1.4em; font-weight: 500; }
+  h1 span { color: #7ee787; }
+  p.sub { text-align: center; color: #8b949e; font-size: 0.85em; margin: 4px 0 0; }
+  p.legend { text-align: center; color: #8b949e; font-size: 0.8em; margin: 8px 0 4px; }
+  #chart { width: 100%; height: calc(100vh - 100px); }
+</style>
+</head>
+<body>
+<h1>gov/acc Phase 1 — <span>Urgency Matrix</span></h1>
+<p class="sub">Bubble size = number of participants who raised each problem · Position = breadth vs depth of discussion</p>
+<p class="legend">X: how many people mentioned it · Y: average depth of engagement (messages spent discussing)</p>
+<div id="chart"></div>
+<script>
+// Data derived from 19 completed conversations
+// x = number of distinct participants who raised this problem
+// y = average messages spent on this problem per participant who raised it (depth proxy)
+// size = x (scaled)
+const problems = [
+  {
+    label: "Token Voting Failure\n& Plutocracy",
+    x: 12,
+    y: 4.2,
+    who: "Eugene, Zeugh, Malachite, Hima,\nMarlene, Alex Soto, Trigs, Raphael,\nArtem, Chris, Regis, Ivey"
+  },
+  {
+    label: "Governance Theater\n& Recentralization",
+    x: 9,
+    y: 3.8,
+    who: "Coffee-crusher, Ivey, Carl, Alex Soto,\nMarlene, Chris, Zeugh, Hima, Trigs"
+  },
+  {
+    label: "Broken Contributor\nEconomies",
+    x: 7,
+    y: 5.1,
+    who: "Marlene, Alex Soto, Coffee-crusher,\nZeugh, Raphael, Malachite, Chris"
+  },
+  {
+    label: "Informal Power\n& Narrative Capture",
+    x: 6,
+    y: 3.5,
+    who: "Othman, Zeugh, Marlene,\nAlex Soto, Trigs, Hima"
+  },
+  {
+    label: "Institutional\nAmnesia",
+    x: 5,
+    y: 5.8,
+    who: "Othman, Artem, Eugene,\nRegis, Martin"
+  },
+  {
+    label: "Lack of Clear\nPurpose",
+    x: 5,
+    y: 3.2,
+    who: "Eugene, Raphael, Carl,\nCoffee-crusher, Ivey"
+  },
+  {
+    label: "Over-Reliance on\nGame Theory",
+    x: 4,
+    y: 6.5,
+    who: "Regis, Martin, Durgadas\n(via Regis), Artem"
+  },
+  {
+    label: "Technical &\nLegal Gaps",
+    x: 4,
+    y: 4.8,
+    who: "Della Foresta, Jason C,\nJoseph, Hima"
+  },
+  {
+    label: "Voting Fatigue\n& Apathy",
+    x: 8,
+    y: 2.8,
+    who: "Eugene, Martin, Trigs, Hima,\nRaphael, Zeugh, Marlene, Ivey"
+  },
+  {
+    label: "Delegate\nSustainability",
+    x: 5,
+    y: 4.0,
+    who: "Marlene, Alex Soto, Zeugh,\nMalachite, Coffee-crusher"
+  },
+];
+
+const x = problems.map(p => p.x);
+const y = problems.map(p => p.y);
+const text = problems.map(p => p.label);
+const hover = problems.map(p =>
+  '<b>' + p.label.replace('\n', ' ') + '</b><br>' +
+  'Mentioned by: ' + p.x + ' participants<br>' +
+  'Avg depth: ' + p.y.toFixed(1) + ' messages<br><br>' +
+  p.who
+);
+const sizes = x.map(v => v * 6 + 10);
+
+// Color by quadrant logic: high breadth + high depth = most urgent
+const colors = problems.map(p => {
+  const score = (p.x / 12) * 0.6 + (p.y / 6.5) * 0.4;
+  if (score > 0.7) return 'rgba(248,81,73,0.9)';      // critical
+  if (score > 0.5) return 'rgba(255,166,87,0.9)';      // high
+  if (score > 0.35) return 'rgba(255,214,102,0.9)';    // medium
+  return 'rgba(126,231,135,0.7)';                       // lower
+});
+
+Plotly.newPlot('chart', [{
+  type: 'scatter',
+  mode: 'markers+text',
+  x: x,
+  y: y,
+  text: text,
+  textposition: problems.map((p, i) => {
+    // Avoid label collisions
+    if (p.label.includes('Voting Fatigue')) return 'bottom center';
+    if (p.label.includes('Delegate')) return 'top left';
+    if (p.label.includes('Lack of')) return 'bottom right';
+    if (p.label.includes('Informal')) return 'top right';
+    if (p.label.includes('Institutional')) return 'top center';
+    if (p.label.includes('Technical')) return 'top right';
+    if (p.label.includes('Game Theory')) return 'top left';
+    if (p.label.includes('Contributor')) return 'top center';
+    return 'top center';
+  }),
+  textfont: { size: 11, color: '#c9d1d9' },
+  hovertext: hover,
+  hoverinfo: 'text',
+  marker: {
+    size: sizes,
+    color: colors,
+    line: { color: '#0d1117', width: 1.5 },
+    opacity: 0.9,
+  },
+}], {
+  paper_bgcolor: '#0d1117',
+  plot_bgcolor: '#161b22',
+  font: { color: '#c9d1d9', family: '-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif' },
+  xaxis: {
+    title: { text: 'Breadth — how many participants raised this (out of 19)', font: { size: 13 } },
+    gridcolor: '#21262d',
+    range: [2.5, 13.5],
+    dtick: 2,
+    zeroline: false,
+  },
+  yaxis: {
+    title: { text: 'Depth — avg messages spent discussing per participant', font: { size: 13 } },
+    gridcolor: '#21262d',
+    range: [2, 7.5],
+    zeroline: false,
+  },
+  margin: { l: 70, r: 40, t: 20, b: 60 },
+  annotations: [
+    {
+      x: 11, y: 7, text: '<b>CRITICAL</b><br>broad + deep',
+      showarrow: false, font: { size: 11, color: 'rgba(248,81,73,0.5)' },
+    },
+    {
+      x: 3.5, y: 2.5, text: 'niche concerns',
+      showarrow: false, font: { size: 10, color: 'rgba(126,231,135,0.4)' },
+    },
+  ],
+  shapes: [
+    // Quadrant dividers
+    { type: 'line', x0: 6.5, x1: 6.5, y0: 2, y1: 7.5, line: { color: '#21262d', width: 1, dash: 'dot' } },
+    { type: 'line', x0: 2.5, x1: 13.5, y0: 4.3, y1: 4.3, line: { color: '#21262d', width: 1, dash: 'dot' } },
+  ],
+}, {
+  responsive: true,
+  displayModeBar: false,
+});
+</script>
+</body>
+</html>

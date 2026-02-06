@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gov/acc — Solutions Wardley Map</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #131920;
+    --grid: #1a2029;
+    --grid-strong: #242d38;
+    --text: #b8c4d0;
+    --text-dim: #5a6a7a;
+    --text-bright: #e2e8f0;
+    --accent: #7ee787;
+    --genesis: rgba(248,81,73,0.06);
+    --custom: rgba(210,168,255,0.05);
+    --product: rgba(121,192,255,0.04);
+    --commodity: rgba(126,231,135,0.04);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Mono', monospace;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  /* Grain overlay */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.6;
+  }
+
+  /* Header */
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 20px 28px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    pointer-events: none;
+  }
+  .header-left h1 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--text-bright);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+  .header-left h1 em {
+    color: var(--accent);
+    font-style: italic;
+  }
+  .header-left .subtitle {
+    font-size: 0.68em;
+    color: var(--text-dim);
+    margin-top: 4px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    max-width: 480px;
+    line-height: 1.5;
+  }
+  .header-left .caveat {
+    font-size: 0.6em;
+    color: #3d4a58;
+    margin-top: 3px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 420px;
+    line-height: 1.4;
+  }
+  .header-right {
+    text-align: right;
+    font-size: 0.6em;
+    color: var(--text-dim);
+    font-weight: 300;
+    line-height: 1.6;
+    padding-top: 4px;
+  }
+  .header-right .coord {
+    color: #3d4a58;
+    font-size: 0.9em;
+  }
+
+  /* Map canvas */
+  .map-wrap {
+    position: absolute;
+    inset: 0;
+  }
+  svg#map {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Tooltip */
+  .tooltip {
+    position: fixed;
+    z-index: 50;
+    background: #161d26;
+    border: 1px solid #2a3544;
+    border-radius: 2px;
+    padding: 14px 16px;
+    font-size: 11px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.12s;
+    max-width: 290px;
+    line-height: 1.55;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.6), 0 0 0 1px rgba(126,231,135,0.05);
+  }
+  .tooltip .tt-name {
+    font-family: 'Instrument Serif', serif;
+    font-size: 15px;
+    color: var(--text-bright);
+    margin-bottom: 2px;
+  }
+  .tooltip .tt-cat {
+    font-weight: 500;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 8px;
+  }
+  .tooltip .tt-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 6px 0;
+  }
+  .tooltip .tt-tag {
+    font-size: 9.5px;
+    padding: 1px 6px;
+    border: 1px solid #2a3544;
+    color: var(--text);
+    border-radius: 1px;
+    background: rgba(255,255,255,0.02);
+  }
+  .tooltip .tt-section {
+    color: var(--text-dim);
+    margin-top: 5px;
+  }
+  .tooltip .tt-section b {
+    color: var(--text);
+    font-weight: 500;
+  }
+  .tooltip .tt-mentions {
+    color: #3d4a58;
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px solid #1e2836;
+    font-size: 10px;
+  }
+
+  /* Legend */
+  .legend-panel {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    gap: 14px;
+    padding: 8px 16px;
+    background: rgba(13,17,23,0.85);
+    border: 1px solid #1e2836;
+    border-radius: 2px;
+    backdrop-filter: blur(8px);
+  }
+  .legend-panel .lg {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 9.5px;
+    color: var(--text-dim);
+    cursor: pointer;
+    transition: opacity 0.15s;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  .legend-panel .lg:hover { color: var(--text); }
+  .legend-panel .lg.dimmed { opacity: 0.15; }
+  .legend-panel .lg .sw {
+    width: 7px;
+    height: 7px;
+    border-radius: 1px;
+  }
+
+  /* Staggered entry animation */
+  @keyframes nodeIn {
+    from { opacity: 0; transform: scale(0.3); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  .node-g {
+    animation: nodeIn 0.4s ease-out both;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>gov/acc — <em>Wardley Map</em></h1>
+    <div class="subtitle">21 governance solutions mapped by evolution stage &amp; value chain visibility. Bubble size = participant mentions.</div>
+    <div class="caveat">Y-axis placement is editorial — solutions positioned from invisible infrastructure to direct participant experience. X derived from participant-reported maturity.</div>
+  </div>
+  <div class="header-right">
+    Phase 1 Research<br>
+    <span class="coord">19 completed · Jan–Feb 2026</span>
+  </div>
+</div>
+
+<div class="map-wrap">
+  <svg id="map"></svg>
+</div>
+
+<div class="tooltip" id="tip"></div>
+<div class="legend-panel" id="legend"></div>
+
+<script>
+const solutions = [
+  { name: "Conviction Voting", ex: 3.5, vc: 0.88, mentions: 5, cat: "Voting Reform", problems: ["Token voting failure", "Voting fatigue", "Informal power"], actors: ["Various DAOs"], examples: "Weight votes by time held + participation history" },
+  { name: "Optimistic Governance", ex: 3.5, vc: 0.84, mentions: 4, cat: "Structural", problems: ["Voting fatigue", "Governance theater"], actors: ["Various L2s"], examples: "Proposals pass unless challenged" },
+  { name: "Polis / Opinion Clustering", ex: 4, vc: 0.82, mentions: 5, cat: "Sensemaking", problems: ["Token voting failure", "Informal power", "Voting fatigue"], actors: ["Polis", "Metagov"], examples: "Collective sensemaking through opinion mapping" },
+  { name: "Contributor Streams", ex: 3.5, vc: 0.78, mentions: 5, cat: "Financial", problems: ["Broken contributor economies", "Delegate sustainability"], actors: ["Scroll DAO", "Various DAOs"], examples: "Bounties → Project Grants → Core Contributor Streams" },
+  { name: "Centralized Ops + DAO Oversight", ex: 3.5, vc: 0.74, mentions: 5, cat: "Alternative", problems: ["Governance theater", "Lack of clear purpose", "Voting fatigue"], actors: ["a16z (concept)", "Various L2s"], examples: "Foundations run day-to-day; DAO approves budgets/strategy" },
+  { name: "Proto-DAOs / Gated Governance", ex: 2, vc: 0.72, mentions: 4, cat: "Structural", problems: ["Lack of clear purpose", "Token voting failure", "Governance theater"], actors: ["Eugene (concept)", "Various L2s"], examples: "Staked governance; progressive decentralization" },
+  { name: "Specialized Committees", ex: 3.5, vc: 0.65, mentions: 5, cat: "Structural", problems: ["Governance theater", "Lack of clear purpose", "Broken contributor economies"], actors: ["Scroll DAO", "Coffee-crusher"], examples: "Marketing, audits, treasury, proposal PM" },
+  { name: "Co-creation Cycles", ex: 3, vc: 0.62, mentions: 4, cat: "Sensemaking", problems: ["Governance theater", "Lack of clear purpose", "Token voting failure"], actors: ["Scroll DAO", "NEAR"], examples: "Collaborative design processes for proposals" },
+  { name: "Signals Protocol", ex: 2.5, vc: 0.60, mentions: 3, cat: "Sensemaking", problems: ["Token voting failure", "Voting fatigue", "Lack of clear purpose"], actors: ["Lighthouse"], examples: "Signal values instead of voting on outcomes" },
+  { name: "RPGF", ex: 3, vc: 0.58, mentions: 4, cat: "Financial", problems: ["Broken contributor economies", "Delegate sustainability"], actors: ["Optimism", "Various"], examples: "Retroactive public goods funding" },
+  { name: "AI Governance Agents", ex: 2, vc: 0.55, mentions: 4, cat: "AI-Augmented", problems: ["Voting fatigue", "Token voting failure", "Institutional amnesia"], actors: ["Clawdbot builders", "Martin"], examples: "Personal AI voting; NLP proposal summarization" },
+  { name: "Platform Cooperatives", ex: 2, vc: 0.52, mentions: 2, cat: "Alternative", problems: ["Governance theater", "Technical & legal gaps", "Lack of clear purpose"], actors: ["Joseph", "Public AI Network"], examples: "Platforms as public infrastructure" },
+  { name: "Soulbound / Reputation Tokens", ex: 3, vc: 0.48, mentions: 6, cat: "Reputation", problems: ["Token voting failure", "Broken contributor economies", "Informal power", "Delegate sustainability"], actors: ["Kokonut Network", "Wasabi", "Hats Protocol", "DAO Haus"], examples: "Burned to release voting power; merit-based roles" },
+  { name: "Delegate Verification", ex: 3, vc: 0.45, mentions: 4, cat: "Reputation", problems: ["Token voting failure", "Delegate sustainability", "Informal power"], actors: ["Scroll DAO", "Forward", "DeepDAO"], examples: "Verified delegate status for consistent compensation" },
+  { name: "VE / Buyback Models", ex: 4.5, vc: 0.38, mentions: 3, cat: "Financial", problems: ["Token voting failure", "Governance theater"], actors: ["Curve", "Aerodrome"], examples: "Vote-escrowed tokens; buyback-and-burn" },
+  { name: "AI Dispute Resolution", ex: 2, vc: 0.33, mentions: 2, cat: "AI-Augmented", problems: ["Technical & legal gaps", "Over-reliance on game theory"], actors: ["immediacy.ai"], examples: "Sim-juries interpreting programmatic ethics" },
+  { name: "Governance Memory System", ex: 2, vc: 0.28, mentions: 3, cat: "Knowledge", problems: ["Institutional amnesia", "Over-reliance on game theory", "Governance theater"], actors: ["Othman (GMS framework)"], examples: "5-layer framework: lifecycle, reviews, themes, power, diagnostics" },
+  { name: "Reference IDs (RIDs)", ex: 2.5, vc: 0.22, mentions: 2, cat: "Knowledge", problems: ["Institutional amnesia", "Informal power"], actors: ["Metagov KOI group"], examples: "Tagging knowledge objects across platforms" },
+  { name: "Telescope Bot", ex: 3, vc: 0.19, mentions: 1, cat: "Knowledge", problems: ["Institutional amnesia", "Informal power"], actors: ["Ellie Rennie"], examples: "Flags high-signal Discord comments" },
+  { name: "Tensegrity Governance", ex: 1.5, vc: 0.13, mentions: 3, cat: "Structural", problems: ["Over-reliance on game theory", "Governance theater", "Lack of clear purpose", "Informal power"], actors: ["Durgadas"], examples: "Hold paradoxes in dynamic tension; constitutional space for contradictions" },
+  { name: "VERP Protocol", ex: 1.5, vc: 0.08, mentions: 1, cat: "Verification", problems: ["Technical & legal gaps", "Token voting failure"], actors: ["Della Foresta"], examples: "Biometric identity + sensor networks" },
+];
+
+const catColors = {
+  "Voting Reform": "#f85149",
+  "Reputation": "#ffa657",
+  "AI-Augmented": "#d2a8ff",
+  "Sensemaking": "#79c0ff",
+  "Knowledge": "#56d364",
+  "Structural": "#ff7b72",
+  "Financial": "#ffd866",
+  "Verification": "#7ee787",
+  "Alternative": "#8b949e",
+};
+
+const deps = [
+  ["Conviction Voting", "VE / Buyback Models"],
+  ["Conviction Voting", "Soulbound / Reputation Tokens"],
+  ["Optimistic Governance", "Specialized Committees"],
+  ["Polis / Opinion Clustering", "Signals Protocol"],
+  ["Polis / Opinion Clustering", "Co-creation Cycles"],
+  ["Contributor Streams", "RPGF"],
+  ["Contributor Streams", "Delegate Verification"],
+  ["Centralized Ops + DAO Oversight", "Specialized Committees"],
+  ["Proto-DAOs / Gated Governance", "AI Governance Agents"],
+  ["Co-creation Cycles", "Governance Memory System"],
+  ["Signals Protocol", "Governance Memory System"],
+  ["Soulbound / Reputation Tokens", "Delegate Verification"],
+  ["Delegate Verification", "Reference IDs (RIDs)"],
+  ["AI Governance Agents", "AI Dispute Resolution"],
+  ["AI Governance Agents", "Governance Memory System"],
+  ["Governance Memory System", "Reference IDs (RIDs)"],
+  ["Governance Memory System", "Telescope Bot"],
+  ["Tensegrity Governance", "VERP Protocol"],
+  ["Platform Cooperatives", "Tensegrity Governance"],
+  ["RPGF", "Soulbound / Reputation Tokens"],
+];
+
+const svg = document.getElementById('map');
+const tip = document.getElementById('tip');
+
+const margin = { top: 100, right: 40, bottom: 60, left: 72 };
+
+function render() {
+  const W = window.innerWidth;
+  const H = window.innerHeight;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+
+  const pw = W - margin.left - margin.right;
+  const ph = H - margin.top - margin.bottom;
+
+  const sx = ex => margin.left + ((ex - 1) / 4) * pw;
+  const sy = vc => margin.top + (1 - vc) * ph;
+
+  let out = '';
+
+  // --- Defs ---
+  out += `<defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="evo-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f85149" stop-opacity="0.15"/>
+      <stop offset="33%" stop-color="#d2a8ff" stop-opacity="0.08"/>
+      <stop offset="66%" stop-color="#79c0ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#7ee787" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>`;
+
+  // --- Background terrain contour lines ---
+  // Subtle topographic-style concentric curves radiating from densest cluster area
+  const cx0 = sx(3), cy0 = sy(0.65);
+  for (let i = 1; i <= 8; i++) {
+    const rx = i * pw * 0.065;
+    const ry = i * ph * 0.055;
+    out += `<ellipse cx="${cx0}" cy="${cy0}" rx="${rx}" ry="${ry}" fill="none" stroke="#1a2029" stroke-width="0.5" stroke-opacity="${0.6 - i * 0.06}" />`;
+  }
+
+  // --- Evolution stage zones ---
+  const zones = [
+    { x0: 1, x1: 2, fill: 'var(--genesis)' },
+    { x0: 2, x1: 3, fill: 'var(--custom)' },
+    { x0: 3, x1: 4, fill: 'var(--product)' },
+    { x0: 4, x1: 5, fill: 'var(--commodity)' },
+  ];
+  zones.forEach(z => {
+    out += `<rect x="${sx(z.x0)}" y="${margin.top}" width="${sx(z.x1) - sx(z.x0)}" height="${ph}" fill="${z.fill}" />`;
+  });
+
+  // --- Grid ---
+  // Vertical stage dividers
+  for (let i = 2; i <= 4; i++) {
+    out += `<line x1="${sx(i)}" y1="${margin.top}" x2="${sx(i)}" y2="${margin.top + ph}" stroke="#1e2836" stroke-width="1" stroke-dasharray="2,6" />`;
+  }
+  // Horizontal dashed
+  for (let v = 0; v <= 1.01; v += 0.1) {
+    out += `<line x1="${margin.left}" y1="${sy(v)}" x2="${margin.left + pw}" y2="${sy(v)}" stroke="#151c24" stroke-width="0.5" stroke-dasharray="1,8" />`;
+  }
+  // Border
+  out += `<rect x="${margin.left}" y="${margin.top}" width="${pw}" height="${ph}" fill="none" stroke="#1e2836" stroke-width="1" />`;
+
+  // --- Axis labels ---
+  // Evolution stages bottom
+  const stageLabels = [
+    { x: 1.5, t: 'I · Genesis', sub: 'novel / rare' },
+    { x: 2.5, t: 'II · Custom', sub: 'emerging / chaotic' },
+    { x: 3.5, t: 'III · Product', sub: 'growing / stable' },
+    { x: 4.5, t: 'IV · Commodity', sub: 'industrialised' },
+  ];
+  stageLabels.forEach(s => {
+    out += `<text x="${sx(s.x)}" y="${margin.top + ph + 22}" text-anchor="middle" fill="#5a6a7a" font-size="10" font-family="IBM Plex Mono" font-weight="400" letter-spacing="0.04em">${s.t}</text>`;
+    out += `<text x="${sx(s.x)}" y="${margin.top + ph + 36}" text-anchor="middle" fill="#3d4a58" font-size="8.5" font-family="IBM Plex Mono" font-weight="300">${s.sub}</text>`;
+  });
+
+  // Evolution arrow
+  out += `<text x="${margin.left + pw / 2}" y="${H - 8}" text-anchor="middle" fill="#3d4a58" font-size="8.5" font-family="IBM Plex Mono" font-weight="300" letter-spacing="0.12em">EVOLUTION ───────→</text>`;
+
+  // Y-axis: value chain
+  const vcLabels = [
+    { v: 0.92, t: 'VISIBLE' },
+    { v: 0.78, t: 'participant-facing' },
+    { v: 0.55, t: 'enabling' },
+    { v: 0.30, t: 'infrastructure' },
+    { v: 0.06, t: 'INVISIBLE' },
+  ];
+  vcLabels.forEach(l => {
+    const isEdge = l.t === 'VISIBLE' || l.t === 'INVISIBLE';
+    out += `<text x="${margin.left - 10}" y="${sy(l.v) + 3}" text-anchor="end" fill="${isEdge ? '#3d4a58' : '#4a5568'}" font-size="${isEdge ? '7.5' : '8.5'}" font-family="IBM Plex Mono" font-weight="${isEdge ? '300' : '400'}" letter-spacing="${isEdge ? '0.15em' : '0.04em'}">${l.t}</text>`;
+  });
+  // Y-axis arrow (rotated)
+  out += `<text x="16" y="${margin.top + ph / 2}" text-anchor="middle" fill="#3d4a58" font-size="8.5" font-family="IBM Plex Mono" font-weight="300" letter-spacing="0.12em" transform="rotate(-90 16 ${margin.top + ph / 2})">VALUE CHAIN ───────→</text>`;
+
+  // --- Dependency lines ---
+  const nameMap = {};
+  solutions.forEach(s => { nameMap[s.name] = s; });
+
+  deps.forEach(([from, to]) => {
+    const a = nameMap[from], b = nameMap[to];
+    if (!a || !b) return;
+    out += `<line class="dep" data-from="${from}" data-to="${to}" x1="${sx(a.ex)}" y1="${sy(a.vc)}" x2="${sx(b.ex)}" y2="${sy(b.vc)}" stroke="#2a3544" stroke-width="1" stroke-opacity="0.35" />`;
+  });
+
+  // --- Nodes ---
+  solutions.forEach((s, i) => {
+    const cx = sx(s.ex);
+    const cy = sy(s.vc);
+    const r = s.mentions * 3 + 5;
+    const color = catColors[s.cat];
+    const delay = (i * 0.04).toFixed(2);
+
+    out += `<g class="node-g" data-idx="${i}" style="animation-delay:${delay}s;transform-origin:${cx}px ${cy}px">`;
+
+    // Outer glow ring
+    out += `<circle cx="${cx}" cy="${cy}" r="${r + 4}" fill="none" stroke="${color}" stroke-width="0.5" stroke-opacity="0.15" />`;
+
+    // Main circle
+    out += `<circle class="node-circle" cx="${cx}" cy="${cy}" r="${r}" fill="${color}" fill-opacity="0.75" stroke="${color}" stroke-width="1.5" stroke-opacity="0.25" style="cursor:pointer;transition:fill-opacity 0.15s,r 0.2s" />`;
+
+    // Inner highlight dot
+    out += `<circle cx="${cx - r * 0.25}" cy="${cy - r * 0.25}" r="${r * 0.2}" fill="white" fill-opacity="0.12" />`;
+
+    // Label positioning — smart placement
+    const labelText = s.name;
+    let lx, la;
+    // Right side by default, left if too far right
+    if (cx > margin.left + pw * 0.82) {
+      lx = cx - r - 8; la = 'end';
+    } else {
+      lx = cx + r + 8; la = 'start';
+    }
+
+    // Multi-line support
+    const lines = labelText.split(' / ');
+    let singleLine = lines.length === 1;
+    if (singleLine && labelText.length > 22) {
+      // Split long names at natural break
+      const mid = Math.floor(labelText.length / 2);
+      const spaceAfter = labelText.indexOf(' ', mid);
+      const spaceBefore = labelText.lastIndexOf(' ', mid);
+      const splitAt = (mid - spaceBefore < spaceAfter - mid) ? spaceBefore : spaceAfter;
+      if (splitAt > 0) {
+        const parts = [labelText.substring(0, splitAt), labelText.substring(splitAt + 1)];
+        parts.forEach((p, pi) => {
+          out += `<text class="node-label" data-idx="${i}" x="${lx}" y="${cy + 4 + pi * 13 - 6}" text-anchor="${la}" fill="#b8c4d0" fill-opacity="0.9" font-size="10" font-family="IBM Plex Mono" font-weight="400" style="pointer-events:none;transition:fill-opacity 0.15s">${p}</text>`;
+        });
+      } else {
+        out += `<text class="node-label" data-idx="${i}" x="${lx}" y="${cy + 4}" text-anchor="${la}" fill="#b8c4d0" fill-opacity="0.9" font-size="10" font-family="IBM Plex Mono" font-weight="400" style="pointer-events:none;transition:fill-opacity 0.15s">${labelText}</text>`;
+      }
+    } else if (!singleLine) {
+      lines.forEach((line, li) => {
+        out += `<text class="node-label" data-idx="${i}" x="${lx}" y="${cy + 4 + li * 13 - (lines.length - 1) * 6}" text-anchor="${la}" fill="#b8c4d0" fill-opacity="0.9" font-size="10" font-family="IBM Plex Mono" font-weight="400" style="pointer-events:none;transition:fill-opacity 0.15s">${line.trim()}</text>`;
+      });
+    } else {
+      out += `<text class="node-label" data-idx="${i}" x="${lx}" y="${cy + 4}" text-anchor="${la}" fill="#b8c4d0" fill-opacity="0.9" font-size="10" font-family="IBM Plex Mono" font-weight="400" style="pointer-events:none;transition:fill-opacity 0.15s">${labelText}</text>`;
+    }
+
+    out += `</g>`;
+  });
+
+  // --- Coordinate crosshairs in corners ---
+  const ch = [
+    { x: margin.left + 8, y: margin.top + 14, t: '0,1' },
+    { x: margin.left + pw - 8, y: margin.top + 14, t: '1,1' },
+    { x: margin.left + 8, y: margin.top + ph - 6, t: '0,0' },
+    { x: margin.left + pw - 8, y: margin.top + ph - 6, t: '1,0' },
+  ];
+  ch.forEach(c => {
+    out += `<text x="${c.x}" y="${c.y}" text-anchor="${c.x < W / 2 ? 'start' : 'end'}" fill="#1e2836" font-size="8" font-family="IBM Plex Mono" font-weight="300">${c.t}</text>`;
+  });
+
+  svg.innerHTML = out;
+
+  // --- Interactions ---
+  const nodeGroups = svg.querySelectorAll('.node-g');
+  const allCircles = svg.querySelectorAll('.node-circle');
+  const allLabels = svg.querySelectorAll('.node-label');
+  const allDeps = svg.querySelectorAll('.dep');
+
+  nodeGroups.forEach(g => {
+    const circle = g.querySelector('.node-circle');
+    if (!circle) return;
+    const idx = parseInt(g.dataset.idx);
+    const s = solutions[idx];
+    const color = catColors[s.cat];
+
+    const onEnter = (e) => {
+      // Find connected
+      const connected = new Set();
+      deps.forEach(([from, to]) => {
+        if (from === s.name) connected.add(to);
+        if (to === s.name) connected.add(from);
+      });
+      const connectedIdx = new Set();
+      solutions.forEach((o, oi) => { if (connected.has(o.name)) connectedIdx.add(oi); });
+
+      // Dim everything
+      allCircles.forEach(c => { c.setAttribute('fill-opacity', '0.08'); c.setAttribute('stroke-opacity', '0.03'); });
+      allLabels.forEach(l => { l.setAttribute('fill-opacity', '0.08'); });
+      allDeps.forEach(d => { d.setAttribute('stroke-opacity', '0.04'); });
+      // Glow rings
+      nodeGroups.forEach(ng => {
+        const ring = ng.querySelectorAll('circle')[0];
+        if (ring) ring.setAttribute('stroke-opacity', '0.02');
+      });
+
+      // Highlight this
+      circle.setAttribute('fill-opacity', '1');
+      circle.setAttribute('stroke-opacity', '0.6');
+      const baseR = s.mentions * 3 + 5;
+      circle.setAttribute('r', baseR * 1.25);
+      circle.setAttribute('filter', 'url(#glow)');
+      g.querySelectorAll('circle')[0].setAttribute('stroke-opacity', '0.4');
+      svg.querySelectorAll(`.node-label[data-idx="${idx}"]`).forEach(l => {
+        l.setAttribute('fill-opacity', '1');
+        l.setAttribute('fill', '#e2e8f0');
+      });
+
+      // Highlight connected
+      connectedIdx.forEach(ci => {
+        const cg = svg.querySelector(`.node-g[data-idx="${ci}"]`);
+        if (cg) {
+          const cc = cg.querySelector('.node-circle');
+          if (cc) { cc.setAttribute('fill-opacity', '0.55'); cc.setAttribute('stroke-opacity', '0.2'); cc.setAttribute('filter', 'url(#softglow)'); }
+          cg.querySelectorAll('circle')[0].setAttribute('stroke-opacity', '0.1');
+        }
+        svg.querySelectorAll(`.node-label[data-idx="${ci}"]`).forEach(l => l.setAttribute('fill-opacity', '0.65'));
+      });
+
+      // Highlight dep lines
+      allDeps.forEach(d => {
+        if (d.dataset.from === s.name || d.dataset.to === s.name) {
+          d.setAttribute('stroke', color);
+          d.setAttribute('stroke-opacity', '0.7');
+          d.setAttribute('stroke-width', '1.5');
+        }
+      });
+
+      // Tooltip
+      tip.innerHTML = `
+        <div class="tt-name">${s.name}</div>
+        <div class="tt-cat" style="color:${color}">${s.cat}</div>
+        <div class="tt-tags">${s.problems.map(p => `<span class="tt-tag">${p}</span>`).join('')}</div>
+        <div class="tt-section"><b>Actors:</b> ${s.actors.join(', ')}</div>
+        <div class="tt-section" style="font-style:italic">${s.examples}</div>
+        <div class="tt-mentions">${s.mentions} participant mention${s.mentions > 1 ? 's' : ''}</div>
+      `;
+      tip.style.opacity = '1';
+    };
+
+    const onMove = (e) => {
+      let left = e.clientX + 18;
+      let top = e.clientY - 12;
+      if (left + 300 > W) left = e.clientX - 310;
+      if (top + 200 > H) top = e.clientY - 200;
+      tip.style.left = left + 'px';
+      tip.style.top = top + 'px';
+    };
+
+    const onLeave = () => {
+      allCircles.forEach((c, ci) => {
+        c.setAttribute('fill-opacity', '0.75');
+        c.setAttribute('stroke-opacity', '0.25');
+        c.setAttribute('r', solutions[ci].mentions * 3 + 5);
+        c.removeAttribute('filter');
+      });
+      allLabels.forEach(l => { l.setAttribute('fill-opacity', '0.9'); l.setAttribute('fill', '#b8c4d0'); });
+      allDeps.forEach(d => { d.setAttribute('stroke', '#2a3544'); d.setAttribute('stroke-opacity', '0.35'); d.setAttribute('stroke-width', '1'); });
+      nodeGroups.forEach(ng => {
+        const ring = ng.querySelectorAll('circle')[0];
+        if (ring) ring.setAttribute('stroke-opacity', '0.15');
+      });
+      tip.style.opacity = '0';
+    };
+
+    circle.addEventListener('mouseenter', onEnter);
+    circle.addEventListener('mousemove', onMove);
+    circle.addEventListener('mouseleave', onLeave);
+    // Also trigger on label hover
+    g.querySelectorAll('.node-label').forEach(l => {
+      l.style.pointerEvents = 'auto';
+      l.style.cursor = 'pointer';
+      l.addEventListener('mouseenter', onEnter);
+      l.addEventListener('mousemove', onMove);
+      l.addEventListener('mouseleave', onLeave);
+    });
+  });
+}
+
+render();
+let resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(render, 100);
+});
+
+// Legend
+const legendEl = document.getElementById('legend');
+const categories = [...new Set(solutions.map(s => s.cat))];
+let activeFilter = null;
+
+categories.forEach(cat => {
+  const item = document.createElement('div');
+  item.className = 'lg';
+  item.innerHTML = `<div class="sw" style="background:${catColors[cat]}"></div>${cat}`;
+  item.addEventListener('click', () => {
+    if (activeFilter === cat) {
+      activeFilter = null;
+      document.querySelectorAll('.lg').forEach(l => l.classList.remove('dimmed'));
+      document.querySelectorAll('.node-circle').forEach((c, ci) => {
+        c.setAttribute('fill-opacity', '0.75');
+        c.setAttribute('stroke-opacity', '0.25');
+      });
+      document.querySelectorAll('.node-label').forEach(l => l.setAttribute('fill-opacity', '0.9'));
+      document.querySelectorAll('.dep').forEach(d => d.setAttribute('stroke-opacity', '0.35'));
+      document.querySelectorAll('.node-g').forEach(ng => {
+        ng.querySelectorAll('circle')[0].setAttribute('stroke-opacity', '0.15');
+      });
+    } else {
+      activeFilter = cat;
+      document.querySelectorAll('.lg').forEach(l => {
+        l.classList.toggle('dimmed', !l.textContent.includes(cat));
+      });
+      solutions.forEach((s, i) => {
+        const match = s.cat === cat;
+        const circle = document.querySelectorAll('.node-circle')[i];
+        if (circle) {
+          circle.setAttribute('fill-opacity', match ? '0.9' : '0.06');
+          circle.setAttribute('stroke-opacity', match ? '0.4' : '0.02');
+        }
+        document.querySelectorAll(`.node-label[data-idx="${i}"]`).forEach(l => {
+          l.setAttribute('fill-opacity', match ? '1' : '0.06');
+        });
+        const ng = document.querySelector(`.node-g[data-idx="${i}"]`);
+        if (ng) ng.querySelectorAll('circle')[0].setAttribute('stroke-opacity', match ? '0.2' : '0.02');
+      });
+      // Show deps only between matching nodes
+      document.querySelectorAll('.dep').forEach(d => {
+        const fromCat = nameMap[d.dataset.from]?.cat;
+        const toCat = nameMap[d.dataset.to]?.cat;
+        const relevant = fromCat === cat || toCat === cat;
+        d.setAttribute('stroke-opacity', relevant ? '0.4' : '0.03');
+      });
+    }
+  });
+  legendEl.appendChild(item);
+});
+
+const nameMap = {};
+solutions.forEach(s => { nameMap[s.name] = s; });
+</script>
+</body>
+</html>

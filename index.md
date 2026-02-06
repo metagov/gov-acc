@@ -5,7 +5,12 @@ subtitle: Accelerating Governance Innovation in Web3
 ---
 
 > [!info] Call to Action
-> If you want to contribute to gov/acc, please consider completing a [Harmonica session](https://app.harmonica.chat/chat?s=hst_a51081812ed9) to map open problems DAOs are facing, their potential solutions, and who is working on them (whether researching or building). 
+> If you want to contribute to gov/acc, please consider completing a [Harmonica session](https://app.harmonica.chat/chat?s=hst_a51081812ed9) to map open problems DAOs are facing, their potential solutions, and who is working on them (whether researching or building).
+
+> [!abstract] Phase 1 Research Results
+> Explore the interactive dashboard from our Phase 1 structured interviews — 19 completed conversations mapping 10 governance problems, 21 proposed solutions, and 30 actors across the ecosystem.
+>
+> **[View Phase 1 Dashboard →](./phase1/)**
 
 ## Overview
 
