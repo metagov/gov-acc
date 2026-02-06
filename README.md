@@ -26,28 +26,6 @@ Phase 1 gathers structured data on governance problems, proposed solutions, and 
 
 **Current status:** 19 completed interviews, 33 engaged participants.
 
-### Results
-
-The Phase 1 interactive research dashboard is live at [gov-acc.metagov.org/phase1](https://gov-acc.metagov.org/phase1/), featuring:
-
-- **Problems Map** — 10 governance problems ranked by composite urgency score
-- **Urgency Matrix** — Breadth vs depth bubble scatter
-- **Solutions Landscape** — 21 proposed solutions organized by maturity stage
-- **Wardley Map** — Solutions mapped by evolution stage and value chain visibility
-- **Actors Network** — 30 actors and projects with connections based on shared solution domains
-- **Problem-Solution Sankey** — Flow from problems through solutions to actors
-
-### Key Findings So Far
-
-**Top problems identified:**
-1. Token voting failure & plutocracy (raised by 12/19 participants)
-2. Governance theater & recentralization (9/19)
-3. Broken contributor economies (7/19, deepest discussion)
-4. Voting fatigue & apathy (8/19)
-5. Over-reliance on game theory (4/19, but deepest engagement per participant)
-
-**Solution categories emerging:** Reputation & merit systems, AI-augmented governance, deliberation & signaling tools, governance memory systems, structural & constitutional design, compensation innovation, and alternative governance models.
-
 ## Participate
 
 We're still collecting perspectives. The structured interview takes ~20 minutes and is facilitated by AI.
