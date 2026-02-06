@@ -24,16 +24,6 @@ Our work begins with:
 
 ---
 
-## Project Management
-
-We manage this research program using public GitHub project boards, allowing anyone to follow along with our progress, contribute ideas, or adapt our approach for their own work.
-
-View the active project board: [gov/acc Project Tracker](https://github.com/users/[YOUR-USERNAME]/projects/[PROJECT-NUMBER])
-
-*Note: Project board link will be updated once GitHub Projects is configured*
-
----
-
 ## Projects & Working Groups
 
 ### Research Roadmap

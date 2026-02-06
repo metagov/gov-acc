@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Research Program Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Research Program Plan"
             }
           }
         ]
@@ -185,6 +185,10 @@
   },
   "active": "385d486c0532bdfc",
   "lastOpenFiles": [
+    "index.md",
+    "README.md",
+    "Research Program Plan.md",
+    "resources/Strategic Update The OBOL Economic Engine & Governance Realignment - Announcements.md",
     "resources/Thread by @governingweb3.md",
     "resources/Governance Has Already Moved.md",
     "resources/Part 1 Analyzing the impact of Retro Funding Season 7 Developer Tooling  Open Source Observer.md",
@@ -208,11 +212,7 @@
     "Untitled.canvas",
     "Clippings/Co-Creation Cycle 3 - Final Report - Governance Iterations.md",
     "Clippings",
-    "index.md",
     "Clippings/Deliberative Tools Gallery  Metagov.md",
-    "resources",
-    "Research Program Plan.md",
-    "image1.md",
-    "README.md"
+    "resources"
   ]
 }

@@ -195,24 +195,3 @@ There will be the first gov/acc workshop at EthCC. The desired outcomes for the 
 9. What other deliberative tools are relevant to this process and can be meaningfully used as part of this process
 
 10. Link to relevant resources that outline the relevant tools
-
-# To-do
-
-
-This is a placeholder until project management infra in github is put in place
-
-  
-
-- [ ] Initial sketch of this doc
-
-- [ ] Send it to Martin
-
-- [ ] Who else to share with?
-
-- [ ] Share with gov pod crew \- would Ale want to support on the gathering transcripts? Way for people to contribute to suggest new sources?
-
-- [ ] Write up a job description for a research analyst on the project
-
-- [ ] Set up the github repo
-
-- [ ] Write up process for setting up a new subdomain for Metagov (first search if there already is one)
