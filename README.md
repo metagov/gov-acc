@@ -77,7 +77,7 @@ This site is built with [Quartz](https://quartz.jzhao.xyz/) (Obsidian-based stat
 ## Get Involved
 
 - **Take the interview:** [Harmonica session](https://app.harmonica.chat/chat?s=hst_a51081812ed9)
-- **Join the community:** [Metagov Slack](https://metagov.org/join/community) → #govacc channel
+- **Join the community:** [Governance Geeks](https://t.me/governancegeeks) on Telegram
 - **Reach out:** [@bbeats1](https://x.com/bbeats1) (Eugene Leventhal)
 
 ## Team
