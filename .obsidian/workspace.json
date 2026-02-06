@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Program Plan.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Research Program Plan"
+              "title": "index"
             }
           }
         ]
@@ -185,9 +185,9 @@
   },
   "active": "385d486c0532bdfc",
   "lastOpenFiles": [
+    "Research Program Plan.md",
     "index.md",
     "README.md",
-    "Research Program Plan.md",
     "resources/Strategic Update The OBOL Economic Engine & Governance Realignment - Announcements.md",
     "resources/Thread by @governingweb3.md",
     "resources/Governance Has Already Moved.md",

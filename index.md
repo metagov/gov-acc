@@ -67,9 +67,7 @@ Scoping and planning phase. Expected to begin active research in Q1 2025.
 
 This research program benefits from diverse perspectives and lived experience with governance challenges. Whether you're a DAO operator, protocol governance participant, researcher, or builder of governance infrastructure, there are ways to contribute.
 
-Join the conversation: Connect with us in the Metagov Slack community
-
-[Join Metagov Community](https://metagov.org/join/community) → Look for the #govacc channel
+Join the conversation: Connect with us in the [Governance Geeks telegram group](https://t.me/governancegeeks)
 
 ### Ways to participate:
 
@@ -79,7 +77,7 @@ Join the conversation: Connect with us in the Metagov Slack community
 - Connect us with others working on related problems
 - Collaborate on specific research questions
 
-For research collaborations or specific inquiries, reach out through the Metagov Slack or via Metagov's contact channels.
+For research collaborations or specific inquiries, reach out through the Metagov Slack or the telegram group.
 
 ---
 
