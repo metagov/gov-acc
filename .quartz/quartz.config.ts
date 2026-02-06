@@ -28,8 +28,11 @@ const config: QuartzConfig = {
       ".quartz/**",
       ".quartz-cache/**",
 
-      // Meridian infrastructure  
+      // Meridian infrastructure
       ".meridian/**",
+
+      // Phase 1 research dashboard (static HTML, served as-is)
+      "phase1/**",
 
       // Development infrastructure
       ".git/**",

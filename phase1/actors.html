@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gov/acc — Actors & Projects Network</title>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<style>
+  body { margin: 0; background: #0d1117; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; overflow: hidden; }
+  h1 { text-align: center; padding: 16px 0 0; font-size: 1.4em; font-weight: 500; margin: 0; }
+  h1 span { color: #7ee787; }
+  p.sub { text-align: center; color: #8b949e; font-size: 0.85em; margin: 4px 0 8px; }
+  .legend { position: absolute; bottom: 20px; left: 20px; font-size: 0.8em; color: #8b949e; }
+  .legend div { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+  .legend .dot { width: 12px; height: 12px; border-radius: 50%; }
+  svg { display: block; }
+  .tooltip { position: absolute; background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px 12px; font-size: 0.82em; pointer-events: none; opacity: 0; transition: opacity 0.15s; max-width: 280px; line-height: 1.4; }
+  .tooltip b { color: #f0f6fc; }
+  .tooltip .cat { color: #8b949e; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>gov/acc Phase 1 — <span>Actors & Projects Network</span></h1>
+<p class="sub">Who's working on what — connections based on shared solution domains · mentioned by 19 participants</p>
+<div class="tooltip" id="tip"></div>
+<div class="legend">
+  <div><div class="dot" style="background: #f85149"></div> Governance Infra</div>
+  <div><div class="dot" style="background: #ffa657"></div> Reputation & Identity</div>
+  <div><div class="dot" style="background: #d2a8ff"></div> Sensemaking</div>
+  <div><div class="dot" style="background: #79c0ff"></div> Financial & Compensation</div>
+  <div><div class="dot" style="background: #7ee787"></div> Security & Verification</div>
+  <div><div class="dot" style="background: #ff7b72"></div> Research & Frameworks</div>
+  <div><div class="dot" style="background: #8b949e"></div> Service Providers</div>
+</div>
+<script>
+const cats = {
+  infra: '#f85149',
+  reputation: '#ffa657',
+  sense: '#d2a8ff',
+  finance: '#79c0ff',
+  security: '#7ee787',
+  research: '#ff7b72',
+  service: '#8b949e',
+};
+
+const nodes = [
+  // Governance Infrastructure
+  { id: 'Metagov', cat: 'infra', desc: 'Constitutional design, KOI, RIDs, Interop program', size: 18, mentioned: 6 },
+  { id: 'Aragon', cat: 'infra', desc: 'DAO tooling, governance frameworks', size: 12, mentioned: 2 },
+  { id: 'Tally', cat: 'infra', desc: 'Proposal tracking, governance dashboards', size: 10, mentioned: 2 },
+  { id: 'Agora', cat: 'infra', desc: 'Governance hub for proposal review/voting', size: 8, mentioned: 1 },
+  { id: 'Scroll DAO', cat: 'infra', desc: 'Delegate accelerator, phased governance, co-creation', size: 12, mentioned: 3 },
+
+  // Reputation & Identity
+  { id: 'DeepDAO', cat: 'reputation', desc: 'Contribution tracking, reputation systems', size: 10, mentioned: 2 },
+  { id: 'Forward', cat: 'reputation', desc: 'Delegate programs, reputation frameworks', size: 9, mentioned: 1 },
+  { id: 'Kokonut Network', cat: 'reputation', desc: 'Merit-based governance', size: 8, mentioned: 1 },
+  { id: 'Wasabi', cat: 'reputation', desc: 'Soulbound tokens, rage quit mechanics', size: 8, mentioned: 1 },
+  { id: 'Hats Protocol', cat: 'reputation', desc: 'Role-based access, merit governance', size: 8, mentioned: 1 },
+
+  // Sensemaking
+  { id: 'Polis', cat: 'sense', desc: 'Opinion clustering, collective intelligence', size: 11, mentioned: 2 },
+  { id: 'Lighthouse', cat: 'sense', desc: 'Signals protocol — values, not votes', size: 9, mentioned: 1 },
+  { id: 'Mission Public', cat: 'sense', desc: 'Deliberation experiments (Cosmos)', size: 9, mentioned: 1 },
+  { id: 'NewPublic', cat: 'sense', desc: 'Community coordination tools', size: 8, mentioned: 1 },
+
+  // Financial & Compensation
+  { id: 'Karpatkey', cat: 'finance', desc: 'Treasury management, DeFi strategies', size: 9, mentioned: 1 },
+  { id: 'Steakhouse', cat: 'finance', desc: 'Financial reporting, analytics', size: 8, mentioned: 1 },
+  { id: 'a16z', cat: 'finance', desc: 'Network token framework, "end of foundations"', size: 11, mentioned: 2 },
+
+  // Security & Verification
+  { id: 'ENS Labs', cat: 'security', desc: 'Universal resolver, security infra, veto.ensdao.eth', size: 12, mentioned: 3 },
+  { id: 'VERP', cat: 'security', desc: 'Biometric identity + sensor networks for physical verification', size: 9, mentioned: 1 },
+  { id: 'Immunefi', cat: 'security', desc: 'Bug bounties, vulnerability disclosure', size: 8, mentioned: 1 },
+  { id: 'immediacy.ai', cat: 'security', desc: 'AI-powered sim-juries, programmatic ethics', size: 9, mentioned: 1 },
+
+  // Research & Frameworks
+  { id: 'Othman (GMS)', cat: 'research', desc: 'Governance Memory System — 5-layer framework', size: 11, mentioned: 1 },
+  { id: 'Durgadas', cat: 'research', desc: 'Tensegrity, Prevolution, social architecture', size: 10, mentioned: 1 },
+  { id: 'Regis Chapman', cat: 'research', desc: 'Beyond game theory, paradox navigation', size: 9, mentioned: 1 },
+  { id: 'Ellie Rennie', cat: 'research', desc: 'Ethnographic governance research, Telescope bot', size: 9, mentioned: 1 },
+  { id: 'accessor.eth', cat: 'research', desc: 'ENS governance maximalism, security research', size: 10, mentioned: 1 },
+
+  // Service Providers
+  { id: 'SeedGov', cat: 'service', desc: 'Professional delegate services', size: 8, mentioned: 1 },
+  { id: 'Curialab', cat: 'service', desc: 'Professional delegate services', size: 8, mentioned: 1 },
+  { id: 'L2Beat', cat: 'service', desc: 'Decentralization metrics, delegate services', size: 9, mentioned: 2 },
+  { id: 'anode.gg', cat: 'service', desc: 'Governance tooling', size: 7, mentioned: 1 },
+];
+
+// Links: shared solution domains, co-mentions, or direct collaboration
+const links = [
+  // Governance infra cluster
+  { source: 'Metagov', target: 'Aragon', v: 3 },
+  { source: 'Metagov', target: 'Polis', v: 3 },
+  { source: 'Metagov', target: 'Mission Public', v: 2 },
+  { source: 'Metagov', target: 'Othman (GMS)', v: 4 },
+  { source: 'Metagov', target: 'Ellie Rennie', v: 3 },
+  { source: 'Metagov', target: 'Durgadas', v: 2 },
+  { source: 'Metagov', target: 'Scroll DAO', v: 2 },
+  { source: 'Metagov', target: 'Lighthouse', v: 2 },
+
+  // Reputation cluster
+  { source: 'DeepDAO', target: 'Forward', v: 3 },
+  { source: 'DeepDAO', target: 'Kokonut Network', v: 2 },
+  { source: 'Kokonut Network', target: 'Wasabi', v: 3 },
+  { source: 'Wasabi', target: 'Hats Protocol', v: 3 },
+  { source: 'Hats Protocol', target: 'Kokonut Network', v: 2 },
+  { source: 'Forward', target: 'Scroll DAO', v: 2 },
+
+  // Sensemaking cluster
+  { source: 'Polis', target: 'Lighthouse', v: 3 },
+  { source: 'Polis', target: 'NewPublic', v: 2 },
+  { source: 'Mission Public', target: 'Polis', v: 2 },
+  { source: 'Lighthouse', target: 'NewPublic', v: 2 },
+
+  // Finance cluster
+  { source: 'Karpatkey', target: 'Steakhouse', v: 3 },
+  { source: 'a16z', target: 'Karpatkey', v: 2 },
+  { source: 'Tally', target: 'Karpatkey', v: 2 },
+  { source: 'Tally', target: 'Agora', v: 3 },
+
+  // Security cluster
+  { source: 'ENS Labs', target: 'accessor.eth', v: 4 },
+  { source: 'ENS Labs', target: 'Immunefi', v: 2 },
+  { source: 'VERP', target: 'ENS Labs', v: 1 },
+  { source: 'immediacy.ai', target: 'Durgadas', v: 1 },
+
+  // Research interconnections
+  { source: 'Othman (GMS)', target: 'Ellie Rennie', v: 2 },
+  { source: 'Durgadas', target: 'Regis Chapman', v: 3 },
+  { source: 'Othman (GMS)', target: 'Durgadas', v: 2 },
+  { source: 'Regis Chapman', target: 'Metagov', v: 1 },
+  { source: 'accessor.eth', target: 'Scroll DAO', v: 1 },
+
+  // Service providers
+  { source: 'SeedGov', target: 'Curialab', v: 3 },
+  { source: 'SeedGov', target: 'L2Beat', v: 2 },
+  { source: 'Curialab', target: 'L2Beat', v: 2 },
+  { source: 'L2Beat', target: 'Scroll DAO', v: 2 },
+  { source: 'L2Beat', target: 'Tally', v: 2 },
+
+  // Cross-cluster connections
+  { source: 'Scroll DAO', target: 'DeepDAO', v: 2 },
+  { source: 'Aragon', target: 'Hats Protocol', v: 2 },
+  { source: 'a16z', target: 'ENS Labs', v: 2 },
+  { source: 'Scroll DAO', target: 'Karpatkey', v: 1 },
+  { source: 'Metagov', target: 'NewPublic', v: 2 },
+];
+
+const W = window.innerWidth;
+const H = window.innerHeight - 80;
+
+const svg = d3.select('body').append('svg')
+  .attr('width', W)
+  .attr('height', H)
+  .style('margin-top', '0');
+
+const tip = d3.select('#tip');
+
+const simulation = d3.forceSimulation(nodes)
+  .force('link', d3.forceLink(links).id(d => d.id).distance(d => 100 - d.v * 10).strength(d => d.v * 0.08))
+  .force('charge', d3.forceManyBody().strength(-250))
+  .force('center', d3.forceCenter(W / 2, H / 2))
+  .force('collision', d3.forceCollide().radius(d => d.size + 8))
+  .force('x', d3.forceX(W / 2).strength(0.03))
+  .force('y', d3.forceY(H / 2).strength(0.03));
+
+const link = svg.append('g')
+  .selectAll('line')
+  .data(links)
+  .join('line')
+  .attr('stroke', '#21262d')
+  .attr('stroke-width', d => d.v * 0.8)
+  .attr('stroke-opacity', 0.6);
+
+const node = svg.append('g')
+  .selectAll('g')
+  .data(nodes)
+  .join('g')
+  .call(d3.drag()
+    .on('start', (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+    .on('drag', (e, d) => { d.fx = e.x; d.fy = e.y; })
+    .on('end', (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
+  );
+
+node.append('circle')
+  .attr('r', d => d.size)
+  .attr('fill', d => cats[d.cat])
+  .attr('fill-opacity', 0.85)
+  .attr('stroke', '#0d1117')
+  .attr('stroke-width', 1.5);
+
+node.append('text')
+  .text(d => d.id)
+  .attr('dy', d => d.size + 14)
+  .attr('text-anchor', 'middle')
+  .attr('fill', '#c9d1d9')
+  .attr('font-size', '11px')
+  .attr('font-family', '-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif');
+
+node.on('mouseover', (e, d) => {
+  // Find connected nodes
+  const connected = new Set();
+  links.forEach(l => {
+    const s = typeof l.source === 'object' ? l.source.id : l.source;
+    const t = typeof l.target === 'object' ? l.target.id : l.target;
+    if (s === d.id) connected.add(t);
+    if (t === d.id) connected.add(s);
+  });
+
+  // Highlight
+  node.select('circle').attr('fill-opacity', n => n.id === d.id || connected.has(n.id) ? 1 : 0.15);
+  node.select('text').attr('fill-opacity', n => n.id === d.id || connected.has(n.id) ? 1 : 0.15);
+  link.attr('stroke-opacity', l => {
+    const s = typeof l.source === 'object' ? l.source.id : l.source;
+    const t = typeof l.target === 'object' ? l.target.id : l.target;
+    return s === d.id || t === d.id ? 0.8 : 0.05;
+  }).attr('stroke', l => {
+    const s = typeof l.source === 'object' ? l.source.id : l.source;
+    const t = typeof l.target === 'object' ? l.target.id : l.target;
+    return s === d.id || t === d.id ? '#484f58' : '#21262d';
+  });
+
+  const catNames = { infra: 'Governance Infra', reputation: 'Reputation & Identity', sense: 'Sensemaking', finance: 'Financial', security: 'Security & Verification', research: 'Research & Frameworks', service: 'Service Provider' };
+  tip.html('<b>' + d.id + '</b><br><span class="cat">' + catNames[d.cat] + '</span><br><br>' + d.desc + '<br><br>Mentioned by ' + d.mentioned + ' participant' + (d.mentioned > 1 ? 's' : '') + '<br>Connected to ' + connected.size + ' other actors')
+    .style('opacity', 1)
+    .style('left', (e.pageX + 14) + 'px')
+    .style('top', (e.pageY - 14) + 'px');
+})
+.on('mousemove', (e) => {
+  tip.style('left', (e.pageX + 14) + 'px').style('top', (e.pageY - 14) + 'px');
+})
+.on('mouseout', () => {
+  node.select('circle').attr('fill-opacity', 0.85);
+  node.select('text').attr('fill-opacity', 1);
+  link.attr('stroke-opacity', 0.6).attr('stroke', '#21262d');
+  tip.style('opacity', 0);
+});
+
+simulation.on('tick', () => {
+  link
+    .attr('x1', d => d.source.x)
+    .attr('y1', d => d.source.y)
+    .attr('x2', d => d.target.x)
+    .attr('y2', d => d.target.y);
+  node.attr('transform', d => 'translate(' + d.x + ',' + d.y + ')');
+});
+</script>
+</body>
+</html>
