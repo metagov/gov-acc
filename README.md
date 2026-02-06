@@ -22,7 +22,7 @@ The program coordinates:
 
 ## Phase 1: Problem & Solution Mapping (Jan–Feb 2026)
 
-Phase 1 gathers structured data on governance problems, proposed solutions, and who's building them — through [Harmonica](https://harmonica.chat) AI-facilitated interviews and community outreach.
+Phase 1 gathers structured data on governance problems, proposed solutions, and who's building them — through [Harmonica](https://harmonica.chat) AI-facilitated interviews and online workshops.
 
 **Current status:** 19 completed interviews, 33 engaged participants.
 
@@ -58,7 +58,7 @@ We're still collecting perspectives. The structured interview takes ~20 minutes 
 
 | Phase | Timeline | Focus |
 |-------|----------|-------|
-| **Phase 1** | Jan–Feb 2026 | Data gathering via Harmonica interviews and community outreach |
+| **Phase 1** | Jan–Feb 2026 | Data gathering via Harmonica interviews and online workshops |
 | **Phase 2** | Mar 2026 | Data analysis, synthesis, and cleaning |
 | **Phase 3** | Mar–Apr 2026 | Visualization and leaderboard production |
 | **EthCC Workshop** | Mar 30–Apr 2, 2026 | First gov/acc workshop — review roadmap, form working groups |
