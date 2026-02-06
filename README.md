@@ -22,7 +22,7 @@ The program coordinates:
 
 ## Phase 1: Problem & Solution Mapping (Jan–Feb 2026)
 
-Phase 1 gathers structured data on governance problems, proposed solutions, and who's building them — through [Harmonica](https://harmonica.chat) AI-facilitated interviews and online workshops.
+Phase 1 gathers structured data on governance problems, proposed solutions, and who's building them — through AI-facilitated interviews and online workshops.
 
 **Current status:** 19 completed interviews, 33 engaged participants.
 
