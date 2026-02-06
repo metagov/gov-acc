@@ -83,5 +83,7 @@ This site is built with [Quartz](https://quartz.jzhao.xyz/) (Obsidian-based stat
 ## Team
 
 - **Eugene Leventhal** — Executive Director, [Metagov](https://metagov.org)
+- **Martin Reiter** — Metagov
+- **Spencer Graham** — Metagov
 - **Val** — Community coordinator, Metagov
 - **Artem Zhiganov** — Research tooling, [Harmonica](https://harmonica.chat)
