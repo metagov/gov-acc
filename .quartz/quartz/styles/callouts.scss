@@ -9,14 +9,14 @@
   overflow-y: hidden;
   box-sizing: border-box;
 
-  & > .callout-content {
+  &>.callout-content {
     display: grid;
     transition: grid-template-rows 0.3s ease;
 
-    & > .callout-content-inner {
+    &>.callout-content-inner {
       overflow: hidden;
 
-      & > :first-child {
+      &> :first-child {
         margin-top: 0;
       }
     }
@@ -54,8 +54,8 @@
   &[data-callout="info"],
   &[data-callout="todo"] {
     --color: #00b8d4;
-    --border: #00b8d444;
-    --bg: #00b8d410;
+    --border: var(--secondary);
+    --bg: var(--highlight);
     --callout-icon: var(--callout-icon-info);
   }
 
@@ -121,7 +121,7 @@
     --callout-icon: var(--callout-icon-quote);
   }
 
-  &.is-collapsed > .callout-title > .fold-callout-icon {
+  &.is-collapsed>.callout-title>.fold-callout-icon {
     transform: rotateZ(-90deg);
   }
 }
@@ -142,7 +142,7 @@
     --callout-icon: var(--callout-icon-fold);
   }
 
-  & > .callout-title-inner > p {
+  &>.callout-title-inner>p {
     color: var(--color);
     margin: 0;
   }

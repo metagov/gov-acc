@@ -8,6 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
+      "A MetaGov Project": "https://metagov.org",
       GitHub: "https://github.com/metagov/gov-acc",
     },
   }),
