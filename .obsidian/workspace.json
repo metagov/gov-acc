@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Research Program Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Research Program Plan"
             }
           }
         ]
@@ -185,6 +185,12 @@
   },
   "active": "385d486c0532bdfc",
   "lastOpenFiles": [
+    "media/photo_2026-02-08 17.06.35.jpeg",
+    "media/Screenshot 2026-02-08 at 5.03.40 PM.png",
+    "media/Screenshot 2026-02-08 at 5.03.52 PM.png",
+    "media",
+    "media/Screenshot 2026-02-08 at 5.04.15 PM.png",
+    "image1.md",
     "Research Program Plan.md",
     "index.md",
     "README.md",
@@ -210,9 +216,7 @@
     "resources/Co-Creation Cycle 3 - Final Report - Governance Iterations.md",
     "resources/CAMF, a New Architecture for Crypto Funding Systems.md",
     "Untitled.canvas",
-    "Clippings/Co-Creation Cycle 3 - Final Report - Governance Iterations.md",
     "Clippings",
-    "Clippings/Deliberative Tools Gallery  Metagov.md",
     "resources"
   ]
 }

@@ -67,7 +67,7 @@ This mapping will likely be done in collaboration with [Coordination Network](ht
 
 The tentative timeline has the data-gathering phase running through late February, with March focused on mapping and revision.
 
-![][image1]
+![[Screenshot 2026-02-08 at 5.04.15 PM.png]]
 
 *This can be viewed in this Google Sheet: [gov/acc Program Timeline](https://docs.google.com/spreadsheets/d/1vH4M7vKj6JibteCpIPy35jvJAZ_oxU62tTqOsd29S4U/edit?usp=sharing)*
 
@@ -131,16 +131,13 @@ Initial sketch of survey design (multiple submissions allowed). This will be sha
 11. Prioritization (?)
 
   
+![[Screenshot 2026-02-08 at 5.03.52 PM.png]]
 
-![][image2]
-
-![][image3]
-
-  
-
+![[Screenshot 2026-02-08 at 5.03.40 PM.png]]
 ### Schematic
 
-  
+![[photo_2026-02-08 17.06.35.jpeg]]  
+
 ---
 ## Phase 2: Data Analysis & Synthesis
 
