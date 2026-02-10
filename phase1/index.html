@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>gov/acc — Phase 1 Research Dashboard</title>
+<title>gov/acc — Phase 1 Research Dashboard v2</title>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,300&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
@@ -422,35 +422,25 @@
   /* ========== URGENCY TAB ========== */
   #pane-urgency { display: none; }
   #pane-urgency.active { display: flex; flex-direction: column; }
-  #pane-urgency .urg-header {
-    padding: 20px 32px 0;
-    text-align: center;
-  }
+  #pane-urgency .urg-header { padding: 20px 32px 0; text-align: center; }
   #pane-urgency .urg-header h2 {
     font-family: 'Fraunces', serif;
     font-size: 1.4em; font-weight: 500;
     color: var(--text-bright); letter-spacing: -0.02em;
   }
   #pane-urgency .urg-header h2 em { color: var(--critical); font-style: italic; font-weight: 300; }
-  #pane-urgency .urg-sub {
-    font-size: 0.72em; color: var(--text-dim);
-    font-weight: 300; margin-top: 4px;
-  }
+  #pane-urgency .urg-sub { font-size: 0.72em; color: var(--text-dim); font-weight: 300; margin-top: 4px; }
   #pane-urgency .urg-chart { flex: 1; min-height: 0; }
 
   /* ========== SOLUTIONS TAB ========== */
-  #pane-solutions .sol-header {
-    text-align: center; padding: 20px 20px 6px;
-  }
+  #pane-solutions .sol-header { text-align: center; padding: 20px 20px 6px; }
   #pane-solutions .sol-header h2 {
     font-family: 'Fraunces', serif;
     font-size: 1.35em; font-weight: 500;
     color: var(--text-bright); letter-spacing: -0.02em;
   }
   #pane-solutions .sol-header h2 em { color: var(--accent); font-style: italic; font-weight: 300; }
-  #pane-solutions .sol-sub {
-    color: var(--text-dim); font-size: 0.72em; margin-top: 4px; font-weight: 300;
-  }
+  #pane-solutions .sol-sub { color: var(--text-dim); font-size: 0.72em; margin-top: 4px; font-weight: 300; }
   #pane-solutions .x-axis {
     display: flex; align-items: center; justify-content: center;
     gap: 6px; padding: 14px 20px 2px;
@@ -459,23 +449,17 @@
   }
   #pane-solutions .x-axis .arrow {
     flex: 0 0 auto; width: 40px; height: 1px;
-    background: linear-gradient(90deg, transparent, #484f58);
-    position: relative;
+    background: linear-gradient(90deg, transparent, #484f58); position: relative;
   }
   #pane-solutions .x-axis .arrow::after {
     content: ''; position: absolute; right: 0; top: -3px;
     border: 3px solid transparent; border-left: 5px solid #484f58;
   }
-  #pane-solutions .x-axis .arrow.left {
-    background: linear-gradient(90deg, #484f58, transparent);
-  }
-  #pane-solutions .x-axis .arrow.left::after {
-    right: auto; left: 0; border-left: none; border-right: 5px solid #484f58;
-  }
+  #pane-solutions .x-axis .arrow.left { background: linear-gradient(90deg, #484f58, transparent); }
+  #pane-solutions .x-axis .arrow.left::after { right: auto; left: 0; border-left: none; border-right: 5px solid #484f58; }
   #pane-solutions .landscape {
     display: grid; grid-template-columns: repeat(5, 1fr);
-    gap: 2px; padding: 8px 36px 24px;
-    min-height: calc(100% - 120px);
+    gap: 2px; padding: 8px 36px 24px; min-height: calc(100% - 120px);
   }
   .maturity-col { display: flex; flex-direction: column; gap: 2px; }
   .col-header {
@@ -484,21 +468,14 @@
     color: var(--text-bright); letter-spacing: 0.02em;
     border-bottom: 1px solid #21262d;
   }
-  .col-header .stage-num {
-    display: block; font-size: 2em; font-weight: 300;
-    color: #21262d; line-height: 1; margin-bottom: 2px;
-  }
+  .col-header .stage-num { display: block; font-size: 2em; font-weight: 300; color: #21262d; line-height: 1; margin-bottom: 2px; }
   .col-body { flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 8px 4px; }
   .sol-card {
     position: relative; border-radius: 8px; padding: 10px 11px;
     cursor: default; transition: transform 0.2s, box-shadow 0.2s, background 0.15s;
     border: 1px solid transparent; background: #161b22;
   }
-  .sol-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
-    z-index: 20; border-color: var(--cat-color);
-  }
+  .sol-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.4); z-index: 20; border-color: var(--cat-color); }
   .sol-card .card-top { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 6px; }
   .sol-card .dot { flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; margin-top: 4px; background: var(--cat-color); }
   .sol-card .sname { font-size: 0.82em; font-weight: 500; color: #e6edf3; line-height: 1.25; }
@@ -511,10 +488,7 @@
   .sol-card .smeta .cat-label { color: var(--cat-color); font-weight: 500; }
   .sol-card .problems-bar { display: flex; gap: 2px; margin-top: 6px; }
   .sol-card .problems-bar .pip { height: 3px; flex: 1; border-radius: 1.5px; background: var(--cat-color); opacity: 0.5; }
-  .sol-card .detail {
-    max-height: 0; overflow: hidden;
-    transition: max-height 0.3s, opacity 0.2s; opacity: 0;
-  }
+  .sol-card .detail { max-height: 0; overflow: hidden; transition: max-height 0.3s, opacity 0.2s; opacity: 0; }
   .sol-card:hover .detail { max-height: 200px; opacity: 1; margin-top: 8px; }
   .sol-card .detail .section { font-size: 0.72em; color: var(--text-dim); margin-bottom: 4px; line-height: 1.4; }
   .sol-card .detail .section b { color: #c9d1d9; font-weight: 500; }
@@ -524,15 +498,8 @@
     background: rgba(255,255,255,0.05); color: #c9d1d9; border: 1px solid #21262d;
   }
   .sol-card.dimmed { opacity: 0.12; transform: scale(0.97); }
-  #pane-solutions .sol-legend {
-    display: flex; flex-wrap: wrap; justify-content: center;
-    gap: 12px 20px; padding: 8px 20px 20px;
-  }
-  .sol-legend-item {
-    display: flex; align-items: center; gap: 6px;
-    font-size: 0.72em; color: var(--text-dim);
-    cursor: pointer; transition: opacity 0.15s;
-  }
+  #pane-solutions .sol-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 20px; padding: 8px 20px 20px; }
+  .sol-legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.72em; color: var(--text-dim); cursor: pointer; transition: opacity 0.15s; }
   .sol-legend-item:hover { opacity: 0.7; }
   .sol-legend-item.dimmed { opacity: 0.25; }
   .sol-legend-item .swatch { width: 10px; height: 10px; border-radius: 3px; }
@@ -541,36 +508,18 @@
   #pane-wardley.active { display: block; }
   #pane-wardley .w-header {
     position: absolute; top: 0; left: 0; right: 0; z-index: 10;
-    padding: 20px 28px 0;
-    display: flex; justify-content: space-between; align-items: flex-start;
-    pointer-events: none;
+    padding: 20px 28px 0; display: flex; justify-content: space-between; align-items: flex-start; pointer-events: none;
   }
-  #pane-wardley .w-header h2 {
-    font-family: 'Fraunces', serif;
-    font-size: 1.4em; font-weight: 500;
-    color: var(--text-bright); letter-spacing: -0.02em; line-height: 1.1;
-  }
+  #pane-wardley .w-header h2 { font-family: 'Fraunces', serif; font-size: 1.4em; font-weight: 500; color: var(--text-bright); letter-spacing: -0.02em; line-height: 1.1; }
   #pane-wardley .w-header h2 em { color: var(--accent); font-style: italic; font-weight: 300; }
-  #pane-wardley .w-subtitle {
-    font-size: 0.68em; color: var(--text-dim);
-    margin-top: 4px; font-weight: 300; max-width: 480px; line-height: 1.5;
-  }
-  #pane-wardley .w-caveat {
-    font-size: 0.6em; color: #3d4a58; margin-top: 3px;
-    font-weight: 300; font-style: italic; max-width: 420px; line-height: 1.4;
-  }
-  #pane-wardley .w-meta {
-    text-align: right; font-size: 0.6em;
-    color: var(--text-dim); font-weight: 300; line-height: 1.6; padding-top: 4px;
-  }
+  #pane-wardley .w-subtitle { font-size: 0.68em; color: var(--text-dim); margin-top: 4px; font-weight: 300; max-width: 480px; line-height: 1.5; }
+  #pane-wardley .w-caveat { font-size: 0.6em; color: #3d4a58; margin-top: 3px; font-weight: 300; font-style: italic; max-width: 420px; line-height: 1.4; }
+  #pane-wardley .w-meta { text-align: right; font-size: 0.6em; color: var(--text-dim); font-weight: 300; line-height: 1.6; padding-top: 4px; }
   #pane-wardley svg#wardley-map { width: 100%; height: 100%; }
   #pane-wardley .w-tooltip {
-    position: fixed; z-index: 50;
-    background: #161d26; border: 1px solid #2a3544; border-radius: 2px;
-    padding: 14px 16px; font-size: 11px;
-    pointer-events: none; opacity: 0; transition: opacity 0.12s;
-    max-width: 290px; line-height: 1.55;
-    box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+    position: fixed; z-index: 50; background: #161d26; border: 1px solid #2a3544; border-radius: 2px;
+    padding: 14px 16px; font-size: 11px; pointer-events: none; opacity: 0; transition: opacity 0.12s;
+    max-width: 290px; line-height: 1.55; box-shadow: 0 12px 40px rgba(0,0,0,0.6);
   }
   #pane-wardley .w-tooltip .tt-name { font-family: 'Fraunces', serif; font-size: 15px; color: var(--text-bright); margin-bottom: 2px; }
   #pane-wardley .w-tooltip .tt-cat { font-weight: 500; font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
@@ -582,22 +531,16 @@
   #pane-wardley .w-legend {
     position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%);
     z-index: 10; display: flex; gap: 14px; padding: 8px 16px;
-    background: rgba(13,17,23,0.85); border: 1px solid #1e2836;
-    border-radius: 2px; backdrop-filter: blur(8px);
+    background: rgba(13,17,23,0.85); border: 1px solid #1e2836; border-radius: 2px; backdrop-filter: blur(8px);
   }
-  #pane-wardley .w-legend .lg {
-    display: flex; align-items: center; gap: 5px;
-    font-size: 9.5px; color: var(--text-dim);
-    cursor: pointer; transition: opacity 0.15s; font-weight: 400; white-space: nowrap;
-  }
+  #pane-wardley .w-legend .lg { display: flex; align-items: center; gap: 5px; font-size: 9.5px; color: var(--text-dim); cursor: pointer; transition: opacity 0.15s; font-weight: 400; white-space: nowrap; }
   #pane-wardley .w-legend .lg:hover { color: var(--text); }
   #pane-wardley .w-legend .lg.dimmed { opacity: 0.15; }
   #pane-wardley .w-legend .lg .sw { width: 7px; height: 7px; border-radius: 1px; }
-  @keyframes nodeIn {
-    from { opacity: 0; transform: scale(0.3); }
-    to { opacity: 1; transform: scale(1); }
-  }
+  @keyframes nodeIn { from { opacity: 0; transform: scale(0.3); } to { opacity: 1; transform: scale(1); } }
   .node-g { animation: nodeIn 0.4s ease-out both; }
+  .wnode { transition: opacity 0.15s ease; }
+  .wedge { transition: stroke 0.15s, stroke-opacity 0.15s, stroke-width 0.15s; }
 
   /* ========== ACTORS TAB ========== */
   #pane-actors .actors-tooltip {
@@ -608,41 +551,19 @@
   }
   #pane-actors .actors-tooltip b { color: #f0f6fc; }
   #pane-actors .actors-tooltip .cat { color: var(--text-dim); font-size: 0.9em; }
-  #pane-actors .a-header {
-    text-align: center; padding: 16px 0 0;
-    position: absolute; top: 0; left: 0; right: 0; z-index: 10;
-    pointer-events: none;
-  }
-  #pane-actors .a-header h2 {
-    font-family: 'Fraunces', serif;
-    font-size: 1.4em; font-weight: 500;
-    color: var(--text-bright); letter-spacing: -0.02em;
-  }
+  #pane-actors .a-header { text-align: center; padding: 16px 0 0; position: absolute; top: 0; left: 0; right: 0; z-index: 10; pointer-events: none; }
+  #pane-actors .a-header h2 { font-family: 'Fraunces', serif; font-size: 1.4em; font-weight: 500; color: var(--text-bright); letter-spacing: -0.02em; }
   #pane-actors .a-header h2 em { color: var(--accent); font-style: italic; font-weight: 300; }
-  #pane-actors .a-sub {
-    color: var(--text-dim); font-size: 0.72em; margin: 4px 0 8px; font-weight: 300;
-  }
-  #pane-actors .actors-legend {
-    position: absolute; bottom: 20px; left: 20px;
-    font-size: 0.72em; color: var(--text-dim); z-index: 10;
-  }
+  #pane-actors .a-sub { color: var(--text-dim); font-size: 0.72em; margin: 4px 0 8px; font-weight: 300; }
+  #pane-actors .actors-legend { position: absolute; bottom: 20px; left: 20px; font-size: 0.72em; color: var(--text-dim); z-index: 10; }
   #pane-actors .actors-legend div { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
   #pane-actors .actors-legend .adot { width: 10px; height: 10px; border-radius: 50%; }
 
   /* ========== SANKEY TAB ========== */
-  #pane-sankey .sk-header {
-    text-align: center; padding: 20px 0 0;
-  }
-  #pane-sankey .sk-header h2 {
-    font-family: 'Fraunces', serif;
-    font-size: 1.4em; font-weight: 500;
-    color: var(--text-bright); letter-spacing: -0.02em;
-  }
+  #pane-sankey .sk-header { text-align: center; padding: 20px 0 0; }
+  #pane-sankey .sk-header h2 { font-family: 'Fraunces', serif; font-size: 1.4em; font-weight: 500; color: var(--text-bright); letter-spacing: -0.02em; }
   #pane-sankey .sk-header h2 em { color: var(--accent); font-style: italic; font-weight: 300; }
-  #pane-sankey .sk-sub {
-    font-size: 0.72em; color: var(--text-dim);
-    margin: 4px 0 0; font-weight: 300;
-  }
+  #pane-sankey .sk-sub { font-size: 0.72em; color: var(--text-dim); margin: 4px 0 0; font-weight: 300; }
   #pane-sankey.active { display: flex; flex-direction: column; }
   #pane-sankey .sk-chart { flex: 1; min-height: 0; }
 </style>
@@ -651,7 +572,7 @@
 
 <!-- TAB BAR -->
 <div class="tab-bar">
-  <div class="logo">gov/<em>acc</em></div>
+  <div class="logo">gov/<em>acc</em> <span style="font-size:0.55em;color:var(--text-dim);margin-left:8px;font-family:'JetBrains Mono';font-weight:300">v2</span></div>
   <div class="tab active" data-tab="overview">Overview</div>
   <div class="tab" data-tab="problems">Problems</div>
   <div class="tab" data-tab="urgency">Urgency</div>
@@ -676,7 +597,7 @@
 
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-val">19</div>
+          <div class="stat-val">27</div>
           <div class="stat-label">Completed</div>
         </div>
         <div class="stat-card">
@@ -684,15 +605,15 @@
           <div class="stat-label">Engaged</div>
         </div>
         <div class="stat-card">
-          <div class="stat-val">10</div>
+          <div class="stat-val">11</div>
           <div class="stat-label">Problems</div>
         </div>
         <div class="stat-card">
-          <div class="stat-val">21</div>
+          <div class="stat-val">29</div>
           <div class="stat-label">Solutions</div>
         </div>
         <div class="stat-card">
-          <div class="stat-val">30</div>
+          <div class="stat-val">41</div>
           <div class="stat-label">Actors</div>
         </div>
       </div>
@@ -704,7 +625,7 @@
         </div>
         <div class="overview-section">
           <h3>Methodology</h3>
-          <p>We conducted 19 structured interviews using Harmonica, an AI-facilitated deliberation platform. Each 20-minute session explored participants' experience with governance problems, proposed solutions, and the actors building them. The structured format ensures consistent coverage while allowing organic deep-dives.</p>
+          <p>We conducted 27 structured interviews using Harmonica, an AI-facilitated deliberation platform. Each 20-minute session explored participants' experience with governance problems, proposed solutions, and the actors building them. The structured format ensures consistent coverage while allowing organic deep-dives.</p>
           <div style="margin-top: 10px;">
             <span class="method-tag">Structured interviews</span>
             <span class="method-tag">AI-facilitated</span>
@@ -723,7 +644,7 @@
         </div>
       </div>
 
-      <div class="overview-footer">gov/acc Phase 1 · Harmonica × Metagov · Data from 19 completed structured interviews · Jan–Feb 2026</div>
+      <div class="overview-footer">gov/acc Phase 1 v2 · Harmonica × Metagov · Data from 27 completed structured interviews · Jan–Feb 2026</div>
     </div>
   </div>
 
@@ -731,9 +652,9 @@
   <div class="tab-pane" id="pane-problems">
     <div class="p-header">
       <div><h2>gov/acc — <em>Problems Map</em></h2></div>
-      <div class="meta">Phase 1 Research<br><strong>19</strong> completed interviews<br>Jan–Feb 2026</div>
+      <div class="meta">Phase 1 Research<br><strong>27</strong> completed interviews<br>Jan–Feb 2026</div>
     </div>
-    <div class="p-subtitle">10 governance problems identified across 19 structured interviews, ranked by composite urgency score (breadth × 60% + depth × 40%). Each card shows who raised it, how deeply it was discussed, and which proposed solutions address it.</div>
+    <div class="p-subtitle">11 governance problems identified across 27 structured interviews, ranked by composite urgency score (breadth × 60% + depth × 40%). Each card shows who raised it, how deeply it was discussed, and which proposed solutions address it.</div>
     <div class="urgency-scale">
       <div class="us-item"><div class="us-dot" style="background:var(--critical)"></div> Critical</div>
       <div class="us-item"><div class="us-dot" style="background:var(--high)"></div> High</div>
@@ -756,7 +677,7 @@
   <div class="tab-pane" id="pane-solutions">
     <div class="sol-header">
       <h2>gov/acc — <em>Solutions Landscape</em></h2>
-      <div class="sol-sub">21 proposed solutions organized by maturity stage · hover for details</div>
+      <div class="sol-sub">29 proposed solutions organized by maturity stage · hover for details</div>
     </div>
     <div class="x-axis">
       <span class="arrow left"></span>
@@ -776,10 +697,10 @@
     <div class="w-header">
       <div>
         <h2>gov/acc — <em>Wardley Map</em></h2>
-        <div class="w-subtitle">21 governance solutions mapped by evolution stage & value chain visibility. Bubble size = participant mentions.</div>
-        <div class="w-caveat">Y-axis placement is editorial — solutions positioned from invisible infrastructure to direct participant experience.</div>
+        <div class="w-subtitle">DAO governance value chain — from participant needs through governance solutions to foundational infrastructure. Supply chain dependencies shown.</div>
+        <div class="w-caveat">Y-axis = value chain depth (needs flow downward). X-axis = evolution (Genesis → Commodity). Colored nodes from Phase 1 interviews; gray nodes complete the supply chain.</div>
       </div>
-      <div class="w-meta">Phase 1 Research<br><span style="color:#3d4a58;font-size:0.9em">19 completed · Jan–Feb 2026</span></div>
+      <div class="w-meta">Phase 1 Research<br><span style="color:#3d4a58;font-size:0.9em">27 completed · Jan–Feb 2026</span></div>
     </div>
     <svg id="wardley-map"></svg>
     <div class="w-tooltip" id="wardley-tip"></div>
@@ -790,7 +711,7 @@
   <div class="tab-pane no-scroll" id="pane-actors">
     <div class="a-header">
       <h2>gov/acc — <em>Actors & Projects Network</em></h2>
-      <div class="a-sub">Who's working on what — connections based on shared solution domains · mentioned by 19 participants</div>
+      <div class="a-sub">Who's working on what — connections based on shared solution domains · mentioned by 27 participants</div>
     </div>
     <div class="actors-tooltip" id="actors-tip"></div>
     <div class="actors-legend">
@@ -830,7 +751,6 @@ tabs.forEach(tab => {
     tab.classList.add('active');
     document.getElementById('pane-' + target).classList.add('active');
 
-    // Lazy init visualizations
     if (!initialized[target]) {
       initialized[target] = true;
       if (target === 'problems') initProblems();
@@ -840,7 +760,6 @@ tabs.forEach(tab => {
       if (target === 'actors') initActors();
       if (target === 'sankey') initSankey();
     }
-    // Resize for Plotly
     if (target === 'urgency') Plotly.Plots.resize('urgency-chart');
     if (target === 'sankey') Plotly.Plots.resize('sankey-chart');
     if (target === 'wardley') renderWardley();
@@ -850,26 +769,27 @@ tabs.forEach(tab => {
 
 // ======================== PROBLEMS DATA ========================
 const problemsData = [
-  { name: "Token Voting Failure & Plutocracy", breadth: 12, depth: 4.2, who: ["Eugene","Zeugh","Malachite","Hima","Marlene","Alex Soto","Trigs","Raphael","Artem","Chris","Regis","Ivey"] },
-  { name: "Governance Theater & Recentralization", breadth: 9, depth: 3.8, who: ["Coffee-crusher","Ivey","Carl","Alex Soto","Marlene","Chris","Zeugh","Hima","Trigs"] },
-  { name: "Broken Contributor Economies", breadth: 7, depth: 5.1, who: ["Marlene","Alex Soto","Coffee-crusher","Zeugh","Raphael","Malachite","Chris"] },
-  { name: "Voting Fatigue & Apathy", breadth: 8, depth: 2.8, who: ["Eugene","Martin","Trigs","Hima","Raphael","Zeugh","Marlene","Ivey"] },
-  { name: "Informal Power & Narrative Capture", breadth: 6, depth: 3.5, who: ["Othman","Zeugh","Marlene","Alex Soto","Trigs","Hima"] },
-  { name: "Institutional Amnesia", breadth: 5, depth: 5.8, who: ["Othman","Artem","Eugene","Regis","Martin"] },
-  { name: "Delegate Sustainability", breadth: 5, depth: 4.0, who: ["Marlene","Alex Soto","Zeugh","Malachite","Coffee-crusher"] },
-  { name: "Lack of Clear Purpose", breadth: 5, depth: 3.2, who: ["Eugene","Raphael","Carl","Coffee-crusher","Ivey"] },
-  { name: "Over-Reliance on Game Theory", breadth: 4, depth: 6.5, who: ["Regis","Martin","Durgadas (via Regis)","Artem"] },
-  { name: "Technical & Legal Gaps", breadth: 4, depth: 4.8, who: ["Della Foresta","Jason C","Joseph","Hima"] },
+  { name: "Token Voting Failure & Plutocracy", breadth: 20, depth: 4.2, who: ["Eugene","Zeugh","Malachite","Hima","Marlene","Alex Soto","Trigs","Raphael","Artem","Chris","Regis","Ivey","C. Adam Stallard","Teije","Arnold","mart1n","Kaf","ivan","Feems","Eleanor"] },
+  { name: "Governance Theater & Recentralization", breadth: 16, depth: 3.8, who: ["Coffee-crusher","Ivey","Carl","Alex Soto","Marlene","Chris","Zeugh","Hima","Trigs","C. Adam Stallard","Teije","Arnold","mart1n","Kaf","ivan","cory"] },
+  { name: "Voting Fatigue & Apathy", breadth: 14, depth: 2.8, who: ["Eugene","Martin","Trigs","Hima","Raphael","Zeugh","Marlene","Ivey","C. Adam Stallard","Teije","mart1n","Kaf","Eleanor","Feems"] },
+  { name: "Informal Power & Narrative Capture", breadth: 11, depth: 3.5, who: ["Othman","Zeugh","Marlene","Alex Soto","Trigs","Hima","C. Adam Stallard","Arnold","mart1n","Feems","cory"] },
+  { name: "Broken Contributor Economies", breadth: 10, depth: 5.1, who: ["Marlene","Alex Soto","Coffee-crusher","Zeugh","Raphael","Malachite","Chris","Kaf","Arnold","ivan"] },
+  { name: "Grant System Dysfunction & Capital Misallocation", breadth: 6, depth: 4.5, who: ["Kaf","Arnold","ivan","Feems","mart1n","Teije"] },
+  { name: "Lack of Clear Purpose", breadth: 8, depth: 3.2, who: ["Eugene","Raphael","Carl","Coffee-crusher","Ivey","Arnold","mart1n","Kaf"] },
+  { name: "Over-Reliance on Game Theory", breadth: 7, depth: 6.5, who: ["Regis","Martin","Durgadas (via Regis)","Artem","Teije","mart1n","ivan"] },
+  { name: "Delegate Sustainability", breadth: 7, depth: 4.0, who: ["Marlene","Alex Soto","Zeugh","Malachite","Coffee-crusher","Kaf","Teije"] },
+  { name: "Institutional Amnesia", breadth: 6, depth: 5.8, who: ["Othman","Artem","Eugene","Regis","Martin","mart1n"] },
+  { name: "Technical & Legal Gaps", breadth: 6, depth: 4.8, who: ["Della Foresta","Jason C","Joseph","Hima","ivan","C. Adam Stallard"] },
 ];
 
 const solutionsForProblems = [
-  { name: "Conviction Voting", mentions: 5, problems: ["Token voting failure","Voting fatigue","Informal power"] },
+  { name: "Conviction Voting", mentions: 6, problems: ["Token voting failure","Voting fatigue","Informal power"] },
   { name: "Soulbound / Reputation Tokens", mentions: 6, problems: ["Token voting failure","Broken contributor economies","Informal power","Delegate sustainability"] },
   { name: "Delegate Verification", mentions: 4, problems: ["Token voting failure","Delegate sustainability","Informal power"] },
-  { name: "AI Governance Agents", mentions: 4, problems: ["Voting fatigue","Token voting failure","Institutional amnesia"] },
+  { name: "AI Governance Agents", mentions: 5, problems: ["Voting fatigue","Token voting failure","Institutional amnesia"] },
   { name: "AI Dispute Resolution", mentions: 2, problems: ["Technical & legal gaps","Over-reliance on game theory"] },
   { name: "Polis / Opinion Clustering", mentions: 5, problems: ["Token voting failure","Informal power","Voting fatigue"] },
-  { name: "Signals Protocol", mentions: 3, problems: ["Token voting failure","Voting fatigue","Lack of clear purpose"] },
+  { name: "Signals Protocol", mentions: 4, problems: ["Token voting failure","Voting fatigue","Lack of clear purpose"] },
   { name: "Co-creation Cycles", mentions: 4, problems: ["Governance theater","Lack of clear purpose","Token voting failure"] },
   { name: "Governance Memory System", mentions: 3, problems: ["Institutional amnesia","Over-reliance on game theory","Governance theater"] },
   { name: "Reference Identifiers (RIDs)", mentions: 2, problems: ["Institutional amnesia","Informal power"] },
@@ -880,10 +800,18 @@ const solutionsForProblems = [
   { name: "Proto-DAOs / Gated Governance", mentions: 4, problems: ["Lack of clear purpose","Token voting failure","Governance theater"] },
   { name: "Contributor Streams", mentions: 5, problems: ["Broken contributor economies","Delegate sustainability"] },
   { name: "RPGF", mentions: 4, problems: ["Broken contributor economies","Delegate sustainability"] },
-  { name: "VE / Buyback Models", mentions: 3, problems: ["Token voting failure","Governance theater"] },
+  { name: "VE / Buyback Models", mentions: 4, problems: ["Token voting failure","Governance theater"] },
   { name: "VERP Protocol", mentions: 1, problems: ["Technical & legal gaps","Token voting failure"] },
   { name: "Platform Cooperatives", mentions: 2, problems: ["Governance theater","Technical & legal gaps","Lack of clear purpose"] },
   { name: "Centralized Ops + DAO Oversight", mentions: 5, problems: ["Governance theater","Lack of clear purpose","Voting fatigue"] },
+  { name: "Updraft", mentions: 2, problems: ["Token voting failure","Voting fatigue","Informal power"] },
+  { name: "Powers Protocol", mentions: 1, problems: ["Governance theater","Over-reliance on game theory","Lack of clear purpose"] },
+  { name: "Logos Zones / Circles", mentions: 1, problems: ["Over-reliance on game theory","Governance theater","Token voting failure"] },
+  { name: "Milestone-based Fundraising", mentions: 2, problems: ["Broken contributor economies","Grant system dysfunction"] },
+  { name: "Token-as-Equity", mentions: 2, problems: ["Token voting failure","Technical & legal gaps"] },
+  { name: "Active Scouting", mentions: 1, problems: ["Grant system dysfunction","Broken contributor economies"] },
+  { name: "TrustGraph", mentions: 1, problems: ["Token voting failure","Informal power"] },
+  { name: "Proposal Review Groups", mentions: 1, problems: ["Governance theater","Voting fatigue","Informal power"] },
 ];
 
 function matchProblem(sp, cn) {
@@ -899,32 +827,28 @@ function matchProblem(sp, cn) {
   if (c.includes('game theory') && s.includes('game theory')) return true;
   if (c.includes('technical') && s.includes('technical')) return true;
   if (c.includes('legal') && s.includes('legal')) return true;
+  if (c.includes('grant system') && s.includes('grant system')) return true;
+  if (c.includes('capital misallocation') && s.includes('grant system')) return true;
   return false;
 }
 
 // ======================== PROBLEMS TAB ========================
 function initProblems() {
-  const maxBreadth = 12, maxDepth = 6.5;
+  const maxBreadth = 20, maxDepth = 6.5;
   problemsData.forEach(p => {
     p.score = (p.breadth / maxBreadth) * 0.6 + (p.depth / maxDepth) * 0.4;
     if (p.score > 0.7) { p.severity = 'Critical'; p.color = 'var(--critical)'; }
     else if (p.score > 0.5) { p.severity = 'High'; p.color = 'var(--high)'; }
     else if (p.score > 0.35) { p.severity = 'Medium'; p.color = 'var(--medium)'; }
     else { p.severity = 'Lower'; p.color = 'var(--lower)'; }
-    p.solutions = solutionsForProblems
-      .filter(s => s.problems.some(sp => matchProblem(sp, p.name)))
-      .sort((a, b) => b.mentions - a.mentions);
+    p.solutions = solutionsForProblems.filter(s => s.problems.some(sp => matchProblem(sp, p.name))).sort((a, b) => b.mentions - a.mentions);
   });
   problemsData.sort((a, b) => b.score - a.score);
 
   function getCoOccurrence(p) {
     const pSet = new Set(p.who);
     const co = [];
-    problemsData.forEach(o => {
-      if (o.name === p.name) return;
-      const overlap = o.who.filter(w => pSet.has(w)).length;
-      if (overlap >= 3) co.push({ name: o.name, overlap });
-    });
+    problemsData.forEach(o => { if (o.name === p.name) return; const overlap = o.who.filter(w => pSet.has(w)).length; if (overlap >= 3) co.push({ name: o.name, overlap }); });
     co.sort((a, b) => b.overlap - a.overlap);
     return co.slice(0, 3);
   }
@@ -937,24 +861,16 @@ function initProblems() {
     card.style.animationDelay = (i * 0.07) + 's';
     const rank = String(i + 1).padStart(2, '0');
     const coProblems = getCoOccurrence(p);
-    const coText = coProblems.length > 0
-      ? 'Co-raised with: ' + coProblems.map(c => c.name + ' (' + c.overlap + ' shared)').join(' · ')
-      : '';
+    const coText = coProblems.length > 0 ? 'Co-raised with: ' + coProblems.map(c => c.name + ' (' + c.overlap + ' shared)').join(' · ') : '';
     card.innerHTML = `
-      <div class="pc-top">
-        <div class="pc-rank">${rank}</div>
-        <div class="pc-title-block">
-          <div class="pc-title">${p.name}</div>
-          <div class="pc-severity">${p.severity}</div>
-        </div>
-      </div>
+      <div class="pc-top"><div class="pc-rank">${rank}</div><div class="pc-title-block"><div class="pc-title">${p.name}</div><div class="pc-severity">${p.severity}</div></div></div>
       <div class="pc-metrics">
-        <div class="pc-metric"><div class="val">${p.breadth}<span style="color:var(--text-dim);font-size:0.5em;font-weight:300">/19</span></div><div class="label">Breadth</div></div>
+        <div class="pc-metric"><div class="val">${p.breadth}<span style="color:var(--text-dim);font-size:0.5em;font-weight:300">/27</span></div><div class="label">Breadth</div></div>
         <div class="pc-metric"><div class="val">${p.depth.toFixed(1)}</div><div class="label">Avg depth (msgs)</div></div>
         <div class="pc-metric"><div class="val">${p.solutions.length}</div><div class="label">Solutions proposed</div></div>
         <div class="pc-metric"><div class="val">${(p.score * 100).toFixed(0)}</div><div class="label">Urgency score</div></div>
       </div>
-      <div class="breadth-bar">${Array.from({length:19},(_,j)=>`<div class="seg ${j<p.breadth?'filled':''}"></div>`).join('')}</div>
+      <div class="breadth-bar">${Array.from({length:27},(_,j)=>`<div class="seg ${j<p.breadth?'filled':''}"></div>`).join('')}</div>
       <div class="pc-participants"><b>Raised by:</b> ${p.who.map(w=>`<span class="name">${w}</span>`).join(' ')}</div>
       <div class="pc-solutions-header">Proposed solutions (${p.solutions.length})</div>
       <div class="pc-solutions">${p.solutions.map(s=>`<div class="pc-sol">${s.name} <span class="sol-mentions">${s.mentions}×</span></div>`).join('')}</div>
@@ -967,24 +883,23 @@ function initProblems() {
 // ======================== URGENCY TAB ========================
 function initUrgency() {
   const problems = [
-    { label: "Token Voting Failure\n& Plutocracy", x: 12, y: 4.2, who: "Eugene, Zeugh, Malachite, Hima,\nMarlene, Alex Soto, Trigs, Raphael,\nArtem, Chris, Regis, Ivey" },
-    { label: "Governance Theater\n& Recentralization", x: 9, y: 3.8, who: "Coffee-crusher, Ivey, Carl, Alex Soto,\nMarlene, Chris, Zeugh, Hima, Trigs" },
-    { label: "Broken Contributor\nEconomies", x: 7, y: 5.1, who: "Marlene, Alex Soto, Coffee-crusher,\nZeugh, Raphael, Malachite, Chris" },
-    { label: "Informal Power\n& Narrative Capture", x: 6, y: 3.5, who: "Othman, Zeugh, Marlene,\nAlex Soto, Trigs, Hima" },
-    { label: "Institutional\nAmnesia", x: 5, y: 5.8, who: "Othman, Artem, Eugene,\nRegis, Martin" },
-    { label: "Lack of Clear\nPurpose", x: 5, y: 3.2, who: "Eugene, Raphael, Carl,\nCoffee-crusher, Ivey" },
-    { label: "Over-Reliance on\nGame Theory", x: 4, y: 6.5, who: "Regis, Martin, Durgadas\n(via Regis), Artem" },
-    { label: "Technical &\nLegal Gaps", x: 4, y: 4.8, who: "Della Foresta, Jason C,\nJoseph, Hima" },
-    { label: "Voting Fatigue\n& Apathy", x: 8, y: 2.8, who: "Eugene, Martin, Trigs, Hima,\nRaphael, Zeugh, Marlene, Ivey" },
-    { label: "Delegate\nSustainability", x: 5, y: 4.0, who: "Marlene, Alex Soto, Zeugh,\nMalachite, Coffee-crusher" },
+    { label: "Token Voting Failure\n& Plutocracy", x: 20, y: 4.2, who: "Eugene, Zeugh, Malachite, Hima,\nMarlene, Alex Soto, Trigs, Raphael,\nArtem, Chris, Regis, Ivey,\nC. Adam Stallard, Teije, Arnold,\nmart1n, Kaf, ivan, Feems, Eleanor" },
+    { label: "Governance Theater\n& Recentralization", x: 16, y: 3.8, who: "Coffee-crusher, Ivey, Carl, Alex Soto,\nMarlene, Chris, Zeugh, Hima, Trigs,\nC. Adam Stallard, Teije, Arnold,\nmart1n, Kaf, ivan, cory" },
+    { label: "Voting Fatigue\n& Apathy", x: 14, y: 2.8, who: "Eugene, Martin, Trigs, Hima,\nRaphael, Zeugh, Marlene, Ivey,\nC. Adam Stallard, Teije, mart1n,\nKaf, Eleanor, Feems" },
+    { label: "Broken Contributor\nEconomies", x: 10, y: 5.1, who: "Marlene, Alex Soto, Coffee-crusher,\nZeugh, Raphael, Malachite, Chris,\nKaf, Arnold, ivan" },
+    { label: "Informal Power\n& Narrative Capture", x: 11, y: 3.5, who: "Othman, Zeugh, Marlene,\nAlex Soto, Trigs, Hima,\nC. Adam Stallard, Arnold, mart1n,\nFeems, cory" },
+    { label: "Institutional\nAmnesia", x: 6, y: 5.8, who: "Othman, Artem, Eugene,\nRegis, Martin, mart1n" },
+    { label: "Lack of Clear\nPurpose", x: 8, y: 3.2, who: "Eugene, Raphael, Carl,\nCoffee-crusher, Ivey,\nArnold, mart1n, Kaf" },
+    { label: "Over-Reliance on\nGame Theory", x: 7, y: 6.5, who: "Regis, Martin, Durgadas\n(via Regis), Artem,\nTeije, mart1n, ivan" },
+    { label: "Technical &\nLegal Gaps", x: 6, y: 4.8, who: "Della Foresta, Jason C,\nJoseph, Hima, ivan,\nC. Adam Stallard" },
+    { label: "Delegate\nSustainability", x: 7, y: 4.0, who: "Marlene, Alex Soto, Zeugh,\nMalachite, Coffee-crusher,\nKaf, Teije" },
+    { label: "Grant System\nDysfunction", x: 6, y: 4.5, who: "Kaf, Arnold, ivan,\nFeems, mart1n, Teije" },
   ];
   const x = problems.map(p=>p.x), y = problems.map(p=>p.y), text = problems.map(p=>p.label);
-  const hover = problems.map(p =>
-    '<b>' + p.label.replace('\n',' ') + '</b><br>Mentioned by: ' + p.x + ' participants<br>Avg depth: ' + p.y.toFixed(1) + ' messages<br><br>' + p.who
-  );
-  const sizes = x.map(v => v * 6 + 10);
+  const hover = problems.map(p => '<b>' + p.label.replace('\n',' ') + '</b><br>Mentioned by: ' + p.x + ' participants<br>Avg depth: ' + p.y.toFixed(1) + ' messages<br><br>' + p.who);
+  const sizes = x.map(v => v * 4.5 + 10);
   const colors = problems.map(p => {
-    const score = (p.x / 12) * 0.6 + (p.y / 6.5) * 0.4;
+    const score = (p.x / 20) * 0.6 + (p.y / 6.5) * 0.4;
     if (score > 0.7) return 'rgba(248,81,73,0.9)';
     if (score > 0.5) return 'rgba(255,166,87,0.9)';
     if (score > 0.35) return 'rgba(255,214,102,0.9)';
@@ -992,8 +907,7 @@ function initUrgency() {
   });
 
   Plotly.newPlot('urgency-chart', [{
-    type: 'scatter', mode: 'markers+text',
-    x, y, text,
+    type: 'scatter', mode: 'markers+text', x, y, text,
     textposition: problems.map(p => {
       if (p.label.includes('Voting Fatigue')) return 'bottom center';
       if (p.label.includes('Delegate')) return 'top left';
@@ -1003,6 +917,7 @@ function initUrgency() {
       if (p.label.includes('Technical')) return 'top right';
       if (p.label.includes('Game Theory')) return 'top left';
       if (p.label.includes('Contributor')) return 'top center';
+      if (p.label.includes('Grant System')) return 'bottom left';
       return 'top center';
     }),
     textfont: { size: 11, color: '#c9d1d9', family: 'JetBrains Mono' },
@@ -1011,16 +926,16 @@ function initUrgency() {
   }], {
     paper_bgcolor: '#0d1117', plot_bgcolor: '#161b22',
     font: { color: '#c9d1d9', family: 'JetBrains Mono, monospace' },
-    xaxis: { title: { text: 'Breadth — how many participants raised this (out of 19)', font: { size: 12 } }, gridcolor: '#21262d', range: [2.5,13.5], dtick: 2, zeroline: false },
+    xaxis: { title: { text: 'Breadth — how many participants raised this (out of 27)', font: { size: 12 } }, gridcolor: '#21262d', range: [3.5,22], dtick: 2, zeroline: false },
     yaxis: { title: { text: 'Depth — avg messages spent discussing per participant', font: { size: 12 } }, gridcolor: '#21262d', range: [2,7.5], zeroline: false },
     margin: { l: 70, r: 40, t: 20, b: 60 },
     annotations: [
-      { x: 11, y: 7, text: '<b>CRITICAL</b><br>broad + deep', showarrow: false, font: { size: 11, color: 'rgba(248,81,73,0.5)' } },
-      { x: 3.5, y: 2.5, text: 'niche concerns', showarrow: false, font: { size: 10, color: 'rgba(126,231,135,0.4)' } },
+      { x: 18, y: 7, text: '<b>CRITICAL</b><br>broad + deep', showarrow: false, font: { size: 11, color: 'rgba(248,81,73,0.5)' } },
+      { x: 5, y: 2.5, text: 'niche concerns', showarrow: false, font: { size: 10, color: 'rgba(126,231,135,0.4)' } },
     ],
     shapes: [
-      { type:'line', x0:6.5, x1:6.5, y0:2, y1:7.5, line:{color:'#21262d',width:1,dash:'dot'} },
-      { type:'line', x0:2.5, x1:13.5, y0:4.3, y1:4.3, line:{color:'#21262d',width:1,dash:'dot'} },
+      { type:'line', x0:10, x1:10, y0:2, y1:7.5, line:{color:'#21262d',width:1,dash:'dot'} },
+      { type:'line', x0:3.5, x1:22, y0:4.3, y1:4.3, line:{color:'#21262d',width:1,dash:'dot'} },
     ],
   }, { responsive: true, displayModeBar: false });
 }
@@ -1028,33 +943,37 @@ function initUrgency() {
 // ======================== SOLUTIONS TAB ========================
 function initSolutions() {
   const solutions = [
-    { name:"Conviction Voting", x:3.5, y:3, mentions:5, cat:"Voting Reform", problems:["Token voting failure","Voting fatigue","Informal power"], actors:["Various DAOs experimenting"], examples:"Weight votes by time held + participation history" },
+    { name:"Conviction Voting", x:3.5, y:3, mentions:6, cat:"Voting Reform", problems:["Token voting failure","Voting fatigue","Informal power"], actors:["Various DAOs","Gardens"], examples:"Weight votes by time held + participation history" },
     { name:"Soulbound / Reputation Tokens", x:3, y:4, mentions:6, cat:"Reputation", problems:["Token voting failure","Broken contributor economies","Informal power","Delegate sustainability"], actors:["Kokonut Network","Wasabi","Hats Protocol","DAO Haus"], examples:"Burned to release voting power; rage quit mechanics; merit-based roles" },
     { name:"Delegate Verification", x:3, y:3, mentions:4, cat:"Reputation", problems:["Token voting failure","Delegate sustainability","Informal power"], actors:["Scroll DAO","Forward","DeepDAO"], examples:"Verified delegate status for consistent compensation" },
-    { name:"AI Governance Agents", x:2, y:3, mentions:4, cat:"AI-Augmented", problems:["Voting fatigue","Token voting failure","Institutional amnesia"], actors:["Clawdbot builders","Martin"], examples:"Personal AI voting; NLP proposal summarization" },
+    { name:"AI Governance Agents", x:2, y:3, mentions:5, cat:"AI-Augmented", problems:["Voting fatigue","Token voting failure","Institutional amnesia"], actors:["Clawdbot builders","Martin","Rootstock Collective"], examples:"Personal AI voting; NLP proposal summarization" },
     { name:"AI Dispute Resolution", x:2, y:2, mentions:2, cat:"AI-Augmented", problems:["Technical & legal gaps","Over-reliance on game theory"], actors:["immediacy.ai"], examples:"Sim-juries interpreting programmatic ethics" },
     { name:"Polis / Opinion Clustering", x:4, y:3, mentions:5, cat:"Sensemaking", problems:["Token voting failure","Informal power","Voting fatigue"], actors:["Polis","Metagov"], examples:"Collective sensemaking through opinion mapping" },
-    { name:"Signals Protocol", x:2.5, y:3, mentions:3, cat:"Sensemaking", problems:["Token voting failure","Voting fatigue","Lack of clear purpose"], actors:["Lighthouse"], examples:"Signal values instead of voting on outcomes" },
+    { name:"Signals Protocol", x:2.5, y:3, mentions:4, cat:"Sensemaking", problems:["Token voting failure","Voting fatigue","Lack of clear purpose"], actors:["Lighthouse Labs"], examples:"Board-based on-chain coordination, ERC-20 time-locks" },
+    { name:"Updraft", x:2.5, y:3, mentions:2, cat:"Sensemaking", problems:["Token voting failure","Voting fatigue","Informal power"], actors:["Adam Stallard / Updraft"], examples:"Easy proposal creation + paid signaling" },
     { name:"Co-creation Cycles", x:3, y:3, mentions:4, cat:"Sensemaking", problems:["Governance theater","Lack of clear purpose","Token voting failure"], actors:["Scroll DAO","NEAR"], examples:"Collaborative design processes for proposals" },
-    { name:"Governance Memory System", x:2, y:3, mentions:3, cat:"Knowledge", problems:["Institutional amnesia","Over-reliance on game theory","Governance theater"], actors:["Othman (GMS framework)"], examples:"5-layer framework: lifecycle, reviews, themes, power, diagnostics" },
-    { name:"Reference Identifiers (RIDs)", x:2.5, y:2, mentions:2, cat:"Knowledge", problems:["Institutional amnesia","Informal power"], actors:["Metagov KOI group"], examples:"Tagging knowledge objects across Discord, forums, GitHub" },
-    { name:"Telescope Bot", x:3, y:2, mentions:1, cat:"Knowledge", problems:["Institutional amnesia","Informal power"], actors:["Ellie Rennie"], examples:"Flags high-signal Discord comments for ethnographic review" },
-    { name:"Tensegrity Governance", x:1.5, y:4, mentions:3, cat:"Structural", problems:["Over-reliance on game theory","Governance theater","Lack of clear purpose","Informal power"], actors:["Durgadas"], examples:"Hold paradoxes in dynamic tension; multiple decision venues" },
+    { name:"Governance Memory System", x:2, y:3, mentions:3, cat:"Knowledge", problems:["Institutional amnesia","Over-reliance on game theory","Governance theater"], actors:["Othman (GMS framework)"], examples:"5-layer framework" },
+    { name:"Reference Identifiers (RIDs)", x:2.5, y:2, mentions:2, cat:"Knowledge", problems:["Institutional amnesia","Informal power"], actors:["Metagov KOI group"], examples:"Tagging knowledge objects across platforms" },
+    { name:"Telescope Bot", x:3, y:2, mentions:1, cat:"Knowledge", problems:["Institutional amnesia","Informal power"], actors:["Ellie Rennie"], examples:"Flags high-signal Discord comments" },
+    { name:"Tensegrity Governance", x:1.5, y:4, mentions:3, cat:"Structural", problems:["Over-reliance on game theory","Governance theater","Lack of clear purpose","Informal power"], actors:["Durgadas"], examples:"Hold paradoxes in dynamic tension" },
+    { name:"Powers Protocol", x:1.5, y:3, mentions:1, cat:"Structural", problems:["Governance theater","Over-reliance on game theory","Lack of clear purpose"], actors:["7Cedars / Teije"], examples:"General institutional governance framework" },
+    { name:"Logos Zones / Circles", x:1.5, y:3, mentions:1, cat:"Structural", problems:["Over-reliance on game theory","Governance theater","Token voting failure"], actors:["Logos / mart1n"], examples:"Blockchain zones with different rules" },
+    { name:"Proposal Review Groups", x:2.5, y:3, mentions:1, cat:"Structural", problems:["Governance theater","Voting fatigue","Informal power"], actors:["Feems (concept)"], examples:"Small groups reviewing proposals before vote" },
     { name:"Optimistic Governance", x:3.5, y:2, mentions:4, cat:"Structural", problems:["Voting fatigue","Governance theater"], actors:["Various L2s"], examples:"Proposals pass unless challenged" },
     { name:"Specialized Committees", x:3.5, y:3, mentions:5, cat:"Structural", problems:["Governance theater","Lack of clear purpose","Broken contributor economies"], actors:["Scroll DAO","Coffee-crusher proposal"], examples:"Marketing, audits, treasury, proposal PM" },
     { name:"Proto-DAOs / Gated Governance", x:2, y:3, mentions:4, cat:"Structural", problems:["Lack of clear purpose","Token voting failure","Governance theater"], actors:["Eugene (concept)","Various L2s"], examples:"Staked governance; progressive decentralization" },
     { name:"Contributor Streams", x:3.5, y:2, mentions:5, cat:"Financial", problems:["Broken contributor economies","Delegate sustainability"], actors:["Scroll DAO","Various DAOs"], examples:"Bounties → Project Grants → Core Contributor Streams" },
     { name:"RPGF", x:3, y:2, mentions:4, cat:"Financial", problems:["Broken contributor economies","Delegate sustainability"], actors:["Optimism","Various"], examples:"Retroactive public goods funding" },
-    { name:"VE / Buyback Models", x:4.5, y:2, mentions:3, cat:"Financial", problems:["Token voting failure","Governance theater"], actors:["Curve","Aerodrome"], examples:"Vote-escrowed tokens; buyback-and-burn" },
+    { name:"VE / Buyback Models", x:4.5, y:2, mentions:4, cat:"Financial", problems:["Token voting failure","Governance theater"], actors:["Curve","Aerodrome","Aragon"], examples:"Vote-escrowed tokens; buyback-and-burn" },
+    { name:"Milestone-based Fundraising", x:2, y:2, mentions:2, cat:"Financial", problems:["Broken contributor economies","Grant system dysfunction"], actors:["ivan / Aragon","Cap Tech"], examples:"Endowment model or milestone unlocks" },
+    { name:"Token-as-Equity", x:2.5, y:2, mentions:2, cat:"Financial", problems:["Token voting failure","Technical & legal gaps"], actors:["ivan / Aragon","a16z"], examples:"On-chain claims over infrastructure revenue" },
+    { name:"Active Scouting", x:1.5, y:2, mentions:1, cat:"Alternative", problems:["Grant system dysfunction","Broken contributor economies"], actors:["Anode / Kaf"], examples:"Proactive talent finding like VC scouting" },
+    { name:"TrustGraph", x:2, y:2, mentions:1, cat:"Reputation", problems:["Token voting failure","Informal power"], actors:["Jake Hartnell"], examples:"Trust-based governance scoring" },
     { name:"VERP Protocol", x:1.5, y:2, mentions:1, cat:"Verification", problems:["Technical & legal gaps","Token voting failure"], actors:["Della Foresta"], examples:"Biometric identity + sensor networks" },
     { name:"Platform Cooperatives", x:2, y:3, mentions:2, cat:"Alternative", problems:["Governance theater","Technical & legal gaps","Lack of clear purpose"], actors:["Joseph","Public AI Network"], examples:"Platforms as public infrastructure" },
     { name:"Centralized Ops + DAO Oversight", x:3.5, y:3, mentions:5, cat:"Alternative", problems:["Governance theater","Lack of clear purpose","Voting fatigue"], actors:["a16z (concept)","Various L2s"], examples:"Foundations run day-to-day; DAO approves budgets/strategy" },
   ];
-  const catColors = {
-    "Voting Reform":"#f85149","Reputation":"#ffa657","AI-Augmented":"#d2a8ff",
-    "Sensemaking":"#79c0ff","Knowledge":"#56d364","Structural":"#ff7b72",
-    "Financial":"#ffd866","Verification":"#7ee787","Alternative":"#8b949e",
-  };
+  const catColors = {"Voting Reform":"#f85149","Reputation":"#ffa657","AI-Augmented":"#d2a8ff","Sensemaking":"#79c0ff","Knowledge":"#56d364","Structural":"#ff7b72","Financial":"#ffd866","Verification":"#7ee787","Alternative":"#8b949e"};
   function getColumn(x) { if(x<1.75)return 0; if(x<2.75)return 1; if(x<3.25)return 2; if(x<4.25)return 3; return 4; }
   const colLabels=['Idea','Research','Pilot','Production','Established'], colNums=['01','02','03','04','05'];
   const buckets=[[],[],[],[],[]];
@@ -1088,7 +1007,6 @@ function initSolutions() {
     landscape.appendChild(col);
   });
 
-  // Legend
   const legendEl = document.getElementById('solutions-legend');
   const categories = [...new Set(solutions.map(s=>s.cat))];
   let activeFilter = null;
@@ -1096,66 +1014,182 @@ function initSolutions() {
     const item = document.createElement('div'); item.className = 'sol-legend-item';
     item.innerHTML = '<div class="swatch" style="background:'+catColors[cat]+'"></div>'+cat;
     item.addEventListener('click', () => {
-      if (activeFilter === cat) {
-        activeFilter = null;
-        document.querySelectorAll('.sol-card').forEach(c=>c.classList.remove('dimmed'));
-        document.querySelectorAll('.sol-legend-item').forEach(l=>l.classList.remove('dimmed'));
-      } else {
-        activeFilter = cat;
-        document.querySelectorAll('.sol-card').forEach(c=>{ c.classList.toggle('dimmed', c.dataset.cat !== cat); });
-        document.querySelectorAll('.sol-legend-item').forEach(l=>{ l.classList.toggle('dimmed', !l.textContent.includes(cat)); });
-      }
+      if (activeFilter === cat) { activeFilter = null; document.querySelectorAll('.sol-card').forEach(c=>c.classList.remove('dimmed')); document.querySelectorAll('.sol-legend-item').forEach(l=>l.classList.remove('dimmed')); }
+      else { activeFilter = cat; document.querySelectorAll('.sol-card').forEach(c=>{ c.classList.toggle('dimmed', c.dataset.cat !== cat); }); document.querySelectorAll('.sol-legend-item').forEach(l=>{ l.classList.toggle('dimmed', !l.textContent.includes(cat)); }); }
     });
     legendEl.appendChild(item);
   });
 }
 
 // ======================== WARDLEY MAP TAB ========================
-const wardleySolutions = [
-  { name:"Conviction Voting", ex:3.5, vc:0.88, mentions:5, cat:"Voting Reform", problems:["Token voting failure","Voting fatigue","Informal power"], actors:["Various DAOs"], examples:"Weight votes by time held + participation history" },
-  { name:"Optimistic Governance", ex:3.5, vc:0.84, mentions:4, cat:"Structural", problems:["Voting fatigue","Governance theater"], actors:["Various L2s"], examples:"Proposals pass unless challenged" },
-  { name:"Polis / Opinion Clustering", ex:4, vc:0.82, mentions:5, cat:"Sensemaking", problems:["Token voting failure","Informal power","Voting fatigue"], actors:["Polis","Metagov"], examples:"Collective sensemaking through opinion mapping" },
-  { name:"Contributor Streams", ex:3.5, vc:0.78, mentions:5, cat:"Financial", problems:["Broken contributor economies","Delegate sustainability"], actors:["Scroll DAO","Various DAOs"], examples:"Bounties → Project Grants → Core Contributor Streams" },
-  { name:"Centralized Ops + DAO Oversight", ex:3.5, vc:0.74, mentions:5, cat:"Alternative", problems:["Governance theater","Lack of clear purpose","Voting fatigue"], actors:["a16z (concept)","Various L2s"], examples:"Foundations run day-to-day; DAO approves budgets/strategy" },
-  { name:"Proto-DAOs / Gated Governance", ex:2, vc:0.72, mentions:4, cat:"Structural", problems:["Lack of clear purpose","Token voting failure","Governance theater"], actors:["Eugene (concept)","Various L2s"], examples:"Staked governance; progressive decentralization" },
-  { name:"Specialized Committees", ex:3.5, vc:0.65, mentions:5, cat:"Structural", problems:["Governance theater","Lack of clear purpose","Broken contributor economies"], actors:["Scroll DAO","Coffee-crusher"], examples:"Marketing, audits, treasury, proposal PM" },
-  { name:"Co-creation Cycles", ex:3, vc:0.62, mentions:4, cat:"Sensemaking", problems:["Governance theater","Lack of clear purpose","Token voting failure"], actors:["Scroll DAO","NEAR"], examples:"Collaborative design processes for proposals" },
-  { name:"Signals Protocol", ex:2.5, vc:0.60, mentions:3, cat:"Sensemaking", problems:["Token voting failure","Voting fatigue","Lack of clear purpose"], actors:["Lighthouse"], examples:"Signal values instead of voting on outcomes" },
-  { name:"RPGF", ex:3, vc:0.58, mentions:4, cat:"Financial", problems:["Broken contributor economies","Delegate sustainability"], actors:["Optimism","Various"], examples:"Retroactive public goods funding" },
-  { name:"AI Governance Agents", ex:2, vc:0.55, mentions:4, cat:"AI-Augmented", problems:["Voting fatigue","Token voting failure","Institutional amnesia"], actors:["Clawdbot builders","Martin"], examples:"Personal AI voting; NLP proposal summarization" },
-  { name:"Platform Cooperatives", ex:2, vc:0.52, mentions:2, cat:"Alternative", problems:["Governance theater","Technical & legal gaps","Lack of clear purpose"], actors:["Joseph","Public AI Network"], examples:"Platforms as public infrastructure" },
-  { name:"Soulbound / Reputation Tokens", ex:3, vc:0.48, mentions:6, cat:"Reputation", problems:["Token voting failure","Broken contributor economies","Informal power","Delegate sustainability"], actors:["Kokonut Network","Wasabi","Hats Protocol","DAO Haus"], examples:"Burned to release voting power; merit-based roles" },
-  { name:"Delegate Verification", ex:3, vc:0.45, mentions:4, cat:"Reputation", problems:["Token voting failure","Delegate sustainability","Informal power"], actors:["Scroll DAO","Forward","DeepDAO"], examples:"Verified delegate status for consistent compensation" },
-  { name:"VE / Buyback Models", ex:4.5, vc:0.38, mentions:3, cat:"Financial", problems:["Token voting failure","Governance theater"], actors:["Curve","Aerodrome"], examples:"Vote-escrowed tokens; buyback-and-burn" },
-  { name:"AI Dispute Resolution", ex:2, vc:0.33, mentions:2, cat:"AI-Augmented", problems:["Technical & legal gaps","Over-reliance on game theory"], actors:["immediacy.ai"], examples:"Sim-juries interpreting programmatic ethics" },
-  { name:"Governance Memory System", ex:2, vc:0.28, mentions:3, cat:"Knowledge", problems:["Institutional amnesia","Over-reliance on game theory","Governance theater"], actors:["Othman (GMS framework)"], examples:"5-layer framework: lifecycle, reviews, themes, power, diagnostics" },
-  { name:"Reference IDs (RIDs)", ex:2.5, vc:0.22, mentions:2, cat:"Knowledge", problems:["Institutional amnesia","Informal power"], actors:["Metagov KOI group"], examples:"Tagging knowledge objects across platforms" },
-  { name:"Telescope Bot", ex:3, vc:0.19, mentions:1, cat:"Knowledge", problems:["Institutional amnesia","Informal power"], actors:["Ellie Rennie"], examples:"Flags high-signal Discord comments" },
-  { name:"Tensegrity Governance", ex:1.5, vc:0.13, mentions:3, cat:"Structural", problems:["Over-reliance on game theory","Governance theater","Lack of clear purpose","Informal power"], actors:["Durgadas"], examples:"Hold paradoxes in dynamic tension" },
-  { name:"VERP Protocol", ex:1.5, vc:0.08, mentions:1, cat:"Verification", problems:["Technical & legal gaps","Token voting failure"], actors:["Della Foresta"], examples:"Biometric identity + sensor networks" },
+// Proper Wardley Map: DAO governance value chain from user need to infrastructure
+
+const wardleyNodes = [
+  // Anchor & User Need
+  { id:'user', name:'DAO Member', ex:2.8, vc:0.98, type:'anchor', desc:'End user of decentralized governance systems' },
+  { id:'decision', name:'Governance Decision', ex:2.5, vc:0.93, type:'need', desc:'The core user need: participate in and influence collective decisions' },
+
+  // Primary Activities (directly visible to user)
+  { id:'proposal', name:'Proposal & Deliberation', ex:2.0, vc:0.87, type:'activity', desc:'Submitting, discussing, and refining governance proposals' },
+  { id:'voting', name:'Voting & Signaling', ex:3.2, vc:0.87, type:'activity', desc:'Expressing preferences and making collective choices' },
+  { id:'execution', name:'Decision Execution', ex:4.0, vc:0.85, type:'activity', desc:'Implementing approved governance decisions on-chain' },
+  { id:'trust', name:'Transparency & Trust', ex:1.3, vc:0.86, type:'activity', desc:'Accountability, auditability, and trust in governance processes' },
+
+  // Sensemaking & Deliberation (from Phase 1 research)
+  { id:'polis', name:'Polis / Opinion Clustering', ex:4.0, vc:0.77, type:'research', cat:'Sensemaking', mentions:5, desc:'Collective sensemaking through opinion mapping' },
+  { id:'cocreation', name:'Co-creation Cycles', ex:2.8, vc:0.76, type:'research', cat:'Sensemaking', mentions:4, desc:'Collaborative design processes for proposals' },
+  { id:'updraft', name:'Updraft', ex:2.2, vc:0.78, type:'research', cat:'Sensemaking', mentions:2, desc:'Easy proposal creation + paid signaling' },
+  { id:'signals', name:'Signals Protocol', ex:2.5, vc:0.72, type:'research', cat:'Sensemaking', mentions:4, desc:'Board-based on-chain coordination, ERC-20 time-locks' },
+  { id:'review', name:'Proposal Review Groups', ex:1.8, vc:0.75, type:'research', cat:'Structural', mentions:1, desc:'Small groups reviewing/improving proposals before vote' },
+
+  // Voting Mechanisms (from research)
+  { id:'conviction', name:'Conviction Voting', ex:3.5, vc:0.79, type:'research', cat:'Voting Reform', mentions:6, desc:'Weight votes by time held + participation history' },
+  { id:'optimistic', name:'Optimistic Governance', ex:3.5, vc:0.74, type:'research', cat:'Structural', mentions:4, desc:'Proposals pass unless challenged within timeframe' },
+
+  // Governance Structures (from research)
+  { id:'committees', name:'Specialized Committees', ex:3.5, vc:0.67, type:'research', cat:'Structural', mentions:5, desc:'Marketing, audits, treasury, proposal PM committees' },
+  { id:'centralized', name:'Centralized Ops + DAO Oversight', ex:3.8, vc:0.64, type:'research', cat:'Alternative', mentions:5, desc:'Foundations run day-to-day; DAO approves budgets/strategy' },
+  { id:'protodao', name:'Proto-DAOs / Gated Governance', ex:1.8, vc:0.68, type:'research', cat:'Structural', mentions:4, desc:'Staked governance; progressive decentralization' },
+  { id:'platcoop', name:'Platform Cooperatives', ex:1.5, vc:0.63, type:'research', cat:'Alternative', mentions:2, desc:'Platforms as public infrastructure' },
+
+  // Enabling Mechanisms (from research)
+  { id:'aiagents', name:'AI Governance Agents', ex:2.0, vc:0.58, type:'research', cat:'AI-Augmented', mentions:5, desc:'Personal AI voting; NLP proposal summarization' },
+  { id:'contributor', name:'Contributor Streams', ex:3.5, vc:0.57, type:'research', cat:'Financial', mentions:5, desc:'Bounties to Project Grants to Core Contributor Streams' },
+  { id:'rpgf', name:'RPGF', ex:3.0, vc:0.54, type:'research', cat:'Financial', mentions:4, desc:'Retroactive public goods funding' },
+  { id:'soulbound', name:'Soulbound / Reputation Tokens', ex:3.2, vc:0.50, type:'research', cat:'Reputation', mentions:6, desc:'Burned to release voting power; merit-based roles' },
+  { id:'ve', name:'VE / Buyback Models', ex:4.5, vc:0.52, type:'research', cat:'Financial', mentions:4, desc:'Vote-escrowed tokens; buyback-and-burn mechanisms' },
+  { id:'delegate', name:'Delegate Verification', ex:3.0, vc:0.46, type:'research', cat:'Reputation', mentions:4, desc:'Verified delegate status for consistent compensation' },
+  { id:'tokenequity', name:'Token-as-Equity', ex:2.5, vc:0.48, type:'research', cat:'Financial', mentions:2, desc:'On-chain claims over infrastructure revenue' },
+  { id:'milestone', name:'Milestone-based Fundraising', ex:2.0, vc:0.44, type:'research', cat:'Financial', mentions:2, desc:'Endowment model or milestone-gated unlocks' },
+
+  // AI & Knowledge (from research)
+  { id:'aidispute', name:'AI Dispute Resolution', ex:1.8, vc:0.40, type:'research', cat:'AI-Augmented', mentions:2, desc:'Sim-juries interpreting programmatic ethics' },
+  { id:'trustgraph', name:'TrustGraph', ex:2.2, vc:0.42, type:'research', cat:'Reputation', mentions:1, desc:'Trust-based governance scoring' },
+  { id:'gms', name:'Governance Memory System', ex:2.0, vc:0.35, type:'research', cat:'Knowledge', mentions:3, desc:'5-layer framework: lifecycle, reviews, themes, power, diagnostics' },
+  { id:'rids', name:'Reference IDs (RIDs)', ex:2.5, vc:0.31, type:'research', cat:'Knowledge', mentions:2, desc:'Tagging knowledge objects across platforms' },
+  { id:'telescope', name:'Telescope Bot', ex:3.0, vc:0.29, type:'research', cat:'Knowledge', mentions:1, desc:'Flags high-signal Discord comments for preservation' },
+
+  // Experimental / Theoretical (from research)
+  { id:'powers', name:'Powers Protocol', ex:1.5, vc:0.24, type:'research', cat:'Structural', mentions:1, desc:'General institutional governance framework (7Cedars)' },
+  { id:'logos', name:'Logos Zones / Circles', ex:1.5, vc:0.20, type:'research', cat:'Structural', mentions:1, desc:'Blockchain zones with different rules; opt-in policy' },
+  { id:'tensegrity', name:'Tensegrity Governance', ex:1.5, vc:0.17, type:'research', cat:'Structural', mentions:3, desc:'Hold paradoxes in dynamic tension; constitutional space' },
+  { id:'scouting', name:'Active Scouting', ex:1.5, vc:0.13, type:'research', cat:'Alternative', mentions:1, desc:'Proactive talent finding like VC scouting' },
+  { id:'verp', name:'VERP Protocol', ex:1.5, vc:0.09, type:'research', cat:'Verification', mentions:1, desc:'Biometric identity + sensor networks for verification' },
+
+  // Infrastructure (completing supply chains - not from interviews)
+  { id:'forum', name:'Forum / Discussion', ex:4.3, vc:0.66, type:'infra', desc:'Discourse, Commonwealth, Discord \u2014 mature platforms' },
+  { id:'treasury', name:'Treasury Management', ex:3.8, vc:0.50, type:'infra', desc:'Managing collective assets (Gnosis Safe, multi-sig)' },
+  { id:'govtoken', name:'Governance Token (ERC-20)', ex:4.2, vc:0.36, type:'infra', desc:'Standard token contract for voting power' },
+  { id:'smartcontract', name:'Smart Contract Execution', ex:3.5, vc:0.26, type:'infra', desc:'On-chain programmable agreements (Solidity, etc.)' },
+  { id:'sybil', name:'Sybil Resistance', ex:1.5, vc:0.32, type:'infra', desc:'Proof-of-personhood (Gitcoin Passport, Worldcoin, BrightID)' },
+  { id:'wallet', name:'Wallet / Key Management', ex:3.8, vc:0.22, type:'infra', desc:'MetaMask, hardware wallets, account abstraction' },
+  { id:'onchain', name:'On-chain Record', ex:4.0, vc:0.18, type:'infra', desc:'Immutable transaction history on blockchain' },
+  { id:'blockchain', name:'Blockchain Platform', ex:3.5, vc:0.14, type:'infra', desc:'Ethereum, L2s, alternative chains' },
+  { id:'rpc', name:'Node Infra / RPC', ex:4.3, vc:0.08, type:'infra', desc:'Alchemy, Infura, QuickNode \u2014 becoming utility' },
+  { id:'compute', name:'Compute / Cloud', ex:4.8, vc:0.04, type:'infra', desc:'AWS, GCP \u2014 undifferentiated commodity' },
 ];
 
 const wardleyCatColors = {
-  "Voting Reform":"#f85149","Reputation":"#ffa657","AI-Augmented":"#d2a8ff",
-  "Sensemaking":"#79c0ff","Knowledge":"#56d364","Structural":"#ff7b72",
-  "Financial":"#ffd866","Verification":"#7ee787","Alternative":"#8b949e",
+  'Voting Reform':'#f85149','Reputation':'#ffa657','AI-Augmented':'#d2a8ff',
+  'Sensemaking':'#79c0ff','Knowledge':'#56d364','Structural':'#ff7b72',
+  'Financial':'#ffd866','Verification':'#7ee787','Alternative':'#8b949e',
 };
 
-const wardleyDeps = [
-  ["Conviction Voting","VE / Buyback Models"],["Conviction Voting","Soulbound / Reputation Tokens"],
-  ["Optimistic Governance","Specialized Committees"],["Polis / Opinion Clustering","Signals Protocol"],
-  ["Polis / Opinion Clustering","Co-creation Cycles"],["Contributor Streams","RPGF"],
-  ["Contributor Streams","Delegate Verification"],["Centralized Ops + DAO Oversight","Specialized Committees"],
-  ["Proto-DAOs / Gated Governance","AI Governance Agents"],["Co-creation Cycles","Governance Memory System"],
-  ["Signals Protocol","Governance Memory System"],["Soulbound / Reputation Tokens","Delegate Verification"],
-  ["Delegate Verification","Reference IDs (RIDs)"],["AI Governance Agents","AI Dispute Resolution"],
-  ["AI Governance Agents","Governance Memory System"],["Governance Memory System","Reference IDs (RIDs)"],
-  ["Governance Memory System","Telescope Bot"],["Tensegrity Governance","VERP Protocol"],
-  ["Platform Cooperatives","Tensegrity Governance"],["RPGF","Soulbound / Reputation Tokens"],
+// Supply chain dependencies: [parent, child] = parent NEEDS child
+const wardleyEdges = [
+  // Core value chain
+  ['user','decision'],
+  ['decision','proposal'],['decision','voting'],['decision','execution'],['decision','trust'],
+  // Proposal branch
+  ['proposal','polis'],['proposal','cocreation'],['proposal','updraft'],['proposal','review'],['proposal','forum'],
+  // Voting branch
+  ['voting','conviction'],['voting','optimistic'],['voting','centralized'],['voting','protodao'],
+  // Execution branch
+  ['execution','treasury'],['execution','onchain'],
+  // Trust branch
+  ['trust','delegate'],['trust','gms'],['trust','aiagents'],
+  // Sensemaking chain
+  ['cocreation','signals'],['updraft','signals'],['polis','forum'],['review','forum'],
+  // Voting mechanism chain
+  ['conviction','govtoken'],['conviction','soulbound'],['optimistic','committees'],
+  // Governance structures
+  ['centralized','committees'],['committees','contributor'],['committees','delegate'],
+  ['protodao','govtoken'],['protodao','powers'],['proposal','platcoop'],
+  // Financial chain
+  ['contributor','rpgf'],['contributor','milestone'],['contributor','tokenequity'],
+  ['treasury','smartcontract'],['treasury','ve'],
+  ['rpgf','govtoken'],['ve','govtoken'],['tokenequity','smartcontract'],
+  ['milestone','scouting'],
+  // Identity & reputation chain
+  ['soulbound','wallet'],['delegate','soulbound'],['delegate','trustgraph'],['trustgraph','sybil'],
+  // AI & knowledge chain
+  ['aiagents','aidispute'],['aiagents','gms'],['gms','rids'],['gms','telescope'],
+  ['signals','gms'],['telescope','forum'],
+  // Experimental chains
+  ['platcoop','tensegrity'],['tensegrity','verp'],['powers','logos'],['logos','blockchain'],
+  // Infrastructure chain
+  ['govtoken','smartcontract'],['smartcontract','blockchain'],['wallet','blockchain'],
+  ['onchain','blockchain'],['blockchain','rpc'],['rpc','compute'],['forum','compute'],
+  ['sybil','wallet'],['aidispute','smartcontract'],
 ];
 
-const wardleyNameMap = {};
-wardleySolutions.forEach(s => { wardleyNameMap[s.name] = s; });
+// Build graph structures
+const wardleyNodeMap = {};
+wardleyNodes.forEach(n => { wardleyNodeMap[n.id] = n; });
+const wardleyChildren = {};
+const wardleyParents = {};
+wardleyEdges.forEach(([from, to]) => {
+  (wardleyChildren[from] = wardleyChildren[from] || []).push(to);
+  (wardleyParents[to] = wardleyParents[to] || []).push(from);
+});
+
+// Trace full dependency chain via BFS (ancestors + descendants)
+function traceChain(id) {
+  const result = new Set();
+  // BFS ancestors (up)
+  let queue = [id];
+  while (queue.length) {
+    const c = queue.shift();
+    if (result.has(c)) continue;
+    result.add(c);
+    (wardleyParents[c] || []).forEach(p => queue.push(p));
+  }
+  // BFS descendants (down)
+  queue = [id];
+  const desc = new Set();
+  while (queue.length) {
+    const c = queue.shift();
+    if (desc.has(c)) continue;
+    desc.add(c);
+    (wardleyChildren[c] || []).forEach(ch => queue.push(ch));
+  }
+  desc.forEach(d => result.add(d));
+  return result;
+}
+
+// Word-wrap helper for node labels
+function wrapLabel(text, maxLen) {
+  if (text.length <= maxLen) return [text];
+  const words = text.split(' ');
+  if (words.length === 1) return [text];
+  // Find split point nearest to middle
+  const mid = Math.floor(text.length / 2);
+  let best = -1, bestDist = 999;
+  let pos = 0;
+  for (let i = 0; i < words.length - 1; i++) {
+    pos += words[i].length;
+    const dist = Math.abs(pos - mid);
+    if (dist < bestDist) { best = pos; bestDist = dist; }
+    pos += 1; // space
+  }
+  if (best > 0) {
+    const idx = text.indexOf(' ', best - words[0].length);
+    const splitIdx = text.lastIndexOf(' ', mid + 3);
+    const splitAt = Math.abs(splitIdx - mid) < Math.abs(idx - mid) ? splitIdx : idx;
+    if (splitAt > 0) return [text.substring(0, splitAt), text.substring(splitAt + 1)];
+  }
+  return [text];
+}
 
 function initWardley() { renderWardley(); }
 
@@ -1164,28 +1198,31 @@ function renderWardley() {
   const svgEl = document.getElementById('wardley-map');
   const tip = document.getElementById('wardley-tip');
   const W = pane.clientWidth, H = pane.clientHeight;
+  if (!W || !H) return;
   svgEl.setAttribute('viewBox', `0 0 ${W} ${H}`);
 
-  const margin = { top: 100, right: 40, bottom: 60, left: 72 };
+  const margin = { top: 50, right: 30, bottom: 55, left: 90 };
   const pw = W - margin.left - margin.right;
   const ph = H - margin.top - margin.bottom;
   const sx = ex => margin.left + ((ex - 1) / 4) * pw;
   const sy = vc => margin.top + (1 - vc) * ph;
 
   let out = '';
+
+  // Defs
   out += `<defs>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="wglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="wsoftglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>`;
 
-  // Contour lines
-  const cx0 = sx(3), cy0 = sy(0.65);
+  // Contour background
+  const cx0 = sx(3), cy0 = sy(0.50);
   for (let i = 1; i <= 8; i++) {
-    out += `<ellipse cx="${cx0}" cy="${cy0}" rx="${i*pw*0.065}" ry="${i*ph*0.055}" fill="none" stroke="#1a2029" stroke-width="0.5" stroke-opacity="${0.6-i*0.06}" />`;
+    out += `<ellipse cx="${cx0}" cy="${cy0}" rx="${i*pw*0.07}" ry="${i*ph*0.06}" fill="none" stroke="#1a2029" stroke-width="0.5" stroke-opacity="${0.5-i*0.05}" />`;
   }
 
   // Evolution zones
-  [{ x0:1,x1:2,f:'rgba(248,81,73,0.06)' },{ x0:2,x1:3,f:'rgba(210,168,255,0.05)' },{ x0:3,x1:4,f:'rgba(121,192,255,0.04)' },{ x0:4,x1:5,f:'rgba(126,231,135,0.04)' }].forEach(z => {
+  [{x0:1,x1:2,f:'rgba(248,81,73,0.05)'},{x0:2,x1:3,f:'rgba(210,168,255,0.04)'},{x0:3,x1:4,f:'rgba(121,192,255,0.03)'},{x0:4,x1:5,f:'rgba(126,231,135,0.03)'}].forEach(z => {
     out += `<rect x="${sx(z.x0)}" y="${margin.top}" width="${sx(z.x1)-sx(z.x0)}" height="${ph}" fill="${z.f}" />`;
   });
 
@@ -1194,225 +1231,290 @@ function renderWardley() {
   for (let v=0;v<=1.01;v+=0.1) out += `<line x1="${margin.left}" y1="${sy(v)}" x2="${margin.left+pw}" y2="${sy(v)}" stroke="#151c24" stroke-width="0.5" stroke-dasharray="1,8" />`;
   out += `<rect x="${margin.left}" y="${margin.top}" width="${pw}" height="${ph}" fill="none" stroke="#1e2836" stroke-width="1" />`;
 
-  // Stage labels
-  [{x:1.5,t:'I · Genesis',s:'novel / rare'},{x:2.5,t:'II · Custom',s:'emerging / chaotic'},{x:3.5,t:'III · Product',s:'growing / stable'},{x:4.5,t:'IV · Commodity',s:'industrialised'}].forEach(l => {
-    out += `<text x="${sx(l.x)}" y="${margin.top+ph+22}" text-anchor="middle" fill="#5a6a7a" font-size="10" font-family="JetBrains Mono" font-weight="400" letter-spacing="0.04em">${l.t}</text>`;
-    out += `<text x="${sx(l.x)}" y="${margin.top+ph+36}" text-anchor="middle" fill="#3d4a58" font-size="8.5" font-family="JetBrains Mono" font-weight="300">${l.s}</text>`;
+  // Stage labels (bottom x-axis)
+  [{x:1.5,t:'I \u00b7 Genesis',s:'novel / rare'},{x:2.5,t:'II \u00b7 Custom',s:'emerging / chaotic'},{x:3.5,t:'III \u00b7 Product',s:'growing / stable'},{x:4.5,t:'IV \u00b7 Commodity',s:'industrialised'}].forEach(l => {
+    out += `<text x="${sx(l.x)}" y="${margin.top+ph+20}" text-anchor="middle" fill="#5a6a7a" font-size="9.5" font-family="JetBrains Mono" font-weight="400" letter-spacing="0.04em">${l.t}</text>`;
+    out += `<text x="${sx(l.x)}" y="${margin.top+ph+33}" text-anchor="middle" fill="#3d4a58" font-size="8" font-family="JetBrains Mono" font-weight="300">${l.s}</text>`;
   });
-  out += `<text x="${margin.left+pw/2}" y="${H-8}" text-anchor="middle" fill="#3d4a58" font-size="8.5" font-family="JetBrains Mono" font-weight="300" letter-spacing="0.12em">EVOLUTION ───────→</text>`;
+  out += `<text x="${margin.left+pw/2}" y="${H-6}" text-anchor="middle" fill="#3d4a58" font-size="8" font-family="JetBrains Mono" font-weight="300" letter-spacing="0.12em">EVOLUTION \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2192</text>`;
 
-  // Y-axis
-  [{v:0.92,t:'VISIBLE'},{v:0.78,t:'participant-facing'},{v:0.55,t:'enabling'},{v:0.30,t:'infrastructure'},{v:0.06,t:'INVISIBLE'}].forEach(l => {
-    const e = l.t==='VISIBLE'||l.t==='INVISIBLE';
-    out += `<text x="${margin.left-10}" y="${sy(l.v)+3}" text-anchor="end" fill="${e?'#3d4a58':'#4a5568'}" font-size="${e?'7.5':'8.5'}" font-family="JetBrains Mono" font-weight="${e?'300':'400'}" letter-spacing="${e?'0.15em':'0.04em'}">${l.t}</text>`;
+  // Value chain layer labels (left y-axis)
+  [{vc:0.93,t:'USER NEED',b:true},{vc:0.76,t:'governance solutions',b:false},{vc:0.52,t:'enabling mechanisms',b:false},{vc:0.35,t:'knowledge & identity',b:false},{vc:0.18,t:'platform infrastructure',b:false},{vc:0.06,t:'foundational',b:false}].forEach(l => {
+    out += `<text x="${margin.left-8}" y="${sy(l.vc)+3}" text-anchor="end" fill="${l.b?'#5a6a7a':'#3d4a58'}" font-size="${l.b?'7.5':'7'}" font-family="JetBrains Mono" font-weight="${l.b?'400':'300'}" letter-spacing="0.06em">${l.t}</text>`;
   });
-  out += `<text x="16" y="${margin.top+ph/2}" text-anchor="middle" fill="#3d4a58" font-size="8.5" font-family="JetBrains Mono" font-weight="300" letter-spacing="0.12em" transform="rotate(-90 16 ${margin.top+ph/2})">VALUE CHAIN ───────→</text>`;
+  out += `<text x="14" y="${margin.top+ph/2}" text-anchor="middle" fill="#3d4a58" font-size="8" font-family="JetBrains Mono" font-weight="300" letter-spacing="0.12em" transform="rotate(-90 14 ${margin.top+ph/2})">VALUE CHAIN \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2192</text>`;
 
   // Dependency lines
-  wardleyDeps.forEach(([from,to]) => {
-    const a=wardleyNameMap[from], b=wardleyNameMap[to];
-    if(!a||!b) return;
-    out += `<line class="wdep" data-from="${from}" data-to="${to}" x1="${sx(a.ex)}" y1="${sy(a.vc)}" x2="${sx(b.ex)}" y2="${sy(b.vc)}" stroke="#2a3544" stroke-width="1" stroke-opacity="0.35" />`;
+  wardleyEdges.forEach(([fromId, toId], ei) => {
+    const from = wardleyNodeMap[fromId], to = wardleyNodeMap[toId];
+    if (!from || !to) return;
+    out += `<line class="wedge" data-from="${fromId}" data-to="${toId}" x1="${sx(from.ex)}" y1="${sy(from.vc)}" x2="${sx(to.ex)}" y2="${sy(to.vc)}" stroke="#2a3544" stroke-width="0.8" stroke-opacity="0.18" />`;
   });
 
-  // Nodes
-  wardleySolutions.forEach((s,i) => {
-    const cx=sx(s.ex), cy=sy(s.vc), r=s.mentions*3+5, color=wardleyCatColors[s.cat];
-    const delay=(i*0.04).toFixed(2);
-    out += `<g class="node-g wnode-g" data-idx="${i}" style="animation-delay:${delay}s;transform-origin:${cx}px ${cy}px">`;
-    out += `<circle cx="${cx}" cy="${cy}" r="${r+4}" fill="none" stroke="${color}" stroke-width="0.5" stroke-opacity="0.15" />`;
-    out += `<circle class="wnode-circle" cx="${cx}" cy="${cy}" r="${r}" fill="${color}" fill-opacity="0.75" stroke="${color}" stroke-width="1.5" stroke-opacity="0.25" style="cursor:pointer;transition:fill-opacity 0.15s" />`;
-    out += `<circle cx="${cx-r*0.25}" cy="${cy-r*0.25}" r="${r*0.2}" fill="white" fill-opacity="0.12" />`;
+  // Render nodes
+  wardleyNodes.forEach((n, i) => {
+    const cx = sx(n.ex), cy = sy(n.vc);
+    const delay = (i * 0.015).toFixed(3);
+    const showLabel = n.type !== 'infra' && (n.type !== 'research' || (n.mentions || 0) >= 2);
 
-    let lx, la;
-    if (cx > margin.left+pw*0.82) { lx=cx-r-8; la='end'; } else { lx=cx+r+8; la='start'; }
-    const labelText=s.name;
-    if (labelText.length > 22) {
-      const mid=Math.floor(labelText.length/2);
-      const sa=labelText.indexOf(' ',mid), sb=labelText.lastIndexOf(' ',mid);
-      const splitAt=(mid-sb<sa-mid)?sb:sa;
-      if(splitAt>0){
-        [labelText.substring(0,splitAt),labelText.substring(splitAt+1)].forEach((p,pi) => {
-          out += `<text class="wnode-label" data-idx="${i}" x="${lx}" y="${cy+4+pi*13-6}" text-anchor="${la}" fill="#b8c4d0" fill-opacity="0.9" font-size="10" font-family="JetBrains Mono" font-weight="400" style="pointer-events:none;transition:fill-opacity 0.15s">${p}</text>`;
+    out += `<g class="node-g wnode" data-id="${n.id}" style="animation-delay:${delay}s;transform-origin:${cx}px ${cy}px">`;
+
+    if (n.type === 'anchor') {
+      out += `<circle cx="${cx}" cy="${cy}" r="14" fill="#7ee787" fill-opacity="0.08" stroke="#7ee787" stroke-width="1.5" stroke-opacity="0.35" />`;
+      out += `<circle cx="${cx}" cy="${cy}" r="5" fill="#7ee787" fill-opacity="0.8" />`;
+      out += `<text x="${cx}" y="${cy-19}" text-anchor="middle" fill="#7ee787" font-size="10.5" font-family="Fraunces, serif" font-weight="500">${n.name}</text>`;
+
+    } else if (n.type === 'need') {
+      const bw = 108, bh = 24;
+      out += `<rect x="${cx-bw/2}" y="${cy-bh/2}" width="${bw}" height="${bh}" rx="12" fill="#7ee787" fill-opacity="0.06" stroke="#7ee787" stroke-width="1" stroke-opacity="0.3" />`;
+      const lines = wrapLabel(n.name, 18);
+      lines.forEach((l, li) => {
+        out += `<text x="${cx}" y="${cy+4+li*12-(lines.length-1)*6}" text-anchor="middle" fill="#7ee787" fill-opacity="0.9" font-size="9.5" font-family="JetBrains Mono" font-weight="400">${l}</text>`;
+      });
+
+    } else if (n.type === 'activity') {
+      const aw = 86, ah = 28;
+      out += `<rect x="${cx-aw/2}" y="${cy-ah/2}" width="${aw}" height="${ah}" rx="3" fill="#131920" stroke="#7ee787" stroke-width="0.7" stroke-opacity="0.35" />`;
+      const lines = wrapLabel(n.name, 14);
+      lines.forEach((l, li) => {
+        out += `<text x="${cx}" y="${cy+3.5+li*11-(lines.length-1)*5.5}" text-anchor="middle" fill="#b8c4d0" font-size="9" font-family="JetBrains Mono" font-weight="400">${l}</text>`;
+      });
+
+    } else if (n.type === 'research') {
+      const r = Math.max((n.mentions || 1) * 2 + 4, 6);
+      const color = wardleyCatColors[n.cat] || '#8b949e';
+      out += `<circle cx="${cx}" cy="${cy}" r="${r+3}" fill="none" stroke="${color}" stroke-width="0.4" stroke-opacity="0.12" />`;
+      out += `<circle class="wnode-dot" cx="${cx}" cy="${cy}" r="${r}" fill="${color}" fill-opacity="0.65" stroke="${color}" stroke-width="1" stroke-opacity="0.2" style="cursor:pointer" />`;
+      if (showLabel) {
+        const lines = wrapLabel(n.name, 16);
+        let lx, la;
+        if (cx > margin.left + pw * 0.8) { lx = cx - r - 5; la = 'end'; }
+        else { lx = cx + r + 5; la = 'start'; }
+        lines.forEach((l, li) => {
+          out += `<text class="wnode-label" x="${lx}" y="${cy+3+li*10-(lines.length-1)*5}" text-anchor="${la}" fill="#8b949e" fill-opacity="0.7" font-size="8.5" font-family="JetBrains Mono" font-weight="300" style="pointer-events:none">${l}</text>`;
         });
-      } else {
-        out += `<text class="wnode-label" data-idx="${i}" x="${lx}" y="${cy+4}" text-anchor="${la}" fill="#b8c4d0" fill-opacity="0.9" font-size="10" font-family="JetBrains Mono" font-weight="400" style="pointer-events:none;transition:fill-opacity 0.15s">${labelText}</text>`;
       }
-    } else {
-      const lines = labelText.split(' / ');
-      if(lines.length>1){
-        lines.forEach((line,li) => {
-          out += `<text class="wnode-label" data-idx="${i}" x="${lx}" y="${cy+4+li*13-(lines.length-1)*6}" text-anchor="${la}" fill="#b8c4d0" fill-opacity="0.9" font-size="10" font-family="JetBrains Mono" font-weight="400" style="pointer-events:none;transition:fill-opacity 0.15s">${line.trim()}</text>`;
-        });
-      } else {
-        out += `<text class="wnode-label" data-idx="${i}" x="${lx}" y="${cy+4}" text-anchor="${la}" fill="#b8c4d0" fill-opacity="0.9" font-size="10" font-family="JetBrains Mono" font-weight="400" style="pointer-events:none;transition:fill-opacity 0.15s">${labelText}</text>`;
-      }
+
+    } else if (n.type === 'infra') {
+      out += `<rect x="${cx-4}" y="${cy-4}" width="8" height="8" rx="1" fill="#1a2029" stroke="#3d4a58" stroke-width="0.8" transform="rotate(45 ${cx} ${cy})" style="cursor:pointer" class="wnode-dot" />`;
+      const lines = wrapLabel(n.name, 16);
+      let lx = cx + 9, la = 'start';
+      if (cx > margin.left + pw * 0.8) { lx = cx - 9; la = 'end'; }
+      lines.forEach((l, li) => {
+        out += `<text class="wnode-label wnode-infra-lbl" x="${lx}" y="${cy+3+li*10-(lines.length-1)*5}" text-anchor="${la}" fill="#3d4a58" fill-opacity="0" font-size="8" font-family="JetBrains Mono" font-weight="300" font-style="italic" style="pointer-events:none;transition:fill-opacity 0.15s">${l}</text>`;
+      });
     }
+
     out += `</g>`;
   });
 
   svgEl.innerHTML = out;
 
-  // Interactions
-  const nodeGroups = svgEl.querySelectorAll('.wnode-g');
-  const allCircles = svgEl.querySelectorAll('.wnode-circle');
-  const allLabels = svgEl.querySelectorAll('.wnode-label');
-  const allDeps = svgEl.querySelectorAll('.wdep');
+  // --- Interactions ---
+  const allWNodes = svgEl.querySelectorAll('.wnode');
+  const allWEdges = svgEl.querySelectorAll('.wedge');
 
-  nodeGroups.forEach(g => {
-    const circle = g.querySelector('.wnode-circle');
-    if(!circle) return;
-    const idx = parseInt(g.dataset.idx);
-    const s = wardleySolutions[idx];
-    const color = wardleyCatColors[s.cat];
+  allWNodes.forEach(g => {
+    const id = g.dataset.id;
+    const n = wardleyNodeMap[id];
+    if (!n) return;
+    const nodeColor = n.type === 'research' ? (wardleyCatColors[n.cat] || '#8b949e') : n.type === 'infra' ? '#5a6a7a' : '#7ee787';
 
-    const onEnter = (e) => {
-      const connected = new Set();
-      wardleyDeps.forEach(([from,to]) => { if(from===s.name) connected.add(to); if(to===s.name) connected.add(from); });
-      const connectedIdx = new Set();
-      wardleySolutions.forEach((o,oi) => { if(connected.has(o.name)) connectedIdx.add(oi); });
+    const onEnter = () => {
+      const chain = traceChain(id);
 
-      allCircles.forEach(c => { c.setAttribute('fill-opacity','0.08'); c.setAttribute('stroke-opacity','0.03'); });
-      allLabels.forEach(l => { l.setAttribute('fill-opacity','0.08'); });
-      allDeps.forEach(d => { d.setAttribute('stroke-opacity','0.04'); });
-      nodeGroups.forEach(ng => { const ring=ng.querySelectorAll('circle')[0]; if(ring) ring.setAttribute('stroke-opacity','0.02'); });
-
-      circle.setAttribute('fill-opacity','1'); circle.setAttribute('stroke-opacity','0.6');
-      circle.setAttribute('r', (s.mentions*3+5)*1.25); circle.setAttribute('filter','url(#glow)');
-      g.querySelectorAll('circle')[0].setAttribute('stroke-opacity','0.4');
-      svgEl.querySelectorAll(`.wnode-label[data-idx="${idx}"]`).forEach(l => { l.setAttribute('fill-opacity','1'); l.setAttribute('fill','#e2e8f0'); });
-
-      connectedIdx.forEach(ci => {
-        const cg=svgEl.querySelector(`.wnode-g[data-idx="${ci}"]`);
-        if(cg){ const cc=cg.querySelector('.wnode-circle'); if(cc){cc.setAttribute('fill-opacity','0.55');cc.setAttribute('stroke-opacity','0.2');cc.setAttribute('filter','url(#softglow)');} cg.querySelectorAll('circle')[0].setAttribute('stroke-opacity','0.1'); }
-        svgEl.querySelectorAll(`.wnode-label[data-idx="${ci}"]`).forEach(l=>l.setAttribute('fill-opacity','0.65'));
+      // Dim everything not in chain
+      allWNodes.forEach(ng => { ng.style.opacity = chain.has(ng.dataset.id) ? '1' : '0.06'; });
+      allWEdges.forEach(line => {
+        if (chain.has(line.dataset.from) && chain.has(line.dataset.to)) {
+          line.setAttribute('stroke', nodeColor);
+          line.setAttribute('stroke-opacity', '0.5');
+          line.setAttribute('stroke-width', '1.5');
+        } else {
+          line.setAttribute('stroke-opacity', '0.02');
+        }
       });
 
-      allDeps.forEach(d => {
-        if(d.dataset.from===s.name||d.dataset.to===s.name){d.setAttribute('stroke',color);d.setAttribute('stroke-opacity','0.7');d.setAttribute('stroke-width','1.5');}
+      // Show infra labels in chain
+      chain.forEach(cid => {
+        svgEl.querySelectorAll(`.wnode[data-id="${cid}"] .wnode-infra-lbl`).forEach(l => l.setAttribute('fill-opacity', '0.7'));
       });
 
-      tip.innerHTML = `<div class="tt-name">${s.name}</div><div class="tt-cat" style="color:${color}">${s.cat}</div><div class="tt-tags">${s.problems.map(p=>`<span class="tt-tag">${p}</span>`).join('')}</div><div class="tt-section"><b>Actors:</b> ${s.actors.join(', ')}</div><div class="tt-section" style="font-style:italic">${s.examples}</div><div class="tt-mentions">${s.mentions} participant mention${s.mentions>1?'s':''}</div>`;
-      tip.style.opacity='1';
+      // Also show hidden research labels in chain
+      chain.forEach(cid => {
+        const cn = wardleyNodeMap[cid];
+        if (cn && cn.type === 'research' && (cn.mentions || 0) < 2) {
+          const cg = svgEl.querySelector(`.wnode[data-id="${cid}"]`);
+          if (cg) {
+            const dot = cg.querySelector('.wnode-dot');
+            if (dot) {
+              const r = Math.max((cn.mentions || 1) * 2 + 4, 6);
+              const cx2 = sx(cn.ex), la2 = cx2 > margin.left + pw * 0.8 ? 'end' : 'start';
+              const lx2 = la2 === 'end' ? cx2 - r - 5 : cx2 + r + 5;
+              // Check if label already exists
+              if (!cg.querySelector('.wnode-label')) {
+                const lines = wrapLabel(cn.name, 16);
+                lines.forEach((l, li) => {
+                  const txt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                  txt.setAttribute('class', 'wnode-label wnode-hover-lbl');
+                  txt.setAttribute('x', lx2);
+                  txt.setAttribute('y', sy(cn.vc) + 3 + li * 10 - (lines.length-1) * 5);
+                  txt.setAttribute('text-anchor', la2);
+                  txt.setAttribute('fill', '#8b949e');
+                  txt.setAttribute('fill-opacity', '0.7');
+                  txt.setAttribute('font-size', '8.5');
+                  txt.setAttribute('font-family', 'JetBrains Mono');
+                  txt.setAttribute('font-weight', '300');
+                  txt.style.pointerEvents = 'none';
+                  txt.textContent = l;
+                  cg.appendChild(txt);
+                });
+              }
+            }
+          }
+        }
+      });
+
+      // Glow on hovered node
+      const dot = g.querySelector('.wnode-dot');
+      if (dot) { dot.setAttribute('filter', 'url(#wglow)'); dot.setAttribute('fill-opacity', '1'); }
+
+      // Tooltip
+      let html = `<div class="tt-name">${n.name}</div>`;
+      if (n.cat) html += `<div class="tt-cat" style="color:${wardleyCatColors[n.cat]}">${n.cat}</div>`;
+      if (n.type === 'infra') html += `<div class="tt-cat" style="color:#3d4a58">Infrastructure</div>`;
+      if (n.type === 'activity') html += `<div class="tt-cat" style="color:#7ee787">Activity</div>`;
+      html += `<div class="tt-section">${n.desc}</div>`;
+      if (n.mentions) html += `<div class="tt-mentions">${n.mentions} participant mention${n.mentions>1?'s':''}</div>`;
+      const parents = wardleyParents[id] || [];
+      const children = wardleyChildren[id] || [];
+      if (parents.length) html += `<div class="tt-section"><b>Needed by:</b> ${parents.map(p => wardleyNodeMap[p]?.name || p).join(', ')}</div>`;
+      if (children.length) html += `<div class="tt-section"><b>Needs:</b> ${children.map(c => wardleyNodeMap[c]?.name || c).join(', ')}</div>`;
+      tip.innerHTML = html;
+      tip.style.opacity = '1';
     };
 
     const onMove = (e) => {
-      let left=e.clientX+18, top=e.clientY-12;
-      if(left+300>W) left=e.clientX-310;
-      if(top+200>H) top=e.clientY-200;
-      tip.style.left=left+'px'; tip.style.top=top+'px';
+      const rect = pane.getBoundingClientRect();
+      let left = e.clientX - rect.left + 15;
+      let top = e.clientY - rect.top - 10;
+      if (left + 280 > W) left = e.clientX - rect.left - 290;
+      if (top + 180 > H) top = e.clientY - rect.top - 180;
+      tip.style.left = left + 'px';
+      tip.style.top = top + 'px';
     };
 
     const onLeave = () => {
-      allCircles.forEach((c,ci) => { c.setAttribute('fill-opacity','0.75'); c.setAttribute('stroke-opacity','0.25'); c.setAttribute('r',wardleySolutions[ci].mentions*3+5); c.removeAttribute('filter'); });
-      allLabels.forEach(l => { l.setAttribute('fill-opacity','0.9'); l.setAttribute('fill','#b8c4d0'); });
-      allDeps.forEach(d => { d.setAttribute('stroke','#2a3544'); d.setAttribute('stroke-opacity','0.35'); d.setAttribute('stroke-width','1'); });
-      nodeGroups.forEach(ng => { const ring=ng.querySelectorAll('circle')[0]; if(ring) ring.setAttribute('stroke-opacity','0.15'); });
-      tip.style.opacity='0';
+      allWNodes.forEach(ng => { ng.style.opacity = '1'; });
+      allWEdges.forEach(line => {
+        line.setAttribute('stroke', '#2a3544');
+        line.setAttribute('stroke-opacity', '0.18');
+        line.setAttribute('stroke-width', '0.8');
+      });
+      svgEl.querySelectorAll('.wnode-infra-lbl').forEach(l => l.setAttribute('fill-opacity', '0'));
+      svgEl.querySelectorAll('.wnode-hover-lbl').forEach(l => l.remove());
+      svgEl.querySelectorAll('.wnode-dot').forEach(d => {
+        d.removeAttribute('filter');
+        const gp = d.closest('.wnode');
+        const nid = gp ? gp.dataset.id : null;
+        const nd = nid ? wardleyNodeMap[nid] : null;
+        d.setAttribute('fill-opacity', nd && nd.type === 'infra' ? '1' : '0.65');
+      });
+      tip.style.opacity = '0';
     };
 
-    circle.addEventListener('mouseenter', onEnter);
-    circle.addEventListener('mousemove', onMove);
-    circle.addEventListener('mouseleave', onLeave);
-    g.querySelectorAll('.wnode-label').forEach(l => { l.style.pointerEvents='auto'; l.style.cursor='pointer'; l.addEventListener('mouseenter',onEnter); l.addEventListener('mousemove',onMove); l.addEventListener('mouseleave',onLeave); });
+    g.style.cursor = 'pointer';
+    g.addEventListener('mouseenter', onEnter);
+    g.addEventListener('mousemove', onMove);
+    g.addEventListener('mouseleave', onLeave);
   });
 
   // Legend
   const legendEl = document.getElementById('wardley-legend');
-  if(legendEl.children.length === 0) {
-    const categories = [...new Set(wardleySolutions.map(s=>s.cat))];
-    let activeFilter = null;
-    categories.forEach(cat => {
-      const item = document.createElement('div'); item.className = 'lg';
-      item.innerHTML = `<div class="sw" style="background:${wardleyCatColors[cat]}"></div>${cat}`;
-      item.addEventListener('click', () => {
-        if(activeFilter===cat){
-          activeFilter=null;
-          document.querySelectorAll('#wardley-legend .lg').forEach(l=>l.classList.remove('dimmed'));
-          allCircles.forEach(c=>{c.setAttribute('fill-opacity','0.75');c.setAttribute('stroke-opacity','0.25');});
-          allLabels.forEach(l=>l.setAttribute('fill-opacity','0.9'));
-          allDeps.forEach(d=>d.setAttribute('stroke-opacity','0.35'));
-          nodeGroups.forEach(ng=>{ng.querySelectorAll('circle')[0].setAttribute('stroke-opacity','0.15');});
-        } else {
-          activeFilter=cat;
-          document.querySelectorAll('#wardley-legend .lg').forEach(l=>{l.classList.toggle('dimmed',!l.textContent.includes(cat));});
-          wardleySolutions.forEach((s,i) => {
-            const match=s.cat===cat;
-            const c=allCircles[i]; if(c){c.setAttribute('fill-opacity',match?'0.9':'0.06');c.setAttribute('stroke-opacity',match?'0.4':'0.02');}
-            svgEl.querySelectorAll(`.wnode-label[data-idx="${i}"]`).forEach(l=>{l.setAttribute('fill-opacity',match?'1':'0.06');});
-            const ng=svgEl.querySelector(`.wnode-g[data-idx="${i}"]`); if(ng) ng.querySelectorAll('circle')[0].setAttribute('stroke-opacity',match?'0.2':'0.02');
-          });
-          allDeps.forEach(d=>{
-            const fc=wardleyNameMap[d.dataset.from]?.cat, tc=wardleyNameMap[d.dataset.to]?.cat;
-            d.setAttribute('stroke-opacity',(fc===cat||tc===cat)?'0.4':'0.03');
-          });
-        }
-      });
-      legendEl.appendChild(item);
-    });
+  if (legendEl.children.length === 0) {
+    const typeLegend = `<div class="lg" style="margin-right:10px;gap:4px"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#7ee787" fill-opacity="0.5" stroke="#7ee787" stroke-width="0.8"/></svg><span style="color:#5a6a7a;font-size:8px">value chain</span></div>`;
+    const infraLegend = `<div class="lg" style="margin-right:14px;gap:4px"><svg width="10" height="10"><rect x="2" y="2" width="6" height="6" rx="1" fill="#1a2029" stroke="#3d4a58" stroke-width="0.8" transform="rotate(45 5 5)"/></svg><span style="color:#3d4a58;font-size:8px;font-style:italic">infrastructure</span></div>`;
+    const sep = `<div style="width:1px;height:10px;background:#1e2836;margin:0 6px"></div>`;
+    const cats = [...new Set(wardleyNodes.filter(n => n.cat).map(n => n.cat))];
+    const catHtml = cats.map(cat => `<div class="lg"><div class="sw" style="background:${wardleyCatColors[cat]}"></div>${cat}</div>`).join('');
+    legendEl.innerHTML = typeLegend + infraLegend + sep + catHtml;
   }
 }
+
 
 // ======================== ACTORS TAB ========================
 function initActors() {
   const container = document.getElementById('actors-container');
   const W = container.clientWidth, H = container.clientHeight;
-
   const cats = { infra:'#f85149', reputation:'#ffa657', sense:'#d2a8ff', finance:'#79c0ff', security:'#7ee787', research:'#ff7b72', service:'#8b949e' };
   const nodes = [
-    {id:'Metagov',cat:'infra',desc:'Constitutional design, KOI, RIDs, Interop program',size:18,mentioned:6},
-    {id:'Aragon',cat:'infra',desc:'DAO tooling, governance frameworks',size:12,mentioned:2},
+    {id:'Metagov',cat:'infra',desc:'Constitutional design, KOI, RIDs, Interop program',size:18,mentioned:7},
+    {id:'Aragon',cat:'infra',desc:'DAO tooling, governance frameworks, token value research',size:14,mentioned:3},
     {id:'Tally',cat:'infra',desc:'Proposal tracking, governance dashboards',size:10,mentioned:2},
     {id:'Agora',cat:'infra',desc:'Governance hub for proposal review/voting',size:8,mentioned:1},
     {id:'Scroll DAO',cat:'infra',desc:'Delegate accelerator, phased governance, co-creation',size:12,mentioned:3},
+    {id:'Updraft',cat:'infra',desc:'Easy proposal creation + paid signaling',size:10,mentioned:1},
+    {id:'Powers Protocol',cat:'infra',desc:'General institutional governance framework (7Cedars)',size:9,mentioned:1},
+    {id:'Logos',cat:'infra',desc:'Blockchain zones with different rules',size:10,mentioned:1},
     {id:'DeepDAO',cat:'reputation',desc:'Contribution tracking, reputation systems',size:10,mentioned:2},
     {id:'Forward',cat:'reputation',desc:'Delegate programs, reputation frameworks',size:9,mentioned:1},
     {id:'Kokonut Network',cat:'reputation',desc:'Merit-based governance',size:8,mentioned:1},
     {id:'Wasabi',cat:'reputation',desc:'Soulbound tokens, rage quit mechanics',size:8,mentioned:1},
     {id:'Hats Protocol',cat:'reputation',desc:'Role-based access, merit governance',size:8,mentioned:1},
+    {id:'BrightID',cat:'reputation',desc:'Decentralized identity verification (Aura)',size:8,mentioned:1},
+    {id:'TrustGraph',cat:'reputation',desc:'Trust-based governance scoring',size:8,mentioned:1},
     {id:'Polis',cat:'sense',desc:'Opinion clustering, collective intelligence',size:11,mentioned:2},
-    {id:'Lighthouse',cat:'sense',desc:'Signals protocol — values, not votes',size:9,mentioned:1},
+    {id:'Lighthouse Labs',cat:'sense',desc:'Signals Protocol — board-based on-chain coordination',size:10,mentioned:2},
     {id:'Mission Public',cat:'sense',desc:'Deliberation experiments (Cosmos)',size:9,mentioned:1},
     {id:'NewPublic',cat:'sense',desc:'Community coordination tools',size:8,mentioned:1},
+    {id:'Gardens',cat:'sense',desc:'Conviction Voting implementation',size:8,mentioned:1},
     {id:'Karpatkey',cat:'finance',desc:'Treasury management, DeFi strategies',size:9,mentioned:1},
     {id:'Steakhouse',cat:'finance',desc:'Financial reporting, analytics',size:8,mentioned:1},
-    {id:'a16z',cat:'finance',desc:'Network token framework, "end of foundations"',size:11,mentioned:2},
-    {id:'ENS Labs',cat:'security',desc:'Universal resolver, security infra, veto.ensdao.eth',size:12,mentioned:3},
+    {id:'a16z',cat:'finance',desc:'Network token framework',size:11,mentioned:3},
+    {id:'Cap Tech',cat:'finance',desc:'Fundraising innovation',size:7,mentioned:1},
+    {id:'Curve',cat:'finance',desc:'Pioneered VE model',size:9,mentioned:2},
+    {id:'ENS Labs',cat:'security',desc:'Universal resolver, security infra',size:12,mentioned:4},
     {id:'VERP',cat:'security',desc:'Biometric identity + sensor networks',size:9,mentioned:1},
     {id:'Immunefi',cat:'security',desc:'Bug bounties, vulnerability disclosure',size:8,mentioned:1},
-    {id:'immediacy.ai',cat:'security',desc:'AI-powered sim-juries, programmatic ethics',size:9,mentioned:1},
+    {id:'immediacy.ai',cat:'security',desc:'AI-powered sim-juries',size:9,mentioned:1},
     {id:'Othman (GMS)',cat:'research',desc:'Governance Memory System — 5-layer framework',size:11,mentioned:1},
     {id:'Durgadas',cat:'research',desc:'Tensegrity, Prevolution, social architecture',size:10,mentioned:1},
     {id:'Regis Chapman',cat:'research',desc:'Beyond game theory, paradox navigation',size:9,mentioned:1},
     {id:'Ellie Rennie',cat:'research',desc:'Ethnographic governance research, Telescope bot',size:9,mentioned:1},
     {id:'accessor.eth',cat:'research',desc:'ENS governance maximalism, security research',size:10,mentioned:1},
+    {id:'CornaroLabs',cat:'research',desc:'EU blockchain project data and analytics',size:7,mentioned:1},
     {id:'SeedGov',cat:'service',desc:'Professional delegate services',size:8,mentioned:1},
     {id:'Curialab',cat:'service',desc:'Professional delegate services',size:8,mentioned:1},
     {id:'L2Beat',cat:'service',desc:'Decentralization metrics, delegate services',size:9,mentioned:2},
-    {id:'anode.gg',cat:'service',desc:'Governance tooling',size:7,mentioned:1},
+    {id:'Anode',cat:'service',desc:'Governance services, education (formerly StableLab)',size:9,mentioned:1},
+    {id:'Rootstock Collective',cat:'service',desc:'AI/NLP governance support',size:8,mentioned:1},
   ];
   const links = [
     {source:'Metagov',target:'Aragon',v:3},{source:'Metagov',target:'Polis',v:3},{source:'Metagov',target:'Mission Public',v:2},
     {source:'Metagov',target:'Othman (GMS)',v:4},{source:'Metagov',target:'Ellie Rennie',v:3},{source:'Metagov',target:'Durgadas',v:2},
-    {source:'Metagov',target:'Scroll DAO',v:2},{source:'Metagov',target:'Lighthouse',v:2},
+    {source:'Metagov',target:'Scroll DAO',v:2},{source:'Metagov',target:'Lighthouse Labs',v:2},{source:'Metagov',target:'Powers Protocol',v:2},
     {source:'DeepDAO',target:'Forward',v:3},{source:'DeepDAO',target:'Kokonut Network',v:2},
     {source:'Kokonut Network',target:'Wasabi',v:3},{source:'Wasabi',target:'Hats Protocol',v:3},
     {source:'Hats Protocol',target:'Kokonut Network',v:2},{source:'Forward',target:'Scroll DAO',v:2},
-    {source:'Polis',target:'Lighthouse',v:3},{source:'Polis',target:'NewPublic',v:2},
-    {source:'Mission Public',target:'Polis',v:2},{source:'Lighthouse',target:'NewPublic',v:2},
+    {source:'BrightID',target:'Updraft',v:3},{source:'TrustGraph',target:'Lighthouse Labs',v:2},
+    {source:'Polis',target:'Lighthouse Labs',v:3},{source:'Polis',target:'NewPublic',v:2},
+    {source:'Mission Public',target:'Polis',v:2},{source:'Lighthouse Labs',target:'NewPublic',v:2},
+    {source:'Updraft',target:'Gardens',v:3},{source:'Gardens',target:'Lighthouse Labs',v:2},
     {source:'Karpatkey',target:'Steakhouse',v:3},{source:'a16z',target:'Karpatkey',v:2},
     {source:'Tally',target:'Karpatkey',v:2},{source:'Tally',target:'Agora',v:3},
+    {source:'Aragon',target:'a16z',v:2},{source:'Curve',target:'Aragon',v:2},
     {source:'ENS Labs',target:'accessor.eth',v:4},{source:'ENS Labs',target:'Immunefi',v:2},
     {source:'VERP',target:'ENS Labs',v:1},{source:'immediacy.ai',target:'Durgadas',v:1},
     {source:'Othman (GMS)',target:'Ellie Rennie',v:2},{source:'Durgadas',target:'Regis Chapman',v:3},
     {source:'Othman (GMS)',target:'Durgadas',v:2},{source:'Regis Chapman',target:'Metagov',v:1},
-    {source:'accessor.eth',target:'Scroll DAO',v:1},
+    {source:'accessor.eth',target:'Scroll DAO',v:1},{source:'CornaroLabs',target:'Anode',v:2},
     {source:'SeedGov',target:'Curialab',v:3},{source:'SeedGov',target:'L2Beat',v:2},
     {source:'Curialab',target:'L2Beat',v:2},{source:'L2Beat',target:'Scroll DAO',v:2},
-    {source:'L2Beat',target:'Tally',v:2},
+    {source:'L2Beat',target:'Tally',v:2},{source:'Anode',target:'Scroll DAO',v:2},
     {source:'Scroll DAO',target:'DeepDAO',v:2},{source:'Aragon',target:'Hats Protocol',v:2},
     {source:'a16z',target:'ENS Labs',v:2},{source:'Scroll DAO',target:'Karpatkey',v:1},
-    {source:'Metagov',target:'NewPublic',v:2},
+    {source:'Metagov',target:'NewPublic',v:2},{source:'Logos',target:'Powers Protocol',v:2},
+    {source:'Logos',target:'Aragon',v:1},{source:'Updraft',target:'Metagov',v:1},
   ];
 
   const svg = d3.select(container).append('svg').attr('width', W).attr('height', H);
@@ -1471,35 +1573,40 @@ function initSankey() {
   const labels = [
     "Token Voting Failure","Broken Contributor Economies","Governance Theater","Institutional Amnesia",
     "Informal Power Dynamics","Over-Reliance on Game Theory","Lack of Clear Purpose","Technical & Legal Gaps",
+    "Grant System Dysfunction",
     "Reputation & Merit Systems","AI-Augmented Governance","Deliberation & Signaling","Governance Memory Systems",
     "Structural & Constitutional","Compensation Innovation","Security & Verification","Alternative Gov Models",
+    "Financial Innovation",
     "Metagov","DeepDAO","Scroll DAO","Polis","immediacy.ai","Mission Public","Aragon","Tally",
-    "Karpatkey","a16z","Forward","ENS Labs","Othman (GMS)","Durgadas","Lighthouse","VERP","Kokonut Network","Public AI Network",
+    "Karpatkey","a16z","Forward","ENS Labs","Othman (GMS)","Durgadas","Lighthouse Labs","VERP",
+    "Kokonut Network","Public AI Network","Updraft","Powers Protocol","Logos","Anode",
   ];
   const allLinks = [
-    [0,8,5],[0,10,4],[0,9,3],[0,12,2],
-    [1,13,5],[1,8,3],[1,12,2],
-    [2,12,4],[2,15,3],[2,10,2],
-    [3,11,5],[3,9,2],
-    [4,10,4],[4,8,3],[4,11,2],
-    [5,12,4],[5,10,3],[5,15,2],
-    [6,15,4],[6,12,3],
-    [7,14,5],[7,9,2],
-    [8,17,3],[8,26,3],[8,32,2],[8,18,2],
-    [9,20,3],[9,27,2],
-    [10,19,4],[10,30,3],[10,21,3],[10,16,2],
-    [11,28,4],[11,16,3],
-    [12,29,4],[12,22,3],[12,16,3],[12,18,2],
-    [13,24,3],[13,25,3],[13,23,2],
-    [14,27,3],[14,31,3],
-    [15,33,3],[15,16,2],[15,22,2],
+    [0,9,5],[0,11,5],[0,10,3],[0,13,3],[0,17,2],
+    [1,14,5],[1,9,3],[1,13,2],
+    [2,13,5],[2,16,3],[2,11,3],
+    [3,12,5],[3,10,2],
+    [4,11,4],[4,9,3],[4,12,2],
+    [5,13,5],[5,11,3],[5,16,2],
+    [6,16,4],[6,13,3],
+    [7,15,5],[7,10,2],[7,17,2],
+    [8,14,4],[8,16,3],[8,17,3],
+    [9,19,3],[9,28,3],[9,34,2],[9,20,2],
+    [10,22,3],[10,29,2],
+    [11,21,4],[11,32,4],[11,23,3],[11,18,2],[11,36,3],
+    [12,30,4],[12,18,3],
+    [13,31,4],[13,24,3],[13,18,3],[13,20,2],[13,37,2],[13,38,2],
+    [14,26,3],[14,27,3],[14,25,2],[14,39,2],
+    [15,29,3],[15,33,3],
+    [16,35,3],[16,18,2],[16,24,2],[16,39,2],
+    [17,24,3],[17,27,2],
   ];
   const nodeColors = labels.map((_,i)=>{
-    if(i<=7)return 'rgba(248,81,73,0.85)';
-    if(i<=15)return 'rgba(126,231,135,0.85)';
+    if(i<=8)return 'rgba(248,81,73,0.85)';
+    if(i<=17)return 'rgba(126,231,135,0.85)';
     return 'rgba(121,184,255,0.85)';
   });
-  const linkColors = allLinks.map(l=>l[0]<=7?'rgba(248,81,73,0.15)':'rgba(126,231,135,0.15)');
+  const linkColors = allLinks.map(l=>l[0]<=8?'rgba(248,81,73,0.15)':'rgba(126,231,135,0.15)');
 
   Plotly.newPlot('sankey-chart', [{
     type:'sankey', orientation:'h', arrangement:'snap',
