@@ -71,8 +71,9 @@ This site is built with [Quartz](https://quartz.jzhao.xyz/) (Obsidian-based stat
 
 ## Team
 
-- **Eugene Leventhal** — Executive Director, [Metagov](https://metagov.org)
+- **Eugene Leventhal** — Research Director, [Metagov](https://metagov.org)
 - **Martin Karlsson** — [Coordination Network](https://www.coordination.network/)
 - **Spencer Saar Cavanaugh** — [Clinamenic LLC](https://clinamenic.com)
-- **Val** — Community coordinator, Metagov
+- **Val** — Community coordinator, [Metagov](https://metagov.org)
 - **Artem Zhiganov** — Research tooling, [Harmonica](https://harmonica.chat)
+- **Rosalind Marino** - Research Project Manager, [Metagov](https://metagov.org)
