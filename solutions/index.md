@@ -7,7 +7,7 @@ tags:
 created: 2026-02-10
 ---
 
-Twenty-nine proposed governance solutions identified across 27 structured interviews, organized by category and maturity stage.
+Preliminary findings from 27 Harmonica structured interviews. Twenty-nine proposed governance solutions identified so far, organized by category and maturity stage. Phase 1 research is ongoing — additional solutions may emerge as other data sources are integrated.
 
 > [!info] Maturity stages
 > Solutions are mapped on a Wardley Map evolution axis:

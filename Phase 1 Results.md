@@ -1,21 +1,23 @@
 ---
 publish: true
-title: "Phase 1 Results"
+title: "Phase 1 Preliminary Results"
 tags:
   - research
   - phase-1
 created: 2026-02-10
 ---
 
-> [!abstract] Research Summary
+> [!abstract] Preliminary Findings — Harmonica Interview Track
 > 27 structured interviews · 11 governance problems · 29 proposed solutions · 41 actors
-> January–February 2026
+> January–February 2026 · Phase 1 is ongoing
 
 ## Overview
 
-Phase 1 of the gov/acc research program gathered structured data on governance challenges, proposed solutions, and active actors across the web3 ecosystem. Using the [Harmonica platform](https://app.harmonica.chat) for structured deliberation, we conducted 27 in-depth interviews with DAO operators, protocol governance participants, delegates, academic researchers, governance infrastructure builders, and ecosystem actors.
+These are preliminary findings from one track of Phase 1 research — structured interviews conducted via the [Harmonica platform](https://app.harmonica.chat). Phase 1 encompasses multiple data-gathering efforts, and these results will be expanded and refined as additional research streams contribute their findings.
 
-The result is a comprehensive mapping of the governance problem space as experienced by practitioners — not a theoretical taxonomy, but a ground-truth picture of what governance challenges actually look like from inside organizations trying to make decentralized decision-making work.
+Through the Harmonica interview track, we conducted 27 in-depth structured conversations with DAO operators, protocol governance participants, delegates, academic researchers, governance infrastructure builders, and ecosystem actors.
+
+The result is an initial mapping of the governance problem space as experienced by practitioners — not a theoretical taxonomy, but a ground-level picture of what governance challenges look like from inside organizations trying to make decentralized decision-making work.
 
 **[Explore the interactive Phase 1 dashboard →](https://gov-acc-research.netlify.app)**
 
@@ -43,7 +45,7 @@ $$\text{Urgency} = \frac{\text{breadth}}{27} \times 0.6 + \frac{\text{depth}}{6.
 
 This formula surfaces problems that are both widely recognized AND deeply discussed, while allowing specialist concerns with high depth to still rank prominently.
 
-## Key Findings
+## Preliminary Findings
 
 ### Token Voting is the #1 Governance Concern
 
@@ -112,14 +114,14 @@ Solutions span 9 categories and 4 maturity stages:
 
 ## What's Next
 
-Phase 2 will focus on:
-- **Data analysis and synthesis** — cleaning, normalizing, and reviewing Phase 1 data
-- **Visualization** — building interactive tools for exploring the governance landscape (in collaboration with Coordination Network)
+Phase 1 is ongoing. Additional research streams beyond the Harmonica interviews will contribute further data, expanding and refining these preliminary findings. As Phase 1 progresses:
+- **Additional data sources** will be integrated alongside the Harmonica interview findings
 - **Community validation** — presenting findings for practitioner feedback
+- **Visualization** — building interactive tools for exploring the governance landscape (in collaboration with Coordination Network)
 - **Revised "Open Problems in DAOs"** — incorporating Phase 1 findings into the updated paper
 
-The interactive dashboard is available at **[gov-acc-research.netlify.app](https://gov-acc-research.netlify.app)** for exploring the full dataset with problems, solutions, actors, and their relationships.
+The interactive dashboard is available at **[gov-acc-research.netlify.app](https://gov-acc-research.netlify.app)** for exploring the Harmonica interview dataset with problems, solutions, actors, and their relationships.
 
 ---
 
-*Phase 1 research was conducted as part of the gov/acc program at [Metagov](https://metagov.org), using [Harmonica](https://harmonica.chat) for structured interviews.*
+*These preliminary findings are from the Harmonica structured interview track of Phase 1 research, conducted as part of the gov/acc program at [Metagov](https://metagov.org).*

@@ -7,20 +7,20 @@ subtitle: Accelerating Governance Innovation in Web3
 > [!info] Call to Action
 > If you want to contribute to gov/acc, please consider completing a [Harmonica session](https://app.harmonica.chat/chat?s=hst_a51081812ed9) to map open problems DAOs are facing, their potential solutions, and who is working on them (whether researching or building).
 
-> [!abstract] Phase 1 Research Results
-> Explore our Phase 1 structured interview findings — 27 completed conversations mapping 11 governance problems, 29 proposed solutions, and 41 actors across the ecosystem.
+> [!abstract] Phase 1 Preliminary Findings
+> Preliminary results from our Harmonica structured interviews — 27 completed conversations mapping 11 governance problems, 29 proposed solutions, and 41 actors across the ecosystem. Phase 1 research is ongoing with additional data sources.
 >
 > **[View Interactive Dashboard →](https://gov-acc-research.netlify.app)**
 
-## Research Findings
+## Preliminary Research Findings
 
-Our Phase 1 research produced a comprehensive mapping of the web3 governance landscape. Explore the findings:
+Phase 1 research is ongoing. The findings below are preliminary results from the Harmonica structured interview track — one of several data-gathering efforts underway. These will be expanded and refined as additional research streams contribute their findings.
 
-- **[[Phase 1 Results]]** — Summary of methodology, key findings, and insights
+- **[[Phase 1 Results]]** — Methodology, preliminary findings, and early insights
 - **[[problems/index|Governance Problems]]** — 11 problems ranked by urgency, from Critical to Medium
 - **[[solutions/index|Governance Solutions]]** — 29 proposed solutions organized by category and maturity stage
 
-Top findings: [[Token Voting Failure]] is the #1 concern (raised by 74% of participants), the execution layer is more evolved than deliberation, and knowledge infrastructure represents the largest gap between problem urgency and solution maturity.
+Early patterns: [[Token Voting Failure]] is the #1 concern (raised by 74% of interview participants), the execution layer is more evolved than deliberation, and knowledge infrastructure represents the largest gap between problem urgency and solution maturity.
 
 ---
 
@@ -76,7 +76,7 @@ This project involves several authors from the original paper and will incorpora
 
 ### Status
 
-Scoping and planning phase. Expected to begin active research in Q1 2025.
+Active research phase. Phase 1 data gathering is underway, with structured interviews producing [[Phase 1 Results|preliminary findings]]. The revised paper will incorporate these findings alongside additional research streams.
 
 ---
 

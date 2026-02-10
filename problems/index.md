@@ -7,7 +7,7 @@ tags:
 created: 2026-02-10
 ---
 
-Eleven governance problems identified across 27 structured interviews, ranked by composite urgency score. The urgency formula weights breadth (how many interviewees raised it) at 60% and depth (average messages discussing it) at 40%.
+Preliminary findings from 27 Harmonica structured interviews. Eleven governance problems identified so far, ranked by composite urgency score. The urgency formula weights breadth (how many interviewees raised it) at 60% and depth (average messages discussing it) at 40%. Phase 1 research is ongoing — these rankings may evolve as additional data sources are integrated.
 
 > [!info] How to read urgency scores
 > **Breadth** measures how widespread the problem is across interviews. **Depth** measures how extensively participants discussed it. A problem with high breadth but low depth (like [[Voting Fatigue]]) is widely recognized but well-understood. A problem with lower breadth but high depth (like [[Over-Reliance on Game Theory]]) is a specialist concern that deeply engages those who encounter it.
