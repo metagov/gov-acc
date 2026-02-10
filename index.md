@@ -10,7 +10,7 @@ subtitle: Accelerating Governance Innovation in Web3
 > [!abstract] Phase 1 Research Results
 > Explore the interactive dashboard from our Phase 1 structured interviews — 19 completed conversations mapping 10 governance problems, 21 proposed solutions, and 30 actors across the ecosystem.
 >
-> **[View Phase 1 Dashboard →](./phase1/)**
+> **[View Phase 1 Dashboard →](https://gov-acc-research.netlify.app)**
 
 ## Overview
 
