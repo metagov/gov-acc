@@ -7,14 +7,14 @@ tags:
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 61
-> Raised by 10/27 participants · Average 5.1 messages per discussion · 6 solutions proposed
+> [!caution] High Urgency — Score: 51
+> Raised by 10/30 participants · Average 5.1 messages per discussion · 6 solutions proposed
 
 DAOs struggle to fairly compensate contributors, creating unsustainable work arrangements. The depth of discussion — 5.1 messages average, among the highest in the dataset — reveals complex, deeply-felt challenges around valuing work, defining roles, and creating career paths in decentralized organizations. This is not just a compensation problem; it is a structural failure in how DAOs organize and sustain labor.
 
 ## Evidence
 
-**Breadth**: 10 out of 27 interviewees raised this problem. While not the most widespread concern, it was disproportionately raised by participants with direct experience as DAO contributors or those managing contributor programs — the people closest to the problem.
+**Breadth**: 10 out of 30 interviewees raised this problem. While not the most widespread concern, it was disproportionately raised by participants with direct experience as DAO contributors or those managing contributor programs — the people closest to the problem.
 
 **Depth**: Averaging 5.1 messages per discussion, this is one of the most deeply explored problems in the research. The high depth suggests that contributor economy challenges are multi-layered: they encompass compensation, role definition, career progression, burnout, and the fundamental question of how to value work outside traditional employment structures.
 

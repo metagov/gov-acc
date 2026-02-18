@@ -41,7 +41,7 @@ At the Custom-to-Product boundary (ex 3), soulbound reputation tokens are transi
 
 ## Participant Mentions
 
-Referenced in 6 out of 27 interviews, tied with Conviction Voting for the highest mention count. This reflects widespread recognition that separating governance power from financial capital is essential. Multiple participants independently arrived at reputation-based governance as a key piece of the puzzle, though they differed on implementation details — a sign of a solution whose core insight is validated but whose execution is still being refined.
+Referenced in 6 out of 30 interviews, tied with Conviction Voting for the highest mention count. This reflects widespread recognition that separating governance power from financial capital is essential. Multiple participants independently arrived at reputation-based governance as a key piece of the puzzle, though they differed on implementation details — a sign of a solution whose core insight is validated but whose execution is still being refined.
 
 ---
 

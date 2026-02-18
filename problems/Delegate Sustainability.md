@@ -7,14 +7,14 @@ tags:
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 46
-> Raised by 7/27 participants · Average 4.0 messages per discussion · 4 solutions proposed
+> [!info] Medium Urgency — Score: 39
+> Raised by 7/30 participants · Average 4.0 messages per discussion · 4 solutions proposed
 
 Delegates — the individuals who actively participate in governance on behalf of token holders — face unsustainable workloads, inconsistent compensation, and limited accountability mechanisms. The delegate model, intended to solve voting fatigue through representative governance, creates its own set of sustainability challenges that threaten to undermine the very layer designed to make DAO governance workable.
 
 ## Evidence
 
-**Breadth**: 7 out of 27 interviewees raised this problem. The participants who identified it were predominantly active or former delegates, or those who work closely with delegate programs — people with direct experience of the sustainability challenges rather than outside observers.
+**Breadth**: 7 out of 30 interviewees raised this problem. The participants who identified it were predominantly active or former delegates, or those who work closely with delegate programs — people with direct experience of the sustainability challenges rather than outside observers.
 
 **Depth**: Averaging 4.0 messages per discussion, participants described specific pain points: the cognitive burden of reviewing proposals across multiple protocols, the mismatch between expected expertise and available compensation, the difficulty of maintaining accountability to delegators, and the emotional toll of sustained governance participation without adequate support structures.
 

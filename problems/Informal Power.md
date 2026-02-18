@@ -3,18 +3,18 @@ publish: true
 title: "Informal Power & Narrative Capture"
 tags:
   - problems
-  - high
+  - medium
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 55
-> Raised by 11/27 participants · Average 3.5 messages per discussion · 8 solutions proposed
+> [!info] Medium Urgency — Score: 44
+> Raised by 11/30 participants · Average 3.5 messages per discussion · 8 solutions proposed
 
 Power in DAOs often flows through informal channels — social media influence, backchannel conversations, and narrative control — rather than through formal governance processes. Those who control the narrative effectively control governance outcomes regardless of formal mechanisms. This problem is insidious precisely because it operates outside the systems designed to create transparency and accountability.
 
 ## Evidence
 
-**Breadth**: 11 out of 27 interviewees raised this problem, placing it in the upper-middle range of prevalence. The participants who raised it tended to be those with extensive DAO experience who had observed the gap between formal governance structures and actual decision-making dynamics firsthand.
+**Breadth**: 11 out of 30 interviewees raised this problem, placing it in the upper-middle range of prevalence. The participants who raised it tended to be those with extensive DAO experience who had observed the gap between formal governance structures and actual decision-making dynamics firsthand.
 
 **Depth**: Averaging 3.5 messages per discussion, participants engaged meaningfully with the mechanics of informal power — how it accumulates, how it is exercised, and why formal governance structures fail to constrain it. The moderate depth reflects a problem that is recognizable but nuanced in its manifestations.
 

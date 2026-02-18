@@ -7,7 +7,7 @@ tags:
 created: 2026-02-10
 ---
 
-Preliminary findings from 27 Harmonica structured interviews. Twenty-nine proposed governance solutions identified so far, organized by category and maturity stage. Phase 1 research is ongoing — additional solutions may emerge as other data sources are integrated.
+Preliminary findings from 30 Harmonica structured interviews. Thirty-one proposed governance solutions identified so far, organized by category and maturity stage. Phase 1 research is ongoing — additional solutions may emerge as other data sources are integrated.
 
 > [!info] Maturity stages
 > Solutions are mapped on a Wardley Map evolution axis:
@@ -22,6 +22,7 @@ Preliminary findings from 27 Harmonica structured interviews. Twenty-nine propos
 | Solution | Maturity | Mentions | Problems Addressed |
 |----------|----------|----------|--------------------|
 | [[Conviction Voting]] | Product | 6 | 3 |
+| [[Pairwise Preference Voting]] | Custom | 1 | 2 |
 
 ### Reputation
 | Solution | Maturity | Mentions | Problems Addressed |
@@ -81,6 +82,7 @@ Preliminary findings from 27 Harmonica structured interviews. Twenty-nine propos
 |----------|----------|----------|--------------------|
 | [[Centralized Ops DAO Oversight]] | Product | 5 | 3 |
 | [[Platform Cooperatives]] | Genesis → Custom | 2 | 3 |
+| [[Governable Spaces]] | Custom | 1 | 2 |
 | [[Active Scouting]] | Genesis | 1 | 2 |
 
 ## Key Insights
@@ -93,7 +95,7 @@ The solutions landscape reveals several patterns:
 
 - **AI-augmented governance is emerging rapidly.** AI Governance Agents received 5 mentions — strong signal for a Genesis/Custom stage solution — suggesting high practitioner interest despite low maturity.
 
-- **Most solutions address Token Voting Failure.** This problem has the most solution coverage (12 solutions), confirming it as the primary focus of governance innovation efforts.
+- **Most solutions address Token Voting Failure.** This problem has the most solution coverage (13 solutions), confirming it as the primary focus of governance innovation efforts.
 
 ---
 

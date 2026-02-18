@@ -7,14 +7,14 @@ tags:
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 59
-> Raised by 14/27 participants · Average 2.8 messages per discussion · 8 solutions proposed
+> [!caution] High Urgency — Score: 47
+> Raised by 15/30 participants · Average 2.8 messages per discussion · 9 solutions proposed
 
-Participants are overwhelmed by the volume and complexity of governance proposals across multiple DAOs. Wide breadth (14/27) but shallow depth (2.8 messages) suggests this is a near-universal experience but well-understood — people recognize it immediately and do not need to elaborate. The result is declining participation rates and decisions made by shrinking minorities, hollowing out the democratic legitimacy that DAOs claim.
+Participants are overwhelmed by the volume and complexity of governance proposals across multiple DAOs. Wide breadth (15/30) but shallow depth (2.8 messages) suggests this is a near-universal experience but well-understood — people recognize it immediately and do not need to elaborate. The result is declining participation rates and decisions made by shrinking minorities, hollowing out the democratic legitimacy that DAOs claim.
 
 ## Evidence
 
-**Breadth**: 14 out of 27 interviewees raised this problem, making it the third most widely recognized issue. Over half of all participants independently identified voting fatigue, confirming it as a pervasive structural condition rather than an individual failing.
+**Breadth**: 15 out of 30 interviewees raised this problem, making it one of the most widely recognized issues. Half of all participants independently identified voting fatigue, confirming it as a pervasive structural condition rather than an individual failing.
 
 **Depth**: Averaging just 2.8 messages per discussion — the shallowest in the dataset — this problem required little explanation. Participants typically named it, gave a brief example, and moved on. The low depth does not indicate low importance; rather, it reflects a problem so obvious and well-understood that extensive discussion feels redundant. The challenge is not conceptual but structural.
 
@@ -31,6 +31,7 @@ Fatigue compounds every other governance problem. Even well-designed governance 
 - [[Optimistic Governance]] — Defaults to approval unless objections are raised, dramatically reducing the number of decisions that require active participation
 - [[Centralized Ops DAO Oversight]] — Concentrates operational decisions in a professional team with transparent oversight, reserving community governance for high-stakes decisions
 - [[Updraft]] — Filters proposals through community curation before they reach formal voting, reducing the volume of proposals voters must evaluate
+- [[Pairwise Preference Voting]] — Replaces full-slate evaluation with simple binary comparisons, reducing cognitive burden per decision
 - [[Proposal Review Groups]] — Creates specialized review bodies that pre-digest proposals for the broader community, distributing the cognitive load
 
 ## Related Problems
@@ -41,7 +42,7 @@ Fatigue compounds every other governance problem. Even well-designed governance 
 
 ## Participants
 
-Raised by: Eugene, Martin, Trigs, Hima, Raphael, Zeugh, Marlene, Ivey, C. Adam Stallard, Teije, mart1n, Kaf, Eleanor, Feems
+Raised by: Eugene, Martin, Trigs, Hima, Raphael, Zeugh, Marlene, Ivey, C. Adam Stallard, Teije, mart1n, Kaf, Eleanor, Feems, Daniel
 
 ---
 

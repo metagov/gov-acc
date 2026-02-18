@@ -41,7 +41,7 @@ At the Custom-to-Product boundary (ex 3), RPGF has moved from theory to substant
 
 ## Participant Mentions
 
-Referenced in 4 out of 27 interviews. The solid mention count reflects RPGF's prominence in the governance discourse, driven largely by Optimism's visible and well-publicized rounds. Participants generally viewed RPGF favorably as a concept but noted challenges with evaluation fairness and the overhead of running retroactive funding rounds effectively.
+Referenced in 4 out of 30 interviews. The solid mention count reflects RPGF's prominence in the governance discourse, driven largely by Optimism's visible and well-publicized rounds. Participants generally viewed RPGF favorably as a concept but noted challenges with evaluation fairness and the overhead of running retroactive funding rounds effectively.
 
 ---
 

@@ -40,7 +40,7 @@ At Genesis-to-Custom (ex 2), TrustGraph has a clear design vision and early prot
 
 ## Participant Mentions
 
-Referenced in 1 out of 27 interviews. The single mention reflects the solution's early-stage status and its technical specificity. However, the underlying desire — for governance power to reflect community trust rather than financial holdings — was expressed much more broadly. TrustGraph offers one of the most rigorous approaches to this widely-shared aspiration, and may gain attention as the limitations of token-weighted governance become more widely acknowledged.
+Referenced in 1 out of 30 interviews. The single mention reflects the solution's early-stage status and its technical specificity. However, the underlying desire — for governance power to reflect community trust rather than financial holdings — was expressed much more broadly. TrustGraph offers one of the most rigorous approaches to this widely-shared aspiration, and may gain attention as the limitations of token-weighted governance become more widely acknowledged.
 
 ---
 

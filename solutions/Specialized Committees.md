@@ -40,7 +40,7 @@ At Product stage (ex 3.5), specialized committees are one of the most widely ado
 
 ## Participant Mentions
 
-Referenced in 5 out of 27 interviews. The high mention count reflects both the wide adoption of committees and the strong opinions practitioners have about their design. Several participants emphasized that the difference between effective and ineffective committees is enormous — badly designed committees can become loci of informal power and gatekeeping, while well-designed committees significantly improve governance quality and efficiency.
+Referenced in 5 out of 30 interviews. The high mention count reflects both the wide adoption of committees and the strong opinions practitioners have about their design. Several participants emphasized that the difference between effective and ineffective committees is enormous — badly designed committees can become loci of informal power and gatekeeping, while well-designed committees significantly improve governance quality and efficiency.
 
 ---
 

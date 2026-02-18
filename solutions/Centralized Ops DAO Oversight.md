@@ -42,7 +42,7 @@ At Product stage (ex 3.5), Centralized Ops DAO Oversight is one of the most wide
 
 ## Participant Mentions
 
-Referenced in 5 out of 27 interviews. The high mention count reflects both the pragmatic orientation of many governance practitioners and the widespread recognition that pure decentralization of operations produces poor outcomes. Participants who mentioned this model often did so with a note of pragmatic realism — they had seen enough governance dysfunction to value effective execution over ideological purity. Several noted that the key challenge is not the model itself but getting communities to accept it without feeling that decentralization has been abandoned.
+Referenced in 5 out of 30 interviews. The high mention count reflects both the pragmatic orientation of many governance practitioners and the widespread recognition that pure decentralization of operations produces poor outcomes. Participants who mentioned this model often did so with a note of pragmatic realism — they had seen enough governance dysfunction to value effective execution over ideological purity. Several noted that the key challenge is not the model itself but getting communities to accept it without feeling that decentralization has been abandoned.
 
 ---
 

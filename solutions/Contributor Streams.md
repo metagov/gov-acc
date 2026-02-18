@@ -43,7 +43,7 @@ At Product stage (ex 3.5), Contributor Streams are being actively implemented by
 
 ## Participant Mentions
 
-Referenced in 5 out of 27 interviews. The high mention count reflects the universality of the contributor sustainability problem. Nearly every DAO struggles to attract and retain talent, and Contributor Streams represents the most developed answer. Participants who mentioned this solution often emphasized the importance of the vesting component — without long-term incentive alignment, contributors optimize for short-term extraction rather than organizational health.
+Referenced in 5 out of 30 interviews. The high mention count reflects the universality of the contributor sustainability problem. Nearly every DAO struggles to attract and retain talent, and Contributor Streams represents the most developed answer. Participants who mentioned this solution often emphasized the importance of the vesting component — without long-term incentive alignment, contributors optimize for short-term extraction rather than organizational health.
 
 ---
 

@@ -7,14 +7,14 @@ tags:
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 46
-> Raised by 6/27 participants · Average 4.5 messages per discussion · 3 solutions proposed
+> [!info] Medium Urgency — Score: 40
+> Raised by 6/30 participants · Average 4.5 messages per discussion · 3 solutions proposed
 
 Grant programs — the primary capital allocation mechanism for most DAOs — suffer from application-driven rather than need-driven funding, poor evaluation of outcomes, and political allocation. Capital flows to well-connected applicants rather than to where it would create the most value. The grant system has become the de facto economic engine of the DAO ecosystem, making its dysfunction a systemic resource allocation failure.
 
 ## Evidence
 
-**Breadth**: 6 out of 27 interviewees raised this problem. The participants who flagged it were predominantly those with direct experience either applying for grants, administering grant programs, or observing how funded projects performed — practitioners who had seen the disconnect between funding decisions and actual impact.
+**Breadth**: 6 out of 30 interviewees raised this problem. The participants who flagged it were predominantly those with direct experience either applying for grants, administering grant programs, or observing how funded projects performed — practitioners who had seen the disconnect between funding decisions and actual impact.
 
 **Depth**: Averaging 4.5 messages per discussion, participants explored the mechanics of grant dysfunction in detail — describing how application processes reward proposal-writing skill over execution ability, how evaluation rarely tracks actual outcomes, and how social networks determine funding flows more than project merit.
 

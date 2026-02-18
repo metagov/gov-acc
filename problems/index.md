@@ -7,7 +7,7 @@ tags:
 created: 2026-02-10
 ---
 
-Preliminary findings from 27 Harmonica structured interviews. Eleven governance problems identified so far, ranked by composite urgency score. The urgency formula weights breadth (how many interviewees raised it) at 60% and depth (average messages discussing it) at 40%. Phase 1 research is ongoing — these rankings may evolve as additional data sources are integrated.
+Preliminary findings from 30 Harmonica structured interviews. Eleven governance problems identified so far, ranked by composite urgency score. The urgency formula weights breadth (how many interviewees raised it) at 60% and depth (average messages discussing it) at 40%. Phase 1 research is ongoing — these rankings may evolve as additional data sources are integrated.
 
 > [!info] How to read urgency scores
 > **Breadth** measures how widespread the problem is across interviews. **Depth** measures how extensively participants discussed it. A problem with high breadth but low depth (like [[Voting Fatigue]]) is widely recognized but well-understood. A problem with lower breadth but high depth (like [[Over-Reliance on Game Theory]]) is a specialist concern that deeply engages those who encounter it.
@@ -16,27 +16,27 @@ Preliminary findings from 27 Harmonica structured interviews. Eleven governance 
 
 | Problem | Score | Breadth | Depth | Solutions |
 |---------|-------|---------|-------|-----------|
-| [[Token Voting Failure]] | 86 | 20/27 | 4.2 | 12 |
-| [[Governance Theater]] | 71 | 16/27 | 3.8 | 10 |
+| [[Token Voting Failure]] | 70 | 22/30 | 4.2 | 13 |
 
 ## High Urgency
 
 | Problem | Score | Breadth | Depth | Solutions |
 |---------|-------|---------|-------|-----------|
-| [[Broken Contributor Economies]] | 61 | 10/27 | 5.1 | 6 |
-| [[Over-Reliance on Game Theory]] | 61 | 7/27 | 6.5 | 5 |
-| [[Voting Fatigue]] | 59 | 14/27 | 2.8 | 8 |
-| [[Informal Power]] | 55 | 11/27 | 3.5 | 8 |
-| [[Institutional Amnesia]] | 54 | 6/27 | 5.8 | 4 |
+| [[Governance Theater]] | 55 | 16/30 | 3.8 | 11 |
+| [[Over-Reliance on Game Theory]] | 54 | 7/30 | 6.5 | 5 |
+| [[Broken Contributor Economies]] | 51 | 10/30 | 5.1 | 6 |
+| [[Institutional Amnesia]] | 48 | 6/30 | 5.8 | 4 |
+| [[Voting Fatigue]] | 47 | 15/30 | 2.8 | 9 |
 
 ## Medium Urgency
 
 | Problem | Score | Breadth | Depth | Solutions |
 |---------|-------|---------|-------|-----------|
-| [[Technical and Legal Gaps]] | 48 | 6/27 | 4.8 | 4 |
-| [[Grant System Dysfunction]] | 46 | 6/27 | 4.5 | 3 |
-| [[Delegate Sustainability]] | 46 | 7/27 | 4.0 | 4 |
-| [[Lack of Clear Purpose]] | 44 | 8/27 | 3.2 | 7 |
+| [[Informal Power]] | 44 | 11/30 | 3.5 | 8 |
+| [[Technical and Legal Gaps]] | 42 | 6/30 | 4.8 | 4 |
+| [[Grant System Dysfunction]] | 40 | 6/30 | 4.5 | 3 |
+| [[Delegate Sustainability]] | 39 | 7/30 | 4.0 | 4 |
+| [[Lack of Clear Purpose]] | 38 | 9/30 | 3.2 | 8 |
 
 ---
 

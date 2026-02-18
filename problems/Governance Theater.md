@@ -3,18 +3,18 @@ publish: true
 title: "Governance Theater & Recentralization"
 tags:
   - problems
-  - critical
+  - high
 created: 2026-02-10
 ---
 
-> [!warning] Critical Urgency — Score: 71
-> Raised by 16/27 participants · Average 3.8 messages per discussion · 10 solutions proposed
+> [!caution] High Urgency — Score: 55
+> Raised by 16/30 participants · Average 3.8 messages per discussion · 11 solutions proposed
 
 DAOs maintain the appearance of decentralized governance while real decisions are made by insiders, foundations, or small groups. Governance processes exist as legitimacy facades rather than genuine decision-making mechanisms. Participants described situations where outcomes were predetermined and voting was performative — a pattern that undermines the foundational promise of decentralized organizations.
 
 ## Evidence
 
-**Breadth**: 16 out of 27 interviewees raised this problem, making it the second most widely recognized issue. Nearly 60% of participants independently identified governance theater as a significant concern, suggesting the pattern is visible and frustrating to a majority of governance practitioners.
+**Breadth**: 16 out of 30 interviewees raised this problem, making it the second most widely recognized issue. Over half of participants independently identified governance theater as a significant concern, suggesting the pattern is visible and frustrating to a majority of governance practitioners.
 
 **Depth**: Averaging 3.8 messages per discussion, the engagement level indicates participants had concrete experiences to share — specific instances of theatrical governance rather than abstract concerns. The moderate depth reflects a problem that is well-understood in its mechanics but emotionally charged in its implications.
 
@@ -34,6 +34,7 @@ When governance is theater, participants lose trust and disengage — accelerati
 - [[Platform Cooperatives]] — Alternative organizational model where governance power derives from membership and labor rather than capital
 - [[Centralized Ops DAO Oversight]] — Explicit centralization of operations with transparent oversight, honest about the tradeoffs rather than hiding them behind theater
 - [[Powers Protocol]] — Formal separation of governance powers to prevent any single entity from controlling the full decision pipeline
+- [[Governable Spaces]] — Grounds governance in clear purpose and community needs, making it harder for processes to become performative
 
 ## Related Problems
 

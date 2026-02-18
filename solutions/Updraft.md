@@ -37,7 +37,7 @@ At Custom stage (ex 2.5), Updraft launched in June 2025 and is in its early adop
 
 ## Participant Mentions
 
-Referenced in 2 out of 27 interviews. The modest mention count likely reflects the platform's recent launch — at the time of interviews, Updraft was still new to most practitioners. Those who did mention it were drawn to its focus on lowering participation barriers, recognizing that governance systems often fail not because of bad mechanisms but because of prohibitively high participation costs.
+Referenced in 2 out of 30 interviews. The modest mention count likely reflects the platform's recent launch — at the time of interviews, Updraft was still new to most practitioners. Those who did mention it were drawn to its focus on lowering participation barriers, recognizing that governance systems often fail not because of bad mechanisms but because of prohibitively high participation costs.
 
 ---
 

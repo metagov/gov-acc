@@ -7,14 +7,14 @@ tags:
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 54
-> Raised by 6/27 participants · Average 5.8 messages per discussion · 4 solutions proposed
+> [!caution] High Urgency — Score: 48
+> Raised by 6/30 participants · Average 5.8 messages per discussion · 4 solutions proposed
 
 DAOs repeatedly lose organizational knowledge as contributors rotate, conversations move across platforms, and decisions lack documentation. With 5.8 messages average depth — the second highest in the dataset — this resonated deeply with those who raised it. The inability to learn from past governance experiments means mistakes are repeated, wisdom is lost, and each generation of contributors starts from scratch.
 
 ## Evidence
 
-**Breadth**: 6 out of 27 interviewees raised this problem. The narrower breadth likely reflects that institutional amnesia is most acutely felt by long-tenured participants who have watched the same debates recur and the same mistakes repeat across governance cycles. Newer participants may not yet recognize the pattern.
+**Breadth**: 6 out of 30 interviewees raised this problem. The narrower breadth likely reflects that institutional amnesia is most acutely felt by long-tenured participants who have watched the same debates recur and the same mistakes repeat across governance cycles. Newer participants may not yet recognize the pattern.
 
 **Depth**: Averaging 5.8 messages per discussion, this is the second most deeply discussed problem in the dataset. Those who raised it had extensive, often frustrated experiences to share — detailed accounts of knowledge loss, repeated debates, and the organizational cost of starting over. The high depth relative to low breadth marks this as an expert concern: those who see it feel it profoundly.
 

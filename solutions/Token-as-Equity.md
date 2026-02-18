@@ -41,7 +41,7 @@ At Custom stage (ex 2.5), Token-as-Equity has a clear conceptual framework and s
 
 ## Participant Mentions
 
-Referenced in 2 out of 27 interviews. The modest mention count reflects the specialized, finance-focused nature of this solution. However, the underlying question — what economic rights should governance tokens convey? — was implicitly present in many more conversations about token voting and governance incentives. As the space matures and regulatory frameworks develop, Token-as-Equity is likely to become increasingly central to governance design discussions.
+Referenced in 2 out of 30 interviews. The modest mention count reflects the specialized, finance-focused nature of this solution. However, the underlying question — what economic rights should governance tokens convey? — was implicitly present in many more conversations about token voting and governance incentives. As the space matures and regulatory frameworks develop, Token-as-Equity is likely to become increasingly central to governance design discussions.
 
 ---
 

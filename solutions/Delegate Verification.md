@@ -41,7 +41,7 @@ At the Custom-to-Product boundary (ex 3), delegate verification is being activel
 
 ## Participant Mentions
 
-Referenced in 4 out of 27 interviews. Mentions often arose in the context of delegate compensation discussions — participants recognized that you can't pay delegates fairly without being able to verify their work. The moderate mention count likely reflects that delegate verification is seen as necessary infrastructure rather than a headline innovation.
+Referenced in 4 out of 30 interviews. Mentions often arose in the context of delegate compensation discussions — participants recognized that you can't pay delegates fairly without being able to verify their work. The moderate mention count likely reflects that delegate verification is seen as necessary infrastructure rather than a headline innovation.
 
 ---
 
