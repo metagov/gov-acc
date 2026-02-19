@@ -1,6 +1,6 @@
 ---
 publish: true
-title: "Phase 1 Preliminary Results"
+title: "Phase 1 Results"
 tags:
   - research
   - phase-1

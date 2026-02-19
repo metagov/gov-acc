@@ -1,5 +1,5 @@
 ---
-title: gov/acc Research Program plan
+title: Research Program Plan
 ---
 ## Overview
 
