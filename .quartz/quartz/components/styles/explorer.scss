@@ -121,7 +121,6 @@ button.desktop-explorer {
     list-style: none;
     margin: 0;
     padding: 0;
-    overscroll-behavior: contain;
 
     & li > a {
       color: var(--dark);
@@ -133,6 +132,13 @@ button.desktop-explorer {
         color: var(--tertiary);
       }
     }
+  }
+
+  // Only contain overscroll on the top-level scroll container,
+  // not on nested ul.content inside .folder-outer (which have
+  // overflow: hidden and would trap scroll events).
+  & > ul {
+    overscroll-behavior: contain;
   }
 
   .folder-outer {
