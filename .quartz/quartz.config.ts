@@ -74,6 +74,7 @@ const config: QuartzConfig = {
       ".obsidian/**",
 
       // Common documentation that shouldn't be published
+      "CLAUDE.md",
       "CHANGELOG.md",
       "CONTRIBUTING.md",
       "INSTALL.md",
