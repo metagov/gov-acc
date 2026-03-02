@@ -10,6 +10,8 @@ created: 2026-02-10
 > [!warning] Critical Urgency — Score: 86
 > Raised by 26/40 participants · Average 3.7 messages per discussion · 15 solutions proposed
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 The most widely reported governance failure across the entire research program. Token-weighted voting concentrates decision-making power among large holders (whales), creating de facto plutocracy. Small holders are systematically marginalized regardless of their expertise or stake in outcomes. Nearly three-quarters of all interviewees raised this as a fundamental structural flaw in DAO governance.
 
 ## Evidence

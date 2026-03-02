@@ -10,6 +10,8 @@ created: 2026-02-10
 > [!caution] High Urgency — Score: 55
 > Raised by 15/40 participants · Average 3.0 messages per discussion · 9 solutions proposed
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Power in DAOs often flows through informal channels — social media influence, backchannel conversations, and narrative control — rather than through formal governance processes. Those who control the narrative effectively control governance outcomes regardless of formal mechanisms. This problem is insidious precisely because it operates outside the systems designed to create transparency and accountability.
 
 ## Evidence

@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Knowledge Infrastructure · Genesis → Custom
 > 3 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 A five-layer framework for institutional memory in decentralized organizations: proposal lifecycle tracking, outcome reviews, thematic analysis, power mapping, and governance diagnostics. Designed to prevent the knowledge loss that plagues DAOs as participants rotate and conversations fragment across platforms.
 
 ## How It Works

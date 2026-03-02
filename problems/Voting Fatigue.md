@@ -10,6 +10,8 @@ created: 2026-02-10
 > [!caution] High Urgency — Score: 64
 > Raised by 20/40 participants · Average 2.6 messages per discussion · 10 solutions proposed
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Participants are overwhelmed by the volume and complexity of governance proposals across multiple DAOs. Wide breadth (20/40) but shallow depth (2.6 messages) suggests this is a near-universal experience but well-understood — people recognize it immediately and do not need to elaborate. The result is declining participation rates and decisions made by shrinking minorities, hollowing out the democratic legitimacy that DAOs claim.
 
 ## Evidence

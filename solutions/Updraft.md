@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Sensemaking · Custom
 > 2 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 A platform for easy proposal creation with paid signaling mechanisms, launched June 2025. Updraft lowers the barrier to proposing and evaluating ideas by making governance participation more accessible and incentive-aligned, addressing the reality that most governance systems make it too hard to propose and too easy to ignore.
 
 ## How It Works

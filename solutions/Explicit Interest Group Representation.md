@@ -11,6 +11,8 @@ created: 2026-03-02
 > [!abstract] Structural · Genesis
 > 1 participant mention · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Formal interest group representation within protocols — analogous to political parties in representative democracies. Instead of treating all token holders as an undifferentiated mass, this approach acknowledges that governance participants have distinct class interests (builders, investors, users, researchers) and creates structures for those interests to be explicitly represented and negotiated.
 
 ## How It Works

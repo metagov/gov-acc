@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Structural · Genesis → Custom
 > 4 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Gated governance models with progressive decentralization. Proto-DAOs allow organizations to prove product-market fit and governance capacity before fully decentralizing, using staked governance to ensure participants have skin in the game. This challenges the orthodoxy that organizations should launch as fully decentralized DAOs from day one.
 
 ## How It Works

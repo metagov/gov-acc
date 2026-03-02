@@ -11,6 +11,8 @@ created: 2026-02-18
 > [!abstract] Alternative Models · Custom
 > 1 participant mention · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Governable Spaces is a framework that grounds governance in clear purpose and community context rather than mechanism design. Drawing from community organizing traditions, cooperative governance, and Nathan Schneider's work on "governable" technology, this approach argues that governance should start from the question "What are we governing, and why?" rather than "What voting mechanism should we use?" It repositions governance as a practice rooted in relationships and shared purpose rather than a technical system to be engineered.
 
 ## How It Works

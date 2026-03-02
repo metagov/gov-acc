@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Knowledge Infrastructure · Custom
 > 2 participant mentions · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 A system for tagging and cross-referencing knowledge objects across Discord, forums, and GitHub — creating connective tissue between fragmented governance conversations. Reference Identifiers (RIDs) enable search and retrieval across platforms, addressing the reality that governance knowledge is scattered across dozens of tools with no shared namespace.
 
 ## How It Works

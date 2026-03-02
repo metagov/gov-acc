@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Structural · Genesis
 > 3 participant mentions · Addresses 4 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 A governance framework inspired by the structural engineering concept of tensegrity — holding paradoxes in dynamic tension rather than resolving them. Tensegrity governance creates multiple decision venues and constitutional space for contradictions, moving beyond binary voting models toward a more organic approach to organizational coherence.
 
 ## How It Works

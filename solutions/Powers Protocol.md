@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Structural · Genesis
 > 2 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 A general institutional governance framework focused on legitimacy-based design drawing from real-world governance insights. Powers Protocol defines governance as the allocation and constraint of powers rather than the design of voting mechanisms, offering a fundamentally different lens for thinking about decentralized organization.
 
 ## How It Works

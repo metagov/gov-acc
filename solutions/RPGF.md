@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Financial · Custom → Product
 > 4 participant mentions · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Retroactive Public Goods Funding — compensating contributors after impact is demonstrated rather than funding promises. RPGF uses hybrid input-output valuation to assess contribution value after the fact, inverting the traditional grants model and creating stronger incentive alignment between funders and contributors.
 
 ## How It Works

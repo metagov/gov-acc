@@ -10,6 +10,8 @@ created: 2026-02-10
 > [!caution] High Urgency — Score: 63
 > Raised by 17/40 participants · Average 3.5 messages per discussion · 11 solutions proposed
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 DAOs maintain the appearance of decentralized governance while real decisions are made by insiders, foundations, or small groups. Governance processes exist as legitimacy facades rather than genuine decision-making mechanisms. Participants described situations where outcomes were predetermined and voting was performative — a pattern that undermines the foundational promise of decentralized organizations.
 
 ## Evidence

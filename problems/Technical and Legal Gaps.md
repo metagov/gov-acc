@@ -10,6 +10,8 @@ created: 2026-02-10
 > [!info] Medium Urgency — Score: 46
 > Raised by 8/40 participants · Average 4.0 messages per discussion · 4 solutions proposed
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 The gap between on-chain governance mechanisms and real-world legal frameworks creates fundamental uncertainties. Participants described challenges around DAO legal wrappers, cross-jurisdictional compliance, identity verification without surveillance, and the enforceability of governance decisions outside the blockchain. These are not theoretical concerns — they are practical barriers that limit what DAOs can actually govern.
 
 ## Evidence

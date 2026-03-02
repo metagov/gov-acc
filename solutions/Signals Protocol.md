@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Sensemaking · Custom
 > 4 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Board-based on-chain coordination using ERC-20 time-locks to signal support intensity. Signals Protocol creates a pre-governance layer where participants indicate priority and commitment levels before formal proposals are drafted, filtering signal from noise in governance attention.
 
 ## How It Works

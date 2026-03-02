@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Reputation · Genesis → Custom
 > 1 participant mention · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Trust-based governance scoring that maps and quantifies trust relationships between participants. TrustGraph enables governance weight to reflect social trust rather than financial capital, creating a fundamentally different basis for decision-making power in decentralized organizations.
 
 ## How It Works

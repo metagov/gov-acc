@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Structural · Product
 > 4 participant mentions · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 A governance model where proposals pass automatically unless explicitly challenged within a time window. Optimistic governance dramatically reduces the voting burden for routine decisions while preserving community veto power for controversial ones — an elegant application of the "optimistic rollup" concept from blockchain scaling to organizational decision-making.
 
 ## How It Works

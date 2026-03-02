@@ -10,6 +10,8 @@ created: 2026-02-10
 > [!info] Medium Urgency — Score: 46
 > Raised by 12/40 participants · Average 2.7 messages per discussion · 8 solutions proposed
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Many DAOs lack clear articulation of their purpose, values, and decision-making principles. Without a shared understanding of what the organization exists to do, governance becomes aimless — every proposal is evaluated in a vacuum rather than against coherent strategic direction. Despite having the lowest urgency score, this problem generated the most diverse set of proposed solutions, suggesting that practitioners see many possible paths forward.
 
 ## Evidence

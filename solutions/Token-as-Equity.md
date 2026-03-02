@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Financial · Custom
 > 2 participant mentions · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Creating on-chain guarantees for claims over infrastructure revenue through programmatic distributions. Token-as-Equity treats governance tokens as equity-like instruments with real economic rights, bridging the gap between crypto-native governance and traditional corporate finance — and addressing the fundamental question of what a governance token actually represents.
 
 ## How It Works

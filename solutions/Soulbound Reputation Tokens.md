@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Reputation · Custom → Product
 > 6 participant mentions · Addresses 4 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Non-transferable tokens that represent earned reputation and governance weight, decoupling governance power from financial capital. Soulbound reputation tokens (SBTs) can be issued for verified contributions, burned to release voting power through rage quit mechanics, and used for merit-based role assignment. They represent the most comprehensive attempt to build a reputation layer for decentralized governance.
 
 ## How It Works

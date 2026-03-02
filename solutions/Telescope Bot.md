@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Knowledge Infrastructure · Custom → Product
 > 1 participant mention · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 An automated tool that flags high-signal Discord comments for ethnographic review and archival. Telescope Bot captures the informal governance insights that would otherwise be lost in the relentless scroll of chat platforms, recognizing that some of the most important governance intelligence lives in ephemeral conversations.
 
 ## How It Works

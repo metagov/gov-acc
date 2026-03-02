@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Structural · Genesis
 > 1 participant mention · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Blockchain zones with different governance rules that participants can opt into. Logos Zones represents a movement-first coordination model where governance emerges from shared purpose rather than being imposed through mechanisms — a radical departure from the dominant "design governance, then recruit participants" approach.
 
 ## How It Works

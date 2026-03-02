@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Alternative Models · Product
 > 5 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 A hybrid model where foundations or core teams handle day-to-day operations while the DAO retains oversight over budgets, strategy, and key personnel decisions. Centralized Ops DAO Oversight acknowledges that full decentralization of operational decisions creates governance theater, and proposes a pragmatic division of labor between centralized execution and decentralized oversight.
 
 ## How It Works

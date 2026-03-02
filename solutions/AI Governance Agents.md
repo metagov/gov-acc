@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] AI-Augmented · Genesis → Custom
 > 6 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Personal AI agents that vote according to user-defined preferences, summarize proposals using NLP, and help maintain governance context across multiple DAOs and proposal cycles. AI governance agents address the fundamental scaling problem: as governance systems grow in complexity, human attention becomes the bottleneck. Rather than simplifying governance (which often means reducing its effectiveness), agents augment human capacity.
 
 ## How It Works

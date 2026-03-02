@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Financial · Product
 > 5 participant mentions · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Tiered compensation systems that create sustainable career paths within DAOs: Bounties for one-off tasks, Project Grants for defined deliverables, and Core Contributor Streams with vested tokens for ongoing work. Contributor Streams address the fundamental sustainability problem — DAOs need reliable contributors but offer no career stability.
 
 ## How It Works

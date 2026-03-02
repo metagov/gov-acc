@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Sensemaking · Custom → Product
 > 4 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Collaborative design processes where proposals are developed iteratively with community input before reaching a vote. Co-creation cycles transform governance from ratification of top-down proposals into genuine collaborative design, addressing the root cause of governance theater: communities voting on proposals they had no hand in shaping.
 
 ## How It Works

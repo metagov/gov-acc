@@ -10,6 +10,8 @@ created: 2026-02-10
 > [!caution] High Urgency — Score: 52
 > Raised by 5/40 participants · Average 5.8 messages per discussion · 4 solutions proposed
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 DAOs repeatedly lose organizational knowledge as contributors rotate, conversations move across platforms, and decisions lack documentation. With 5.8 messages average depth — the second highest in the dataset — this resonated deeply with those who raised it. The inability to learn from past governance experiments means mistakes are repeated, wisdom is lost, and each generation of contributors starts from scratch.
 
 ## Evidence

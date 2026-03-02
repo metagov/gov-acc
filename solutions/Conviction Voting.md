@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Voting Reform · Product
 > 6 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Conviction voting replaces discrete voting events with continuous preference signaling, where vote weight increases the longer a participant holds their position. Rather than snapshot-based governance where whales can swoop in at the last minute, this mechanism rewards sustained engagement and genuine conviction. It represents one of the most significant departures from traditional token-weighted voting.
 
 ## How It Works

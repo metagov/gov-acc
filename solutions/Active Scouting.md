@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Alternative Models · Genesis
 > 2 participant mentions · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Proactive talent and project finding — like venture capital scouting — instead of waiting for grant applications. Active Scouting inverts the traditional grants model by going out to find high-impact projects and contributors rather than relying on who happens to show up and apply, addressing the selection bias inherent in application-based funding.
 
 ## How It Works

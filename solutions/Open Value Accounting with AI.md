@@ -11,6 +11,8 @@ created: 2026-03-02
 > [!abstract] AI-Augmented · Custom
 > 1 participant mention · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 AI-assisted fair value accounting for contributions in decentralized organizations. By training AI agents to handle the tedious work of tracking, valuing, and logging contributions, Open Value Accounting with AI addresses the fundamental tradeoff between fairness and leanness that has plagued contributor compensation in DAOs — making detailed value accounting feasible at scale without the social overhead that has historically driven communities apart.
 
 ## How It Works

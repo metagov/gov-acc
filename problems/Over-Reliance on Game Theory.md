@@ -10,6 +10,8 @@ created: 2026-02-10
 > [!caution] High Urgency — Score: 53
 > Raised by 7/40 participants · Average 5.4 messages per discussion · 5 solutions proposed
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 The deepest problem by average discussion depth in the entire dataset. Governance designs over-rely on economic incentive mechanisms while ignoring social, cultural, and relational dimensions. Participants described how game-theoretic frameworks fail to account for trust, identity, and community dynamics that actually drive governance outcomes. This is a meta-problem — a flawed assumption at the design level that produces failures throughout the governance stack.
 
 ## Evidence

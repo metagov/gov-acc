@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] AI-Augmented · Genesis → Custom
 > 2 participant mentions · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Simulated jury systems that interpret programmatic ethics and resolve disputes using AI-mediated processes. AI dispute resolution moves beyond pure mechanism design by incorporating contextual judgment into governance conflicts — recognizing that not all disputes can be resolved through voting or economic incentives alone.
 
 ## How It Works

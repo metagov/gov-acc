@@ -10,6 +10,8 @@ created: 2026-02-10
 > [!caution] High Urgency — Score: 60
 > Raised by 13/40 participants · Average 4.3 messages per discussion · 7 solutions proposed
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 DAOs struggle to fairly compensate contributors, creating unsustainable work arrangements. The depth of discussion — 5.1 messages average, among the highest in the dataset — reveals complex, deeply-felt challenges around valuing work, defining roles, and creating career paths in decentralized organizations. This is not just a compensation problem; it is a structural failure in how DAOs organize and sustain labor.
 
 ## Evidence

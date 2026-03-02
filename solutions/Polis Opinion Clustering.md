@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Sensemaking · Commodity
 > 5 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Collective sensemaking through opinion mapping that identifies natural consensus clusters and bridges between divided groups. Polis is one of the most mature deliberation tools available, with a proven track record in civic governance contexts extending well beyond web3. Its algorithmic approach to finding common ground makes it a uniquely powerful pre-governance tool.
 
 ## How It Works

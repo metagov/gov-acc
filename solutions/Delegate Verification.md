@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Reputation · Custom → Product
 > 5 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Systems for verifying delegate identity, track record, and active engagement. Delegate verification creates accountability infrastructure that enables consistent compensation, transparent performance tracking, and informed delegation choices. It addresses the gap between the promise of representative governance in DAOs and the reality of opaque, unaccountable delegation.
 
 ## How It Works

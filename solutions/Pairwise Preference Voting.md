@@ -11,6 +11,8 @@ created: 2026-02-18
 > [!abstract] Voting Reform · Custom
 > 1 participant mention · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Pairwise preference voting replaces traditional ranked or single-choice voting with sequential head-to-head comparisons between proposals. Instead of evaluating an entire slate of options simultaneously — a cognitively demanding task that favors sophisticated voters — participants make simple binary comparisons: "Do you prefer A or B?" The aggregated pairwise results reveal community preferences with greater nuance and less susceptibility to strategic voting.
 
 ## How It Works

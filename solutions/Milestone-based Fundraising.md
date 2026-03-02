@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Financial · Genesis → Custom
 > 2 participant mentions · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Replacing lump-sum grants with endowment models or milestone-triggered funding unlocks. Milestone-based fundraising creates accountability by tying capital release to demonstrated progress rather than upfront promises, addressing the systemic problem of grant funding that evaporates without results.
 
 ## How It Works

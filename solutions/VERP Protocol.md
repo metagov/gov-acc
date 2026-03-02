@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Verification · Genesis
 > 1 participant mention · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Verified Ecological Regeneration Protocol — combining biometric identity with sensor networks for what its creator calls "executable cryptobiology." VERP represents a radical approach to grounding governance in physical-world verification, extending the boundaries of what on-chain governance can encompass.
 
 ## How It Works

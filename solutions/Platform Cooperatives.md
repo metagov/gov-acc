@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Alternative Models · Genesis → Custom
 > 2 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Platforms structured as public infrastructure with cooperative governance, including algorithmic transparency mandates and stakeholder representation. Platform Cooperatives draw from the cooperative movement to provide an alternative to both corporate and DAO governance models — one that prioritizes public benefit and democratic stakeholder control.
 
 ## How It Works

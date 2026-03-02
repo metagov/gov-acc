@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Structural · Product
 > 7 participant mentions · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Domain-specific committees that handle specialized governance functions — marketing, audits, treasury management, proposal project management. Specialized Committees go beyond the typical grants committee to distribute expertise-weighted decision-making across functional areas, recognizing that complex organizations cannot effectively govern all domains through general-purpose voting.
 
 ## How It Works

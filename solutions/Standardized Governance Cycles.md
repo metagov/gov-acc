@@ -11,6 +11,8 @@ created: 2026-03-02
 > [!abstract] Structural · Custom
 > 1 participant mention · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Scheduled voting windows and quarterly funding slate votes that replace the always-on, proposal-by-proposal governance model. Standardized Governance Cycles give participants predictable cadences for engagement, reducing the cognitive load of constant governance monitoring and allowing focused, high-quality participation during defined periods.
 
 ## How It Works

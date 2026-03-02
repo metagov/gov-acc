@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Financial · Commodity
 > 4 participant mentions · Addresses 2 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Vote-escrowed (VE) token models combined with buyback-and-burn mechanics and revenue distribution. The most mature financial governance mechanism in the ecosystem, pioneered by Curve Finance. VE models align token holder incentives with long-term protocol health through time-locking, creating a direct economic connection between governance participation and financial reward.
 
 ## How It Works

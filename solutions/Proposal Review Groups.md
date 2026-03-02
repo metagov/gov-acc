@@ -11,6 +11,8 @@ created: 2026-02-10
 > [!abstract] Structural · Custom
 > 1 participant mention · Addresses 3 governance problems
 
+*AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
+
 Small groups dedicated to reviewing and improving proposals before they reach a community-wide vote, including education standards to ensure reviewers understand the domain. Proposal Review Groups add a quality filter to governance without centralized gatekeeping, acknowledging that not every community member has the context needed to evaluate every proposal.
 
 ## How It Works
