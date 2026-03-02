@@ -7,16 +7,16 @@ tags:
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 39
-> Raised by 7/30 participants · Average 4.0 messages per discussion · 4 solutions proposed
+> [!info] Medium Urgency — Score: 45
+> Raised by 10/40 participants · Average 3.2 messages per discussion · 5 solutions proposed
 
 Delegates — the individuals who actively participate in governance on behalf of token holders — face unsustainable workloads, inconsistent compensation, and limited accountability mechanisms. The delegate model, intended to solve voting fatigue through representative governance, creates its own set of sustainability challenges that threaten to undermine the very layer designed to make DAO governance workable.
 
 ## Evidence
 
-**Breadth**: 7 out of 30 interviewees raised this problem. The participants who identified it were predominantly active or former delegates, or those who work closely with delegate programs — people with direct experience of the sustainability challenges rather than outside observers.
+**Breadth**: 10 out of 40 interviewees raised this problem. The participants who identified it were predominantly active or former delegates, or those who work closely with delegate programs — people with direct experience of the sustainability challenges rather than outside observers.
 
-**Depth**: Averaging 4.0 messages per discussion, participants described specific pain points: the cognitive burden of reviewing proposals across multiple protocols, the mismatch between expected expertise and available compensation, the difficulty of maintaining accountability to delegators, and the emotional toll of sustained governance participation without adequate support structures.
+**Depth**: Averaging 3.2 messages per discussion, participants described specific pain points: the cognitive burden of reviewing proposals across multiple protocols, the mismatch between expected expertise and available compensation, the difficulty of maintaining accountability to delegators, and the emotional toll of sustained governance participation without adequate support structures.
 
 ## Why It Matters
 
@@ -28,6 +28,7 @@ Delegates are meant to be the solution to direct democracy's scalability problem
 - [[Delegate Verification]] — Establishes clear standards and accountability mechanisms for delegates, ensuring quality representation while creating the basis for sustainable compensation models
 - [[Contributor Streams]] — Provides ongoing funding for delegate work rather than ad-hoc or retroactive compensation, treating delegation as sustained professional labor rather than volunteer service
 - [[RPGF]] — Retroactive Public Goods Funding rewards delegates based on demonstrated governance impact, creating incentives for quality participation and a path to fair compensation
+- [[Open Value Accounting with AI]] — AI-assisted fair value accounting that can objectively track and compensate delegate contributions across protocols
 
 ## Related Problems
 
@@ -37,7 +38,7 @@ Delegates are meant to be the solution to direct democracy's scalability problem
 
 ## Participants
 
-Raised by: Marlene, Alex Soto, Zeugh, Malachite, Coffee-crusher, Kaf, Teije
+Raised by: Marlene, Alex S., Zeugh, Malachite, Coffee-crusher, Kaf, Teije, Shelby, Daniel A., Hannah
 
 ---
 

@@ -7,16 +7,16 @@ tags:
 created: 2026-02-10
 ---
 
-> [!warning] Critical Urgency — Score: 70
-> Raised by 22/30 participants · Average 4.2 messages per discussion · 13 solutions proposed
+> [!warning] Critical Urgency — Score: 86
+> Raised by 26/40 participants · Average 3.7 messages per discussion · 15 solutions proposed
 
 The most widely reported governance failure across the entire research program. Token-weighted voting concentrates decision-making power among large holders (whales), creating de facto plutocracy. Small holders are systematically marginalized regardless of their expertise or stake in outcomes. Nearly three-quarters of all interviewees raised this as a fundamental structural flaw in DAO governance.
 
 ## Evidence
 
-**Breadth**: 22 out of 30 interviewees raised this problem, making it the single most widely recognized governance failure in the dataset. Its near-universal prevalence suggests this is not an edge case but a systemic design flaw baked into the dominant governance paradigm.
+**Breadth**: 26 out of 40 interviewees raised this problem, making it the single most widely recognized governance failure in the dataset. Its near-universal prevalence suggests this is not an edge case but a systemic design flaw baked into the dominant governance paradigm.
 
-**Depth**: Averaging 4.2 messages per discussion, participants engaged substantively with this problem — not just flagging it but exploring its mechanics, consequences, and potential remedies. The combination of extreme breadth and solid depth produced the highest composite urgency score in the study.
+**Depth**: Averaging 3.7 messages per discussion, participants engaged substantively with this problem — not just flagging it but exploring its mechanics, consequences, and potential remedies. The combination of extreme breadth and solid depth produced the highest composite urgency score in the study.
 
 ## Why It Matters
 
@@ -37,6 +37,8 @@ Token voting is the default governance mechanism for most DAOs and protocols. It
 - [[Pairwise Preference Voting]] — Replaces full-slate voting with simple binary comparisons, reducing the decisiveness of capital concentration
 - [[Updraft]] — Proposal filtering system that surfaces quality proposals regardless of proposer's token holdings
 - [[Token-as-Equity]] — Reframes token governance as shareholder governance with corresponding legal obligations and protections
+- [[Standardized Governance Cycles]] — Scheduled voting windows and quarterly funding slate votes reduce the frequency at which token weight determines outcomes
+- [[Explicit Interest Group Representation]] — Formal interest groups within protocols make power dynamics visible and counterbalance plutocratic concentration
 
 ## Related Problems
 
@@ -46,7 +48,7 @@ Token voting is the default governance mechanism for most DAOs and protocols. It
 
 ## Participants
 
-Raised by: Eugene, Zeugh, Malachite, Hima, Marlene, Alex Soto, Trigs, Raphael, Artem, Chris, Regis, Ivey, C. Adam Stallard, Teije, Arnold, mart1n, Kaf, ivan, Feems, Eleanor, Daniel, Rosalind
+Raised by: Eugene, Zeugh, Malachite, Hima, Marlene, Alex S., Trigs, Raphael, Regis, Ivey, Adam S., Teije, Arnold, mart1n, Kaf, ivan, Feems, Eleanor, Daniel, Rosalind, Loring, Wise Dolphin, Joshua, Eric A., Shelby, Daniel A.
 
 ---
 

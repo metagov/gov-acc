@@ -38,7 +38,7 @@ At Product stage (ex 3.5), conviction voting has moved well beyond theoretical d
 
 ## Participant Mentions
 
-Referenced in 6 out of 30 interviews. This high mention count reflects conviction voting's status as perhaps the most well-known alternative to simple token voting. Participants frequently cited it as a proven example that better voting mechanisms are possible, even when discussing other solutions.
+Referenced in 6 out of 40 interviews. This high mention count reflects conviction voting's status as perhaps the most well-known alternative to simple token voting. Participants frequently cited it as a proven example that better voting mechanisms are possible, even when discussing other solutions.
 
 ---
 

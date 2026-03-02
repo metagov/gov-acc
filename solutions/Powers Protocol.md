@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Structural · Genesis
-> 1 participant mention · Addresses 3 governance problems
+> 2 participant mentions · Addresses 3 governance problems
 
 A general institutional governance framework focused on legitimacy-based design drawing from real-world governance insights. Powers Protocol defines governance as the allocation and constraint of powers rather than the design of voting mechanisms, offering a fundamentally different lens for thinking about decentralized organization.
 
@@ -39,7 +39,7 @@ At Genesis stage (ex 1.5), Powers Protocol exists as a well-articulated framewor
 
 ## Participant Mentions
 
-Referenced in 1 out of 30 interviews. The single mention reflects the framework's novelty and its academic orientation — it requires engagement with institutional design theory that most practitioners haven't encountered. However, the ideas it articulates (governance as power allocation, the importance of constraints, the legitimacy question) surfaced implicitly in many more interviews, suggesting that the framework may be articulating something that many practitioners intuit but haven't formalized.
+Referenced in 2 out of 40 interviews. The single mention reflects the framework's novelty and its academic orientation — it requires engagement with institutional design theory that most practitioners haven't encountered. However, the ideas it articulates (governance as power allocation, the importance of constraints, the legitimacy question) surfaced implicitly in many more interviews, suggesting that the framework may be articulating something that many practitioners intuit but haven't formalized.
 
 ---
 

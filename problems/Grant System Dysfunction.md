@@ -7,16 +7,16 @@ tags:
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 40
-> Raised by 6/30 participants · Average 4.5 messages per discussion · 3 solutions proposed
+> [!info] Medium Urgency — Score: 45
+> Raised by 8/40 participants · Average 3.8 messages per discussion · 3 solutions proposed
 
 Grant programs — the primary capital allocation mechanism for most DAOs — suffer from application-driven rather than need-driven funding, poor evaluation of outcomes, and political allocation. Capital flows to well-connected applicants rather than to where it would create the most value. The grant system has become the de facto economic engine of the DAO ecosystem, making its dysfunction a systemic resource allocation failure.
 
 ## Evidence
 
-**Breadth**: 6 out of 30 interviewees raised this problem. The participants who flagged it were predominantly those with direct experience either applying for grants, administering grant programs, or observing how funded projects performed — practitioners who had seen the disconnect between funding decisions and actual impact.
+**Breadth**: 8 out of 40 interviewees raised this problem. The participants who flagged it were predominantly those with direct experience either applying for grants, administering grant programs, or observing how funded projects performed — practitioners who had seen the disconnect between funding decisions and actual impact.
 
-**Depth**: Averaging 4.5 messages per discussion, participants explored the mechanics of grant dysfunction in detail — describing how application processes reward proposal-writing skill over execution ability, how evaluation rarely tracks actual outcomes, and how social networks determine funding flows more than project merit.
+**Depth**: Averaging 3.8 messages per discussion, participants explored the mechanics of grant dysfunction in detail — describing how application processes reward proposal-writing skill over execution ability, how evaluation rarely tracks actual outcomes, and how social networks determine funding flows more than project merit.
 
 ## Why It Matters
 
@@ -36,7 +36,7 @@ Grants represent the primary way DAOs deploy capital for ecosystem growth. When 
 
 ## Participants
 
-Raised by: Kaf, Arnold, ivan, Feems, mart1n, Teije
+Raised by: Kaf, Arnold, ivan, Feems, mart1n, Teije, Alex O., Shelby
 
 ---
 

@@ -7,16 +7,16 @@ tags:
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 47
-> Raised by 15/30 participants · Average 2.8 messages per discussion · 9 solutions proposed
+> [!caution] High Urgency — Score: 64
+> Raised by 20/40 participants · Average 2.6 messages per discussion · 10 solutions proposed
 
-Participants are overwhelmed by the volume and complexity of governance proposals across multiple DAOs. Wide breadth (15/30) but shallow depth (2.8 messages) suggests this is a near-universal experience but well-understood — people recognize it immediately and do not need to elaborate. The result is declining participation rates and decisions made by shrinking minorities, hollowing out the democratic legitimacy that DAOs claim.
+Participants are overwhelmed by the volume and complexity of governance proposals across multiple DAOs. Wide breadth (20/40) but shallow depth (2.6 messages) suggests this is a near-universal experience but well-understood — people recognize it immediately and do not need to elaborate. The result is declining participation rates and decisions made by shrinking minorities, hollowing out the democratic legitimacy that DAOs claim.
 
 ## Evidence
 
-**Breadth**: 15 out of 30 interviewees raised this problem, making it one of the most widely recognized issues. Half of all participants independently identified voting fatigue, confirming it as a pervasive structural condition rather than an individual failing.
+**Breadth**: 20 out of 40 interviewees raised this problem, making it one of the most widely recognized issues. Half of all participants independently identified voting fatigue, confirming it as a pervasive structural condition rather than an individual failing.
 
-**Depth**: Averaging just 2.8 messages per discussion — the shallowest in the dataset — this problem required little explanation. Participants typically named it, gave a brief example, and moved on. The low depth does not indicate low importance; rather, it reflects a problem so obvious and well-understood that extensive discussion feels redundant. The challenge is not conceptual but structural.
+**Depth**: Averaging just 2.6 messages per discussion — the shallowest in the dataset — this problem required little explanation. Participants typically named it, gave a brief example, and moved on. The low depth does not indicate low importance; rather, it reflects a problem so obvious and well-understood that extensive discussion feels redundant. The challenge is not conceptual but structural.
 
 ## Why It Matters
 
@@ -33,6 +33,7 @@ Fatigue compounds every other governance problem. Even well-designed governance 
 - [[Updraft]] — Filters proposals through community curation before they reach formal voting, reducing the volume of proposals voters must evaluate
 - [[Pairwise Preference Voting]] — Replaces full-slate evaluation with simple binary comparisons, reducing cognitive burden per decision
 - [[Proposal Review Groups]] — Creates specialized review bodies that pre-digest proposals for the broader community, distributing the cognitive load
+- [[Standardized Governance Cycles]] — Scheduled voting windows and quarterly funding slate votes allow participants to plan their governance engagement around predictable cadences
 
 ## Related Problems
 
@@ -42,7 +43,7 @@ Fatigue compounds every other governance problem. Even well-designed governance 
 
 ## Participants
 
-Raised by: Eugene, Martin, Trigs, Hima, Raphael, Zeugh, Marlene, Ivey, C. Adam Stallard, Teije, mart1n, Kaf, Eleanor, Feems, Daniel
+Raised by: Eugene, Martin, Trigs, Hima, Raphael, Zeugh, Marlene, Ivey, Adam S., Teije, mart1n, Kaf, Eleanor, Feems, Daniel, Loring, Felix, Hannah, Eric A., Shelby
 
 ---
 

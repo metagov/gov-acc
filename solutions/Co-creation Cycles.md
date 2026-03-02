@@ -40,7 +40,7 @@ At the Custom-to-Product boundary (ex 3), co-creation cycles are being actively 
 
 ## Participant Mentions
 
-Referenced in 4 out of 30 interviews. Participants who mentioned co-creation cycles were typically experienced governance practitioners who had seen the failure mode firsthand: proposals designed by insiders that pass technically but lack community buy-in. They recognized that better governance outcomes require earlier community involvement, not just better voting mechanisms at the end.
+Referenced in 4 out of 40 interviews. Participants who mentioned co-creation cycles were typically experienced governance practitioners who had seen the failure mode firsthand: proposals designed by insiders that pass technically but lack community buy-in. They recognized that better governance outcomes require earlier community involvement, not just better voting mechanisms at the end.
 
 ---
 

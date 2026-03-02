@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Structural · Product
-> 5 participant mentions · Addresses 3 governance problems
+> 7 participant mentions · Addresses 3 governance problems
 
 Domain-specific committees that handle specialized governance functions — marketing, audits, treasury management, proposal project management. Specialized Committees go beyond the typical grants committee to distribute expertise-weighted decision-making across functional areas, recognizing that complex organizations cannot effectively govern all domains through general-purpose voting.
 
@@ -40,7 +40,7 @@ At Product stage (ex 3.5), specialized committees are one of the most widely ado
 
 ## Participant Mentions
 
-Referenced in 5 out of 30 interviews. The high mention count reflects both the wide adoption of committees and the strong opinions practitioners have about their design. Several participants emphasized that the difference between effective and ineffective committees is enormous — badly designed committees can become loci of informal power and gatekeeping, while well-designed committees significantly improve governance quality and efficiency.
+Referenced in 7 out of 40 interviews. The high mention count reflects both the wide adoption of committees and the strong opinions practitioners have about their design. Several participants emphasized that the difference between effective and ineffective committees is enormous — badly designed committees can become loci of informal power and gatekeeping, while well-designed committees significantly improve governance quality and efficiency.
 
 ---
 

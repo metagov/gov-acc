@@ -43,7 +43,7 @@ At Genesis-to-Custom (ex 2), the GMS framework exists primarily as a conceptual 
 
 ## Participant Mentions
 
-Referenced in 3 out of 30 interviews. While the mention count is moderate, the quality of mentions was high — participants who raised institutional memory as a concern were deeply engaged with the problem and recognized it as foundational. The relatively low count may reflect a negativity bias: governance practitioners are more likely to discuss the problems they face daily (voting, compensation) than the infrastructure they're missing.
+Referenced in 3 out of 40 interviews. While the mention count is moderate, the quality of mentions was high — participants who raised institutional memory as a concern were deeply engaged with the problem and recognized it as foundational. The relatively low count may reflect a negativity bias: governance practitioners are more likely to discuss the problems they face daily (voting, compensation) than the infrastructure they're missing.
 
 ---
 

@@ -7,16 +7,16 @@ tags:
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 54
-> Raised by 7/30 participants · Average 6.5 messages per discussion · 5 solutions proposed
+> [!caution] High Urgency — Score: 53
+> Raised by 7/40 participants · Average 5.4 messages per discussion · 5 solutions proposed
 
 The deepest problem by average discussion depth in the entire dataset. Governance designs over-rely on economic incentive mechanisms while ignoring social, cultural, and relational dimensions. Participants described how game-theoretic frameworks fail to account for trust, identity, and community dynamics that actually drive governance outcomes. This is a meta-problem — a flawed assumption at the design level that produces failures throughout the governance stack.
 
 ## Evidence
 
-**Breadth**: 7 out of 30 interviewees raised this problem. The relatively narrow breadth reflects its nature as a design philosophy critique rather than a surface-level operational complaint. Those who raised it tended to be governance researchers, system designers, or long-tenured practitioners who had observed the pattern across multiple organizations.
+**Breadth**: 7 out of 40 interviewees raised this problem. The relatively narrow breadth reflects its nature as a design philosophy critique rather than a surface-level operational complaint. Those who raised it tended to be governance researchers, system designers, or long-tenured practitioners who had observed the pattern across multiple organizations.
 
-**Depth**: Averaging 6.5 messages per discussion — the highest in the dataset — this problem generated the most sustained, thoughtful engagement. Participants did not merely name the problem but traced its implications through multiple governance failures, debated the appropriate role of incentive design, and explored alternative foundations for governance. The extraordinary depth suggests this may be the root cause behind many surface-level failures.
+**Depth**: Averaging 5.4 messages per discussion — this problem generated the most sustained, thoughtful engagement. Participants did not merely name the problem but traced its implications through multiple governance failures, debated the appropriate role of incentive design, and explored alternative foundations for governance. The extraordinary depth suggests this may be the root cause behind many surface-level failures.
 
 ## Why It Matters
 
@@ -38,7 +38,7 @@ When governance is reduced to mechanism design, it becomes brittle and exploitab
 
 ## Participants
 
-Raised by: Regis, Martin, Durgadas (via Regis), Artem, Teije, mart1n, ivan
+Raised by: Regis, Martin, Teije, mart1n, ivan, Felix, Dani
 
 ---
 

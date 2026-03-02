@@ -3,20 +3,20 @@ publish: true
 title: "Informal Power & Narrative Capture"
 tags:
   - problems
-  - medium
+  - high
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 44
-> Raised by 11/30 participants · Average 3.5 messages per discussion · 8 solutions proposed
+> [!caution] High Urgency — Score: 55
+> Raised by 15/40 participants · Average 3.0 messages per discussion · 9 solutions proposed
 
 Power in DAOs often flows through informal channels — social media influence, backchannel conversations, and narrative control — rather than through formal governance processes. Those who control the narrative effectively control governance outcomes regardless of formal mechanisms. This problem is insidious precisely because it operates outside the systems designed to create transparency and accountability.
 
 ## Evidence
 
-**Breadth**: 11 out of 30 interviewees raised this problem, placing it in the upper-middle range of prevalence. The participants who raised it tended to be those with extensive DAO experience who had observed the gap between formal governance structures and actual decision-making dynamics firsthand.
+**Breadth**: 15 out of 40 interviewees raised this problem, placing it in the upper-middle range of prevalence. The participants who raised it tended to be those with extensive DAO experience who had observed the gap between formal governance structures and actual decision-making dynamics firsthand.
 
-**Depth**: Averaging 3.5 messages per discussion, participants engaged meaningfully with the mechanics of informal power — how it accumulates, how it is exercised, and why formal governance structures fail to constrain it. The moderate depth reflects a problem that is recognizable but nuanced in its manifestations.
+**Depth**: Averaging 3.0 messages per discussion, participants engaged meaningfully with the mechanics of informal power — how it accumulates, how it is exercised, and why formal governance structures fail to constrain it. The moderate depth reflects a problem that is recognizable but nuanced in its manifestations.
 
 ## Why It Matters
 
@@ -32,6 +32,7 @@ Informal power is invisible to most governance frameworks and tools. On-chain vo
 - [[Telescope Bot]] — Automated monitoring of governance discussions to surface patterns of narrative coordination and informal influence
 - [[Tensegrity Governance]] — Structural governance design that distributes authority across interdependent roles, making it harder for informal power to concentrate
 - [[Updraft]] — Community curation of proposals reduces the effectiveness of narrative campaigns by creating multiple evaluation touchpoints
+- [[Explicit Interest Group Representation]] — Formal interest groups within protocols make power dynamics explicit and visible, reducing the advantage of informal influence networks
 
 ## Related Problems
 
@@ -41,7 +42,7 @@ Informal power is invisible to most governance frameworks and tools. On-chain vo
 
 ## Participants
 
-Raised by: Othman, Zeugh, Marlene, Alex Soto, Trigs, Hima, C. Adam Stallard, Arnold, mart1n, Feems, cory
+Raised by: Othman, Zeugh, Marlene, Alex S., Trigs, Hima, Adam S., Arnold, mart1n, Feems, cory, Alex O., Shelby, Daniel A., Joshua
 
 ---
 

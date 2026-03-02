@@ -39,7 +39,7 @@ At Custom stage (ex 2.5), Proposal Review Groups exist primarily as a well-devel
 
 ## Participant Mentions
 
-Referenced in 1 out of 30 interviews. The single mention likely reflects that many DAOs address the underlying need (improving proposal quality before voting) through informal means rather than structured review groups. However, as governance systems mature and the stakes of decisions increase, the need for formal quality assurance processes may drive broader adoption of this approach.
+Referenced in 1 out of 40 interviews. The single mention likely reflects that many DAOs address the underlying need (improving proposal quality before voting) through informal means rather than structured review groups. However, as governance systems mature and the stakes of decisions increase, the need for formal quality assurance processes may drive broader adoption of this approach.
 
 ---
 

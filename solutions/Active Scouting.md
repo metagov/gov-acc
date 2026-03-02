@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Alternative Models · Genesis
-> 1 participant mention · Addresses 2 governance problems
+> 2 participant mentions · Addresses 2 governance problems
 
 Proactive talent and project finding — like venture capital scouting — instead of waiting for grant applications. Active Scouting inverts the traditional grants model by going out to find high-impact projects and contributors rather than relying on who happens to show up and apply, addressing the selection bias inherent in application-based funding.
 
@@ -38,7 +38,7 @@ At Genesis stage (ex 1.5), Active Scouting is primarily a concept with minimal i
 
 ## Participant Mentions
 
-Referenced in 1 out of 30 interviews. The single mention likely understates the resonance of the underlying problem — many participants expressed frustration with grant application processes — but the specific inversion of the model (funders find builders, not the reverse) is a novel framing that most practitioners haven't yet considered. As DAOs become more sophisticated about talent acquisition and ecosystem development, Active Scouting may gain traction as a complement to traditional grant programs.
+Referenced in 2 out of 40 interviews. The single mention likely understates the resonance of the underlying problem — many participants expressed frustration with grant application processes — but the specific inversion of the model (funders find builders, not the reverse) is a novel framing that most practitioners haven't yet considered. As DAOs become more sophisticated about talent acquisition and ecosystem development, Active Scouting may gain traction as a complement to traditional grant programs.
 
 ---
 

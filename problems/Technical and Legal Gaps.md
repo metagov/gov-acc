@@ -7,16 +7,16 @@ tags:
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 42
-> Raised by 6/30 participants · Average 4.8 messages per discussion · 4 solutions proposed
+> [!info] Medium Urgency — Score: 46
+> Raised by 8/40 participants · Average 4.0 messages per discussion · 4 solutions proposed
 
 The gap between on-chain governance mechanisms and real-world legal frameworks creates fundamental uncertainties. Participants described challenges around DAO legal wrappers, cross-jurisdictional compliance, identity verification without surveillance, and the enforceability of governance decisions outside the blockchain. These are not theoretical concerns — they are practical barriers that limit what DAOs can actually govern.
 
 ## Evidence
 
-**Breadth**: 6 out of 30 interviewees raised this problem. The narrower breadth reflects the specialized nature of the concern — participants who raised it tended to have direct experience with legal structuring, regulatory compliance, or building infrastructure that bridges on-chain and off-chain worlds.
+**Breadth**: 8 out of 40 interviewees raised this problem. The narrower breadth reflects the specialized nature of the concern — participants who raised it tended to have direct experience with legal structuring, regulatory compliance, or building infrastructure that bridges on-chain and off-chain worlds.
 
-**Depth**: Averaging 4.8 messages per discussion, participants engaged substantially with the technical and legal specifics. Conversations explored particular jurisdictional challenges, identity verification tradeoffs, and the gap between what smart contracts can enforce and what governance actually requires. The solid depth indicates this is a complex, multi-faceted problem that defies simple characterization.
+**Depth**: Averaging 4.0 messages per discussion, participants engaged substantially with the technical and legal specifics. Conversations explored particular jurisdictional challenges, identity verification tradeoffs, and the gap between what smart contracts can enforce and what governance actually requires. The solid depth indicates this is a complex, multi-faceted problem that defies simple characterization.
 
 ## Why It Matters
 
@@ -37,7 +37,7 @@ Technical and legal gaps limit DAOs' ability to interact with the broader econom
 
 ## Participants
 
-Raised by: Della Foresta, Jason C, Joseph, Hima, ivan, C. Adam Stallard
+Raised by: Della Foresta, Jason C, Joseph, Hima, ivan, Adam S., Hannah, Shelby
 
 ---
 

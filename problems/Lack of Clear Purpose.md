@@ -7,16 +7,16 @@ tags:
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 38
-> Raised by 9/30 participants · Average 3.2 messages per discussion · 8 solutions proposed
+> [!info] Medium Urgency — Score: 46
+> Raised by 12/40 participants · Average 2.7 messages per discussion · 8 solutions proposed
 
 Many DAOs lack clear articulation of their purpose, values, and decision-making principles. Without a shared understanding of what the organization exists to do, governance becomes aimless — every proposal is evaluated in a vacuum rather than against coherent strategic direction. Despite having the lowest urgency score, this problem generated the most diverse set of proposed solutions, suggesting that practitioners see many possible paths forward.
 
 ## Evidence
 
-**Breadth**: 9 out of 30 interviewees raised this problem. The moderate breadth indicates this is recognized across a meaningful cross-section of governance practitioners, though it may be overshadowed by more acute operational problems like token voting failure or governance theater.
+**Breadth**: 12 out of 40 interviewees raised this problem. The moderate breadth indicates this is recognized across a meaningful cross-section of governance practitioners, though it may be overshadowed by more acute operational problems like token voting failure or governance theater.
 
-**Depth**: Averaging 3.2 messages per discussion, the moderate depth suggests participants could identify the problem clearly but found it difficult to elaborate — perhaps because the absence of purpose is easier to name than to analyze. The problem is definitional rather than mechanical: it is about what is missing rather than what is broken.
+**Depth**: Averaging 2.7 messages per discussion, the moderate depth suggests participants could identify the problem clearly but found it difficult to elaborate — perhaps because the absence of purpose is easier to name than to analyze. The problem is definitional rather than mechanical: it is about what is missing rather than what is broken.
 
 ## Why It Matters
 
@@ -41,7 +41,7 @@ Purpose gives governance its direction and evaluation criteria. Without it, gove
 
 ## Participants
 
-Raised by: Eugene, Raphael, Carl, Coffee-crusher, Ivey, Arnold, mart1n, Kaf, Rosalind
+Raised by: Eugene, Raphael, Carl, Coffee-crusher, Ivey, Arnold, mart1n, Kaf, Rosalind, Shelby, Dani, Hannah
 
 ---
 

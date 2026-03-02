@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Reputation · Custom → Product
-> 4 participant mentions · Addresses 3 governance problems
+> 5 participant mentions · Addresses 3 governance problems
 
 Systems for verifying delegate identity, track record, and active engagement. Delegate verification creates accountability infrastructure that enables consistent compensation, transparent performance tracking, and informed delegation choices. It addresses the gap between the promise of representative governance in DAOs and the reality of opaque, unaccountable delegation.
 
@@ -41,7 +41,7 @@ At the Custom-to-Product boundary (ex 3), delegate verification is being activel
 
 ## Participant Mentions
 
-Referenced in 4 out of 30 interviews. Mentions often arose in the context of delegate compensation discussions — participants recognized that you can't pay delegates fairly without being able to verify their work. The moderate mention count likely reflects that delegate verification is seen as necessary infrastructure rather than a headline innovation.
+Referenced in 5 out of 40 interviews. Mentions often arose in the context of delegate compensation discussions — participants recognized that you can't pay delegates fairly without being able to verify their work. The moderate mention count likely reflects that delegate verification is seen as necessary infrastructure rather than a headline innovation.
 
 ---
 

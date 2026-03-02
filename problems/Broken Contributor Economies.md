@@ -7,16 +7,16 @@ tags:
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 51
-> Raised by 10/30 participants · Average 5.1 messages per discussion · 6 solutions proposed
+> [!caution] High Urgency — Score: 60
+> Raised by 13/40 participants · Average 4.3 messages per discussion · 7 solutions proposed
 
 DAOs struggle to fairly compensate contributors, creating unsustainable work arrangements. The depth of discussion — 5.1 messages average, among the highest in the dataset — reveals complex, deeply-felt challenges around valuing work, defining roles, and creating career paths in decentralized organizations. This is not just a compensation problem; it is a structural failure in how DAOs organize and sustain labor.
 
 ## Evidence
 
-**Breadth**: 10 out of 30 interviewees raised this problem. While not the most widespread concern, it was disproportionately raised by participants with direct experience as DAO contributors or those managing contributor programs — the people closest to the problem.
+**Breadth**: 13 out of 40 interviewees raised this problem. While not the most widespread concern, it was disproportionately raised by participants with direct experience as DAO contributors or those managing contributor programs — the people closest to the problem.
 
-**Depth**: Averaging 5.1 messages per discussion, this is one of the most deeply explored problems in the research. The high depth suggests that contributor economy challenges are multi-layered: they encompass compensation, role definition, career progression, burnout, and the fundamental question of how to value work outside traditional employment structures.
+**Depth**: Averaging 4.3 messages per discussion, this is one of the most deeply explored problems in the research. The high depth suggests that contributor economy challenges are multi-layered: they encompass compensation, role definition, career progression, burnout, and the fundamental question of how to value work outside traditional employment structures.
 
 ## Why It Matters
 
@@ -30,6 +30,7 @@ Without sustainable contributor economies, DAOs lose their best talent to tradit
 - [[RPGF]] — Retroactive Public Goods Funding rewards contributors after impact is demonstrated, aligning incentives with actual value creation
 - [[Milestone-based Fundraising]] — Ties funding to deliverables rather than proposals, creating clearer expectations and accountability
 - [[Active Scouting]] — Proactively identifies and recruits contributors rather than relying on self-selection, addressing talent pipeline gaps
+- [[Open Value Accounting with AI]] — AI-assisted fair value accounting that reduces the tedious overhead of tracking and valuing diverse contributions
 
 ## Related Problems
 
@@ -39,7 +40,7 @@ Without sustainable contributor economies, DAOs lose their best talent to tradit
 
 ## Participants
 
-Raised by: Marlene, Alex Soto, Coffee-crusher, Zeugh, Raphael, Malachite, Chris, Kaf, Arnold, ivan
+Raised by: Marlene, Alex S., Coffee-crusher, Zeugh, Raphael, Malachite, Kaf, Arnold, ivan, Felix, Hannah, Daniel A., Andrej
 
 ---
 

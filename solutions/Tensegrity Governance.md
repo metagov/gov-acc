@@ -40,7 +40,7 @@ At Genesis stage (ex 1.5), tensegrity governance is the most theoretically ambit
 
 ## Participant Mentions
 
-Referenced in 3 out of 30 interviews. For a Genesis-stage solution, 3 mentions is relatively high, suggesting that the concept resonates with practitioners who have experienced the limitations of binary voting models. Participants who mentioned tensegrity governance were typically those most frustrated with the reductionism of "just vote on it" approaches and most interested in governance designs that can hold complexity without collapsing it.
+Referenced in 3 out of 40 interviews. For a Genesis-stage solution, 3 mentions is relatively high, suggesting that the concept resonates with practitioners who have experienced the limitations of binary voting models. Participants who mentioned tensegrity governance were typically those most frustrated with the reductionism of "just vote on it" approaches and most interested in governance designs that can hold complexity without collapsing it.
 
 ---
 
