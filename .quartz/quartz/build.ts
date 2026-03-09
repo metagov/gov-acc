@@ -146,6 +146,16 @@ async function startWatching(
     persistent: true,
     cwd: argv.directory,
     ignoreInitial: true,
+    ignored: (pathStr: string) => {
+      const pathPosix = toPosixPath(pathStr)
+      if (pathPosix.includes("node_modules")) return true
+      if (pathPosix.startsWith(".git/") || pathPosix === ".git") return true
+      if (pathPosix.startsWith(".quartz/") || pathPosix === ".quartz") return true
+      for (const pattern of ctx.cfg.configuration.ignorePatterns) {
+        if (minimatch(pathPosix, pattern)) return true
+      }
+      return false
+    },
   })
 
   const changes: ChangeEvent[] = []

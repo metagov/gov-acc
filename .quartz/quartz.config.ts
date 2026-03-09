@@ -20,6 +20,7 @@ const config: QuartzConfig = {
     ignorePatterns: [
       // Readme
       "README.md",
+      "CLAUDE.md",
 
       // Internal resources
       "resources/**",
@@ -99,7 +100,7 @@ const config: QuartzConfig = {
           dark: "#2b2b2b",
           secondary: "#04cb99",
           tertiary: "#3de8bd",
-          highlight: "rgba(134, 207, 170, 0.15)",
+          highlight: "rgba(134, 207, 170, 0.25)",
           textHighlight: "rgba(143, 159, 169, 0.25)",
         },
         darkMode: {
@@ -110,7 +111,7 @@ const config: QuartzConfig = {
           dark: "#ebebec",
           secondary: "#04cb99",
           tertiary: "#3de8bd",
-          highlight: "rgba(134, 207, 170, 0.15)",
+          highlight: "rgba(134, 207, 170, 0.25)",
           textHighlight: "rgba(143, 159, 169, 0.25)",
         },
       },

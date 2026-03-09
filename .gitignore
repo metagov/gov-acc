@@ -16,6 +16,8 @@ package-lock.json
 .meridian/
 
 # Obsidian local data (workspace, cache, plugins — not tracked)
+# Ignore workspace so each user can have their own untracked config
+.obsidian/workspace.json
 # Ignore contents of .obsidian so we can re-include only our plugin
 .obsidian/*
 # Only track our Index resources plugin; ignore all other plugins

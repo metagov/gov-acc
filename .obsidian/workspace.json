@@ -11,14 +11,10 @@
             "id": "385d486c0532bdfc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resources/OSF.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OSF"
+              "title": "New tab"
             }
           }
         ]

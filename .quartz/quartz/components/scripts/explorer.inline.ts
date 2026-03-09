@@ -37,40 +37,33 @@ function toggleExplorer(this: HTMLElement) {
   }
 }
 
-function toggleFolder(evt: MouseEvent) {
-  evt.stopPropagation()
+function toggleFolder(evt: MouseEvent, folderContainerFromDelegate?: MaybeHTMLElement) {
   const target = evt.target as MaybeHTMLElement
-  if (!target) return
-
-  // Check if target was svg icon or button
-  const isSvg = target.nodeName === "svg"
-
-  // corresponding <ul> element relative to clicked button/folder
-  const folderContainer = (
-    isSvg
-      ? // svg -> div.folder-container
-        target.parentElement
-      : // button.folder-button -> div -> div.folder-container
-        target.parentElement?.parentElement
-  ) as MaybeHTMLElement
+  const folderContainer =
+    folderContainerFromDelegate ??
+    (target?.closest(".folder-icon, .folder-button") as MaybeHTMLElement)?.closest(".folder-container") as MaybeHTMLElement
   if (!folderContainer) return
+
+  evt.preventDefault()
+  evt.stopPropagation()
+
   const childFolderContainer = folderContainer.nextElementSibling as MaybeHTMLElement
   if (!childFolderContainer) return
 
-  childFolderContainer.classList.toggle("open")
+  const folderPath = folderContainer.dataset.folderpath
+  if (folderPath === undefined) return
 
-  // Collapse folder container
+  childFolderContainer.classList.toggle("open")
   const isCollapsed = !childFolderContainer.classList.contains("open")
   setFolderState(childFolderContainer, isCollapsed)
 
-  const currentFolderState = currentExplorerState.find(
-    (item) => item.path === folderContainer.dataset.folderpath,
-  )
+  if (typeof currentExplorerState === "undefined") return
+  const currentFolderState = currentExplorerState.find((item) => item.path === folderPath)
   if (currentFolderState) {
     currentFolderState.collapsed = isCollapsed
   } else {
     currentExplorerState.push({
-      path: folderContainer.dataset.folderpath as FullSlug,
+      path: folderPath as FullSlug,
       collapsed: isCollapsed,
     })
   }
@@ -205,6 +198,15 @@ async function setupExplorer(currentSlug: FullSlug) {
     const explorerUl = explorer.querySelector(".explorer-ul")
     if (!explorerUl) continue
 
+    // Clear existing list items (except overflow-end) to avoid duplicates on re-run
+    const overflowEnd = explorerUl.querySelector("li.overflow-end")
+    while (explorerUl.firstChild) {
+      explorerUl.removeChild(explorerUl.firstChild)
+    }
+    if (overflowEnd) {
+      explorerUl.appendChild(overflowEnd)
+    }
+
     // Create and insert new content
     const fragment = document.createDocumentFragment()
     for (const child of trie.children) {
@@ -237,26 +239,19 @@ async function setupExplorer(currentSlug: FullSlug) {
       window.addCleanup(() => button.removeEventListener("click", toggleExplorer))
     }
 
-    // Set up folder click handlers
-    if (opts.folderClickBehavior === "collapse") {
-      const folderButtons = explorer.getElementsByClassName(
-        "folder-button",
-      ) as HTMLCollectionOf<HTMLElement>
-      for (const button of folderButtons) {
-        button.addEventListener("click", toggleFolder)
-        window.addCleanup(() => button.removeEventListener("click", toggleFolder))
-      }
-    }
-
-    const folderIcons = explorer.getElementsByClassName(
-      "folder-icon",
-    ) as HTMLCollectionOf<HTMLElement>
-    for (const icon of folderIcons) {
-      icon.addEventListener("click", toggleFolder)
-      window.addCleanup(() => icon.removeEventListener("click", toggleFolder))
-    }
   }
 }
+
+// Document-level delegation for folder toggles (runs once, never removed) so folder chevrons always work
+function onDocumentClick(evt: Event) {
+  const target = evt.target as HTMLElement
+  const container = target.closest(".explorer .folder-container") as HTMLElement | null
+  if (!container) return
+  if (target.closest("a.folder-title")) return
+  if (typeof currentExplorerState === "undefined") return
+  toggleFolder(evt as MouseEvent, container)
+}
+document.addEventListener("click", onDocumentClick, true)
 
 document.addEventListener("prenav", async () => {
   // save explorer scrollTop position

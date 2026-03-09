@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "tsx ./quartz/bootstrap-cli.mjs build --directory ..",
-    "serve": "tsx ./quartz/bootstrap-cli.mjs build --serve",
+    "serve": "tsx ./quartz/bootstrap-cli.mjs build --serve --directory ..",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "check": "tsc --noEmit && tsx ./quartz/bootstrap-cli.mjs update --check"
   },

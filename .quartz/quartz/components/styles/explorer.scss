@@ -152,6 +152,7 @@ button.desktop-explorer {
   }
 
   .folder-outer > ul {
+    min-height: 0; /* allow grid row to collapse to 0fr */
     overflow: clip;
     margin-left: 6px;
     padding-left: 0.8rem;
@@ -204,6 +205,9 @@ button.desktop-explorer {
 
 .folder-icon {
   margin-right: 5px;
+  padding: 2px;
+  min-width: 20px;
+  min-height: 20px;
   color: var(--secondary);
   cursor: pointer;
   transition: transform 0.3s ease;
