@@ -5,6 +5,14 @@ import style from "./styles/graph.scss"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
 
+export interface NodeStyleSet {
+  fillColor?: string
+  strokeColor?: string
+  strokeWidth?: number
+  backgroundColor?: string
+  backgroundRadius?: number
+}
+
 export interface D3Config {
   drag: boolean
   zoom: boolean
@@ -19,6 +27,10 @@ export interface D3Config {
   showTags: boolean
   focusOnHover?: boolean
   enableRadial?: boolean
+  nodeStyles?: {
+    regularNode?: NodeStyleSet
+    tagNode?: NodeStyleSet
+  }
 }
 
 interface GraphOptions {
@@ -67,7 +79,7 @@ export default ((opts?: Partial<GraphOptions>) => {
       <div class={classNames(displayClass, "graph")}>
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
         <div class="graph-outer">
-          <div class="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
+          <div class="local-graph-container graph-container" data-cfg={JSON.stringify(localGraph)}></div>
           <button class="global-graph-icon" aria-label="Global Graph">
             <svg
               version="1.1"
