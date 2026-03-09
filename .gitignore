@@ -15,9 +15,14 @@ package-lock.json
 # Meridian local data
 .meridian/
 
-# Obsidian local data
-.obsidian/
-.obsidian/**/*
+# Obsidian local data (workspace, cache, plugins — not tracked)
+# Ignore contents of .obsidian so we can re-include only our plugin
+.obsidian/*
+# Only track our Index resources plugin; ignore all other plugins
+!.obsidian/plugins/
+.obsidian/plugins/*
+!.obsidian/plugins/index-resources/
+!.obsidian/plugins/index-resources/**
 
 # System files
 .DS_Store

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Program Plan.md",
+                "file": "resources/OSF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Research Program Plan"
+              "title": "OSF"
             }
           }
         ]
@@ -185,20 +185,26 @@
   },
   "active": "385d486c0532bdfc",
   "lastOpenFiles": [
+    "resources/PDF Resources.md",
+    "resources/OSF.md",
+    "resources/Untitled",
+    "resources/Part 1 Analyzing the impact of Retro Funding Season 7 Developer Tooling  Open Source Observer.md",
+    "resources/Survey on Methodology for Onchain Ecosystem Funding and Impact Assessment.md",
+    "dashboard.md",
+    "resources/GG24 Alignment Dashboard Mapping Problems, Projects, and Funding.md",
+    "resources/The Collective DAO Archives.md",
+    "Research Program Plan.md",
     "media/photo_2026-02-08 17.06.35.jpeg",
     "media/Screenshot 2026-02-08 at 5.03.40 PM.png",
     "media/Screenshot 2026-02-08 at 5.03.52 PM.png",
     "media",
     "media/Screenshot 2026-02-08 at 5.04.15 PM.png",
     "image1.md",
-    "Research Program Plan.md",
     "index.md",
     "README.md",
     "resources/Strategic Update The OBOL Economic Engine & Governance Realignment - Announcements.md",
     "resources/Thread by @governingweb3.md",
     "resources/Governance Has Already Moved.md",
-    "resources/Part 1 Analyzing the impact of Retro Funding Season 7 Developer Tooling  Open Source Observer.md",
-    "resources/PDF Resources.md",
     "resources/Measuring On-Chain Impact of RetroPGF Season 7 An Exploratory Causal Analysis.md",
     "resources/I Built Myself an AI Delegate—And Then I Broke It.md",
     "resources/Governance as Conflict Constitution of Shared Values Defining Future Margins of Disagreement.md",
@@ -207,14 +213,10 @@
     "resources/Turning to Trust Experience Design (TXD).md",
     "resources/Thread by @z0r0zzz.md",
     "resources/The Dao of the DAO Eastern Philosophies in Decentralized Worlds.md",
-    "resources/The Collective DAO Archives.md",
     "resources/The Animating Purpose of BlockScience.md",
     "resources/Signals Protocol - dacc residency 2025.md",
-    "resources/GG24 Alignment Dashboard Mapping Problems, Projects, and Funding.md",
     "resources/Deliberative Tools Gallery  Metagov.md",
     "resources/Constitutions of Web3.md",
-    "resources/Co-Creation Cycle 3 - Final Report - Governance Iterations.md",
-    "resources/CAMF, a New Architecture for Crypto Funding Systems.md",
     "Untitled.canvas",
     "Clippings",
     "resources"

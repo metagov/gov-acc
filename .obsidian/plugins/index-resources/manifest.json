@@ -1,0 +1,9 @@
+{
+  "id": "index-resources",
+  "name": "Index resources",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Paste URLs and create resource markdown files with frontmatter from each page's meta tags.",
+  "author": "gov-acc",
+  "isDesktopOnly": false
+}
