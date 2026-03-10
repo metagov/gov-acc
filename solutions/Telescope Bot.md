@@ -40,7 +40,7 @@ At Custom-to-Product (ex 3), Telescope Bot represents a relatively simple but ef
 
 ## Participant Mentions
 
-Referenced in 1 out of 50 interviews. The single mention reflects the specialized nature of the tool — it sits at the intersection of governance and ethnographic research, a niche that few practitioners occupy. However, the problem it addresses (knowledge loss in chat platforms) was identified much more broadly. This suggests that the underlying need is well-recognized even if this particular solution is not widely known.
+Referenced in 1 out of 49 interviews. The single mention reflects the specialized nature of the tool — it sits at the intersection of governance and ethnographic research, a niche that few practitioners occupy. However, the problem it addresses (knowledge loss in chat platforms) was identified much more broadly. This suggests that the underlying need is well-recognized even if this particular solution is not widely known.
 
 ---
 

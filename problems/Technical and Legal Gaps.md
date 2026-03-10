@@ -7,8 +7,8 @@ tags:
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 54
-> Raised by 10/50 participants · Average 4.2 messages per discussion · 6 solutions proposed
+> [!info] High Urgency — Score: 55
+> Raised by 10/49 participants · Average 4.2 messages per discussion · 6 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ The gap between on-chain governance mechanisms and real-world legal frameworks c
 
 ## Evidence
 
-**Breadth**: 10 out of 50 interviewees raised this problem. The narrower breadth reflects the specialized nature of the concern — participants who raised it tended to have direct experience with legal structuring, regulatory compliance, or building infrastructure that bridges on-chain and off-chain worlds.
+**Breadth**: 10 out of 49 interviewees raised this problem. The narrower breadth reflects the specialized nature of the concern — participants who raised it tended to have direct experience with legal structuring, regulatory compliance, or building infrastructure that bridges on-chain and off-chain worlds.
 
 **Depth**: Averaging 4.0 messages per discussion, participants engaged substantially with the technical and legal specifics. Conversations explored particular jurisdictional challenges, identity verification tradeoffs, and the gap between what smart contracts can enforce and what governance actually requires. The solid depth indicates this is a complex, multi-faceted problem that defies simple characterization.
 

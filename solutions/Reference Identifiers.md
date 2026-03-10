@@ -40,7 +40,7 @@ At Custom stage (ex 2.5), Reference Identifiers have a clear specification and e
 
 ## Participant Mentions
 
-Referenced in 2 out of 50 interviews. The low mention count likely reflects both the niche nature of knowledge infrastructure and the reality that most governance practitioners are focused on immediate decision-making challenges rather than long-term knowledge management. However, those who mentioned RIDs understood them as foundational infrastructure — the kind of thing that, once built, would improve the effectiveness of every other governance tool.
+Referenced in 2 out of 49 interviews. The low mention count likely reflects both the niche nature of knowledge infrastructure and the reality that most governance practitioners are focused on immediate decision-making challenges rather than long-term knowledge management. However, those who mentioned RIDs understood them as foundational infrastructure — the kind of thing that, once built, would improve the effectiveness of every other governance tool.
 
 ---
 

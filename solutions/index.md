@@ -7,7 +7,7 @@ tags:
 created: 2026-02-10
 ---
 
-Preliminary findings from 50 Harmonica structured interviews. Thirty-seven proposed governance solutions identified so far, organized by category and maturity stage. Solution writeups were synthesized using AI-assisted analysis and may contain elaborations beyond what participants explicitly stated — see [[Phase 1 Results#Methodology|Methodology]] for details. Phase 1 research is ongoing — additional solutions may emerge as other data sources are integrated.
+Preliminary findings from 49 Harmonica structured interviews. Thirty-seven proposed governance solutions identified so far, organized by category and maturity stage. Solution writeups were synthesized using AI-assisted analysis and may contain elaborations beyond what participants explicitly stated — see [[Phase 1 Results#Methodology|Methodology]] for details. Phase 1 research is ongoing — additional solutions may emerge as other data sources are integrated.
 
 > [!info] Maturity stages
 > Solutions are mapped on a Wardley Map evolution axis:
@@ -99,7 +99,7 @@ The solutions landscape reveals several patterns:
 
 - **Knowledge infrastructure barely exists.** Governance Memory Systems, Reference Identifiers, and Telescope Bot are all in early stages. This is a critical gap given that [[Institutional Amnesia]] was identified as a high-urgency problem.
 
-- **AI-augmented governance is emerging rapidly.** AI Governance Agents received 8 mentions — strong signal for a Genesis/Custom stage solution — suggesting high practitioner interest despite low maturity.
+- **AI-augmented governance is emerging rapidly.** AI Governance Agents received 7 mentions — strong signal for a Genesis/Custom stage solution — suggesting high practitioner interest despite low maturity.
 
 - **Most solutions address Token Voting Failure.** This problem has the most solution coverage (15 solutions), confirming it as the primary focus of governance innovation efforts.
 

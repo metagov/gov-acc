@@ -7,8 +7,8 @@ tags:
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 49
-> Raised by 14/50 participants · Average 2.5 messages per discussion · 8 solutions proposed
+> [!info] Medium Urgency — Score: 50
+> Raised by 14/49 participants · Average 2.5 messages per discussion · 8 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ Many DAOs lack clear articulation of their purpose, values, and decision-making 
 
 ## Evidence
 
-**Breadth**: 14 out of 50 interviewees raised this problem. The moderate breadth indicates this is recognized across a meaningful cross-section of governance practitioners, though it may be overshadowed by more acute operational problems like token voting failure or governance theater.
+**Breadth**: 14 out of 49 interviewees raised this problem. The moderate breadth indicates this is recognized across a meaningful cross-section of governance practitioners, though it may be overshadowed by more acute operational problems like token voting failure or governance theater.
 
 **Depth**: Averaging 2.7 messages per discussion, the moderate depth suggests participants could identify the problem clearly but found it difficult to elaborate — perhaps because the absence of purpose is easier to name than to analyze. The problem is definitional rather than mechanical: it is about what is missing rather than what is broken.
 

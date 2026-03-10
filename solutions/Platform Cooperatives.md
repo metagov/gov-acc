@@ -45,7 +45,7 @@ At Genesis-to-Custom (ex 2), platform cooperatives benefit from a long history o
 
 ## Participant Mentions
 
-Referenced in 3 out of 50 interviews. The modest mention count may reflect the web3 community's tendency to look forward (toward novel governance mechanisms) rather than laterally (toward established governance traditions like cooperatives). Participants who mentioned platform cooperatives were typically those with the broadest perspective on governance, drawing connections between web3 and the longer history of democratic organizational design.
+Referenced in 3 out of 49 interviews. The modest mention count may reflect the web3 community's tendency to look forward (toward novel governance mechanisms) rather than laterally (toward established governance traditions like cooperatives). Participants who mentioned platform cooperatives were typically those with the broadest perspective on governance, drawing connections between web3 and the longer history of democratic organizational design.
 
 ---
 

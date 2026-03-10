@@ -37,7 +37,7 @@ At Genesis stage (ex 1.5), constitutional juror pools remain largely conceptual.
 
 ## Participant Mentions
 
-Referenced in 1 out of 50 interviews (Sneha, independent researcher). The solution addresses a fundamental tension in decentralized dispute resolution: how to achieve both legitimacy and competence without reverting to plutocratic selection mechanisms.
+Referenced in 1 out of 49 interviews (Sneha, independent researcher). The solution addresses a fundamental tension in decentralized dispute resolution: how to achieve both legitimacy and competence without reverting to plutocratic selection mechanisms.
 
 ---
 

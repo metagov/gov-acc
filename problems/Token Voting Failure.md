@@ -8,7 +8,7 @@ created: 2026-02-10
 ---
 
 > [!warning] Critical Urgency — Score: 88
-> Raised by 29/50 participants · Average 3.5 messages per discussion · 16 solutions proposed
+> Raised by 28/49 participants · Average 3.5 messages per discussion · 16 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ The most widely reported governance failure across the entire research program. 
 
 ## Evidence
 
-**Breadth**: 29 out of 50 interviewees raised this problem, making it the single most widely recognized governance failure in the dataset. Its near-universal prevalence suggests this is not an edge case but a systemic design flaw baked into the dominant governance paradigm.
+**Breadth**: 28 out of 49 interviewees raised this problem, making it the single most widely recognized governance failure in the dataset. Its near-universal prevalence suggests this is not an edge case but a systemic design flaw baked into the dominant governance paradigm.
 
 **Depth**: Averaging 3.7 messages per discussion, participants engaged substantively with this problem — not just flagging it but exploring its mechanics, consequences, and potential remedies. The combination of extreme breadth and solid depth produced the highest composite urgency score in the study.
 
@@ -51,7 +51,7 @@ Token voting is the default governance mechanism for most DAOs and protocols. It
 
 ## Participants
 
-Raised by: Eugene, Zeugh, Malachite, Hima, Marlene, Alex S., Trigs, Raphael, Regis, Ivey, Adam S., Teije, Arnold, mart1n, Kaf, ivan, Feems, Eleanor, Daniel, Rosalind, Loring, Wise Dolphin, Joshua, Eric A., Shelby, Daniel A., ECVM, Sneha, Sabrina
+Raised by: Eugene, Zeugh, Malachite, Hima, Marlene, Alex S., Trigs, Raphael, Regis, Ivey, Adam S., Teije, Arnold, mart1n, Kaf, ivan, Feems, Eleanor, Daniel, Rosalind, Loring, Wise Dolphin, Joshua, Eric A., Shelby, Daniel A., ECVM, Sneha
 
 ---
 

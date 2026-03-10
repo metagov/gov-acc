@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] AI-Augmented · Genesis → Custom
-> 8 participant mentions · Addresses 3 governance problems
+> 7 participant mentions · Addresses 3 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -40,11 +40,11 @@ Beyond individual voting, these agents can serve a collective intelligence funct
 
 ## Maturity Assessment
 
-At Genesis-to-Custom (ex 2), AI governance agents are in early experimental stages but moving quickly. The rapid advancement of foundation models has made the NLP components (proposal summarization, preference matching) increasingly capable, but the governance-specific infrastructure — preference learning, vote delegation frameworks, accountability mechanisms — is still being designed. The 8 participant mentions for a Genesis/Custom solution signal unusually high practitioner interest, suggesting this space may evolve faster than typical governance innovations.
+At Genesis-to-Custom (ex 2), AI governance agents are in early experimental stages but moving quickly. The rapid advancement of foundation models has made the NLP components (proposal summarization, preference matching) increasingly capable, but the governance-specific infrastructure — preference learning, vote delegation frameworks, accountability mechanisms — is still being designed. The 7 participant mentions for a Genesis/Custom solution signal unusually high practitioner interest, suggesting this space may evolve faster than typical governance innovations.
 
 ## Participant Mentions
 
-Referenced in 8 out of 50 interviews. This is a remarkably high mention count for a solution at such an early maturity stage — most Genesis/Custom solutions received 1-2 mentions. The elevated interest reflects both the general excitement around AI capabilities and a genuine recognition that governance participation doesn't scale without augmentation. Several participants noted that AI agents might be the only way to make governance work across the proliferating number of DAOs and proposals that active participants are expected to track.
+Referenced in 7 out of 49 interviews. This is a remarkably high mention count for a solution at such an early maturity stage — most Genesis/Custom solutions received 1-2 mentions. The elevated interest reflects both the general excitement around AI capabilities and a genuine recognition that governance participation doesn't scale without augmentation. Several participants noted that AI agents might be the only way to make governance work across the proliferating number of DAOs and proposals that active participants are expected to track.
 
 ---
 

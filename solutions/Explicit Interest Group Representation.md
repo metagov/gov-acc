@@ -38,7 +38,7 @@ At Genesis stage (ex 1.5), this solution exists primarily as a conceptual propos
 
 ## Participant Mentions
 
-Referenced in 1 out of 50 interviews. Joshua Davila proposed this as a response to the observation that DAO governance suffers from misaligned but unstated interests, particularly between profit-seeking investors and community-oriented contributors. The concept resonates with broader discussions about the inadequacy of one-token-one-vote as a governance primitive.
+Referenced in 1 out of 49 interviews. Joshua Davila proposed this as a response to the observation that DAO governance suffers from misaligned but unstated interests, particularly between profit-seeking investors and community-oriented contributors. The concept resonates with broader discussions about the inadequacy of one-token-one-vote as a governance primitive.
 
 ---
 

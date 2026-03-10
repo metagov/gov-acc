@@ -8,7 +8,7 @@ created: 2026-02-10
 ---
 
 > [!caution] High Urgency — Score: 57
-> Raised by 8/50 participants · Average 5.0 messages per discussion · 6 solutions proposed
+> Raised by 8/49 participants · Average 5.0 messages per discussion · 6 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ The deepest problem by average discussion depth in the entire dataset. Governanc
 
 ## Evidence
 
-**Breadth**: 8 out of 50 interviewees raised this problem. The relatively narrow breadth reflects its nature as a design philosophy critique rather than a surface-level operational complaint. Those who raised it tended to be governance researchers, system designers, or long-tenured practitioners who had observed the pattern across multiple organizations.
+**Breadth**: 8 out of 49 interviewees raised this problem. The relatively narrow breadth reflects its nature as a design philosophy critique rather than a surface-level operational complaint. Those who raised it tended to be governance researchers, system designers, or long-tenured practitioners who had observed the pattern across multiple organizations.
 
 **Depth**: Averaging 5.4 messages per discussion — this problem generated the most sustained, thoughtful engagement. Participants did not merely name the problem but traced its implications through multiple governance failures, debated the appropriate role of incentive design, and explored alternative foundations for governance. The extraordinary depth suggests this may be the root cause behind many surface-level failures.
 

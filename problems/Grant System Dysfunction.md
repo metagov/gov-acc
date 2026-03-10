@@ -7,8 +7,8 @@ tags:
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 49
-> Raised by 10/50 participants · Average 3.6 messages per discussion · 3 solutions proposed
+> [!info] Medium Urgency — Score: 50
+> Raised by 10/49 participants · Average 3.6 messages per discussion · 3 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ Grant programs — the primary capital allocation mechanism for most DAOs — su
 
 ## Evidence
 
-**Breadth**: 10 out of 50 interviewees raised this problem. The participants who flagged it were predominantly those with direct experience either applying for grants, administering grant programs, or observing how funded projects performed — practitioners who had seen the disconnect between funding decisions and actual impact.
+**Breadth**: 10 out of 49 interviewees raised this problem. The participants who flagged it were predominantly those with direct experience either applying for grants, administering grant programs, or observing how funded projects performed — practitioners who had seen the disconnect between funding decisions and actual impact.
 
 **Depth**: Averaging 3.8 messages per discussion, participants explored the mechanics of grant dysfunction in detail — describing how application processes reward proposal-writing skill over execution ability, how evaluation rarely tracks actual outcomes, and how social networks determine funding flows more than project merit.
 

@@ -7,8 +7,8 @@ tags:
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 63
-> Raised by 14/50 participants · Average 4.2 messages per discussion · 8 solutions proposed
+> [!caution] High Urgency — Score: 64
+> Raised by 14/49 participants · Average 4.2 messages per discussion · 8 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ DAOs struggle to fairly compensate contributors, creating unsustainable work arr
 
 ## Evidence
 
-**Breadth**: 14 out of 50 interviewees raised this problem. While not the most widespread concern, it was disproportionately raised by participants with direct experience as DAO contributors or those managing contributor programs — the people closest to the problem.
+**Breadth**: 14 out of 49 interviewees raised this problem. While not the most widespread concern, it was disproportionately raised by participants with direct experience as DAO contributors or those managing contributor programs — the people closest to the problem.
 
 **Depth**: Averaging 4.3 messages per discussion, this is one of the most deeply explored problems in the research. The high depth suggests that contributor economy challenges are multi-layered: they encompass compensation, role definition, career progression, burnout, and the fundamental question of how to value work outside traditional employment structures.
 

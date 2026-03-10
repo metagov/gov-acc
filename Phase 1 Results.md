@@ -8,14 +8,14 @@ created: 2026-02-10
 ---
 
 > [!abstract] Preliminary Findings — Harmonica Interview Track
-> 50 structured interviews · 11 governance problems · 37 proposed solutions · 59 actors
+> 49 structured interviews · 11 governance problems · 37 proposed solutions · 59 actors
 > January–March 2026 · Phase 1 is ongoing
 
 ## Overview
 
 These are preliminary findings from one track of Phase 1 research — structured interviews conducted via the [Harmonica platform](https://app.harmonica.chat). Phase 1 encompasses multiple data-gathering efforts, and these results will be expanded and refined as additional research streams contribute their findings.
 
-Through the Harmonica interview track, we conducted 50 in-depth structured conversations with DAO operators, protocol governance participants, delegates, academic researchers, governance infrastructure builders, and ecosystem actors.
+Through the Harmonica interview track, we conducted 49 in-depth structured conversations with DAO operators, protocol governance participants, delegates, academic researchers, governance infrastructure builders, and ecosystem actors.
 
 The result is an initial mapping of the governance problem space as experienced by practitioners — not a theoretical taxonomy, but a ground-level picture of what governance challenges look like from inside organizations trying to make decentralized decision-making work.
 
@@ -40,9 +40,9 @@ Responses were analyzed to extract and codify:
 
 Problems are ranked by a composite urgency score:
 
-$$\text{Urgency} = \frac{\text{breadth}}{29} \times 0.6 + \frac{\text{depth}}{5.0} \times 0.4$$
+$$\text{Urgency} = \frac{\text{breadth}}{28} \times 0.6 + \frac{\text{depth}}{5.0} \times 0.4$$
 
-- **Breadth** (60% weight): How many of 50 interviewees raised the problem — measures how widespread the concern is
+- **Breadth** (60% weight): How many of 49 interviewees raised the problem — measures how widespread the concern is
 - **Depth** (40% weight): Average messages per discussion — measures how much engagement the topic generates
 
 This formula surfaces problems that are both widely recognized AND deeply discussed, while allowing specialist concerns with high depth to still rank prominently.
@@ -51,11 +51,11 @@ This formula surfaces problems that are both widely recognized AND deeply discus
 
 ### Token Voting is the #1 Governance Concern
 
-[[Token Voting Failure]] was raised by 29 out of 50 participants — over half of all interviewees. With an urgency score of 88 (Critical), it is the most widely recognized and consistently discussed governance failure. Sixteen distinct solutions have been proposed to address it, more than any other problem.
+[[Token Voting Failure]] was raised by 28 out of 49 participants — over half of all interviewees. With an urgency score of 88 (Critical), it is the most widely recognized and consistently discussed governance failure. Sixteen distinct solutions have been proposed to address it, more than any other problem.
 
 ### Token Voting Stands Alone as Critical
 
-Only one problem scores above 80: [[Token Voting Failure]] (88). [[Voting Fatigue]] (72) and [[Governance Theater]] (69) follow as the highest-ranked High urgency problems. Together they represent the most acute failures in the current governance landscape — the mechanisms themselves are broken (token voting), participation is collapsing (voter fatigue), and the processes designed to fix them are often performative (governance theater).
+Only one problem scores above 80: [[Token Voting Failure]] (88). [[Voting Fatigue]] (71) and [[Governance Theater]] (68) follow as the highest-ranked High urgency problems. Together they represent the most acute failures in the current governance landscape — the mechanisms themselves are broken (token voting), participation is collapsing (voter fatigue), and the processes designed to fix them are often performative (governance theater).
 
 ### The Execution Layer Leads; Deliberation Lags
 
@@ -69,30 +69,30 @@ Despite [[Institutional Amnesia]] ranking as a High urgency problem (score 53, w
 
 ### AI Governance is Emerging Fast
 
-[[AI Governance Agents]] received 8 mentions — unusually strong signal for a Genesis/Custom stage solution. Participants are interested in AI-augmented governance for voter delegation, proposal summarization, and institutional memory — including Katashe Solutions building governance intelligence as a public good. [[AI Dispute Resolution]] and [[Constitutional Juror Pools]] add another dimension with expertise-based dispute resolution systems. This space is likely to evolve rapidly.
+[[AI Governance Agents]] received 7 mentions — unusually strong signal for a Genesis/Custom stage solution. Participants are interested in AI-augmented governance for voter delegation, proposal summarization, and institutional memory — including Katashe Solutions building governance intelligence as a public good. [[AI Dispute Resolution]] and [[Constitutional Juror Pools]] add another dimension with expertise-based dispute resolution systems. This space is likely to evolve rapidly.
 
 ### Deep Problems vs. Wide Problems
 
 The urgency formula reveals an interesting pattern:
-- **Wide problems** (high breadth, moderate depth): [[Voting Fatigue]] (25/50, 2.5 depth) — universally recognized, well-understood
-- **Deep problems** (moderate breadth, high depth): [[Over-Reliance on Game Theory]] (8/50, 5.0 depth) — specialist concern, generates the deepest discussion in the dataset
-- **Both** (high breadth, high depth): [[Token Voting Failure]] (29/50, 3.5 depth) — #1 by both measures
+- **Wide problems** (high breadth, moderate depth): [[Voting Fatigue]] (24/49, 2.5 depth) — universally recognized, well-understood
+- **Deep problems** (moderate breadth, high depth): [[Over-Reliance on Game Theory]] (8/49, 5.0 depth) — specialist concern, generates the deepest discussion in the dataset
+- **Both** (high breadth, high depth): [[Token Voting Failure]] (28/49, 3.5 depth) — #1 by both measures
 
 ## Problems at a Glance
 
 | Rank | Problem | Score | Level | Breadth | Depth |
 |------|---------|-------|-------|---------|-------|
-| 1 | [[Token Voting Failure]] | 88 | Critical | 29/50 | 3.5 |
-| 2 | [[Voting Fatigue]] | 72 | High | 25/50 | 2.5 |
-| 3 | [[Governance Theater]] | 69 | High | 21/50 | 3.2 |
-| 4 | [[Broken Contributor Economies]] | 63 | High | 14/50 | 4.2 |
-| 5 | [[Informal Power]] | 58 | High | 17/50 | 2.8 |
-| 6 | [[Over-Reliance on Game Theory]] | 57 | High | 8/50 | 5.0 |
-| 7 | [[Technical and Legal Gaps]] | 54 | High | 10/50 | 4.2 |
-| 8 | [[Institutional Amnesia]] | 53 | High | 8/50 | 4.5 |
-| 9 | [[Grant System Dysfunction]] | 49 | Medium | 10/50 | 3.6 |
-| 10 | [[Lack of Clear Purpose]] | 49 | Medium | 14/50 | 2.5 |
-| 11 | [[Delegate Sustainability]] | 48 | Medium | 11/50 | 3.1 |
+| 1 | [[Token Voting Failure]] | 88 | Critical | 28/49 | 3.5 |
+| 2 | [[Voting Fatigue]] | 71 | High | 24/49 | 2.5 |
+| 3 | [[Governance Theater]] | 68 | High | 20/49 | 3.2 |
+| 4 | [[Broken Contributor Economies]] | 64 | High | 14/49 | 4.2 |
+| 5 | [[Informal Power]] | 59 | High | 17/49 | 2.8 |
+| 6 | [[Over-Reliance on Game Theory]] | 57 | High | 8/49 | 5.0 |
+| 7 | [[Technical and Legal Gaps]] | 55 | High | 10/49 | 4.2 |
+| 8 | [[Institutional Amnesia]] | 53 | High | 8/49 | 4.5 |
+| 9 | [[Grant System Dysfunction]] | 50 | Medium | 10/49 | 3.6 |
+| 10 | [[Lack of Clear Purpose]] | 50 | Medium | 14/49 | 2.5 |
+| 11 | [[Delegate Sustainability]] | 48 | Medium | 11/49 | 3.1 |
 
 **[[problems/index|Explore all 11 problems →]]**
 

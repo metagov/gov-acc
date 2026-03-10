@@ -7,8 +7,8 @@ tags:
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 69
-> Raised by 21/50 participants · Average 3.2 messages per discussion · 11 solutions proposed
+> [!caution] High Urgency — Score: 68
+> Raised by 20/49 participants · Average 3.2 messages per discussion · 11 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ DAOs maintain the appearance of decentralized governance while real decisions ar
 
 ## Evidence
 
-**Breadth**: 21 out of 50 interviewees raised this problem, making it the second most widely recognized issue. Over half of participants independently identified governance theater as a significant concern, suggesting the pattern is visible and frustrating to a majority of governance practitioners.
+**Breadth**: 20 out of 49 interviewees raised this problem, making it the second most widely recognized issue. Over half of participants independently identified governance theater as a significant concern, suggesting the pattern is visible and frustrating to a majority of governance practitioners.
 
 **Depth**: Averaging 3.5 messages per discussion, the engagement level indicates participants had concrete experiences to share — specific instances of theatrical governance rather than abstract concerns. The moderate depth reflects a problem that is well-understood in its mechanics but emotionally charged in its implications.
 
@@ -46,7 +46,7 @@ When governance is theater, participants lose trust and disengage — accelerati
 
 ## Participants
 
-Raised by: Coffee-crusher, Ivey, Carl, Alex S., Marlene, Zeugh, Hima, Trigs, Adam S., Teije, Arnold, mart1n, Kaf, ivan, cory, Wise Dolphin, Dani, Aman, ECVM, Gbiri, Sabrina
+Raised by: Coffee-crusher, Ivey, Carl, Alex S., Marlene, Zeugh, Hima, Trigs, Adam S., Teije, Arnold, mart1n, Kaf, ivan, cory, Wise Dolphin, Dani, Aman, ECVM, Gbiri
 
 ---
 

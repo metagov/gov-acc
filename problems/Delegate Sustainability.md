@@ -8,7 +8,7 @@ created: 2026-02-10
 ---
 
 > [!info] Medium Urgency — Score: 48
-> Raised by 11/50 participants · Average 3.1 messages per discussion · 5 solutions proposed
+> Raised by 11/49 participants · Average 3.1 messages per discussion · 5 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ Delegates — the individuals who actively participate in governance on behalf o
 
 ## Evidence
 
-**Breadth**: 11 out of 50 interviewees raised this problem. The participants who identified it were predominantly active or former delegates, or those who work closely with delegate programs — people with direct experience of the sustainability challenges rather than outside observers.
+**Breadth**: 11 out of 49 interviewees raised this problem. The participants who identified it were predominantly active or former delegates, or those who work closely with delegate programs — people with direct experience of the sustainability challenges rather than outside observers.
 
 **Depth**: Averaging 3.2 messages per discussion, participants described specific pain points: the cognitive burden of reviewing proposals across multiple protocols, the mismatch between expected expertise and available compensation, the difficulty of maintaining accountability to delegators, and the emotional toll of sustained governance participation without adequate support structures.
 

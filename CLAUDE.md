@@ -97,7 +97,7 @@ Problem and solution data originates from HTML dashboard files in `../gov-acc-re
 - `solutions-v2.html` — 31 solutions with maturity (x), category, actors, problem mappings
 - `solutions-wardley-v2.html` — Wardley map positions and dependency relationships
 
-Urgency scoring formula: `(breadth/29) * 0.6 + (depth/5.0) * 0.4`
+Urgency scoring formula: `(breadth/28) * 0.6 + (depth/5.0) * 0.4`
 
 Phase 1 is ongoing — current findings are preliminary, from the Harmonica structured interview track. Other research streams will contribute additional data.
 
