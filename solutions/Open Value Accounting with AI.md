@@ -9,7 +9,7 @@ created: 2026-03-02
 ---
 
 > [!abstract] AI-Augmented · Custom
-> 1 participant mention · Addresses 2 governance problems
+> 2 participant mentions · Addresses 2 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -33,6 +33,7 @@ Key implementation considerations include: training the AI on community-specific
 - **Felix Fritsch** — Proposed the AI-augmented approach based on extensive research into the Token Engineering Commons (2021-2023), where the Praise system for value accounting created both benefits and significant social friction, documented in an 80-page case study
 - **Sensorica** — Pioneer of open value accounting in collaborative networks, providing the methodological foundation that AI augmentation builds upon
 - **Token Engineering Commons (TEC)** — Real-world testing ground for value accounting through the Praise system, providing both positive evidence (fair compensation) and cautionary lessons (community conflict from valuation burden)
+- **Green Goods (EAS attestations)** — Using Ethereum Attestation Service to create on-chain value accounting records, where contributors attest to work and approved attestations are bundled into hypercerts as verifiable impact certificates
 
 ## Maturity Assessment
 
@@ -40,7 +41,7 @@ At Custom stage (ex 2.0), the conceptual foundations are well-established throug
 
 ## Participant Mentions
 
-Referenced in 1 out of 40 interviews. Felix Fritsch's detailed account of the TEC's experience — initial enthusiasm, growing friction from valuation overhead, and eventual community conflict — provides a compelling evidence base for why AI augmentation is needed. The insight that value accounting is conceptually sound but socially expensive to implement manually positions AI assistance as a necessary enabler rather than a nice-to-have.
+Referenced in 2 out of 50 interviews. Felix Fritsch's detailed account of the TEC's experience — initial enthusiasm, growing friction from valuation overhead, and eventual community conflict — provides a compelling evidence base for why AI augmentation is needed. The insight that value accounting is conceptually sound but socially expensive to implement manually positions AI assistance as a necessary enabler rather than a nice-to-have.
 
 ---
 

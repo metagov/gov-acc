@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Alternative Models · Genesis → Custom
-> 2 participant mentions · Addresses 3 governance problems
+> 3 participant mentions · Addresses 3 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -37,6 +37,7 @@ In the web3 context, platform cooperatives offer an alternative to the DAO model
 
 - **Joseph** — Advocating for platform cooperative models in the web3 space, connecting established cooperative governance theory with decentralized technology
 - **Public AI Network** — Developing cooperative governance frameworks specifically for AI platforms, addressing the governance of AI systems as public infrastructure
+- **ECVM (GNU GPL model)** — Applying the GNU GPL licensing model to cooperative governance, using copyleft principles to ensure that governance innovations remain open and composable across organizations
 
 ## Maturity Assessment
 
@@ -44,7 +45,7 @@ At Genesis-to-Custom (ex 2), platform cooperatives benefit from a long history o
 
 ## Participant Mentions
 
-Referenced in 2 out of 40 interviews. The modest mention count may reflect the web3 community's tendency to look forward (toward novel governance mechanisms) rather than laterally (toward established governance traditions like cooperatives). Participants who mentioned platform cooperatives were typically those with the broadest perspective on governance, drawing connections between web3 and the longer history of democratic organizational design.
+Referenced in 3 out of 50 interviews. The modest mention count may reflect the web3 community's tendency to look forward (toward novel governance mechanisms) rather than laterally (toward established governance traditions like cooperatives). Participants who mentioned platform cooperatives were typically those with the broadest perspective on governance, drawing connections between web3 and the longer history of democratic organizational design.
 
 ---
 

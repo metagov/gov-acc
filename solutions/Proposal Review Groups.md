@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Structural · Custom
-> 1 participant mention · Addresses 3 governance problems
+> 2 participant mentions · Addresses 3 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -34,6 +34,7 @@ Critically, the design avoids centralized gatekeeping. Review groups cannot bloc
 ## Key Actors
 
 - **Feems (concept)** — Proposed the Proposal Review Groups model with education standards, drawing on academic peer review and legislative committee processes as analogies for DAO governance quality assurance
+- **Karam / Polkadot technical fellows** — Advocating for mandatory technical review before funding decisions ("no technical review = no funding"), citing Polkadot's technical fellowship model as a working example of structured proposal quality assurance
 
 ## Maturity Assessment
 
@@ -41,7 +42,7 @@ At Custom stage (ex 2.5), Proposal Review Groups exist primarily as a well-devel
 
 ## Participant Mentions
 
-Referenced in 1 out of 40 interviews. The single mention likely reflects that many DAOs address the underlying need (improving proposal quality before voting) through informal means rather than structured review groups. However, as governance systems mature and the stakes of decisions increase, the need for formal quality assurance processes may drive broader adoption of this approach.
+Referenced in 2 out of 50 interviews. The single mention likely reflects that many DAOs address the underlying need (improving proposal quality before voting) through informal means rather than structured review groups. However, as governance systems mature and the stakes of decisions increase, the need for formal quality assurance processes may drive broader adoption of this approach.
 
 ---
 

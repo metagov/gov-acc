@@ -7,8 +7,8 @@ tags:
 created: 2026-02-10
 ---
 
-> [!info] Medium Urgency — Score: 46
-> Raised by 8/40 participants · Average 4.0 messages per discussion · 4 solutions proposed
+> [!info] Medium Urgency — Score: 54
+> Raised by 10/50 participants · Average 4.2 messages per discussion · 6 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ The gap between on-chain governance mechanisms and real-world legal frameworks c
 
 ## Evidence
 
-**Breadth**: 8 out of 40 interviewees raised this problem. The narrower breadth reflects the specialized nature of the concern — participants who raised it tended to have direct experience with legal structuring, regulatory compliance, or building infrastructure that bridges on-chain and off-chain worlds.
+**Breadth**: 10 out of 50 interviewees raised this problem. The narrower breadth reflects the specialized nature of the concern — participants who raised it tended to have direct experience with legal structuring, regulatory compliance, or building infrastructure that bridges on-chain and off-chain worlds.
 
 **Depth**: Averaging 4.0 messages per discussion, participants engaged substantially with the technical and legal specifics. Conversations explored particular jurisdictional challenges, identity verification tradeoffs, and the gap between what smart contracts can enforce and what governance actually requires. The solid depth indicates this is a complex, multi-faceted problem that defies simple characterization.
 
@@ -30,6 +30,8 @@ Technical and legal gaps limit DAOs' ability to interact with the broader econom
 - [[VERP Protocol]] — Verified Engagement and Reputation Protocol that creates privacy-preserving identity verification, addressing the tension between KYC requirements and pseudonymous governance
 - [[Platform Cooperatives]] — Cooperative legal structures that provide established legal frameworks for collectively governed organizations, offering a tested bridge between decentralized governance and legal systems
 - [[Token-as-Equity]] — Reframes governance tokens as equity instruments, mapping them onto existing securities law frameworks to create legal clarity for token governance
+- [[Attestation-Based Governance]] — Decouples identity from voting power using attestation-based proposals, bridging on-chain governance with verifiable off-chain credentials
+- [[Constitutional Juror Pools]] — DAO-vetted subject-matter juror pools with qualification standards, creating structured dispute resolution that can interface with legal frameworks
 
 ## Related Problems
 
@@ -39,7 +41,7 @@ Technical and legal gaps limit DAOs' ability to interact with the broader econom
 
 ## Participants
 
-Raised by: Della Foresta, Jason C, Joseph, Hima, ivan, Adam S., Hannah, Shelby
+Raised by: Della Foresta, Jason C, Joseph, Hima, ivan, Adam S., Hannah, Shelby, Jeffrey, Sneha
 
 ---
 

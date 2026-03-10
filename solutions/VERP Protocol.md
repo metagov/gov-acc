@@ -42,7 +42,7 @@ At Genesis stage (ex 1.5), VERP Protocol is one of the most ambitious and specul
 
 ## Participant Mentions
 
-Referenced in 1 out of 40 interviews. The single mention reflects VERP's position at the cutting edge of governance innovation — it addresses a vision of governance that most practitioners haven't yet considered. However, the underlying theme of connecting digital governance to physical-world outcomes resonates with growing interest in regenerative finance (ReFi) and real-world asset governance.
+Referenced in 1 out of 50 interviews. The single mention reflects VERP's position at the cutting edge of governance innovation — it addresses a vision of governance that most practitioners haven't yet considered. However, the underlying theme of connecting digital governance to physical-world outcomes resonates with growing interest in regenerative finance (ReFi) and real-world asset governance.
 
 ---
 

@@ -40,7 +40,7 @@ At Custom stage (ex 3), pairwise preference voting benefits from well-establishe
 
 ## Participant Mentions
 
-Referenced in 1 out of 40 interviews. Daniel Kronovet described multiple implementations and the theoretical basis for pairwise comparison as an improvement over traditional voting mechanisms. The low mention count likely reflects the relative novelty of these specific tools rather than low practitioner interest — the underlying insight that simpler comparison formats produce better collective decisions has broad intuitive appeal.
+Referenced in 1 out of 50 interviews. Daniel Kronovet described multiple implementations and the theoretical basis for pairwise comparison as an improvement over traditional voting mechanisms. The low mention count likely reflects the relative novelty of these specific tools rather than low practitioner interest — the underlying insight that simpler comparison formats produce better collective decisions has broad intuitive appeal.
 
 ---
 

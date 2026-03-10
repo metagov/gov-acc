@@ -9,7 +9,7 @@ created: 2026-03-02
 ---
 
 > [!abstract] Structural · Custom
-> 1 participant mention · Addresses 2 governance problems
+> 2 participant mentions · Addresses 2 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -31,6 +31,7 @@ The cycle approach has precedent in traditional corporate governance (annual gen
 ## Key Actors
 
 - **Loring** — Proposed the concept based on observations that many DAOs are already moving toward standardized governance cycles as a response to voter fatigue, citing the cypherpunk DAO model of quarterly funding slate votes
+- **Karam (pre-flight packets)** — Advocating for structured pre-flight documentation packets that standardize the preparation phase of governance cycles, ensuring proposals meet quality thresholds before entering the voting pipeline
 
 ## Maturity Assessment
 
@@ -38,7 +39,7 @@ At Custom stage (ex 2.5), several DAOs have implemented governance cycles inform
 
 ## Participant Mentions
 
-Referenced in 1 out of 40 interviews. The single explicit mention belies the broader pattern: multiple participants described DAOs moving toward scheduled governance windows as evidence of the voting fatigue problem. The solution is emerging organically from the problem itself, suggesting it addresses a genuine need. Loring specifically cited it as both evidence of fatigue and a working response.
+Referenced in 2 out of 50 interviews. The single explicit mention belies the broader pattern: multiple participants described DAOs moving toward scheduled governance windows as evidence of the voting fatigue problem. The solution is emerging organically from the problem itself, suggesting it addresses a genuine need. Loring specifically cited it as both evidence of fatigue and a working response.
 
 ---
 

@@ -44,7 +44,7 @@ At Commodity stage (ex 4.5), VE buyback models are the most mature financial gov
 
 ## Participant Mentions
 
-Referenced in 4 out of 40 interviews. The mention count is notable given that VE models are often discussed in financial rather than governance contexts. Participants who mentioned them recognized the powerful insight that economic incentives for governance participation can solve the engagement problem that plagues most DAOs. However, some noted the risk of reducing governance to financial optimization, where voters maximize their yield rather than making decisions that serve the broader community.
+Referenced in 4 out of 50 interviews. The mention count is notable given that VE models are often discussed in financial rather than governance contexts. Participants who mentioned them recognized the powerful insight that economic incentives for governance participation can solve the engagement problem that plagues most DAOs. However, some noted the risk of reducing governance to financial optimization, where voters maximize their yield rather than making decisions that serve the broader community.
 
 ---
 

@@ -38,7 +38,7 @@ At Genesis-to-Custom (ex 2), AI dispute resolution is still largely conceptual w
 
 ## Participant Mentions
 
-Referenced in 2 out of 40 interviews. The low mention count reflects both the novelty of the concept and the fact that dispute resolution, while important, is not the primary pain point for most governance practitioners — they're more focused on day-to-day decision-making than conflict resolution. However, as governance systems mature and more complex disputes arise, this solution may gain significantly more attention.
+Referenced in 2 out of 50 interviews. The low mention count reflects both the novelty of the concept and the fact that dispute resolution, while important, is not the primary pain point for most governance practitioners — they're more focused on day-to-day decision-making than conflict resolution. However, as governance systems mature and more complex disputes arise, this solution may gain significantly more attention.
 
 ---
 

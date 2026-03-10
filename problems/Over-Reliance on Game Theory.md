@@ -7,8 +7,8 @@ tags:
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 53
-> Raised by 7/40 participants · Average 5.4 messages per discussion · 5 solutions proposed
+> [!caution] High Urgency — Score: 57
+> Raised by 8/50 participants · Average 5.0 messages per discussion · 6 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ The deepest problem by average discussion depth in the entire dataset. Governanc
 
 ## Evidence
 
-**Breadth**: 7 out of 40 interviewees raised this problem. The relatively narrow breadth reflects its nature as a design philosophy critique rather than a surface-level operational complaint. Those who raised it tended to be governance researchers, system designers, or long-tenured practitioners who had observed the pattern across multiple organizations.
+**Breadth**: 8 out of 50 interviewees raised this problem. The relatively narrow breadth reflects its nature as a design philosophy critique rather than a surface-level operational complaint. Those who raised it tended to be governance researchers, system designers, or long-tenured practitioners who had observed the pattern across multiple organizations.
 
 **Depth**: Averaging 5.4 messages per discussion — this problem generated the most sustained, thoughtful engagement. Participants did not merely name the problem but traced its implications through multiple governance failures, debated the appropriate role of incentive design, and explored alternative foundations for governance. The extraordinary depth suggests this may be the root cause behind many surface-level failures.
 
@@ -31,6 +31,7 @@ When governance is reduced to mechanism design, it becomes brittle and exploitab
 - [[Governance Memory System]] — Captures the social and cultural context around decisions, not just the mechanical outcomes, enabling governance to learn from human dynamics
 - [[Powers Protocol]] — Separates governance functions to create checks and balances based on institutional design rather than incentive engineering
 - [[Logos Zones]] — Autonomous governance zones that can adopt different governance philosophies, allowing experimentation beyond game-theoretic defaults
+- [[Constitutional Juror Pools]] — DAO-vetted subject-matter juror pools with qualification standards, moving dispute resolution beyond pure incentive mechanisms
 
 ## Related Problems
 
@@ -40,7 +41,7 @@ When governance is reduced to mechanism design, it becomes brittle and exploitab
 
 ## Participants
 
-Raised by: Regis, Martin, Teije, mart1n, ivan, Felix, Dani
+Raised by: Regis, Martin, Teije, mart1n, ivan, Felix, Dani, Sneha
 
 ---
 

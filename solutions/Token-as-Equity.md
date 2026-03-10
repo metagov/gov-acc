@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Financial · Custom
-> 2 participant mentions · Addresses 2 governance problems
+> 3 participant mentions · Addresses 2 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -35,6 +35,7 @@ The legal dimension is significant. Token-as-equity models sit in a gray area be
 ## Key Actors
 
 - **ivan / Aragon** — Developing token-as-equity frameworks within the Aragon ecosystem, creating infrastructure for on-chain economic rights and revenue distribution
+- **Gbiri / Aragon** — Developing ownership tokens through Aragon that give holders explicit economic rights and governance power, bridging token-based governance with equity-like ownership structures
 - **a16z (framework)** — Publishing frameworks for how tokens can incorporate equity-like properties while navigating regulatory constraints, drawing on their experience in both venture capital and crypto governance
 
 ## Maturity Assessment
@@ -43,7 +44,7 @@ At Custom stage (ex 2.5), Token-as-Equity has a clear conceptual framework and s
 
 ## Participant Mentions
 
-Referenced in 2 out of 40 interviews. The modest mention count reflects the specialized, finance-focused nature of this solution. However, the underlying question — what economic rights should governance tokens convey? — was implicitly present in many more conversations about token voting and governance incentives. As the space matures and regulatory frameworks develop, Token-as-Equity is likely to become increasingly central to governance design discussions.
+Referenced in 3 out of 50 interviews. The modest mention count reflects the specialized, finance-focused nature of this solution. However, the underlying question — what economic rights should governance tokens convey? — was implicitly present in many more conversations about token voting and governance incentives. As the space matures and regulatory frameworks develop, Token-as-Equity is likely to become increasingly central to governance design discussions.
 
 ---
 

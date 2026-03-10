@@ -40,7 +40,7 @@ At Custom stage (ex 2), Governable Spaces is more a design philosophy and framew
 
 ## Participant Mentions
 
-Referenced in 1 out of 40 interviews. Rosalind described the Governable Spaces framework as an approach to governance that prioritizes purpose and community context over mechanism design. The low mention count may reflect the web3 governance community's tendency to focus on technical solutions (voting mechanisms, token models) rather than organizational development approaches — precisely the gap this framework aims to address.
+Referenced in 1 out of 50 interviews. Rosalind described the Governable Spaces framework as an approach to governance that prioritizes purpose and community context over mechanism design. The low mention count may reflect the web3 governance community's tendency to focus on technical solutions (voting mechanisms, token models) rather than organizational development approaches — precisely the gap this framework aims to address.
 
 ---
 

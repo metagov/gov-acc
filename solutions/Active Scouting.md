@@ -40,7 +40,7 @@ At Genesis stage (ex 1.5), Active Scouting is primarily a concept with minimal i
 
 ## Participant Mentions
 
-Referenced in 2 out of 40 interviews. The single mention likely understates the resonance of the underlying problem — many participants expressed frustration with grant application processes — but the specific inversion of the model (funders find builders, not the reverse) is a novel framing that most practitioners haven't yet considered. As DAOs become more sophisticated about talent acquisition and ecosystem development, Active Scouting may gain traction as a complement to traditional grant programs.
+Referenced in 2 out of 50 interviews. The single mention likely understates the resonance of the underlying problem — many participants expressed frustration with grant application processes — but the specific inversion of the model (funders find builders, not the reverse) is a novel framing that most practitioners haven't yet considered. As DAOs become more sophisticated about talent acquisition and ecosystem development, Active Scouting may gain traction as a complement to traditional grant programs.
 
 ---
 

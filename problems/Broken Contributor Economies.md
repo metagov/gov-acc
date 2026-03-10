@@ -7,8 +7,8 @@ tags:
 created: 2026-02-10
 ---
 
-> [!caution] High Urgency — Score: 60
-> Raised by 13/40 participants · Average 4.3 messages per discussion · 7 solutions proposed
+> [!caution] High Urgency — Score: 63
+> Raised by 14/50 participants · Average 4.2 messages per discussion · 8 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -16,7 +16,7 @@ DAOs struggle to fairly compensate contributors, creating unsustainable work arr
 
 ## Evidence
 
-**Breadth**: 13 out of 40 interviewees raised this problem. While not the most widespread concern, it was disproportionately raised by participants with direct experience as DAO contributors or those managing contributor programs — the people closest to the problem.
+**Breadth**: 14 out of 50 interviewees raised this problem. While not the most widespread concern, it was disproportionately raised by participants with direct experience as DAO contributors or those managing contributor programs — the people closest to the problem.
 
 **Depth**: Averaging 4.3 messages per discussion, this is one of the most deeply explored problems in the research. The high depth suggests that contributor economy challenges are multi-layered: they encompass compensation, role definition, career progression, burnout, and the fundamental question of how to value work outside traditional employment structures.
 
@@ -33,6 +33,7 @@ Without sustainable contributor economies, DAOs lose their best talent to tradit
 - [[Milestone-based Fundraising]] — Ties funding to deliverables rather than proposals, creating clearer expectations and accountability
 - [[Active Scouting]] — Proactively identifies and recruits contributors rather than relying on self-selection, addressing talent pipeline gaps
 - [[Open Value Accounting with AI]] — AI-assisted fair value accounting that reduces the tedious overhead of tracking and valuing diverse contributions
+- [[Green Goods]] — Mobile-first impact reporting with conviction funding, hypercerts, and yield vaults for sustainable contributor compensation
 
 ## Related Problems
 
@@ -42,7 +43,7 @@ Without sustainable contributor economies, DAOs lose their best talent to tradit
 
 ## Participants
 
-Raised by: Marlene, Alex S., Coffee-crusher, Zeugh, Raphael, Malachite, Kaf, Arnold, ivan, Felix, Hannah, Daniel A., Andrej
+Raised by: Marlene, Alex S., Coffee-crusher, Zeugh, Raphael, Malachite, Kaf, Arnold, ivan, Felix, Hannah, Daniel A., Andrej, Afolabi
 
 ---
 

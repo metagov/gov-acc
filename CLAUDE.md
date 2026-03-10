@@ -43,7 +43,7 @@ Markdown files in the root directory are published. Key structure:
 - `Phase 1 Results.md` — Research findings summary
 - `Research Program Plan.md` — Methodology
 - `problems/` — 11 governance problem articles + index
-- `solutions/` — 31 governance solution articles + index
+- `solutions/` — 37 governance solution articles + index
 - `resources/` — Curated research (NOT published, ignored in config)
 - `phase1/` — Static HTML dashboards (copied as-is, not Quartz-processed)
 - `media/` — Images
@@ -97,7 +97,7 @@ Problem and solution data originates from HTML dashboard files in `../gov-acc-re
 - `solutions-v2.html` — 31 solutions with maturity (x), category, actors, problem mappings
 - `solutions-wardley-v2.html` — Wardley map positions and dependency relationships
 
-Urgency scoring formula: `(breadth/26) * 0.6 + (depth/5.8) * 0.4`
+Urgency scoring formula: `(breadth/29) * 0.6 + (depth/5.0) * 0.4`
 
 Phase 1 is ongoing — current findings are preliminary, from the Harmonica structured interview track. Other research streams will contribute additional data.
 

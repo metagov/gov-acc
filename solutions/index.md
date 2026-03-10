@@ -7,7 +7,7 @@ tags:
 created: 2026-02-10
 ---
 
-Preliminary findings from 40 Harmonica structured interviews. Thirty-four proposed governance solutions identified so far, organized by category and maturity stage. Solution writeups were synthesized using AI-assisted analysis and may contain elaborations beyond what participants explicitly stated — see [[Phase 1 Results#Methodology|Methodology]] for details. Phase 1 research is ongoing — additional solutions may emerge as other data sources are integrated.
+Preliminary findings from 50 Harmonica structured interviews. Thirty-seven proposed governance solutions identified so far, organized by category and maturity stage. Solution writeups were synthesized using AI-assisted analysis and may contain elaborations beyond what participants explicitly stated — see [[Phase 1 Results#Methodology|Methodology]] for details. Phase 1 research is ongoing — additional solutions may emerge as other data sources are integrated.
 
 > [!info] Maturity stages
 > Solutions are mapped on a Wardley Map evolution axis:
@@ -21,22 +21,22 @@ Preliminary findings from 40 Harmonica structured interviews. Thirty-four propos
 ### Voting Reform
 | Solution | Maturity | Mentions | Problems Addressed |
 |----------|----------|----------|--------------------|
-| [[Conviction Voting]] | Product | 6 | 3 |
+| [[Conviction Voting]] | Product | 7 | 3 |
 | [[Pairwise Preference Voting]] | Custom | 1 | 2 |
 
 ### Reputation
 | Solution | Maturity | Mentions | Problems Addressed |
 |----------|----------|----------|--------------------|
-| [[Soulbound Reputation Tokens]] | Custom → Product | 6 | 4 |
+| [[Soulbound Reputation Tokens]] | Custom → Product | 7 | 4 |
 | [[Delegate Verification]] | Custom → Product | 5 | 3 |
 | [[TrustGraph]] | Genesis → Custom | 1 | 2 |
 
 ### AI-Augmented
 | Solution | Maturity | Mentions | Problems Addressed |
 |----------|----------|----------|--------------------|
-| [[AI Governance Agents]] | Genesis → Custom | 6 | 3 |
+| [[AI Governance Agents]] | Genesis → Custom | 8 | 3 |
 | [[AI Dispute Resolution]] | Genesis → Custom | 2 | 2 |
-| [[Open Value Accounting with AI]] | Custom | 1 | 2 |
+| [[Open Value Accounting with AI]] | Custom | 2 | 2 |
 
 ### Sensemaking
 | Solution | Maturity | Mentions | Problems Addressed |
@@ -49,7 +49,7 @@ Preliminary findings from 40 Harmonica structured interviews. Thirty-four propos
 ### Knowledge Infrastructure
 | Solution | Maturity | Mentions | Problems Addressed |
 |----------|----------|----------|--------------------|
-| [[Governance Memory System]] | Genesis → Custom | 3 | 3 |
+| [[Governance Memory System]] | Genesis → Custom | 4 | 3 |
 | [[Reference Identifiers]] | Custom | 2 | 2 |
 | [[Telescope Bot]] | Custom → Product | 1 | 2 |
 
@@ -60,10 +60,11 @@ Preliminary findings from 40 Harmonica structured interviews. Thirty-four propos
 | [[Optimistic Governance]] | Product | 4 | 2 |
 | [[Proto-DAOs]] | Genesis → Custom | 4 | 3 |
 | [[Tensegrity Governance]] | Genesis | 3 | 4 |
-| [[Proposal Review Groups]] | Custom | 1 | 3 |
+| [[Proposal Review Groups]] | Custom | 2 | 3 |
 | [[Powers Protocol]] | Genesis | 2 | 3 |
-| [[Logos Zones]] | Genesis | 1 | 3 |
-| [[Standardized Governance Cycles]] | Custom | 1 | 2 |
+| [[Logos Zones]] | Genesis | 2 | 3 |
+| [[Standardized Governance Cycles]] | Custom | 2 | 2 |
+| [[Attestation-Based Governance]] | Product | 1 | 2 |
 | [[Explicit Interest Group Representation]] | Genesis | 1 | 2 |
 
 ### Financial
@@ -71,8 +72,9 @@ Preliminary findings from 40 Harmonica structured interviews. Thirty-four propos
 |----------|----------|----------|--------------------|
 | [[Contributor Streams]] | Product | 5 | 2 |
 | [[VE Buyback Models]] | Commodity | 4 | 2 |
-| [[RPGF]] | Custom → Product | 4 | 2 |
-| [[Token-as-Equity]] | Custom | 2 | 2 |
+| [[RPGF]] | Custom → Product | 5 | 2 |
+| [[Token-as-Equity]] | Custom | 3 | 2 |
+| [[Green Goods]] | Product | 1 | 2 |
 | [[Milestone-based Fundraising]] | Genesis → Custom | 2 | 2 |
 
 ### Verification
@@ -84,8 +86,9 @@ Preliminary findings from 40 Harmonica structured interviews. Thirty-four propos
 | Solution | Maturity | Mentions | Problems Addressed |
 |----------|----------|----------|--------------------|
 | [[Centralized Ops DAO Oversight]] | Product | 5 | 3 |
-| [[Platform Cooperatives]] | Genesis → Custom | 2 | 3 |
+| [[Platform Cooperatives]] | Genesis → Custom | 3 | 3 |
 | [[Governable Spaces]] | Custom | 1 | 2 |
+| [[Constitutional Juror Pools]] | Genesis | 1 | 2 |
 | [[Active Scouting]] | Genesis | 2 | 2 |
 
 ## Key Insights
@@ -96,7 +99,7 @@ The solutions landscape reveals several patterns:
 
 - **Knowledge infrastructure barely exists.** Governance Memory Systems, Reference Identifiers, and Telescope Bot are all in early stages. This is a critical gap given that [[Institutional Amnesia]] was identified as a high-urgency problem.
 
-- **AI-augmented governance is emerging rapidly.** AI Governance Agents received 5 mentions — strong signal for a Genesis/Custom stage solution — suggesting high practitioner interest despite low maturity.
+- **AI-augmented governance is emerging rapidly.** AI Governance Agents received 8 mentions — strong signal for a Genesis/Custom stage solution — suggesting high practitioner interest despite low maturity.
 
 - **Most solutions address Token Voting Failure.** This problem has the most solution coverage (15 solutions), confirming it as the primary focus of governance innovation efforts.
 

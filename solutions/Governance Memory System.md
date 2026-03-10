@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Knowledge Infrastructure · Genesis → Custom
-> 3 participant mentions · Addresses 3 governance problems
+> 4 participant mentions · Addresses 3 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -38,6 +38,7 @@ The Governance Memory System (GMS) framework identifies five layers of instituti
 ## Key Actors
 
 - **Othman (GMS framework)** — Designer of the five-layer Governance Memory System framework, drawing on institutional design theory and applying it to the specific challenges of decentralized organizations
+- **Karam (procurement-as-governance)** — Framing procurement processes as governance infrastructure, where structured evaluation criteria and pre-flight documentation create institutional memory as a byproduct of rigorous funding decisions
 
 ## Maturity Assessment
 
@@ -45,7 +46,7 @@ At Genesis-to-Custom (ex 2), the GMS framework exists primarily as a conceptual 
 
 ## Participant Mentions
 
-Referenced in 3 out of 40 interviews. While the mention count is moderate, the quality of mentions was high — participants who raised institutional memory as a concern were deeply engaged with the problem and recognized it as foundational. The relatively low count may reflect a negativity bias: governance practitioners are more likely to discuss the problems they face daily (voting, compensation) than the infrastructure they're missing.
+Referenced in 4 out of 50 interviews. While the mention count is moderate, the quality of mentions was high — participants who raised institutional memory as a concern were deeply engaged with the problem and recognized it as foundational. The relatively low count may reflect a negativity bias: governance practitioners are more likely to discuss the problems they face daily (voting, compensation) than the infrastructure they're missing.
 
 ---
 

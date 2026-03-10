@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Financial · Custom → Product
-> 4 participant mentions · Addresses 2 governance problems
+> 5 participant mentions · Addresses 2 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -35,6 +35,7 @@ The crucial incentive insight is that if contributors know retroactive funding e
 ## Key Actors
 
 - **Optimism** — Pioneer and largest-scale implementer of RPGF, having conducted multiple rounds that allocated millions in retroactive funding, providing the primary case study for the approach
+- **Green Goods (hypercerts)** — Bundling EAS attestations into hypercerts as impact certificates, connecting retroactive impact verification to capital formation through yield-generating vaults
 - **Various** — Multiple ecosystems are implementing or adapting RPGF models, contributing to a growing body of practical experience with retroactive funding design
 
 ## Maturity Assessment
@@ -43,7 +44,7 @@ At the Custom-to-Product boundary (ex 3), RPGF has moved from theory to substant
 
 ## Participant Mentions
 
-Referenced in 4 out of 40 interviews. The solid mention count reflects RPGF's prominence in the governance discourse, driven largely by Optimism's visible and well-publicized rounds. Participants generally viewed RPGF favorably as a concept but noted challenges with evaluation fairness and the overhead of running retroactive funding rounds effectively.
+Referenced in 5 out of 50 interviews. The solid mention count reflects RPGF's prominence in the governance discourse, driven largely by Optimism's visible and well-publicized rounds. Participants generally viewed RPGF favorably as a concept but noted challenges with evaluation fairness and the overhead of running retroactive funding rounds effectively.
 
 ---
 

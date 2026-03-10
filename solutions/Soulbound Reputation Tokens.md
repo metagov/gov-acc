@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Reputation · Custom → Product
-> 6 participant mentions · Addresses 4 governance problems
+> 7 participant mentions · Addresses 4 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -36,6 +36,7 @@ The rage quit mechanic is particularly important: participants can burn their re
 - **Wasabi** — Implementing non-transferable reputation tokens for community governance
 - **Hats Protocol** — Creating role-based access and reputation using token-gated permissions, where "hats" represent responsibilities and authorities
 - **DAO Haus** — Pioneering reputation-based DAO frameworks with rage quit mechanics, one of the earliest implementations of non-transferable governance shares
+- **Sneha (juror weighting)** — Exploring reputation-weighted juror selection, where soulbound tokens determine juror eligibility and voting weight in governance dispute resolution
 
 ## Maturity Assessment
 
@@ -43,7 +44,7 @@ At the Custom-to-Product boundary (ex 3), soulbound reputation tokens are transi
 
 ## Participant Mentions
 
-Referenced in 6 out of 40 interviews, tied with Conviction Voting for the highest mention count. This reflects widespread recognition that separating governance power from financial capital is essential. Multiple participants independently arrived at reputation-based governance as a key piece of the puzzle, though they differed on implementation details — a sign of a solution whose core insight is validated but whose execution is still being refined.
+Referenced in 7 out of 50 interviews, tied with Conviction Voting for the highest mention count. This reflects widespread recognition that separating governance power from financial capital is essential. Multiple participants independently arrived at reputation-based governance as a key piece of the puzzle, though they differed on implementation details — a sign of a solution whose core insight is validated but whose execution is still being refined.
 
 ---
 

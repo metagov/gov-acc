@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Structural · Genesis
-> 1 participant mention · Addresses 3 governance problems
+> 2 participant mentions · Addresses 3 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -34,6 +34,7 @@ The zones can interact through defined interfaces, enabling cross-zone coordinat
 ## Key Actors
 
 - **Logos / mart1n** — Designing and building the Logos network infrastructure with zone-based governance, drawing from political philosophy and network state theory to create a new model of decentralized coordination
+- **ECVM (recursive grouping)** — Implementing recursive organizational grouping where nested governance zones compose hierarchically, enabling polycentric governance at multiple scales within a single cooperative structure
 
 ## Maturity Assessment
 
@@ -41,7 +42,7 @@ At Genesis stage (ex 1.5), Logos Zones is a visionary concept that is still in e
 
 ## Participant Mentions
 
-Referenced in 1 out of 40 interviews. The single mention aligns with the solution's Genesis maturity — it's a forward-looking vision rather than a current practice. However, the underlying insight (that different types of decisions need different governance processes) was widely shared among participants, suggesting that the zone-based approach may gain traction as the limitations of one-size-fits-all governance become more apparent.
+Referenced in 2 out of 50 interviews. The single mention aligns with the solution's Genesis maturity — it's a forward-looking vision rather than a current practice. However, the underlying insight (that different types of decisions need different governance processes) was widely shared among participants, suggesting that the zone-based approach may gain traction as the limitations of one-size-fits-all governance become more apparent.
 
 ---
 

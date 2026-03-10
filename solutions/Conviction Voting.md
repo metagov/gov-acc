@@ -9,7 +9,7 @@ created: 2026-02-10
 ---
 
 > [!abstract] Voting Reform · Product
-> 6 participant mentions · Addresses 3 governance problems
+> 7 participant mentions · Addresses 3 governance problems
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -32,6 +32,7 @@ The threshold mechanism is particularly elegant: proposals requesting small amou
 ## Key Actors
 
 - **Gardens** — The primary implementation of conviction voting in production, providing a framework for community-driven resource allocation
+- **Green Goods** — Uses Gardens conviction voting for community-driven resource allocation, directing impact funding toward areas where sustained community attention accumulates
 - **Various DAOs experimenting** — Multiple organizations have piloted conviction voting mechanisms, contributing to the growing body of practical knowledge about its strengths and limitations
 
 ## Maturity Assessment
@@ -40,7 +41,7 @@ At Product stage (ex 3.5), conviction voting has moved well beyond theoretical d
 
 ## Participant Mentions
 
-Referenced in 6 out of 40 interviews. This high mention count reflects conviction voting's status as perhaps the most well-known alternative to simple token voting. Participants frequently cited it as a proven example that better voting mechanisms are possible, even when discussing other solutions.
+Referenced in 7 out of 50 interviews. This high mention count reflects conviction voting's status as perhaps the most well-known alternative to simple token voting. Participants frequently cited it as a proven example that better voting mechanisms are possible, even when discussing other solutions.
 
 ---
 
