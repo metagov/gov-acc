@@ -1,14 +1,15 @@
 ---
-title: "Constitutions of Web3"
-source: "https://constitutions.metagov.org/"
+title: Constitutions of Web3
+source: https://constitutions.metagov.org/
 author:
-  - "Metagov"
+  - Metagov
 published:
 created: 2026-01-26
-description: "A collection of resources for creating digital constitutions"
+description: A collection of resources for creating digital constitutions
 tags:
-  - "constitution"
-  - "DAO"
+  - constitution
+  - DAO
+type: resource
 ---
 ## ConstitutionsofWeb3
 

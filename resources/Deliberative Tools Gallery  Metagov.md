@@ -1,14 +1,15 @@
 ---
-title: "Deliberative Tools Gallery | Metagov"
-source: "https://metagov.org/delib-tools"
+title: Deliberative Tools Gallery | Metagov
+source: https://metagov.org/delib-tools
 author:
-  - "Liz Barry"
+  - Liz Barry
 published:
 created: 2026-01-26
-description: "Do → Learn → Decide → (repeat)"
+description: Do → Learn → Decide → (repeat)
 tags:
-  - "deliberation"
-  - "interop"
+  - deliberation
+  - interop
+type: resource
 ---
 ## Deliberative Tools Gallery
 

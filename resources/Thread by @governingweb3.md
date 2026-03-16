@@ -1,14 +1,15 @@
 ---
-title: "Thread by @governingweb3"
-source: "https://x.com/governingweb3/status/2018402389523681744"
+title: Thread by @governingweb3
+source: https://x.com/governingweb3/status/2018402389523681744
 author:
-  - "Tanisha Katara"
+  - Tanisha Katara
 published: 2026-02-02
 created: 2026-02-02
 description:
 tags:
-  - "ai"
-  - "consensus"
+  - ai
+  - consensus
+type: resource
 ---
 **Tanisha Katara** @governingweb3 [2026-02-02](https://x.com/governingweb3/status/2018402389523681744/history)
 

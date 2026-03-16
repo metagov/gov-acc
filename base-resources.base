@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.path.contains("resources")
+    order:
+      - file.name
+      - author
+      - source
+      - type
+      - uuid
+    columnSize:
+      note.uuid: 271
+      note.type: 119

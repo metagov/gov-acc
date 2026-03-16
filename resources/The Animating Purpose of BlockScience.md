@@ -1,14 +1,15 @@
 ---
-title: "The Animating Purpose of BlockScience"
-source: "https://blog.block.science/the-animating-purpose-of-blockscience/"
+title: The Animating Purpose of BlockScience
+source: https://blog.block.science/the-animating-purpose-of-blockscience/
 author:
-  - "BlockScience"
+  - BlockScience
 published: 2023-06-14
 created: 2026-01-27
-description: "An Introspective Look at Our Own Constitutive InfrastructureAs the researchers at BlockScience developed our formal understanding of organizational design, we tested our theories by applying our framework to the analysis of our own operations. In the essay below, we elaborate on our conceptualization of an organization’s “animating purpose”"
+description: An Introspective Look at Our Own Constitutive InfrastructureAs the researchers at BlockScience developed our formal understanding of organizational design, we tested our theories by applying our framework to the analysis of our own operations. In the essay below, we elaborate on our conceptualization of an organization’s “animating purpose”
 tags:
-  - "purpose"
-  - "org design"
+  - purpose
+  - org design
+type: resource
 ---
 ## An Introspective Look at Our Own Constitutive Infrastructure
 

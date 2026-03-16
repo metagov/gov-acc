@@ -1,15 +1,16 @@
 ---
 title: "Measuring On-Chain Impact of RetroPGF Season 7: An Exploratory Causal Analysis"
-source: "https://github.com/stefi-says/onchain_public_goods_funding_impact_research/blob/main/Analysis_and_studies/optimism_retrofunding_season7_causal_analysis/Measuring_OnChain_Impact_of_RetroPGF_Season_7/Measuring_OnChain_Impact_of_RetroPGF_Season_7.md"
+source: https://github.com/stefi-says/onchain_public_goods_funding_impact_research/blob/main/Analysis_and_studies/optimism_retrofunding_season7_causal_analysis/Measuring_OnChain_Impact_of_RetroPGF_Season_7/Measuring_OnChain_Impact_of_RetroPGF_Season_7.md
 author:
-  - "stefi-says"
+  - stefi-says
 published:
 created: 2025-11-09
-description: "Contribute to stefi-says/onchain_public_goods_funding_impact_research development by creating an account on GitHub."
+description: Contribute to stefi-says/onchain_public_goods_funding_impact_research development by creating an account on GitHub.
 tags:
-  - "impact"
-  - "evaluation"
-  - "optimism"
+  - impact
+  - evaluation
+  - optimism
+type: resource
 ---
 [Open in github.dev](https://github.dev/) [Open in a new github.dev tab](https://github.dev/) [Open in codespace](https://github.com/codespaces/new/stefi-says/onchain_public_goods_funding_impact_research/tree/main?resume=1)
 

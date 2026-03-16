@@ -1,12 +1,13 @@
 ---
 title: "Part 2: Analyzing the impact of Retro Funding Season 7: Onchain Builders | Open Source Observer"
-source: "https://docs.oso.xyz/blog/s7-onchain-builders/"
+source: https://docs.oso.xyz/blog/s7-onchain-builders/
 author:
   - "[[Carl Cervone]]"
 published: 2025-07-22
 created: 2026-01-28
-description: "This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post here."
+description: This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post here.
 tags:
+type: resource
 ---
 *This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post [here](https://gov.optimism.io/t/season-7-retro-funding-early-evidence-on-onchain-builders-impact/10163).*
 

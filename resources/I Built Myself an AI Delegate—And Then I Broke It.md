@@ -1,15 +1,16 @@
 ---
-title: "I Built Myself an AI Delegate—And Then I Broke It"
-source: "https://freesystems.substack.com/p/i-built-myself-an-ai-delegateand"
+title: I Built Myself an AI Delegate—And Then I Broke It
+source: https://freesystems.substack.com/p/i-built-myself-an-ai-delegateand
 author:
-  - "Andy Hall"
+  - Andy Hall
 published: 2026-01-22
 created: 2026-01-26
-description: "For years I’ve been interested in the idea of AI delegates—agents that could learn your values and advise you on votes you’re taking, or even vote on your behalf."
+description: For years I’ve been interested in the idea of AI delegates—agents that could learn your values and advise you on votes you’re taking, or even vote on your behalf.
 tags:
-  - "AI"
-  - "delegate"
-  - "finance"
+  - AI
+  - delegate
+  - finance
+type: resource
 ---
 For years I’ve been interested in the idea of AI delegates—agents that could learn your values and advise you on votes you’re taking, or even vote on your behalf. Instead of struggling to comprehend the dozens of local and state initiatives on the California ballot, the baffling proxy ballots that arrive each year, or the many DAO proposals that arise each month, you could train an AI on your preferences and ask it to advise you.
 

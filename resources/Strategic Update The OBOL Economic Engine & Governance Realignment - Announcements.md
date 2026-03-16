@@ -8,6 +8,7 @@ created: 2026-02-05
 description: "Update to the original post:  Launching Obol’s Economic Engine and the Ethereum Staking End Game We have just published a detailed breakdown on X explaining our detailed reasoning and how we are evolving Obol’s economi…"
 tags:
   - alignment
+type: resource
 ---
 ## Strategic Update: The OBOL Economic Engine & Governance Realignment
 

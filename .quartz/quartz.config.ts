@@ -69,6 +69,9 @@ const config: QuartzConfig = {
       "*.bak",
       "*.tmp",
 
+      // Obsidian base files
+      "*.base",
+
       // Private content
       "private/**",
       "templates/**",

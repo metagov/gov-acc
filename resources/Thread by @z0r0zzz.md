@@ -1,14 +1,15 @@
 ---
-title: "Thread by @z0r0zzz"
-source: "https://x.com/z0r0zzz/status/1991909635591409765"
+title: Thread by @z0r0zzz
+source: https://x.com/z0r0zzz/status/1991909635591409765
 author:
-  - "ross z0r0zzz"
+  - ross z0r0zzz
 published: 2025-11-21
 created: 2026-01-26
 description:
 tags:
-  - "upgrade"
-  - "framework"
+  - upgrade
+  - framework
+type: resource
 ---
 **ross** @z0r0zzz [2025-11-21](https://x.com/z0r0zzz/status/1991909635591409765)
 

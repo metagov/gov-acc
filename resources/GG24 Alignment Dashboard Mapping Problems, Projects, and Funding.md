@@ -1,14 +1,15 @@
 ---
 title: "GG24 Alignment Dashboard: Mapping Problems, Projects, and Funding"
-source: "https://gg24-analysis.fly.dev/"
+source: https://gg24-analysis.fly.dev/
 author:
 published:
 created: 2026-01-26
 description:
 tags:
-  - "gitcoin"
-  - "funding mechanism"
-  - "grant"
+  - gitcoin
+  - funding mechanism
+  - grant
+type: resource
 ---
 ---
 

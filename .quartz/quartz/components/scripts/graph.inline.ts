@@ -52,21 +52,6 @@ type NodeRenderData = GraphicsInfo & {
   label: Text
 }
 
-type NodeStyles = {
-  regularNode: {
-    fillColor: string
-    strokeColor: string
-    strokeWidth: number
-  }
-  tagNode: {
-    fillColor: string
-    strokeColor: string
-    strokeWidth: number
-    backgroundColor: string
-    backgroundRadius: number
-  }
-}
-
 const localStorageKey = "graph-visited"
 function getVisited(): Set<SimpleSlug> {
   return new Set(JSON.parse(localStorage.getItem(localStorageKey) ?? "[]"))
@@ -81,100 +66,6 @@ function addToVisited(slug: SimpleSlug) {
 type TweenNode = {
   update: (time: number) => void
   stop: () => void
-}
-
-function resolveStrokeColor(color: string): string {
-  if (color === "none") return "#000000"
-  if (color.startsWith("var(")) {
-    const varName = color.slice(4, -1)
-    const computed = getComputedStyle(document.documentElement).getPropertyValue(varName).trim()
-    if (computed.startsWith("#")) return computed
-    return "#000000"
-  }
-  if (color.startsWith("#")) return color
-  return "#000000"
-}
-
-function resolveFillColor(color: string): number {
-  if (color === "none") return 0x000000
-  if (color.startsWith("var(")) {
-    const varName = color.slice(4, -1)
-    const computed = getComputedStyle(document.documentElement).getPropertyValue(varName).trim()
-    if (computed.startsWith("#")) return parseInt(computed.slice(1), 16)
-    return 0x000000
-  }
-  if (color.startsWith("#")) return parseInt(color.slice(1), 16)
-  return 0x000000
-}
-
-function createHashtagGraphics(radius: number, styles: NodeStyles["tagNode"]): Graphics {
-  const scale = radius / 18
-  const offsetX = -18 * scale
-  const offsetY = -18 * scale
-  const gfx = new Graphics()
-  // Background circle
-  gfx
-    .circle(0, 0, radius * styles.backgroundRadius)
-    .fill({ color: resolveFillColor(styles.backgroundColor) })
-  // Hashtag outer path
-  gfx
-    .moveTo(31.87 * scale + offsetX, 10 * scale + offsetY)
-    .lineTo(26.32 * scale + offsetX, 10 * scale + offsetY)
-    .lineTo(27.32 * scale + offsetX, 5.17 * scale + offsetY)
-    .lineTo(26.35 * scale + offsetX, 4 * scale + offsetY)
-    .lineTo(24.35 * scale + offsetX, 4 * scale + offsetY)
-    .lineTo(23.35 * scale + offsetX, 4.78 * scale + offsetY)
-    .lineTo(22.33 * scale + offsetX, 10 * scale + offsetY)
-    .lineTo(16.93 * scale + offsetX, 10 * scale + offsetY)
-    .lineTo(17.93 * scale + offsetX, 5.17 * scale + offsetY)
-    .lineTo(17 * scale + offsetX, 4 * scale + offsetY)
-    .lineTo(15 * scale + offsetX, 4 * scale + offsetY)
-    .lineTo(14 * scale + offsetX, 4.78 * scale + offsetY)
-    .lineTo(13 * scale + offsetX, 10 * scale + offsetY)
-    .lineTo(7 * scale + offsetX, 10 * scale + offsetY)
-    .lineTo(6 * scale + offsetX, 10.8 * scale + offsetY)
-    .lineTo(5.59 * scale + offsetX, 12.8 * scale + offsetY)
-    .lineTo(6.59 * scale + offsetX, 14 * scale + offsetY)
-    .lineTo(12.14 * scale + offsetX, 14 * scale + offsetY)
-    .lineTo(10.5 * scale + offsetX, 22 * scale + offsetY)
-    .lineTo(4.5 * scale + offsetX, 22 * scale + offsetY)
-    .lineTo(3.5 * scale + offsetX, 22.8 * scale + offsetY)
-    .lineTo(3.09 * scale + offsetX, 24.8 * scale + offsetY)
-    .lineTo(4.09 * scale + offsetX, 26 * scale + offsetY)
-    .lineTo(9.68 * scale + offsetX, 26 * scale + offsetY)
-    .lineTo(8.68 * scale + offsetX, 30.83 * scale + offsetY)
-    .lineTo(9.68 * scale + offsetX, 32 * scale + offsetY)
-    .lineTo(11.68 * scale + offsetX, 32 * scale + offsetY)
-    .lineTo(12.63 * scale + offsetX, 31.22 * scale + offsetY)
-    .lineTo(13.67 * scale + offsetX, 26 * scale + offsetY)
-    .lineTo(19.07 * scale + offsetX, 26 * scale + offsetY)
-    .lineTo(18.07 * scale + offsetX, 30.83 * scale + offsetY)
-    .lineTo(19.07 * scale + offsetX, 32 * scale + offsetY)
-    .lineTo(21.07 * scale + offsetX, 32 * scale + offsetY)
-    .lineTo(22.07 * scale + offsetX, 31.22 * scale + offsetY)
-    .lineTo(23.05 * scale + offsetX, 26 * scale + offsetY)
-    .lineTo(29.05 * scale + offsetX, 26 * scale + offsetY)
-    .lineTo(30.05 * scale + offsetX, 25.2 * scale + offsetY)
-    .lineTo(30.45 * scale + offsetX, 23.2 * scale + offsetY)
-    .lineTo(29.45 * scale + offsetX, 22 * scale + offsetY)
-    .lineTo(23.87 * scale + offsetX, 22 * scale + offsetY)
-    .lineTo(25.5 * scale + offsetX, 14 * scale + offsetY)
-    .lineTo(31.5 * scale + offsetX, 14 * scale + offsetY)
-    .lineTo(32.5 * scale + offsetX, 13.2 * scale + offsetY)
-    .lineTo(32.91 * scale + offsetX, 11.2 * scale + offsetY)
-    .lineTo(31.91 * scale + offsetX, 10 * scale + offsetY)
-    .closePath()
-    .fill({ color: resolveFillColor(styles.fillColor) })
-  // Inner hole
-  gfx
-    .moveTo(19.87 * scale + offsetX, 22 * scale + offsetY)
-    .lineTo(14.47 * scale + offsetX, 22 * scale + offsetY)
-    .lineTo(16.11 * scale + offsetX, 14 * scale + offsetY)
-    .lineTo(21.51 * scale + offsetX, 14 * scale + offsetY)
-    .lineTo(19.87 * scale + offsetX, 22 * scale + offsetY)
-    .closePath()
-    .fill({ color: resolveFillColor(styles.backgroundColor) })
-  return gfx
 }
 
 // workaround for pixijs webgpu issue: https://github.com/pixijs/pixijs/issues/11389
@@ -206,21 +97,6 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const visited = getVisited()
   removeAllChildren(graph)
 
-  const defaultNodeStyles: NodeStyles = {
-    regularNode: {
-      fillColor: "var(--secondary)",
-      strokeColor: "var(--dark)",
-      strokeWidth: 0.5,
-    },
-    tagNode: {
-      fillColor: "white",
-      strokeColor: "white",
-      strokeWidth: 0,
-      backgroundColor: "var(--gray)",
-      backgroundRadius: 1.2,
-    },
-  }
-
   let {
     drag: enableDrag,
     zoom: enableZoom,
@@ -230,17 +106,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     centerForce,
     linkDistance,
     fontSize,
+    opacityScale,
     removeTags,
     showTags,
     focusOnHover,
     enableRadial,
-    nodeStyles: nodeStylesCfg,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
-
-  const styles: NodeStyles = {
-    regularNode: { ...defaultNodeStyles.regularNode, ...nodeStylesCfg?.regularNode },
-    tagNode: { ...defaultNodeStyles.tagNode, ...nodeStylesCfg?.tagNode },
-  }
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(
     Object.entries<ContentDetails>(await fetchData).map(([k, v]) => [
@@ -297,9 +168,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   const nodes = [...neighbourhood].map((url) => {
-    const text = url.startsWith("tags/")
-      ? "#" + url.substring(5).split("/").join(" / ")
-      : (data.get(url)?.title ?? url)
+    const text = url.startsWith("tags/") ? "#" + url.substring(5) : (data.get(url)?.title ?? url)
     return {
       id: url,
       text,
@@ -320,28 +189,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const height = Math.max(graph.offsetHeight, 250)
 
   // we virtualize the simulation and use pixi to actually render it
-  function nodeRadius(d: NodeData) {
-    const numLinks = graphData.links.filter(
-      (l) => l.source.id === d.id || l.target.id === d.id,
-    ).length
-    return 3 + Math.sqrt(numLinks) * 2
-  }
-  function collisionRadius(d: NodeData) {
-    return nodeRadius(d) * 3 + 20
-  }
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
     .force("charge", forceManyBody().strength(-100 * repelForce))
     .force("center", forceCenter().strength(centerForce))
     .force("link", forceLink(graphData.links).distance(linkDistance))
-    .force("collide", forceCollide<NodeData>((n) => collisionRadius(n)).iterations(3))
+    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
 
   const radius = (Math.min(width, height) / 2) * 0.8
   if (enableRadial) simulation.force("radial", forceRadial(radius).strength(0.2))
-
-  // Pre-warm layout so the first render is calmer (nodes already partly settled)
-  for (let i = 0; i < 100; i++) {
-    simulation.tick()
-  }
 
   // precompute style prop strings as pixi doesn't support css variables
   const cssVars = [
@@ -372,6 +227,13 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     } else {
       return computedStyleMap["--gray"]
     }
+  }
+
+  function nodeRadius(d: NodeData) {
+    const numLinks = graphData.links.filter(
+      (l) => l.source.id === d.id || l.target.id === d.id,
+    ).length
+    return 2 + Math.sqrt(numLinks)
   }
 
   let hoveredNodeId: string | null = null
@@ -416,11 +278,15 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const tweenGroup = new TweenGroup()
 
     for (const l of linkRenderData) {
-      let alpha = 0.1
+      let alpha = 1
+
+      // if we are hovering over a node, we want to highlight the immediate neighbours
+      // with full alpha and the rest with default alpha
       if (hoveredNodeId) {
-        alpha = l.active ? 1 : 0
+        alpha = l.active ? 1 : 0.2
       }
-      l.color = computedStyleMap["--dark"]
+
+      l.color = l.active ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"]
       tweenGroup.add(new Tweened<LinkRenderData>(l).to({ alpha }, 200))
     }
 
@@ -441,17 +307,28 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const activeScale = defaultScale * 1.1
     for (const n of nodeRenderData) {
       const nodeId = n.simulationData.id
-      const targetAlpha = hoveredNodeId === nodeId || hoveredNeighbours.has(nodeId) ? 1 : 0
-      const targetScale = hoveredNodeId === nodeId ? activeScale : defaultScale
-      tweenGroup.add(
-        new Tweened<Text>(n.label).to(
-          {
-            alpha: targetAlpha,
-            scale: { x: targetScale, y: targetScale },
-          },
-          100,
-        ),
-      )
+
+      if (hoveredNodeId === nodeId) {
+        tweenGroup.add(
+          new Tweened<Text>(n.label).to(
+            {
+              alpha: 1,
+              scale: { x: activeScale, y: activeScale },
+            },
+            100,
+          ),
+        )
+      } else {
+        tweenGroup.add(
+          new Tweened<Text>(n.label).to(
+            {
+              alpha: n.label.alpha,
+              scale: { x: defaultScale, y: defaultScale },
+            },
+            100,
+          ),
+        )
+      }
     }
 
     tweenGroup.getAll().forEach((tw) => tw.start())
@@ -521,7 +398,6 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   for (const n of graphData.nodes) {
     const nodeId = n.id
-    const isTagNode = nodeId.startsWith("tags/")
 
     const label = new Text({
       interactive: false,
@@ -530,55 +406,43 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       alpha: 0,
       anchor: { x: 0.5, y: 1.2 },
       style: {
-        fontSize: fontSize * 12,
+        fontSize: fontSize * 15,
         fill: computedStyleMap["--dark"],
         fontFamily: computedStyleMap["--bodyFont"],
-        stroke: computedStyleMap["--light"],
-        wordWrap: true,
-        wordWrapWidth: 60,
-        align: "center",
-        lineHeight: fontSize * 14,
       },
       resolution: window.devicePixelRatio * 4,
     })
     label.scale.set(1 / scale)
 
     let oldLabelOpacity = 0
-    let gfx: Graphics
+    const isTagNode = nodeId.startsWith("tags/")
+    const gfx = new Graphics({
+      interactive: true,
+      label: nodeId,
+      eventMode: "static",
+      hitArea: new Circle(0, 0, nodeRadius(n)),
+      cursor: "pointer",
+    })
+      .circle(0, 0, nodeRadius(n))
+      .fill({ color: isTagNode ? computedStyleMap["--light"] : color(n) })
+      .on("pointerover", (e) => {
+        updateHoverInfo(e.target.label)
+        oldLabelOpacity = label.alpha
+        if (!dragging) {
+          renderPixiFromD3()
+        }
+      })
+      .on("pointerleave", () => {
+        updateHoverInfo(null)
+        label.alpha = oldLabelOpacity
+        if (!dragging) {
+          renderPixiFromD3()
+        }
+      })
+
     if (isTagNode) {
-      gfx = createHashtagGraphics(nodeRadius(n), styles.tagNode)
-      gfx.interactive = true
-      gfx.eventMode = "static"
-      gfx.cursor = "pointer"
-      gfx.hitArea = new Circle(0, 0, nodeRadius(n) * styles.tagNode.backgroundRadius)
-    } else {
-      gfx = new Graphics({
-        interactive: true,
-        eventMode: "static",
-        hitArea: new Circle(0, 0, nodeRadius(n)),
-        cursor: "pointer",
-      })
-      if (styles.regularNode.strokeColor !== "none") {
-        gfx.stroke({
-          width: styles.regularNode.strokeWidth,
-          color: resolveStrokeColor(styles.regularNode.strokeColor),
-        })
-      }
-      gfx.circle(0, 0, nodeRadius(n)).fill({
-        color: resolveFillColor(styles.regularNode.fillColor),
-      })
+      gfx.stroke({ width: 2, color: computedStyleMap["--tertiary"] })
     }
-    gfx.label = nodeId
-    gfx.on("pointerover", (e) => {
-      updateHoverInfo(e.target.label)
-      oldLabelOpacity = label.alpha
-      if (!dragging) renderPixiFromD3()
-    })
-    gfx.on("pointerleave", () => {
-      updateHoverInfo(null)
-      label.alpha = oldLabelOpacity
-      if (!dragging) renderPixiFromD3()
-    })
 
     nodesContainer.addChild(gfx)
     labelsContainer.addChild(label)
@@ -587,12 +451,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       simulationData: n,
       gfx,
       label,
-      color: isTagNode
-        ? "#" + resolveFillColor(styles.tagNode.fillColor).toString(16).padStart(6, "0")
-        : color(n),
+      color: color(n),
       alpha: 1,
       active: false,
     }
+
     nodeRenderData.push(nodeRenderDatum)
   }
 
@@ -603,8 +466,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const linkRenderDatum: LinkRenderData = {
       simulationData: l,
       gfx,
-      color: computedStyleMap["--dark"],
-      alpha: 0.1,
+      color: computedStyleMap["--lightgray"],
+      alpha: 1,
       active: false,
     }
 
@@ -671,9 +534,15 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           stage.scale.set(transform.k, transform.k)
           stage.position.set(transform.x, transform.y)
 
+          // zoom adjusts opacity of labels too
+          const scale = transform.k * opacityScale
+          let scaleOpacity = Math.max((scale - 1) / 3.75, 0)
           const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
+
           for (const label of labelsContainer.children) {
-            label.alpha = activeNodes.includes(label) ? 1 : 0
+            if (!activeNodes.includes(label)) {
+              label.alpha = scaleOpacity
+            }
           }
         }),
     )
@@ -697,7 +566,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       l.gfx.moveTo(linkData.source.x! + width / 2, linkData.source.y! + height / 2)
       l.gfx
         .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
-        .stroke({ alpha: l.alpha, width: 0.3, color: l.color })
+        .stroke({ alpha: l.alpha, width: 1, color: l.color })
     }
 
     tweens.forEach((t) => t.update(time))
@@ -735,7 +604,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
   async function renderLocalGraph() {
     cleanupLocalGraphs()
-    const localGraphContainers = document.querySelectorAll(".graph-outer > .local-graph-container")
+    const localGraphContainers = document.getElementsByClassName("graph-container")
     for (const container of localGraphContainers) {
       localGraphCleanups.push(await renderGraph(container as HTMLElement, slug))
     }

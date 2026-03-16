@@ -1,15 +1,16 @@
 ---
-title: "Turning to Trust Experience Design (TXD)"
-source: "https://tx.design/"
+title: Turning to Trust Experience Design (TXD)
+source: https://tx.design/
 author:
-  - "Helena Rong"
-  - "Botao Amber Hu"
+  - Helena Rong
+  - Botao Amber Hu
 published:
 created: 2026-01-26
 description:
 tags:
-  - "design"
-  - "collective intelligence"
+  - design
+  - collective intelligence
+type: resource
 ---
 ## A Manifesto for the Future of Distributed Autonomous Intelligence in the Wild
 

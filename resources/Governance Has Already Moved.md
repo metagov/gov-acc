@@ -1,14 +1,15 @@
 ---
-title: "Governance Has Already Moved"
-source: "https://thetrustgraph.substack.com/p/governance-has-already-moved"
+title: Governance Has Already Moved
+source: https://thetrustgraph.substack.com/p/governance-has-already-moved
 author:
-  - "sankarshan]"
+  - sankarshan]
 published: 2026-01-21
 created: 2026-02-01
-description: "Why legitimacy now lives inside execution, not oversight"
+description: Why legitimacy now lives inside execution, not oversight
 tags:
-  - "design"
-  - "legitimacy"
+  - design
+  - legitimacy
+type: resource
 ---
 ### Why legitimacy now lives inside execution, not oversight
 

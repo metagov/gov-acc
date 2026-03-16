@@ -1,9 +1,9 @@
 ---
 title: "The Dao of the DAO: Eastern Philosophies in Decentralized Worlds"
-source: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5731428"
+source: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5731428
 author:
-  - "Helena Rong, Zhe Sun                    																																	                                                                                                        				                                                																																						New York University Shanghai  ( email )]]"
-  - "[[Zhe Sun                    																																	                                                                                                        				                                                																																						Shanghai University of Finance and Economics  ( email )																					    NO. 777 Guoding RoadShanghai]]"
+  - Helena Rong, Zhe Sun                    																																	                                                                                                        				                                                																																						New York University Shanghai  ( email )]]
+  - "[[Zhe Sun                    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                                                                        \t\t\t\t                                                \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tShanghai University of Finance and Economics  ( email )\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    NO. 777 Guoding RoadShanghai]]"
   - "[[200433China]]"
   - "[[Top Authors]]"
   - "[[See all articles by Helena Rong]]"
@@ -11,10 +11,11 @@ author:
   - "[[Zhe Sun]]"
 published:
 created: 2026-01-26
-description: "In chapter 62 of Daodejing, Laozi describes the Dao as \"the hearth and home of the ten thousand things. Good souls treasure it, lost souls find shelter in"
+description: In chapter 62 of Daodejing, Laozi describes the Dao as "the hearth and home of the ten thousand things. Good souls treasure it, lost souls find shelter in
 tags:
-  - "academic"
-  - "DAO"
+  - academic
+  - DAO
+type: resource
 ---
 [Add Paper to My Library](https://papers.ssrn.com/sol3/?abstract_id=5731428#)
 

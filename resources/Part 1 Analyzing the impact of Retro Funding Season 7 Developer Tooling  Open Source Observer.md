@@ -1,16 +1,17 @@
 ---
 title: "Part 1: Analyzing the impact of Retro Funding Season 7: Developer Tooling | Open Source Observer"
-source: "https://docs.oso.xyz/blog/s7-developer-tooling/"
+source: https://docs.oso.xyz/blog/s7-developer-tooling/
 author:
-  - "Carl Cervone"
+  - Carl Cervone
 published: 2025-07-22
 created: 2026-01-28
-description: "This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post here."
+description: This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post here.
 tags:
-  - "impact"
-  - "evaluation"
-  - "retroactive"
-  - "optimism"
+  - impact
+  - evaluation
+  - retroactive
+  - optimism
+type: resource
 ---
 *This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post [here](https://gov.optimism.io/t/season-7-retro-funding-early-evidence-on-developer-tooling-impact/10162).*
 

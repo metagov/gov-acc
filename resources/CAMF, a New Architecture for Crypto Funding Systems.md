@@ -1,14 +1,15 @@
 ---
-title: "CAMF, a New Architecture for Crypto Funding Systems"
-source: "https://fundthis.substack.com/p/the-coordination-failure-at-the-core"
+title: CAMF, a New Architecture for Crypto Funding Systems
+source: https://fundthis.substack.com/p/the-coordination-failure-at-the-core
 author:
-  - "Feems"
+  - Feems
 published: 2025-11-27
 created: 2026-01-26
-description: "Addressing the the Coordination Failure at the Core of Crypto Non-Dilutive Programs"
+description: Addressing the the Coordination Failure at the Core of Crypto Non-Dilutive Programs
 tags:
-  - "funding"
-  - "grants"
+  - funding
+  - grants
+type: resource
 ---
 ### Addressing the the Coordination Failure at the Core of Crypto Non-Dilutive Programs
 
