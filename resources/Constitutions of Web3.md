@@ -10,13 +10,17 @@ tags:
   - constitution
   - DAO
 type: resource
-uuid: "73751dd2-678a-43dd-82b1-a7f4fcc6431b"
+uuid: 73751dd2-678a-43dd-82b1-a7f4fcc6431b
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 ## ConstitutionsofWeb3
 
 ---
 
-*This site presents preliminary analysis from the Constitutions of Web3 data set. If you belong to a DAO or Web3 community, [drop your constitution here](https://metagov.typeform.com/addconstitution).*
+_This site presents preliminary analysis from the Constitutions of Web3 data set. If you belong to a DAO or Web3 community, [drop your constitution here](https://metagov.typeform.com/addconstitution)._
 
 To the People of the Web:
 

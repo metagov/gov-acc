@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "AI Governance Agents"
+title: AI Governance Agents
 tags:
   - solutions
   - ai-augmented
   - genesis-to-custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] AI-Augmented · Genesis → Custom

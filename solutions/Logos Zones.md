@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Logos Zones"
+title: Logos Zones
 tags:
   - solutions
   - structural
   - genesis
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Structural · Genesis

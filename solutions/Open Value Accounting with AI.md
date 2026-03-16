@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Open Value Accounting with AI"
+title: Open Value Accounting with AI
 tags:
   - solutions
   - ai-augmented
   - custom
 created: 2026-03-02
+type: solution
 ---
 
 > [!abstract] AI-Augmented · Custom

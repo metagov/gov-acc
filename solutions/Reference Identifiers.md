@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Reference Identifiers"
+title: Reference Identifiers
 tags:
   - solutions
   - knowledge
   - custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Knowledge Infrastructure · Custom

@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Milestone-based Fundraising"
+title: Milestone-based Fundraising
 tags:
   - solutions
   - financial
   - genesis-to-custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Financial · Genesis → Custom

@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "TrustGraph"
+title: TrustGraph
 tags:
   - solutions
   - reputation
   - genesis-to-custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Reputation · Genesis → Custom

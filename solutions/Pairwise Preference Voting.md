@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Pairwise Preference Voting"
+title: Pairwise Preference Voting
 tags:
   - solutions
   - voting-reform
   - custom
 created: 2026-02-18
+type: solution
 ---
 
 > [!abstract] Voting Reform · Custom

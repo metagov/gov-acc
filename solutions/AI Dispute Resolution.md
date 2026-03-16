@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "AI Dispute Resolution"
+title: AI Dispute Resolution
 tags:
   - solutions
   - ai-augmented
   - genesis-to-custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] AI-Augmented · Genesis → Custom

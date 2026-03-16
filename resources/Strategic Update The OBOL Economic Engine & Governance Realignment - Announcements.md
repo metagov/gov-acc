@@ -9,8 +9,12 @@ description: "Update to the original post:  Launching Obol’s Economic Engine a
 tags:
   - alignment
 type: resource
-uuid: "5f2a99d4-5bbc-4a24-bfb6-fb422d1d9159"
+uuid: 5f2a99d4-5bbc-4a24-bfb6-fb422d1d9159
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 ## Strategic Update: The OBOL Economic Engine & Governance Realignment
 
 [Announcements](https://community.obol.org/c/announcements/17)
@@ -21,11 +25,11 @@ uuid: "5f2a99d4-5bbc-4a24-bfb6-fb422d1d9159"
 
 [14d](https://community.obol.org/t/strategic-update-the-obol-economic-engine-governance-realignment/749 "Post date")
 
-> ***Update to the original post:*****Launching Obol’s Economic Engine and the Ethereum Staking End Game**
-> 
-> *We have just published a detailed breakdown on X explaining our detailed reasoning and how we are evolving Obol’s economic layer to support the long-term health of the ecosystem and drive the Ethereum Staking End Game.*
-> 
-> ***Read the full thesis here:***[https://x.com/Obol\_Collective/status/2016526827729059863?s=20](https://x.com/Obol_Collective/status/2016526827729059863?s=20)
+> **\*Update to the original post:\*\*\***Launching Obol’s Economic Engine and the Ethereum Staking End Game\*\*
+>
+> _We have just published a detailed breakdown on X explaining our detailed reasoning and how we are evolving Obol’s economic layer to support the long-term health of the ecosystem and drive the Ethereum Staking End Game._
+>
+> **_Read the full thesis here:_**[https://x.com/Obol_Collective/status/2016526827729059863?s=20](https://x.com/Obol_Collective/status/2016526827729059863?s=20)
 
 Effective today, stOBOL staking rewards will halt (as per [OIP-7](https://community.obol.org/t/oip-7-staking-rewards-extension-transition-toward-programmatic-protocol-revenue-sharing/719)) and to pause the Delegate Reputation Score (DRS) system.
 
@@ -55,7 +59,7 @@ The Obol Association is currently based in Switzerland with one key constraint: 
 
 Our current priority is to ensure that the protocol’s economic layer is as robust as its technical layer. As Distributed Validator adoption scales, the capacity to maintain a healthy market for OBOL must scale with it. By focusing on Protocol Owned Liquidity and reducing dilutive emissions, we ensure that the token remains at the center of a resilient market structure.
 
-We encourage the community and delegates to keep the discussion going to define what governance *should* look like for Obol specifically. We are not disregarding governance; we are choosing not to run a “governance facade” that extracts resources without clear legal execution and added value. When the legal landscape evolves, we will be ready and unified.
+We encourage the community and delegates to keep the discussion going to define what governance _should_ look like for Obol specifically. We are not disregarding governance; we are choosing not to run a “governance facade” that extracts resources without clear legal execution and added value. When the legal landscape evolves, we will be ready and unified.
 
 ## post by pumper on Jan 22
 
@@ -80,7 +84,5 @@ How frequently do you plan to conduct token purchases from the open market going
 ## post by Leo-ObolAssoc on Jan 26
 
 ## post by Leo-ObolAssoc on Jan 26
-
-  
 
 [Powered by Discourse](https://discourse.org/powered-by)

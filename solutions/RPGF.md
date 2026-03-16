@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "RPGF"
+title: RPGF
 tags:
   - solutions
   - financial
   - custom-to-product
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Financial · Custom → Product

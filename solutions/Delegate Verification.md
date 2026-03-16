@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Delegate Verification"
+title: Delegate Verification
 tags:
   - solutions
   - reputation
   - custom-to-product
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Reputation · Custom → Product

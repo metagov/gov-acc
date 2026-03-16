@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Proto-DAOs"
+title: Proto-DAOs
 tags:
   - solutions
   - structural
   - genesis-to-custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Structural · Genesis → Custom

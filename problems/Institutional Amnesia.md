@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Institutional Amnesia"
+title: Institutional Amnesia
 tags:
   - problems
   - high
 created: 2026-02-10
+type: problem
 ---
 
 > [!caution] High Urgency — Score: 53

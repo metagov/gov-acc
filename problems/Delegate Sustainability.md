@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Delegate Sustainability"
+title: Delegate Sustainability
 tags:
   - problems
   - medium
 created: 2026-02-10
+type: problem
 ---
 
 > [!info] Medium Urgency — Score: 48

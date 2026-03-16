@@ -11,15 +11,19 @@ tags:
   - evaluation
   - optimism
 type: resource
-uuid: "56c2d3b1-2363-423a-990b-6da94179bb5b"
+uuid: 56c2d3b1-2363-423a-990b-6da94179bb5b
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 [Open in github.dev](https://github.dev/) [Open in a new github.dev tab](https://github.dev/) [Open in codespace](https://github.com/codespaces/new/stefi-says/onchain_public_goods_funding_impact_research/tree/main?resume=1)
 
 [updating title for analysis](https://github.com/stefi-says/onchain_public_goods_funding_impact_research/commit/a6e75f4d19b6d199fc86c53605287a54d1f8fdcd)
 
 [a6e75f4](https://github.com/stefi-says/onchain_public_goods_funding_impact_research/commit/a6e75f4d19b6d199fc86c53605287a54d1f8fdcd) ·
 
-*An open exploration of causal inference methods applied to Optimism funding data*
+_An open exploration of causal inference methods applied to Optimism funding data_
 
 ---
 
@@ -124,10 +128,10 @@ Initially, gas fees collected were considered as the impact metric. However, the
 
 - Project metrics: [Open Source Observer (OSO)](https://www.opensource.observer/)
 - Counterfactual variables:
-	- Similar DEXs: Curve, Balancer transaction counts (Used similar project that have not received funding to build the counterfactual series)
-	- Chain activity: Base, Optimism, Unichain, Soneium transaction counts
-	- Market data: ETH price, market cap, volume (CoinGecko)
-	- Ethereum mainnet: Transaction count
+  - Similar DEXs: Curve, Balancer transaction counts (Used similar project that have not received funding to build the counterfactual series)
+  - Chain activity: Base, Optimism, Unichain, Soneium transaction counts
+  - Market data: ETH price, market cap, volume (CoinGecko)
+  - Ethereum mainnet: Transaction count
 
 **Data Challenges**:
 
@@ -146,7 +150,7 @@ A log base 10 transformation was tested and found to substantially reduce varian
 
 To build a robust counterfactual, correlations between Uniswap's daily transaction count and potential predictor variables were analyzed across three periods.
 
-*Figure: Correlation matrix showing relationships between various metrics before treatment*
+_Figure: Correlation matrix showing relationships between various metrics before treatment_
 
 **Key Observations:**
 
@@ -156,7 +160,7 @@ To build a robust counterfactual, correlations between Uniswap's daily transacti
 
 **Rolling Correlation Analysis**
 
-*Figure: 60-day rolling correlations between Uniswap transaction count and potential predictor variables over time*
+_Figure: 60-day rolling correlations between Uniswap transaction count and potential predictor variables over time_
 
 To check stability over time, I computed rolling correlations (7-day, 30-day, 60-day windows). This revealed:
 
@@ -180,7 +184,7 @@ To check stability over time, I computed rolling correlations (7-day, 30-day, 60
 
 **Results:**
 
-*Figure: Causal impact analysis showing observed vs predicted Uniswap transaction counts (log-transformed) with pointwise and cumulative effects*
+_Figure: Causal impact analysis showing observed vs predicted Uniswap transaction counts (log-transformed) with pointwise and cumulative effects_
 
 ```
 Posterior Inference {CausalImpact}
@@ -226,18 +230,18 @@ Given potential non-normality in the data, multiple transformations were tested 
 
 Box-Cox transformation applies a power transformation to stabilize variance and make the data more normally distributed. Maximum likelihood estimation (MLE) was used to find optimal λ (lambda) parameters.
 
-*Figure: Original distributions (left) and Box-Cox transformed distributions (right) for key variables*
+_Figure: Original distributions (left) and Box-Cox transformed distributions (right) for key variables_
 
-| Variable | Optimal λ | Interpretation |
-| --- | --- | --- |
-| Uniswap transactions | 0.33 | Mild power transformation |
-| Base transactions | 0.361 | Moderate power |
-| Optimism transactions | 0.152 | Mild power |
-| ETH transactions | \-1.21 | Strong inverse transformation |
+| Variable              | Optimal λ | Interpretation                |
+| --------------------- | --------- | ----------------------------- |
+| Uniswap transactions  | 0.33      | Mild power transformation     |
+| Base transactions     | 0.361     | Moderate power                |
+| Optimism transactions | 0.152     | Mild power                    |
+| ETH transactions      | \-1.21    | Strong inverse transformation |
 
 **Box-Cox Results:**
 
-*Figure: Causal impact analysis using Box-Cox transformed data showing observed vs predicted Uniswap transaction counts with pointwise and cumulative effects*
+_Figure: Causal impact analysis using Box-Cox transformed data showing observed vs predicted Uniswap transaction counts with pointwise and cumulative effects_
 
 ```
 Posterior Inference {CausalImpact}
@@ -312,15 +316,15 @@ Based on the Box-Cox transformation, it was applied to all subsequent analyses t
 
 **Residual Analysis (Box-Cox Model)**
 
-*Figure: Model diagnostics showing residuals over time (top) and autocorrelation function of residuals (bottom)*
+_Figure: Model diagnostics showing residuals over time (top) and autocorrelation function of residuals (bottom)_
 
 - **Shapiro–Wilk test**: **statistic = 0.71, p < 0.0001**
-	- **Purpose:** Checks whether residuals (model errors) follow a normal distribution.
-	- **Interpretation:** Since the p-value is very small, we reject the normality assumption — the residuals are **not normally distributed**.
+  - **Purpose:** Checks whether residuals (model errors) follow a normal distribution.
+  - **Interpretation:** Since the p-value is very small, we reject the normality assumption — the residuals are **not normally distributed**.
 - **Durbin–Watson statistic**: **0.46**
-	- **Purpose:** Tests whether consecutive residuals are correlated over time.
-	- **Interpretation:** The ideal value is **around 2**, which indicates no autocorrelation.
-	- A value of **0.46** shows **strong positive autocorrelation**, meaning the model is **not fully capturing the time-related structure** in the data.
+  - **Purpose:** Tests whether consecutive residuals are correlated over time.
+  - **Interpretation:** The ideal value is **around 2**, which indicates no autocorrelation.
+  - A value of **0.46** shows **strong positive autocorrelation**, meaning the model is **not fully capturing the time-related structure** in the data.
 
 **Pre-period vs Post-period Residuals:**
 
@@ -344,12 +348,12 @@ Post-period:
 
 Examining the posterior distributions of the regression weights (β coefficients) helps us understand how much each predictor contributes to explaining the variation in Uniswap’s transaction count — and whether these relationships remain stable over time. In simple terms, this test shows which variables matter most, how confident we are about their effect, and whether the model’s relationships are reliable.
 
-| Predictor | Mean β | 95% CI | P(β>0) |
-| --- | --- | --- | --- |
-| Base transactions | 0.323 | \[0.241, 0.409\] | 100% |
-| Optimism transactions | 0.089 | \[0.000, 0.141\] | 94% |
-| ETH transactions | 0.003 | \[0.000, 0.074\] | 5% |
-| Curve transactions | 0.342 | \[0.153, 0.496\] | 100% |
+| Predictor             | Mean β | 95% CI           | P(β>0) |
+| --------------------- | ------ | ---------------- | ------ |
+| Base transactions     | 0.323  | \[0.241, 0.409\] | 100%   |
+| Optimism transactions | 0.089  | \[0.000, 0.141\] | 94%    |
+| ETH transactions      | 0.003  | \[0.000, 0.074\] | 5%     |
+| Curve transactions    | 0.342  | \[0.153, 0.496\] | 100%   |
 
 **Key Findings:**
 
@@ -364,7 +368,7 @@ Following the same methodology for Aerodrome Finance:
 
 **Pre-treatment correlations Analysis:**
 
-*Figure: Correlation matrix showing relationships between Aerodrome and various metrics before treatment*
+_Figure: Correlation matrix showing relationships between Aerodrome and various metrics before treatment_
 
 - Curve: 0.63
 - Base: 0.84
@@ -373,12 +377,12 @@ Following the same methodology for Aerodrome Finance:
 
 **Beta Coefficients (Initial Model Fit):**
 
-| Predictor | Mean β | 95% CI | P(β>0) | P(β<0) |
-| --- | --- | --- | --- | --- |
-| Curve transactions | 0.1632 | \[0.0000, 0.2886\] | 94.3% | 0.0% |
-| Base transactions | 0.1266 | \[0.0559, 0.1950\] | 99.3% | 0.0% |
-| Optimism transactions | 0.0439 | \[0.0000, 0.0831\] | 82.2% | 0.0% |
-| ETH transactions | \-0.0038 | \[-0.0768, 0.0000\] | 1.3% | 6.1% |
+| Predictor             | Mean β   | 95% CI              | P(β>0) | P(β<0) |
+| --------------------- | -------- | ------------------- | ------ | ------ |
+| Curve transactions    | 0.1632   | \[0.0000, 0.2886\]  | 94.3%  | 0.0%   |
+| Base transactions     | 0.1266   | \[0.0559, 0.1950\]  | 99.3%  | 0.0%   |
+| Optimism transactions | 0.0439   | \[0.0000, 0.0831\]  | 82.2%  | 0.0%   |
+| ETH transactions      | \-0.0038 | \[-0.0768, 0.0000\] | 1.3%   | 6.1%   |
 
 **Key Finding:**ETH transactions showed a near-zero coefficient with minimal predictive power (P(β>0) = 1.3%), consistent with its low pre-treatment correlation (0.38). This predictor was excluded
 
@@ -393,7 +397,7 @@ Optimal λ values:
 
 **Causal Impact Results:**
 
-*Figure: Causal impact analysis showing observed vs predicted Aerodrome transaction counts with pointwise and cumulative effects*
+_Figure: Causal impact analysis showing observed vs predicted Aerodrome transaction counts with pointwise and cumulative effects_
 
 ```
 Posterior Inference {CausalImpact}
@@ -431,7 +435,7 @@ Posterior prob. of a causal effect: 78.25%
 
 **Residual Analysis (Box-Cox Model):**
 
-*Figure: Model diagnostics for Aerodrome showing residuals over time (top) and autocorrelation function of residuals (bottom)*
+_Figure: Model diagnostics for Aerodrome showing residuals over time (top) and autocorrelation function of residuals (bottom)_
 
 - **Shapiro-Wilk test**: statistic = 0.89, p < 0.0001 (residuals not normally distributed)
 - **Durbin-Watson statistic**: 0.77 (positive autocorrelation present)
@@ -456,7 +460,7 @@ Following the same methodology for Velodrome:
 
 **Pre-treatment correlations Analysis:**
 
-*Figure: Correlation matrix showing relationships between Velodrome and various metrics before treatment*
+_Figure: Correlation matrix showing relationships between Velodrome and various metrics before treatment_
 
 - Base: 0.70
 - Optimism: 0.63
@@ -465,12 +469,12 @@ Following the same methodology for Velodrome:
 
 **Beta Coefficients (Initial Model Fit):**
 
-| Predictor | Mean β | 95% CI | P(β>0) | P(β<0) |
-| --- | --- | --- | --- | --- |
-| Base transactions | 0.3205 | \[0.2296, 0.4179\] | 100% | 0% |
-| Optimism transactions | 0.0886 | \[0.0000, 0.1397\] | 92.2% | 0% |
-| Curve transactions | 0.1195 | \[0.0000, 0.4824\] | 43.2% | 0.3% |
-| ETH transactions | \-0.0007 | \[0.0000, 0.0000\] | 0.2% | 1.4% |
+| Predictor             | Mean β   | 95% CI             | P(β>0) | P(β<0) |
+| --------------------- | -------- | ------------------ | ------ | ------ |
+| Base transactions     | 0.3205   | \[0.2296, 0.4179\] | 100%   | 0%     |
+| Optimism transactions | 0.0886   | \[0.0000, 0.1397\] | 92.2%  | 0%     |
+| Curve transactions    | 0.1195   | \[0.0000, 0.4824\] | 43.2%  | 0.3%   |
+| ETH transactions      | \-0.0007 | \[0.0000, 0.0000\] | 0.2%   | 1.4%   |
 
 **Key Findings:**
 
@@ -481,7 +485,7 @@ Following the same methodology for Velodrome:
 
 **Causal Impact Results:**
 
-*Figure: Causal impact analysis showing observed vs predicted Velodrome transaction counts with pointwise and cumulative effects*
+_Figure: Causal impact analysis showing observed vs predicted Velodrome transaction counts with pointwise and cumulative effects_
 
 ```
 Posterior Inference {CausalImpact}
@@ -519,7 +523,7 @@ Posterior prob. of a causal effect: 64.15%
 
 **Residual Analysis (Box-Cox Model):**
 
-*Figure: Model diagnostics for Velodrome showing residuals over time (top) and autocorrelation function of residuals (bottom)*
+_Figure: Model diagnostics for Velodrome showing residuals over time (top) and autocorrelation function of residuals (bottom)_
 
 - **Shapiro-Wilk test**: statistic = 0.91, p < 0.0001 (residuals not normally distributed)
 - **Durbin-Watson statistic**: 0.65 (positive autocorrelation present)
@@ -540,11 +544,11 @@ Post-period:
 
 ---
 
-| Project | Estimated Effect | P-value | R² | Significance |
-| --- | --- | --- | --- | --- |
-| **Uniswap** | +9.1% | 0.202 | 0.99 | No |
-| **Aerodrome** | +5.1% | 0.218 | 0.97 | No |
-| **Velodrome** | \-0.3% | 0.358 | 0.887 | No |
+| Project       | Estimated Effect | P-value | R²    | Significance |
+| ------------- | ---------------- | ------- | ----- | ------------ |
+| **Uniswap**   | +9.1%            | 0.202   | 0.99  | No           |
+| **Aerodrome** | +5.1%            | 0.218   | 0.97  | No           |
+| **Velodrome** | \-0.3%           | 0.358   | 0.887 | No           |
 
 **What These Numbers Mean:**
 
@@ -553,25 +557,25 @@ The **estimated effect** shows the percentage change in transactions we observed
 **Key Findings:**
 
 1. **No Statistically Significant Effects**
-	- All p-values > 0.20 (well above the typical 0.05 threshold for significance)
-	- We cannot confidently distinguish funding effects from random noise
-	- The 95% confidence intervals for all projects include both negative and positive effects, spanning zero
+   - All p-values > 0.20 (well above the typical 0.05 threshold for significance)
+   - We cannot confidently distinguish funding effects from random noise
+   - The 95% confidence intervals for all projects include both negative and positive effects, spanning zero
 2. **Mixed Results Across Projects**
-	- Uniswap shows a positive effect (+9.1%)
-	- Aerodrome shows a positive effect (+5.1%)
-	- Velodrome shows a near-zero negative effect (-0.3%)
-	- Despite two positive effects, the high uncertainty (wide confidence intervals) means we cannot rule out that these are just random fluctuations
+   - Uniswap shows a positive effect (+9.1%)
+   - Aerodrome shows a positive effect (+5.1%)
+   - Velodrome shows a near-zero negative effect (-0.3%)
+   - Despite two positive effects, the high uncertainty (wide confidence intervals) means we cannot rule out that these are just random fluctuations
 3. **High Model Uncertainty Despite Good Fit**
-	- All models achieved strong pre-period fit (R² ranging from 0.89 to 0.99)
-	- However, uncertainty in the estimated effects is very large
-	- Standard deviations often match or exceed the estimated effects themselves
-	- Good historical fit doesn't guarantee accurate counterfactual predictions
+   - All models achieved strong pre-period fit (R² ranging from 0.89 to 0.99)
+   - However, uncertainty in the estimated effects is very large
+   - Standard deviations often match or exceed the estimated effects themselves
+   - Good historical fit doesn't guarantee accurate counterfactual predictions
 4. **Model Diagnostics Reveal Limitations**
-	- All three projects showed severe autocorrelation in post-period residuals (Durbin-Watson: 0.11-0.26)
-	- This suggests the models failed to capture important time-related patterns after funding began
-	- Low Durbin-Watson statistics indicate the model hasn't fully learned the underlying trends or seasonality
-	- This can happen when the pre-period (training window) is too short or not representative enough
-	- The 8-month pre-period may be insufficient to capture the full range of crypto market dynamics
+   - All three projects showed severe autocorrelation in post-period residuals (Durbin-Watson: 0.11-0.26)
+   - This suggests the models failed to capture important time-related patterns after funding began
+   - Low Durbin-Watson statistics indicate the model hasn't fully learned the underlying trends or seasonality
+   - This can happen when the pre-period (training window) is too short or not representative enough
+   - The 8-month pre-period may be insufficient to capture the full range of crypto market dynamics
 5. **What This Means (and Doesn't Mean)**
 
 **This DOES NOT mean:**
@@ -591,30 +595,30 @@ The **estimated effect** shows the percentage change in transactions we observed
 There are several plausible explanations for why the analysis didn't yield conclusive results:
 
 1. **Crypto Market Volatility**
-	- Transaction counts fluctuate wildly day-to-day
-	- External market shocks (ETH price swings, competitor launches, regulatory news) create constant noise
-	- The signal-to-noise ratio is very low, making it hard to isolate funding effects
+   - Transaction counts fluctuate wildly day-to-day
+   - External market shocks (ETH price swings, competitor launches, regulatory news) create constant noise
+   - The signal-to-noise ratio is very low, making it hard to isolate funding effects
 2. **Insufficient Counterfactual Variables**
-	- Crypto projects in the same ecosystem tend to move together
-	- Common shocks (market crashes, upgrades, hype cycles) affect all protocols simultaneously
-	- Hard to find truly independent control variables
-	- Missing important confounders: developer activity, partnerships, marketing campaigns, and critically — how the funding was actually used (hiring, infrastructure, user incentives, etc.)
+   - Crypto projects in the same ecosystem tend to move together
+   - Common shocks (market crashes, upgrades, hype cycles) affect all protocols simultaneously
+   - Hard to find truly independent control variables
+   - Missing important confounders: developer activity, partnerships, marketing campaigns, and critically — how the funding was actually used (hiring, infrastructure, user incentives, etc.)
 3. **Short Time Windows**
-	- Only ~8 months of pre-period data to learn patterns
-	- Only ~4 months of post-treatment observation
-	- Many funding effects take longer to materialize (team growth, product improvements, ecosystem partnerships)
-	- Long-term impacts not yet visible in the data
+   - Only ~8 months of pre-period data to learn patterns
+   - Only ~4 months of post-treatment observation
+   - Many funding effects take longer to materialize (team growth, product improvements, ecosystem partnerships)
+   - Long-term impacts not yet visible in the data
 4. **Model Specification Issues**
-	- BSTS assumes linear relationships between predictors and outcomes
-	- Crypto markets may exhibit multiplicative effects, threshold effects, or network effects
-	- The model assumes stable relationships over time, but correlations shifted post-funding
-	- Residual diagnostics showed violations of normality and independence assumptions
-	- These violations reduce the model's ability to make accurate predictions
+   - BSTS assumes linear relationships between predictors and outcomes
+   - Crypto markets may exhibit multiplicative effects, threshold effects, or network effects
+   - The model assumes stable relationships over time, but correlations shifted post-funding
+   - Residual diagnostics showed violations of normality and independence assumptions
+   - These violations reduce the model's ability to make accurate predictions
 5. **Endogeneity & Selection Effects**
-	- Projects receiving more funding may have been on different growth trajectories to begin with
-	- Projects may have anticipated funding and adjusted their behavior beforehand
+   - Projects receiving more funding may have been on different growth trajectories to begin with
+   - Projects may have anticipated funding and adjusted their behavior beforehand
 6. **Measurement Limitations**
-	- Transaction count is an imperfect proxy for "impact"
+   - Transaction count is an imperfect proxy for "impact"
 
 ---
 
@@ -704,11 +708,11 @@ Even if we assume the funding caused a significant transaction increase (say, +9
 
 - **Post‑Dencun economics**: Sequencer fees dropped dramatically after the Dencun upgrade, making them a poor metric for value capture. Pre‑upgrade economics were fundamentally different.
 - **Indirect value not measured**:
-	- **Ecosystem strength**: Having Uniswap (and similar major protocols) deployed strengthens the entire Superchain's legitimacy and user confidence
-	- **Developer attraction**: Top protocols attract more developers and projects to build on the ecosystem
-	- **Network effects**: More protocols → more users → more activity → more value (multiplicative, not additive)
-	- **Long‑term infrastructure**: Public goods benefits that compound over years, not months
-	- **Competitive positioning**: Prevents talented teams from building exclusively on competing chains
+  - **Ecosystem strength**: Having Uniswap (and similar major protocols) deployed strengthens the entire Superchain's legitimacy and user confidence
+  - **Developer attraction**: Top protocols attract more developers and projects to build on the ecosystem
+  - **Network effects**: More protocols → more users → more activity → more value (multiplicative, not additive)
+  - **Long‑term infrastructure**: Public goods benefits that compound over years, not months
+  - **Competitive positioning**: Prevents talented teams from building exclusively on competing chains
 - **Alternative Counterfactual question**: Would Uniswap have maintained the same level of Superchain activity without funding? The question isn't whether fees exceed funding, but whether funding changed behavior meaningfully.
 
 **A more holistic ROI view should consider:**
@@ -733,19 +737,20 @@ The inconclusive findings highlight the need for collective work in defining:
 - **Shared methodologies**: Can we develop standardized approaches for the broader ecosystem?
 - **Realistic expectations**: What can and can't we measure with current methods?
 - **Notebook**: [Link to analysis.ipynb](https://github.com/stefi-says/onchain_public_goods_funding_impact_research/blob/main/Analysis_and_studies/optimism_retrofunding_season7_causal_analysis/notebooks/analysis.ipynb)
-- **Data pipeline**: [Link to getting\_data.ipynb](https://github.com/stefi-says/onchain_public_goods_funding_impact_research/blob/main/Analysis_and_studies/optimism_retrofunding_season7_causal_analysis/notebooks/getting_data.ipynb)
+- **Data pipeline**: [Link to getting_data.ipynb](https://github.com/stefi-says/onchain_public_goods_funding_impact_research/blob/main/Analysis_and_studies/optimism_retrofunding_season7_causal_analysis/notebooks/getting_data.ipynb)
 - **Raw data**: Available in the repository
+
 1. **Methodology**
-	- Are there better causal inference approaches for this setting?
-	- What am I missing in counterfactual selection?
-	- How can I better handle non-stationary crypto data?
+   - Are there better causal inference approaches for this setting?
+   - What am I missing in counterfactual selection?
+   - How can I better handle non-stationary crypto data?
 2. **Bottom-Up vs Top-Down Analysis**
-	- Should I pivot to an aggregated analysis approach instead of individual project assessment?
-	- How would you design an aggregated analysis that combines all funded projects?
-	- Are there hybrid approaches that could leverage strengths of both methods?
+   - Should I pivot to an aggregated analysis approach instead of individual project assessment?
+   - How would you design an aggregated analysis that combines all funded projects?
+   - Are there hybrid approaches that could leverage strengths of both methods?
 3. **Data**
-	- What additional variables would strengthen the analysis?
-	- How can we incorporate qualitative information?
+   - What additional variables would strengthen the analysis?
+   - How can we incorporate qualitative information?
 
 This work is part of my broader effort to help advance funding mechanisms toward **recurrent and concurrent systems** that can sustainably support public goods. Read more about this vision in [my initial article](https://mirror.xyz/stefipereira.eth/SNXPcTKTO88BGgctU_eJw5_N_q6Tw23q4ed1zGBdCHo).
 
@@ -817,14 +822,14 @@ All data and analysis code is available in the project repository:
 
 ## References
 
-1. Brodersen, K. H., et al. (2015). "Inferring causal impact using Bayesian structural time-series models." *Annals of Applied Statistics*, 9(1), 247-274.
+1. Brodersen, K. H., et al. (2015). "Inferring causal impact using Bayesian structural time-series models." _Annals of Applied Statistics_, 9(1), 247-274.
 2. Google. "TensorFlow Probability CausalImpact." [https://github.com/google/tfp-causalimpact](https://github.com/google/tfp-causalimpact)
 3. Open Source Observer (OSO). [https://www.opensource.observer/](https://www.opensource.observer/)
 4. Optimism RetroPGF. [https://gov.optimism.io/t/season-7-retro-funding-early-evidence-on-onchain-builders-impact/10163](https://gov.optimism.io/t/season-7-retro-funding-early-evidence-on-onchain-builders-impact/10163)
-5. Initial article on advancing funding mechanisms: [https://mirror.xyz/stefipereira.eth/SNXPcTKTO88BGgctU\_eJw5\_N\_q6Tw23q4ed1zGBdCHo](https://mirror.xyz/stefipereira.eth/SNXPcTKTO88BGgctU_eJw5_N_q6Tw23q4ed1zGBdCHo)
+5. Initial article on advancing funding mechanisms: [https://mirror.xyz/stefipereira.eth/SNXPcTKTO88BGgctU_eJw5_N_q6Tw23q4ed1zGBdCHo](https://mirror.xyz/stefipereira.eth/SNXPcTKTO88BGgctU_eJw5_N_q6Tw23q4ed1zGBdCHo)
 
 ---
 
-*This article reflects exploratory research conducted in September-October 2025. Methods and conclusions are offered in the spirit of open science and collaborative learning.*
+_This article reflects exploratory research conducted in September-October 2025. Methods and conclusions are offered in the spirit of open science and collaborative learning._
 
 **License**: This work is shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - feel free to build upon it with attribution.

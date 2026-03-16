@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Governance Theater & Recentralization"
+title: Governance Theater & Recentralization
 tags:
   - problems
   - high
 created: 2026-02-10
+type: problem
 ---
 
 > [!caution] High Urgency — Score: 68

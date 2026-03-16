@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Centralized Ops DAO Oversight"
+title: Centralized Ops DAO Oversight
 tags:
   - solutions
   - alternative
   - product
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Alternative Models · Product

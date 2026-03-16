@@ -10,8 +10,12 @@ tags:
   - archive
   - repo
 type: resource
-uuid: "d7c0bb1a-632d-4551-950f-cc1abf305b0c"
+uuid: d7c0bb1a-632d-4551-950f-cc1abf305b0c
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 ![](https://plaid-cement-e44.notion.site/images/page-cover/solid_red.png)
 
 ✨

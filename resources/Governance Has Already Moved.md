@@ -10,19 +10,23 @@ tags:
   - design
   - legitimacy
 type: resource
-uuid: "be245cfc-6194-4df7-bf36-aa9ac2c9dd36"
+uuid: be245cfc-6194-4df7-bf36-aa9ac2c9dd36
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 ### Why legitimacy now lives inside execution, not oversight
 
-\[Note: *Governance is usually discussed as something that follows decisions: oversight, audits, appeals, accountability. That framing is no longer sufficient.*
+\[Note: _Governance is usually discussed as something that follows decisions: oversight, audits, appeals, accountability. That framing is no longer sufficient._
 
-*In many of the systems that now shape access to credit, identity, speech, welfare, and security, decisions do not occur at moments that institutions can meaningfully intervene. They execute continuously, adaptively, and below the threshold of human deliberation. Governance, when it arrives later, explains outcomes but does not constrain them.*
+_In many of the systems that now shape access to credit, identity, speech, welfare, and security, decisions do not occur at moments that institutions can meaningfully intervene. They execute continuously, adaptively, and below the threshold of human deliberation. Governance, when it arrives later, explains outcomes but does not constrain them._
 
-*This essay starts from a simple claim: **governance has already moved**. Authority has relocated into execution infrastructure, while institutions remain oriented toward episodic review. The result is not a lack of ethics or insufficient transparency. It is a structural legitimacy failure.*
+_This essay starts from a simple claim: **governance has already moved**. Authority has relocated into execution infrastructure, while institutions remain oriented toward episodic review. The result is not a lack of ethics or insufficient transparency. It is a structural legitimacy failure._
 
-*What follows is not a survey of AI risks, nor a proposal for better oversight tooling. It is an institutional analysis of how authority, discretion, enforcement, and redress now operate in autonomous systems, and why many familiar governance responses fail architecturally.*
+_What follows is not a survey of AI risks, nor a proposal for better oversight tooling. It is an institutional analysis of how authority, discretion, enforcement, and redress now operate in autonomous systems, and why many familiar governance responses fail architecturally._
 
-*The argument treats design choices as political commitments, harm as a throughput outcome, and legitimacy as a dynamic property grounded in contestability rather than consent or disclosure.*\]
+_The argument treats design choices as political commitments, harm as a throughput outcome, and legitimacy as a dynamic property grounded in contestability rather than consent or disclosure._\]
 
 Governance has already moved. It has not drifted, eroded, or fallen behind technological change. It has relocated as a matter of operational fact. Decision authority that once resided in legislatures, courts, regulatory agencies, professional bodies, and licensed discretion now executes inside technical systems that act continuously, at scale, and outside the tempo of human deliberation. This relocation is not symbolic. It is where outcomes are decided.
 
@@ -144,7 +148,7 @@ Standards do not merely coordinate interoperability. They allocate power by dete
 
 Registries consolidate authority by defining what exists within a system’s operational reality. Identity registries, model registries, policy registries, and risk registries establish the universe of recognized entities and rules. What is registered becomes referenceable and enforceable. What is not registered effectively does not exist for the system.
 
-Registry design therefore carries significant governance weight. Decisions about who may write to a registry, who may read from it, and how entries may be updated or contested determine whose claims\_toggle into reality. Centralized registries concentrate power by narrowing control points. Distributed registries can diffuse power, but only if governance over write access and update rights is explicit and contestable.
+Registry design therefore carries significant governance weight. Decisions about who may write to a registry, who may read from it, and how entries may be updated or contested determine whose claims_toggle into reality. Centralized registries concentrate power by narrowing control points. Distributed registries can diffuse power, but only if governance over write access and update rights is explicit and contestable.
 
 Protocols translate authority into repeatable execution. They specify how requests are made, how decisions are evaluated, and how outcomes are returned. Once adopted, protocols constrain future governance options. Altering them requires coordination across dependent systems and often disrupts established economic relationships.
 

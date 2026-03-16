@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Informal Power & Narrative Capture"
+title: Informal Power & Narrative Capture
 tags:
   - problems
   - high
 created: 2026-02-10
+type: problem
 ---
 
 > [!caution] High Urgency — Score: 59

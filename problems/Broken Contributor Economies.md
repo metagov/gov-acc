@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Broken Contributor Economies"
+title: Broken Contributor Economies
 tags:
   - problems
   - high
 created: 2026-02-10
+type: problem
 ---
 
 > [!caution] High Urgency — Score: 64

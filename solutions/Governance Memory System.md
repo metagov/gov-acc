@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Governance Memory System"
+title: Governance Memory System
 tags:
   - solutions
   - knowledge
   - genesis-to-custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Knowledge Infrastructure · Genesis → Custom

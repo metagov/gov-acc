@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Grant System Dysfunction & Capital Misallocation"
+title: Grant System Dysfunction & Capital Misallocation
 tags:
   - problems
   - medium
 created: 2026-02-10
+type: problem
 ---
 
 > [!info] Medium Urgency — Score: 50

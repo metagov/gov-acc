@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Explicit Interest Group Representation"
+title: Explicit Interest Group Representation
 tags:
   - solutions
   - structural
   - genesis
 created: 2026-03-02
+type: solution
 ---
 
 > [!abstract] Structural · Genesis

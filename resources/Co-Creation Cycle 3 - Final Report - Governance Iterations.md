@@ -12,6 +12,10 @@ description: "Co-Creation Cycle #3 - Final ReportOrg Design Through AI-Facilitat
 tags:
   - clippings
 type: resource
-uuid: "204b6970-1b30-47d7-b13a-85640e0c39fa"
+uuid: 204b6970-1b30-47d7-b13a-85640e0c39fa
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 The third Co-Creation Cycle (CCC3) successfully employed Harmonica as “AI facilitation” platform to engage 40+ delegates in designing the DAO’s organizational structure. Over two weeks in July 2025, the cycle combined asynchronous AI dialogues with synchronous workshops to identify governance gaps, prioritize initiatives, and design council structures.

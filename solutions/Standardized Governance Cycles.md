@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Standardized Governance Cycles"
+title: Standardized Governance Cycles
 tags:
   - solutions
   - structural
   - custom
 created: 2026-03-02
+type: solution
 ---
 
 > [!abstract] Structural · Custom

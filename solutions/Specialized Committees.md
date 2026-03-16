@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Specialized Committees"
+title: Specialized Committees
 tags:
   - solutions
   - structural
   - product
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Structural · Product

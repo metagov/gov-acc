@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Telescope Bot"
+title: Telescope Bot
 tags:
   - solutions
   - knowledge
   - custom-to-product
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Knowledge Infrastructure · Custom → Product
