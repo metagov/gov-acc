@@ -10,6 +10,7 @@ tags:
   - ai
   - consensus
 type: resource
+uuid: "aff290f9-248d-412c-9bf5-8b3cf89d8683"
 ---
 **Tanisha Katara** @governingweb3 [2026-02-02](https://x.com/governingweb3/status/2018402389523681744/history)
 

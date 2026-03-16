@@ -3,7 +3,7 @@ views:
     name: Table
     filters:
       and:
-        - file.path.contains("resources")
+        - type == "resource"
     order:
       - file.name
       - author

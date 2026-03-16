@@ -10,6 +10,7 @@ tags:
   - purpose
   - org design
 type: resource
+uuid: "1685e943-6d94-4608-b2a1-0924b66e7e5c"
 ---
 ## An Introspective Look at Our Own Constitutive Infrastructure
 

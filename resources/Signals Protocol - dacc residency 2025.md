@@ -11,6 +11,7 @@ tags:
   - framework
   - time-weighted
 type: resource
+uuid: "d79f8e07-0db6-4e97-8374-1bcdece138d6"
 ---
 [Paper PDF](https://drive.google.com/open?id=1m8byxg0JBUl6OAICp4zT80pOmeR5A04e) [Website](https://github.com/0xLighthouse/signals)
 

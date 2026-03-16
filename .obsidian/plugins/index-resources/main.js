@@ -1,10 +1,15 @@
-const { Plugin, Modal, Setting, Notice, requestUrl } = require("obsidian");
+const { Plugin, Modal, Setting, Notice, PluginSettingTab, requestUrl } = require("obsidian");
 
 const RESOURCES_FOLDER = "resources";
 // Match http/https URLs anywhere in text (not only line-by-line)
 const URL_REGEX = /https?:\/\/[^\s)\]"']+/g;
 // Trailing characters to strip (punctuation and brackets that often follow URLs in prose)
 const TRAILING_TRIM = /[.\]"'>;:,)\]\s]+$/;
+
+const DEFAULT_SETTINGS = {
+  templatePath: "",
+  outputDir: "",
+};
 
 function extractUrlsFromText(text) {
   const urls = new Set();
@@ -32,7 +37,7 @@ function parsePublishedDate(value) {
   return isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
 }
 
-function getMetaContent(html, propertyOrName, value) {
+function getMetaContent(html, propertyOrName) {
   const regex = new RegExp(
     `<meta[^>]+(?:property|name)=["']${propertyOrName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}["'][^>]+content=["']([^"']*)["']`,
     "i"
@@ -48,9 +53,9 @@ function getMetaContent(html, propertyOrName, value) {
 }
 
 function getTitle(html) {
-  const og = getMetaContent(html, "og:title", "");
+  const og = getMetaContent(html, "og:title");
   if (og) return og;
-  const tw = getMetaContent(html, "twitter:title", "");
+  const tw = getMetaContent(html, "twitter:title");
   if (tw) return tw;
   const titleMatch = html.match(/<title[^>]*>([^<]*)<\/title>/i);
   return titleMatch ? titleMatch[1].trim() : "";
@@ -59,22 +64,22 @@ function getTitle(html) {
 function extractMeta(html) {
   const title = getTitle(html);
   const description =
-    getMetaContent(html, "og:description", "") ||
-    getMetaContent(html, "description", "") ||
-    getMetaContent(html, "twitter:description", "") ||
+    getMetaContent(html, "og:description") ||
+    getMetaContent(html, "description") ||
+    getMetaContent(html, "twitter:description") ||
     "";
   const image =
-    getMetaContent(html, "og:image", "") ||
-    getMetaContent(html, "twitter:image", "") ||
+    getMetaContent(html, "og:image") ||
+    getMetaContent(html, "twitter:image") ||
     "";
   const published =
-    parsePublishedDate(getMetaContent(html, "article:published_time", "")) ||
-    parsePublishedDate(getMetaContent(html, "og:article:published_time", "")) ||
+    parsePublishedDate(getMetaContent(html, "article:published_time")) ||
+    parsePublishedDate(getMetaContent(html, "og:article:published_time")) ||
     null;
   const authorRaw =
-    getMetaContent(html, "og:article:author", "") ||
-    getMetaContent(html, "author", "") ||
-    getMetaContent(html, "twitter:creator", "") ||
+    getMetaContent(html, "og:article:author") ||
+    getMetaContent(html, "author") ||
+    getMetaContent(html, "twitter:creator") ||
     "";
   const authors = authorRaw
     ? authorRaw.split(/[,;|]/).map((a) => a.trim()).filter(Boolean)
@@ -122,11 +127,53 @@ function normalizeUrl(u) {
   }
 }
 
+/**
+ * Apply a template file's content by:
+ * 1. Replacing {variable} tokens with scraped meta values
+ * 2. Executing <%* code %> script blocks (tR accumulator pattern, like Templater)
+ *
+ * Available simple variables:
+ *   {title}, {source}, {description}, {author}, {published}, {indexed}, {created}, {image}
+ *
+ * Script block context: meta (object with title, description, image, published, authors)
+ */
+function applyTemplate(templateContent, meta, sourceUrl, indexedDate) {
+  const vars = {
+    title: meta.title || "",
+    source: sourceUrl || "",
+    description: meta.description || "",
+    author: (meta.authors || []).join(", "),
+    published: meta.published || "",
+    indexed: indexedDate,
+    created: indexedDate,
+    image: meta.image || "",
+  };
+
+  // Step 1: replace {variable} tokens
+  let result = templateContent.replace(/\{(\w+)\}/g, (match, key) => {
+    return Object.prototype.hasOwnProperty.call(vars, key) ? vars[key] : match;
+  });
+
+  // Step 2: execute <%* code %> script blocks
+  result = result.replace(/<%\*([\s\S]*?)%>/g, (match, code) => {
+    try {
+      const fn = new Function("meta", `let tR = ""; ${code}; return tR;`);
+      return fn(meta);
+    } catch (e) {
+      return `[script error: ${e.message}]`;
+    }
+  });
+
+  return result;
+}
+
 class IndexResourcesModal extends Modal {
   constructor(app, plugin) {
     super(app);
     this.plugin = plugin;
     this.urlsText = "";
+    this.templatePath = plugin.settings.templatePath;
+    this.outputDir = plugin.settings.outputDir;
   }
 
   onOpen() {
@@ -138,15 +185,43 @@ class IndexResourcesModal extends Modal {
     });
 
     new Setting(contentEl)
-      .setName("URLs")
-      .addTextArea((text) => {
+      .setName("Template file path")
+      .addText((text) => {
         text
-          .setPlaceholder("Paste any block of text; URLs starting with http or https will be extracted.")
-          .setValue(this.urlsText)
-          .onChange((v) => (this.urlsText = v));
-        text.inputEl.rows = 10;
+          .setPlaceholder("_templates/resource.md")
+          .setValue(this.templatePath)
+          .onChange(async (v) => {
+            this.templatePath = v.trim();
+            this.plugin.settings.templatePath = this.templatePath;
+            await this.plugin.saveSettings();
+          });
         text.inputEl.style.width = "100%";
       });
+
+    new Setting(contentEl)
+      .setName("Output directory")
+      .addText((text) => {
+        text
+          .setPlaceholder("resources")
+          .setValue(this.outputDir)
+          .onChange(async (v) => {
+            this.outputDir = v.trim();
+            this.plugin.settings.outputDir = this.outputDir;
+            await this.plugin.saveSettings();
+          });
+        text.inputEl.style.width = "100%";
+      });
+
+    const textArea = contentEl.createEl("textarea", {
+      attr: {
+        rows: 10,
+        placeholder: "Paste any block of text; URLs starting with http or https will be extracted.",
+      },
+    });
+    textArea.style.width = "100%";
+    textArea.style.boxSizing = "border-box";
+    textArea.value = this.urlsText;
+    textArea.addEventListener("input", (e) => (this.urlsText = e.target.value));
 
     const resultDiv = contentEl.createDiv({ cls: "index-resources-result" });
 
@@ -172,20 +247,41 @@ class IndexResourcesModal extends Modal {
     const indexedDate = new Date().toISOString().slice(0, 10);
     const vault = this.app.vault;
 
-    // Ensure resources folder exists
-    let resourcesFolder = vault.getAbstractFileByPath(RESOURCES_FOLDER);
-    if (!resourcesFolder) {
-      await vault.createFolder(RESOURCES_FOLDER);
-      resourcesFolder = vault.getAbstractFileByPath(RESOURCES_FOLDER);
-    }
-    if (!resourcesFolder) {
-      new Notice("Could not create resources folder.");
-      return;
+    // Load template content once if a path is configured
+    let templateContent = null;
+    if (this.templatePath) {
+      try {
+        const templateFile = vault.getAbstractFileByPath(this.templatePath);
+        if (templateFile) {
+          templateContent = await vault.cachedRead(templateFile);
+        } else {
+          new Notice(`Template file not found: ${this.templatePath}. Using default format.`);
+        }
+      } catch (e) {
+        new Notice(`Could not read template: ${e.message}. Using default format.`);
+      }
     }
 
-    // Build set of existing source URLs (read from existing .md in resources)
+    const outputDir = this.outputDir;
+
+    // Ensure output folder exists (skip if writing to vault root)
+    if (outputDir) {
+      let outputFolder = vault.getAbstractFileByPath(outputDir);
+      if (!outputFolder) {
+        await vault.createFolder(outputDir);
+        outputFolder = vault.getAbstractFileByPath(outputDir);
+      }
+      if (!outputFolder) {
+        new Notice(`Could not create output folder: ${outputDir}`);
+        return;
+      }
+    }
+
+    // Build set of existing source URLs (read from existing .md in output dir)
     const existingSources = new Set();
-    const existingFiles = vault.getMarkdownFiles().filter((f) => f.path.startsWith(RESOURCES_FOLDER + "/"));
+    const existingFiles = vault.getMarkdownFiles().filter((f) =>
+      outputDir ? f.path.startsWith(outputDir + "/") : !f.path.includes("/")
+    );
     for (const f of existingFiles) {
       try {
         const raw = await vault.cachedRead(f);
@@ -220,11 +316,16 @@ class IndexResourcesModal extends Modal {
           continue;
         }
 
-        const frontmatter = buildFrontmatter(meta, finalUrl, indexedDate);
-        const body = `[View original](${finalUrl})\n\nIndexed on ${indexedDate}.\n`;
-        const content = frontmatter + "\n" + body;
-        const path = RESOURCES_FOLDER + "/" + filename;
+        let content;
+        if (templateContent !== null) {
+          content = applyTemplate(templateContent, meta, finalUrl, indexedDate);
+        } else {
+          const frontmatter = buildFrontmatter(meta, finalUrl, indexedDate);
+          const body = `[View original](${finalUrl})\n\nIndexed on ${indexedDate}.\n`;
+          content = frontmatter + "\n" + body;
+        }
 
+        const path = outputDir ? outputDir + "/" + filename : filename;
         await vault.create(path, content);
         existingSources.add(normalized);
         report.written.push({ url: finalUrl, file: filename });
@@ -247,7 +348,7 @@ class IndexResourcesModal extends Modal {
         failEl.appendText(` ${url}: ${error}`);
       });
     }
-    if (report.written.length) new Notice(`Created ${report.written.length} resource(s) in ${RESOURCES_FOLDER}/`);
+    if (report.written.length) new Notice(`Created ${report.written.length} resource(s) in ${outputDir || "vault root"}`);
   }
 
   onClose() {
@@ -255,8 +356,55 @@ class IndexResourcesModal extends Modal {
   }
 }
 
+class IndexResourcesSettingTab extends PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h2", { text: "Index Resources" });
+
+    new Setting(containerEl)
+      .setName("Template file path")
+      .setDesc(
+        "Vault-relative path to a .md template file used when indexing URLs (e.g. _templates/resource.md). " +
+        "The template may use {variable} tokens ({title}, {source}, {description}, {author}, {published}, {indexed}, {created}, {image}) " +
+        "and <%* code %> script blocks where tR is the output accumulator and meta is available in scope."
+      )
+      .addText((text) => {
+        text
+          .setPlaceholder("_templates/resource.md")
+          .setValue(this.plugin.settings.templatePath)
+          .onChange(async (v) => {
+            this.plugin.settings.templatePath = v.trim();
+            await this.plugin.saveSettings();
+          });
+        text.inputEl.style.width = "100%";
+      });
+
+    new Setting(containerEl)
+      .setName("Output directory")
+      .setDesc("Vault-relative folder where indexed resource files are created (default: resources).")
+      .addText((text) => {
+        text
+          .setPlaceholder("resources")
+          .setValue(this.plugin.settings.outputDir)
+          .onChange(async (v) => {
+            this.plugin.settings.outputDir = v.trim();
+            await this.plugin.saveSettings();
+          });
+        text.inputEl.style.width = "100%";
+      });
+  }
+}
+
 module.exports = class IndexResourcesPlugin extends Plugin {
-  onload() {
+  async onload() {
+    await this.loadSettings();
+    this.addSettingTab(new IndexResourcesSettingTab(this.app, this));
     this.addCommand({
       id: "index-urls",
       name: "Index URLs as resources",
@@ -267,4 +415,12 @@ module.exports = class IndexResourcesPlugin extends Plugin {
   }
 
   onunload() {}
+
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+  }
+
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
 };

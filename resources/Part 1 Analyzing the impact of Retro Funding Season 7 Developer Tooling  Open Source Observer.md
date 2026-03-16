@@ -12,6 +12,7 @@ tags:
   - retroactive
   - optimism
 type: resource
+uuid: "78ec23d3-3606-4502-95c7-95d1e7706951"
 ---
 *This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post [here](https://gov.optimism.io/t/season-7-retro-funding-early-evidence-on-developer-tooling-impact/10162).*
 

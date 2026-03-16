@@ -11,6 +11,7 @@ tags:
   - delegate
   - finance
 type: resource
+uuid: "4465f142-be00-42e3-9daa-75182fbf7605"
 ---
 For years I’ve been interested in the idea of AI delegates—agents that could learn your values and advise you on votes you’re taking, or even vote on your behalf. Instead of struggling to comprehend the dozens of local and state initiatives on the California ballot, the baffling proxy ballots that arrive each year, or the many DAO proposals that arise each month, you could train an AI on your preferences and ask it to advise you.
 

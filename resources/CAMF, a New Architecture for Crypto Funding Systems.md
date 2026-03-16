@@ -10,6 +10,7 @@ tags:
   - funding
   - grants
 type: resource
+uuid: "1cb58147-39fe-439f-b729-6bd93804207d"
 ---
 ### Addressing the the Coordination Failure at the Core of Crypto Non-Dilutive Programs
 

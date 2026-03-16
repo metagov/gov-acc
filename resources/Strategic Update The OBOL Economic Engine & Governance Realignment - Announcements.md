@@ -9,6 +9,7 @@ description: "Update to the original post:  Launching Obol’s Economic Engine a
 tags:
   - alignment
 type: resource
+uuid: "5f2a99d4-5bbc-4a24-bfb6-fb422d1d9159"
 ---
 ## Strategic Update: The OBOL Economic Engine & Governance Realignment
 

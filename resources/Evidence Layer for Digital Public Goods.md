@@ -13,5 +13,6 @@ tags:
   - funding mechanism
   - grants
 type: resource
+uuid: "17d361fe-e92a-4fb3-b690-926eb84ec08c"
 ---
 [Shinya Mori](https://beaconlabs.io/members/shinyamori) [Naoki Akazawa](https://beaconlabs.io/members/naokiakazawa) [Shuhei Tanaka](https://beaconlabs.io/members/shuheitanaka)

@@ -10,5 +10,6 @@ tags:
   - conflict
   - constitution
 type: resource
+uuid: "9f1dd798-5bd0-4853-b686-056418aac5fa"
 ---
 Often viewed as a way to reduce conflict within society, the traditional perception of governance is one that maintains stability with minimal disturbance. This article thoroughly examines new possibilities enabled by using conflict as a tool for institutional decision-making.

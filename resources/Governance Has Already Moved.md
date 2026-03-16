@@ -10,6 +10,7 @@ tags:
   - design
   - legitimacy
 type: resource
+uuid: "be245cfc-6194-4df7-bf36-aa9ac2c9dd36"
 ---
 ### Why legitimacy now lives inside execution, not oversight
 

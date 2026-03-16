@@ -10,6 +10,7 @@ tags:
   - deliberation
   - interop
 type: resource
+uuid: "6bc41589-a549-4512-ab20-05ac7b500fe9"
 ---
 ## Deliberative Tools Gallery
 

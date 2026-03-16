@@ -11,6 +11,7 @@ tags:
   - design
   - collective intelligence
 type: resource
+uuid: "fbc59623-3476-42a6-9dfe-a140e2ff848b"
 ---
 ## A Manifesto for the Future of Distributed Autonomous Intelligence in the Wild
 

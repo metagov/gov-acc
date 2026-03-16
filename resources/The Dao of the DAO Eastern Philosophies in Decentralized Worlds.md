@@ -16,6 +16,7 @@ tags:
   - academic
   - DAO
 type: resource
+uuid: "274c5188-0241-462b-9b64-0c969846a1dd"
 ---
 [Add Paper to My Library](https://papers.ssrn.com/sol3/?abstract_id=5731428#)
 

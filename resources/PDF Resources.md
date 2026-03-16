@@ -1,5 +1,6 @@
 ---
-type: resource
+type:
+uuid: "b855d1d1-a0ac-4f7d-80b1-15b54f0ba27c"
 ---
 - Pdf link: 
 - Values in Governance Technology - Liz Barry, Joseph Gubbels. https://static1.squarespace.com/static/5ea874746663b45e14a384a4/t/68011b380d60e07bff674a53/1744903889700/Values+in+Governance+Technology

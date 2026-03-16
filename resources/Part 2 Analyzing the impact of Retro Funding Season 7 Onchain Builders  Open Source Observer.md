@@ -8,6 +8,7 @@ created: 2026-01-28
 description: This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post here.
 tags:
 type: resource
+uuid: "476871ec-3246-4ce8-ac93-9d2e7ed5feb2"
 ---
 *This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post [here](https://gov.optimism.io/t/season-7-retro-funding-early-evidence-on-onchain-builders-impact/10163).*
 

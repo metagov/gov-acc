@@ -10,6 +10,7 @@ tags:
   - constitution
   - DAO
 type: resource
+uuid: "73751dd2-678a-43dd-82b1-a7f4fcc6431b"
 ---
 ## ConstitutionsofWeb3
 

@@ -10,6 +10,7 @@ tags:
   - upgrade
   - framework
 type: resource
+uuid: "52ef3b8d-f784-45e4-83ae-fefa564cde40"
 ---
 **ross** @z0r0zzz [2025-11-21](https://x.com/z0r0zzz/status/1991909635591409765)
 
