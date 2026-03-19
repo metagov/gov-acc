@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "VE Buyback Models"
+title: VE Buyback Models
 tags:
   - solutions
   - financial
   - commodity
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Financial · Commodity

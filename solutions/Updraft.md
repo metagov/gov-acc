@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Updraft"
+title: Updraft
 tags:
   - solutions
   - sensemaking
   - custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Sensemaking · Custom

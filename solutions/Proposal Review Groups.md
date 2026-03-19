@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Proposal Review Groups"
+title: Proposal Review Groups
 tags:
   - solutions
   - structural
   - custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Structural · Custom

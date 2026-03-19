@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Conviction Voting"
+title: Conviction Voting
 tags:
   - solutions
   - voting-reform
   - product
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Voting Reform · Product

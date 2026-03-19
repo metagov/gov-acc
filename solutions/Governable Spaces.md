@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Governable Spaces"
+title: Governable Spaces
 tags:
   - solutions
   - alternative
   - custom
 created: 2026-02-18
+type: solution
 ---
 
 > [!abstract] Alternative Models · Custom

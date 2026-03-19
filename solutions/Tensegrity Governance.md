@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Tensegrity Governance"
+title: Tensegrity Governance
 tags:
   - solutions
   - structural
   - genesis
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Structural · Genesis

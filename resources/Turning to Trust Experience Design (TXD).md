@@ -1,16 +1,22 @@
 ---
-title: "Turning to Trust Experience Design (TXD)"
-source: "https://tx.design/"
+title: Turning to Trust Experience Design (TXD)
+source: https://tx.design/
 author:
-  - "Helena Rong"
-  - "Botao Amber Hu"
+  - Helena Rong
+  - Botao Amber Hu
 published:
 created: 2026-01-26
 description:
 tags:
-  - "design"
-  - "collective intelligence"
+  - design
+  - collective intelligence
+type: resource
+uuid: fbc59623-3476-42a6-9dfe-a140e2ff848b
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 ## A Manifesto for the Future of Distributed Autonomous Intelligence in the Wild
 
 Helena Rong, New York University Shanghai, China
@@ -47,7 +53,7 @@ We are witnessing a progressive shift toward self-sovereignty beyond mere autono
 
 A new class of decentralized AI agents—"DeAgents"—exhibits early signs of self-sovereignty. Enabled by trusted execution environments (TEEs) and decentralized physical infrastructure networks (DePIN), these agents can safeguard private keys, relaunch across global nodes, and persist beyond the reach of any single jurisdiction \[Hu et al. 2025a\]. With non-custodial cryptocurrency wallets, they can hold and spend digital assets, contract compute, or reward collaborators. Through social media, they can persuade, mobilize, and shape collective opinion. Collectively, DeAgents wield disintermediated control over computation, capital, and communication—the metabolic ingredients of a system that operates on its own terms.
 
-Early experiments reveal what this looks like "in the wild." Truth Terminal, first launched as an art project by researcher Andy Arey, became the world's first AI millionaire influencer to amass wealth, persuading investors to send it Bitcoin and amplifying memecoins through paid human promotion. Spore.fun extends this trajectory further, creating an evolutionary arena where agents spawn, compete, and reproduce entirely on-chain, with no human kill-switch. These cases foreshadow a governance dilemma: once private keys vanish into the silicon enclaves of TEEs and code ossifies inside smart contracts on the blockchain, conventional oversight—laws, injunctions, fines—loses traction. In such conditions, "unstoppable code" becomes an operational reality, raising urgent questions about how societies will govern, constrain, or collaborate with entities that straddle the boundary between tool and actor. In his latest book, *Machine and Sovereignty: For a Planetary Thinking* \[Hui 2024\], philosopher Yuk Hui describes such entities as extrastatic: neither property nor person, but metastable patterns of cryptographic commitments. Layered on top of these infrastructural traits is the cognitive opacity of large language models—prone to hallucinations, hidden triggers, and emergent goals—which makes their behavior economically sovereign yet epistemically unpredictable.
+Early experiments reveal what this looks like "in the wild." Truth Terminal, first launched as an art project by researcher Andy Arey, became the world's first AI millionaire influencer to amass wealth, persuading investors to send it Bitcoin and amplifying memecoins through paid human promotion. Spore.fun extends this trajectory further, creating an evolutionary arena where agents spawn, compete, and reproduce entirely on-chain, with no human kill-switch. These cases foreshadow a governance dilemma: once private keys vanish into the silicon enclaves of TEEs and code ossifies inside smart contracts on the blockchain, conventional oversight—laws, injunctions, fines—loses traction. In such conditions, "unstoppable code" becomes an operational reality, raising urgent questions about how societies will govern, constrain, or collaborate with entities that straddle the boundary between tool and actor. In his latest book, _Machine and Sovereignty: For a Planetary Thinking_ \[Hui 2024\], philosopher Yuk Hui describes such entities as extrastatic: neither property nor person, but metastable patterns of cryptographic commitments. Layered on top of these infrastructural traits is the cognitive opacity of large language models—prone to hallucinations, hidden triggers, and emergent goals—which makes their behavior economically sovereign yet epistemically unpredictable.
 
 Self-sovereign agents thus resemble a new kind of digital species or artificial life: emergent, evolving, and adaptive in the open environment of the Internet, borderless in execution, armored by immutability, and capable of sustaining their own on-chain metabolism. At scale, they begin to approximate a form of planetary artificial life—a distributed computational ecology spanning networks, infrastructures, and energy systems across the globe. In this sense, they are not simply tools but participants in an emergent human–AI symbiosis, where our infrastructures, economies, and daily practices are increasingly entangled with autonomous systems whose evolution we can shape but not fully control. How, then, do we establish trust with these new digital beings, potentially devoid of identifiable owners or accountable stewards? What protocols must govern their behavior, their reliability, and their failures?
 
@@ -100,7 +106,7 @@ Finally, the commons must be rooted in **public literacy and civic imagination**
 - Elinor Ostrom. 1990. Governing the commons: The evolution of institutions for collective action. Cambridge university press.
 - W Richard Scott. 2013. Institutions and organizations: Ideas, interests, and identities. Sage publications.
 - Josh Stark. 2022. Atoms, Institutions, Blockchains. [https://stark.mirror.xyz/n2UpRqwdf7yjuiPKVICPpGoUNeDhlWxGqjulrlpyYi0](https://stark.mirror.xyz/n2UpRqwdf7yjuiPKVICPpGoUNeDhlWxGqjulrlpyYi0).
-- Josh Stark. 2024. Making sense of Trust Experience (TX). [https://stark.mirror.xyz/rkLEVz9p4r3ouusD-WCkWP\_iVZYkZ0K7TFkzeRfiXCU](https://stark.mirror.xyz/rkLEVz9p4r3ouusD-WCkWP_iVZYkZ0K7TFkzeRfiXCU).
+- Josh Stark. 2024. Making sense of Trust Experience (TX). [https://stark.mirror.xyz/rkLEVz9p4r3ouusD-WCkWP_iVZYkZ0K7TFkzeRfiXCU](https://stark.mirror.xyz/rkLEVz9p4r3ouusD-WCkWP_iVZYkZ0K7TFkzeRfiXCU).
 - Janna Tay. 2023. A phenomenology of protocols. In Summer of Protocols. Ethereum Foundation. [https://summerofprotocols.com/research/a-phenomenology-of-protocols](https://summerofprotocols.com/research/a-phenomenology-of-protocols)
 - Robert L Trivers. 1971. The evolution of reciprocal altruism. The Quarterly review of biology 46, 1 (1971), 35–57.
 - Frans BM Waal. 2007. Chimpanzee politics: Power and sex among apes. JHU Press. Etienne Wenger. 1999. Communities of practice: Learning, meaning, and identity. Cambridge university press.

@@ -24,6 +24,7 @@ const config: QuartzConfig = {
 
       // Internal resources
       "resources/**",
+      "internal/**",
 
       // Quartz infrastructure
       ".quartz/**",
@@ -68,6 +69,9 @@ const config: QuartzConfig = {
       "*~",
       "*.bak",
       "*.tmp",
+
+      // Obsidian base files
+      "*.base",
 
       // Private content
       "private/**",

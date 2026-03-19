@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Contributor Streams"
+title: Contributor Streams
 tags:
   - solutions
   - financial
   - product
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Financial · Product

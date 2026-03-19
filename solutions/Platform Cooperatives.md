@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Platform Cooperatives"
+title: Platform Cooperatives
 tags:
   - solutions
   - alternative
   - genesis-to-custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Alternative Models · Genesis → Custom

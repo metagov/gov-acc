@@ -1,16 +1,22 @@
 ---
-title: "Signals Protocol - d/acc residency 2025"
-source: "https://www.researchretreat.org/papers/paper/?venue=dacc25&id=6"
+title: Signals Protocol - d/acc residency 2025
+source: https://www.researchretreat.org/papers/paper/?venue=dacc25&id=6
 author:
-  - "Arnold Almeida"
-  - "James MacWhyte"
+  - Arnold Almeida
+  - James MacWhyte
 published:
 created: 2026-01-26
 description: "As decentralized communities scale, they face a fundamental coordination bottleneck: traditional token voting captures choices but not intensity. This results i..."
 tags:
-  - "framework"
-  - "time-weighted"
+  - framework
+  - time-weighted
+type: resource
+uuid: d79f8e07-0db6-4e97-8374-1bcdece138d6
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 [Paper PDF](https://drive.google.com/open?id=1m8byxg0JBUl6OAICp4zT80pOmeR5A04e) [Website](https://github.com/0xLighthouse/signals)
 
 Governance Token Voting Preference Intensity Coordination Decentralized Communities EGPL

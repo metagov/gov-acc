@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Active Scouting"
+title: Active Scouting
 tags:
   - solutions
   - alternative
   - genesis
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Alternative Models · Genesis

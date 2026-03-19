@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Attestation-Based Governance"
+title: Attestation-Based Governance
 tags:
   - solutions
   - structural
   - product
 created: 2026-03-10
+type: solution
 ---
 
 > [!abstract] Structural · Product

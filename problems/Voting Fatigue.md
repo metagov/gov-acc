@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Voting Fatigue & Apathy"
+title: Voting Fatigue & Apathy
 tags:
   - problems
   - high
 created: 2026-02-10
+type: problem
 ---
 
 > [!caution] High Urgency — Score: 71

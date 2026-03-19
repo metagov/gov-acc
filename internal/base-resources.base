@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type == "resource"
+    order:
+      - file.name
+      - author
+      - source
+      - problems
+      - solutions
+      - type
+      - uuid
+      - can-be-republished
+    columnSize:
+      note.problems: 422
+      note.solutions: 392
+      note.type: 119
+      note.uuid: 271
+    rowHeight: tall

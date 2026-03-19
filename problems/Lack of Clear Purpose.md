@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Lack of Clear Purpose"
+title: Lack of Clear Purpose
 tags:
   - problems
   - medium
 created: 2026-02-10
+type: problem
 ---
 
 > [!info] Medium Urgency — Score: 50

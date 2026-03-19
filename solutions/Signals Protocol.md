@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Signals Protocol"
+title: Signals Protocol
 tags:
   - solutions
   - sensemaking
   - custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Sensemaking · Custom

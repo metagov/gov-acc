@@ -1,0 +1,4 @@
+{
+  "templatePath": "internal/resource-template.md",
+  "outputDir": "resources"
+}

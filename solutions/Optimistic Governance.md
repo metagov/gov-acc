@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Optimistic Governance"
+title: Optimistic Governance
 tags:
   - solutions
   - structural
   - product
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Structural · Product

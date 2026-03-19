@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Co-creation Cycles"
+title: Co-creation Cycles
 tags:
   - solutions
   - sensemaking
   - custom-to-product
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Sensemaking · Custom → Product

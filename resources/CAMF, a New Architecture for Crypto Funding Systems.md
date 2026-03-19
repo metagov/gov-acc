@@ -1,15 +1,21 @@
 ---
-title: "CAMF, a New Architecture for Crypto Funding Systems"
-source: "https://fundthis.substack.com/p/the-coordination-failure-at-the-core"
+title: CAMF, a New Architecture for Crypto Funding Systems
+source: https://fundthis.substack.com/p/the-coordination-failure-at-the-core
 author:
-  - "Feems"
+  - Feems
 published: 2025-11-27
 created: 2026-01-26
-description: "Addressing the the Coordination Failure at the Core of Crypto Non-Dilutive Programs"
+description: Addressing the the Coordination Failure at the Core of Crypto Non-Dilutive Programs
 tags:
-  - "funding"
-  - "grants"
+  - funding
+  - grants
+type: resource
+uuid: 1cb58147-39fe-439f-b729-6bd93804207d
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 ### Addressing the the Coordination Failure at the Core of Crypto Non-Dilutive Programs
 
 Funding in Web3 is not a linear pipeline; it is a circular system of interdependent roles funders, allocators, and builders where intent, decisions, and outcomes should reinforce each other over time. When this loop is connected, information compounds and strategy becomes learnable.
@@ -79,7 +85,7 @@ Instead of treating relationships as isolated pairs (funder ↔ operator or oper
 
 **Why it matters;** When roles are not connected, ecosystems fund isolated activity instead of coordinated progression. Defining the Original Funder, Capital Allocator, and Recipient as interdependent actors in one system makes responsibility visible, aligns decisions to intent, and links outcomes back to the people who shaped them. This restores coherence across the lifecycle and makes ecosystem impact traceable rather than accidental.
 
-**Component Stack:** Roles sits alongside Lifecycle and Domains. It defines *who* owns intent, allocation, and delivery so that every decision in the funding cycle is tied to the correct actor and responsibility is traceable across the system.
+**Component Stack:** Roles sits alongside Lifecycle and Domains. It defines _who_ owns intent, allocation, and delivery so that every decision in the funding cycle is tied to the correct actor and responsibility is traceable across the system.
 
 ### Lifecycle
 
@@ -119,7 +125,7 @@ Mechanisms are the funding programs ecosystems use to deploy capital—grants, h
 
 ![](https://substackcdn.com/image/fetch/$s_!fIFA!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70dcba0c-12b4-4c42-bad4-8924a7782cd0_2749x1331.png)
 
-In CAMF, an **anchor** is a key connection point between roles or layers in the capital flow. It defines *who links to whom*, *at what stage*, and *why the relationship matters* helping ensure strategy, deployment, and execution stay aligned.
+In CAMF, an **anchor** is a key connection point between roles or layers in the capital flow. It defines _who links to whom_, _at what stage_, and _why the relationship matters_ helping ensure strategy, deployment, and execution stay aligned.
 
 Anchors are the guiding questions each role answers at every phase of the lifecycle. They link intent, criteria, outputs, and impact by forcing clarity on what is being decided, why it matters, and how success will be measured. Anchors surface assumptions, establish shared expectations, and align decisions across the Original Funder, Capital Allocator, and Recipient, making sure the system asks the right questions before capital moves, while it moves, and after outcomes appear.
 

@@ -1,20 +1,26 @@
 ---
-title: "Constitutions of Web3"
-source: "https://constitutions.metagov.org/"
+title: Constitutions of Web3
+source: https://constitutions.metagov.org/
 author:
-  - "Metagov"
+  - Metagov
 published:
 created: 2026-01-26
-description: "A collection of resources for creating digital constitutions"
+description: A collection of resources for creating digital constitutions
 tags:
-  - "constitution"
-  - "DAO"
+  - constitution
+  - DAO
+type: resource
+uuid: 73751dd2-678a-43dd-82b1-a7f4fcc6431b
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 ## ConstitutionsofWeb3
 
 ---
 
-*This site presents preliminary analysis from the Constitutions of Web3 data set. If you belong to a DAO or Web3 community, [drop your constitution here](https://metagov.typeform.com/addconstitution).*
+_This site presents preliminary analysis from the Constitutions of Web3 data set. If you belong to a DAO or Web3 community, [drop your constitution here](https://metagov.typeform.com/addconstitution)._
 
 To the People of the Web:
 

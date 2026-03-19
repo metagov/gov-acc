@@ -1,36 +1,42 @@
 ---
-title: "The Animating Purpose of BlockScience"
-source: "https://blog.block.science/the-animating-purpose-of-blockscience/"
+title: The Animating Purpose of BlockScience
+source: https://blog.block.science/the-animating-purpose-of-blockscience/
 author:
-  - "BlockScience"
+  - BlockScience
 published: 2023-06-14
 created: 2026-01-27
-description: "An Introspective Look at Our Own Constitutive InfrastructureAs the researchers at BlockScience developed our formal understanding of organizational design, we tested our theories by applying our framework to the analysis of our own operations. In the essay below, we elaborate on our conceptualization of an organization’s “animating purpose”"
+description: An Introspective Look at Our Own Constitutive InfrastructureAs the researchers at BlockScience developed our formal understanding of organizational design, we tested our theories by applying our framework to the analysis of our own operations. In the essay below, we elaborate on our conceptualization of an organization’s “animating purpose”
 tags:
-  - "purpose"
-  - "org design"
+  - purpose
+  - org design
+type: resource
+uuid: 1685e943-6d94-4608-b2a1-0924b66e7e5c
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 ## An Introspective Look at Our Own Constitutive Infrastructure
 
-*As the researchers at BlockScience developed our formal understanding of organizational design, we tested our theories by applying our framework to the analysis of our own operations. In the essay below, we elaborate on our conceptualization of an organization’s “animating purpose” through an examination of our mission, our values, and the ways that they interact.*
+_As the researchers at BlockScience developed our formal understanding of organizational design, we tested our theories by applying our framework to the analysis of our own operations. In the essay below, we elaborate on our conceptualization of an organization’s “animating purpose” through an examination of our mission, our values, and the ways that they interact._
 
 ## Why does BlockScience exist?
 
-As [our ongoing series of publications on “constitutive infrastructure”](https://blog.block.science/what-constitutes-a-constitution/) makes clear, every organization necessarily takes shape around a shared “animating purpose,” which provides the impetus for a set of individuals to form a group and coordinate collective action in pursuit of common aspirations. An organization’s animating purpose can thus be understood as its “mediating context,” insofar as it determines the particular way that the organization in question will orient itself toward — and in response to — its external environment. Put differently, any attempt to truly understand an organization ought to begin by asking a fundamental question: *What is that organization trying to do?*
+As [our ongoing series of publications on “constitutive infrastructure”](https://blog.block.science/what-constitutes-a-constitution/) makes clear, every organization necessarily takes shape around a shared “animating purpose,” which provides the impetus for a set of individuals to form a group and coordinate collective action in pursuit of common aspirations. An organization’s animating purpose can thus be understood as its “mediating context,” insofar as it determines the particular way that the organization in question will orient itself toward — and in response to — its external environment. Put differently, any attempt to truly understand an organization ought to begin by asking a fundamental question: _What is that organization trying to do?_
 
-At BlockScience, our animating purpose has two major components: **our mission**, and **our values as an organization**. Our *mission* is straightforward (although we will examine its elements in greater detail later in this essay):
+At BlockScience, our animating purpose has two major components: **our mission**, and **our values as an organization**. Our _mission_ is straightforward (although we will examine its elements in greater detail later in this essay):
 
 > The mission of BlockScience is to bridge the digital and physical worlds through innovative and sustainable engineering. We guide the development and governance of safe, ethical, and resilient socio-technical systems, leveraging emerging technologies to solve complex problems.
 
-Our *values* are similarly direct (and amenable to further elaboration):
+Our _values_ are similarly direct (and amenable to further elaboration):
 
-> ***1\. Ethical Design and Innovation  
->   
-> 2\. Diversity of Perspective  
->   
-> 3\. Integrity and Autonomy  
->   
-> 4\. Positive-Sum Impact***
+> \*\*\*1\. Ethical Design and Innovation
+>
+> 2\. Diversity of Perspective
+>
+> 3\. Integrity and Autonomy
+>
+> 4\. Positive-Sum Impact\*\*\*
 
 The animating purpose of BlockScience — or any organization — is to pursue our mission in ways that accord with our values as an organization.
 
@@ -72,11 +78,11 @@ Finally, we value work that has a **positive-sum impact** because we prioritize 
 
 ## Building Bridges to the World of Tomorrow
 
-In short, **BlockScience exists because even the most complex problems require straightforward solutions — and only conscientious and careful engineering can produce the sort of *hard-fought simplicity* that transforms the unattainable into the possible.**
+In short, **BlockScience exists because even the most complex problems require straightforward solutions — and only conscientious and careful engineering can produce the sort of _hard-fought simplicity_ that transforms the unattainable into the possible.**
 
 New bridges between the physical and digital world are being built every day, but it is not enough to simply build such bridges. We must also make sure that they are built soundly, and will not collapse under our weight as they carry us across the divide between the world of today and the world of tomorrow.
 
-*Article by Michael Zargham and Ilan Ben-Meir, with edits and illustrations by Jeff Emmett.*
+_Article by Michael Zargham and Ilan Ben-Meir, with edits and illustrations by Jeff Emmett._
 
 ---
 

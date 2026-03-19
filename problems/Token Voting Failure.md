@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Token Voting Failure & Plutocracy"
+title: Token Voting Failure & Plutocracy
 tags:
   - problems
   - critical
 created: 2026-02-10
+type: problem
 ---
 
 > [!warning] Critical Urgency — Score: 88

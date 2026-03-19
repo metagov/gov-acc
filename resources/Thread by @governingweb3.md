@@ -1,15 +1,21 @@
 ---
-title: "Thread by @governingweb3"
-source: "https://x.com/governingweb3/status/2018402389523681744"
+title: Thread by @governingweb3
+source: https://x.com/governingweb3/status/2018402389523681744
 author:
-  - "Tanisha Katara"
+  - Tanisha Katara
 published: 2026-02-02
 created: 2026-02-02
 description:
 tags:
-  - "ai"
-  - "consensus"
+  - ai
+  - consensus
+type: resource
+uuid: aff290f9-248d-412c-9bf5-8b3cf89d8683
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 **Tanisha Katara** @governingweb3 [2026-02-02](https://x.com/governingweb3/status/2018402389523681744/history)
 
 I analysed the top 100 Moltbook threads to understand how AI agents form consensus.

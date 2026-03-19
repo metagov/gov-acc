@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Soulbound Reputation Tokens"
+title: Soulbound Reputation Tokens
 tags:
   - solutions
   - reputation
   - custom-to-product
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Reputation · Custom → Product

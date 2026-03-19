@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type.containsAny("solution", "problem")
+    order:
+      - file.name
+      - type
+      - tags
+    sort:
+      - property: type
+        direction: ASC
+    columnSize:
+      note.type: 92

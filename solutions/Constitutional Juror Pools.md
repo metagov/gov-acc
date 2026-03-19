@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Constitutional Juror Pools"
+title: Constitutional Juror Pools
 tags:
   - solutions
   - alternative
   - genesis
 created: 2026-03-10
+type: solution
 ---
 
 > [!abstract] Alternative · Genesis

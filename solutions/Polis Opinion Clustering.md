@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Polis Opinion Clustering"
+title: Polis Opinion Clustering
 tags:
   - solutions
   - sensemaking
   - commodity
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Sensemaking · Commodity

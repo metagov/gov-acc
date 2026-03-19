@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Over-Reliance on Game Theory"
+title: Over-Reliance on Game Theory
 tags:
   - problems
   - high
 created: 2026-02-10
+type: problem
 ---
 
 > [!caution] High Urgency — Score: 57

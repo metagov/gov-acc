@@ -1,18 +1,24 @@
 ---
 title: "Part 1: Analyzing the impact of Retro Funding Season 7: Developer Tooling | Open Source Observer"
-source: "https://docs.oso.xyz/blog/s7-developer-tooling/"
+source: https://docs.oso.xyz/blog/s7-developer-tooling/
 author:
-  - "Carl Cervone"
+  - Carl Cervone
 published: 2025-07-22
 created: 2026-01-28
-description: "This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post here."
+description: This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post here.
 tags:
-  - "impact"
-  - "evaluation"
-  - "retroactive"
-  - "optimism"
+  - impact
+  - evaluation
+  - retroactive
+  - optimism
+type: resource
+uuid: 78ec23d3-3606-4502-95c7-95d1e7706951
+can-be-republished: false
+problems: []
+solutions: []
 ---
-*This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post [here](https://gov.optimism.io/t/season-7-retro-funding-early-evidence-on-developer-tooling-impact/10162).*
+
+_This is a copy of a two-part post on the Optimism Governance Forum. You can find the original post [here](https://gov.optimism.io/t/season-7-retro-funding-early-evidence-on-developer-tooling-impact/10162)._
 
 Season 7 budgeted 8 million OP to open source developer tooling.
 
@@ -99,20 +105,20 @@ The remaining 1.16M OP (18%) went to other types of OSS tools, such as developme
 
 There has been strong participation across most categories. Going one level deeper, we can see that **core protocol interfaces** (a subset of libraries) has received the most funding overall.
 
-| Category | Applicants | Funded Projects | Median OP | Total OP | Share of Total |
-| --- | --- | --- | --- | --- | --- |
-| Core Protocol Interfaces | 39 | 23 | 60K | 2384K | 36.1% |
-| Development Frameworks | 12 | 7 | 70K | 688K | 10.4% |
-| Cryptography & Primitives | 7 | 6 | 98K | 574K | 8.7% |
-| Developer Experience Tools | 36 | 14 | 12K | 548K | 8.3% |
-| Language & Compilation Tools | 7 | 6 | 42K | 528K | 8.0% |
-| Infrastructure & Node Operations | 16 | 9 | 34K | 469K | 7.1% |
-| Testing & Verification Tools | 16 | 12 | 9K | 455K | 6.9% |
-| Data Indexing & Analytics | 19 | 7 | 44K | 431K | 6.5% |
-| Deployment & Lifecycle Management | 10 | 6 | 42K | 377K | 5.7% |
-| Interoperability & Cross-chain | 7 | 1 | 78K | 78K | 1.2% |
-| Application-Specific & Niche Tools | 33 | 5 | 4K | 66K | 1.0% |
-| Others (incl. spam) | 37 | 0 | \- | \- | \- |
+| Category                           | Applicants | Funded Projects | Median OP | Total OP | Share of Total |
+| ---------------------------------- | ---------- | --------------- | --------- | -------- | -------------- |
+| Core Protocol Interfaces           | 39         | 23              | 60K       | 2384K    | 36.1%          |
+| Development Frameworks             | 12         | 7               | 70K       | 688K     | 10.4%          |
+| Cryptography & Primitives          | 7          | 6               | 98K       | 574K     | 8.7%           |
+| Developer Experience Tools         | 36         | 14              | 12K       | 548K     | 8.3%           |
+| Language & Compilation Tools       | 7          | 6               | 42K       | 528K     | 8.0%           |
+| Infrastructure & Node Operations   | 16         | 9               | 34K       | 469K     | 7.1%           |
+| Testing & Verification Tools       | 16         | 12              | 9K        | 455K     | 6.9%           |
+| Data Indexing & Analytics          | 19         | 7               | 44K       | 431K     | 6.5%           |
+| Deployment & Lifecycle Management  | 10         | 6               | 42K       | 377K     | 5.7%           |
+| Interoperability & Cross-chain     | 7          | 1               | 78K       | 78K      | 1.2%           |
+| Application-Specific & Niche Tools | 33         | 5               | 4K        | 66K      | 1.0%           |
+| Others (incl. spam)                | 37         | 0               | \-        | \-       | \-             |
 
 ### Comparison to RetroPGF3
 
@@ -124,12 +130,12 @@ Many Season 7 awardees were also funded in RetroPGF3 (Q4 2023). On a like-for-li
 Funding clearly rewarded small, seasoned teams.
 
 - **Portfolio median:** 3.5 years old, 1-2 active developers over the past six months.
-- **Top-earning cohort:** Projects 3+ years old *and* with 2+ full-time devs (≥ 10 commit-days/month).
-	- **Count:** 12 tools
-	- **Median grant:** 125K OP
+- **Top-earning cohort:** Projects 3+ years old _and_ with 2+ full-time devs (≥ 10 commit-days/month).
+  - **Count:** 12 tools
+  - **Median grant:** 125K OP
 - **Solo-maintainer veterans:** Older codebases run by a single part-time dev also did well.
-	- **Count:** 19 tools
-	- **Median grant:** 49K OP
+  - **Count:** 19 tools
+  - **Median grant:** 49K OP
 
 The scatter plots below show that awards climb gradually with age and contributor count, but the spread widens for younger or one-person projects. This should be encouraging for small upstarts that experience fast adoption.
 
@@ -155,7 +161,7 @@ This section looks at public repo developer activity across the Superchain since
 - Additional full-time devs building on those tools: 89 (+32% since April 2023)
 - Average active devs in the dependency graph: 1071 (+47% since April 2023)
 
-*Our definition of “full-time” developer follows the Electric Capital methodology (≥ 10 commit days per month).*
+_Our definition of “full-time” developer follows the Electric Capital methodology (≥ 10 commit days per month)._
 
 ![monthly-active-devs.png](https://docs.oso.xyz/assets/images/monthly-active-devs-6c4636ef7f95317eebef7eecf036184a.png)
 
@@ -169,7 +175,7 @@ The ratio of onchain devs to tooling maintainers hovers near 2: 1. As the ratio 
 
 ### Peer ecosystem comparison
 
-Next, we can try to contrast this with developer growth across peer ecosystems. We do this by comparing *collection* -level metrics in [oss-directory](https://github.com/opensource-observer/oss-directory).
+Next, we can try to contrast this with developer growth across peer ecosystems. We do this by comparing _collection_ -level metrics in [oss-directory](https://github.com/opensource-observer/oss-directory).
 
 The analysis assigns projects into three categories based on set membership:
 
@@ -192,10 +198,10 @@ For every package we look at two numbers: (1) how many GitHub repos maintained b
 Because the denominator can be very large (OSO currently covers ~125K public repos), even a seemingly small center of gravity could still represent thousands of dependent projects. Ethers.js is good example: only ~10% of its users have deployments on the Superchain, yet that still translates into 1,876 dependent repos - enough to justify a top-tier grant. At the same time, a package like Cannon turns up in just 21 repos overall but 7 of those belong to Superchain teams, giving it a center of gravity of 0.33.
 
 | Sample Project | \# Superchain Builder Dependencies | \# Overall Dependencies in OSO Dataset | Ratio |
-| --- | --- | --- | --- |
-| Cannon | 7 | 21 | 0.333 |
-| Ethers.js | 1876 | 18,724 | 0.100 |
-| go-libp2p | 4 | 463 | 0.009 |
+| -------------- | ---------------------------------- | -------------------------------------- | ----- |
+| Cannon         | 7                                  | 21                                     | 0.333 |
+| Ethers.js      | 1876                               | 18,724                                 | 0.100 |
+| go-libp2p      | 4                                  | 463                                    | 0.009 |
 
 The scatterplot below captures this distribution. Large dark circles clustered on the left show low center of gravity workhorses such as Ethers.js. Smaller circles to the right represent more niche but high center of gravity tools like Cannon. Packages hugging the bottom left have relatively low usage and generally see minimal funding unless they deliver something irreplaceable like libp2p.
 
@@ -225,16 +231,16 @@ On a back-of-the-envelope basis, the 6.6M OP disbursed so far is supporting abou
 
 ### Cost-of-substitution
 
-Although we lack actual estimates of builders’ expenditure and productivity, we can make crude estimates. The 2024 Harvard paper, [*The Value of Open Source Software*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4693148), offers a relatively simple method for calculating replacement costs. We’ve adapted their approach to estimate a lower and upper bound of the value of OSS devtools to Optimism.
+Although we lack actual estimates of builders’ expenditure and productivity, we can make crude estimates. The 2024 Harvard paper, [_The Value of Open Source Software_](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4693148), offers a relatively simple method for calculating replacement costs. We’ve adapted their approach to estimate a lower and upper bound of the value of OSS devtools to Optimism.
 
-| Component | Figure |
-| --- | --- |
-| Full-time dev-months funded (2020-2025) | 1,491 |
-| Part-time dev-months funded | 7,804 |
-| Global cost per dev-month | US $7,800 (FT) / US $1,950 (PT) |
-| One-time rebuild cost | US $26.8M |
-| If every app rebuilt its own stack | US $862M |
-| Optimism’s “fair-share” (12% center of gravity) | US $103M |
+| Component                                       | Figure                          |
+| ----------------------------------------------- | ------------------------------- |
+| Full-time dev-months funded (2020-2025)         | 1,491                           |
+| Part-time dev-months funded                     | 7,804                           |
+| Global cost per dev-month                       | US $7,800 (FT) / US $1,950 (PT) |
+| One-time rebuild cost                           | US $26.8M                       |
+| If every app rebuilt its own stack              | US $862M                        |
+| Optimism’s “fair-share” (12% center of gravity) | US $103M                        |
 
 **Caveats:**
 
@@ -250,11 +256,11 @@ As established earlier, the devtools targeted for Retro Funding are mostly maint
 
 Based on interviews with dozens of dev tool maintainers, we observe a consistent pattern in how Retro Funding changes the incentives and planning for different types of maintainers. These impacts are clearest when we distinguish three broad archetypes:
 
-| Archetype | What Retro Funding changed | Ceiling |
-| --- | --- | --- |
-| Part-time, Solo maintainer | Retro Funding often acts as the catalyst that lets maintainers prioritize their open-source work over other competing projects. Examples: PRBMath, LoopDecoder | Many of these builders don't want to scale beyond a single full time contributor. They are unlikely to transform the structure or ambitions of the project. |
-| Independent full‑timer | These are solo or duo maintainers who are already working full-time on their dev tools. For them, Retro Funding acts less as an active runway and more as an endowment. Examples: Ethers, WEVM | These teams are stable but not necessarily sustainable. Retro Funding provides a buffer, but doesn't typically lead to aggressive growth. |
-| OSS company | In contrast, OSS companies treat Retro Funding as part of their growth calculus, and say that the rewards help de-risk operational scaling. Examples: OpenZeppelin, BuidlGuidl, Solidity. | These orgs can grow, but month-to-month volatility limits their ability to plan beyond the next cycle. |
+| Archetype                  | What Retro Funding changed                                                                                                                                                                     | Ceiling                                                                                                                                                     |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Part-time, Solo maintainer | Retro Funding often acts as the catalyst that lets maintainers prioritize their open-source work over other competing projects. Examples: PRBMath, LoopDecoder                                 | Many of these builders don't want to scale beyond a single full time contributor. They are unlikely to transform the structure or ambitions of the project. |
+| Independent full‑timer     | These are solo or duo maintainers who are already working full-time on their dev tools. For them, Retro Funding acts less as an active runway and more as an endowment. Examples: Ethers, WEVM | These teams are stable but not necessarily sustainable. Retro Funding provides a buffer, but doesn't typically lead to aggressive growth.                   |
+| OSS company                | In contrast, OSS companies treat Retro Funding as part of their growth calculus, and say that the rewards help de-risk operational scaling. Examples: OpenZeppelin, BuidlGuidl, Solidity.      | These orgs can grow, but month-to-month volatility limits their ability to plan beyond the next cycle.                                                      |
 
 #### A common thread: intrinsic motivation amplified
 
@@ -272,24 +278,24 @@ We believe this preliminary analysis from Season 7 shows that Retro Funding can 
 
 This table details what we can't yet see and how to fix it. Most gaps involve data that builders may be willing to share if the process were low-friction, privacy-respecting, and obviously useful to them.
 
-| Gap | Why it matters | Potential solution |
-| --- | --- | --- |
-| **Private‑repo work** | Current metrics miss commercial teams that rely on open tools but build in closed repos. | Opt‑in read-only access to determine software bill of materials for private repos |
-| **DevX panel data** | Usage ≠ satisfaction; we lack ground truth on pain points and improvements in the DevX. | Collect opt-in qualitative DevX survey data from onchain builders |
-| **Spend baseline** | Cannot link OSS funding to robust estimates of dollars saved on infra/tooling. | Collect opt-in spend data from onchain builders. |
-| **Counterfactual output** | No counterfactual group to compare against; correlation ≠ causation. | Implement synthetic‑control or diff‑in‑diff using comparable ecosystems (e.g., Solana, Starknet). |
-| **Usage telemetry** | Current metrics miss actual usage patterns of tools like IDEs and testing frameworks. | Ship opt-in telemetry plugins or create open standards (and incentives) for voluntary reporting. |
-| **Time to deploy** | First commit and test‑net activity are often private and hard to link to eventual mainnet deployment. | Opt-in read-only repo access to high-level development history; linking testnet deployments to Superchain deployments (eg, via small builder grants). |
+| Gap                       | Why it matters                                                                                        | Potential solution                                                                                                                                    |
+| ------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Private‑repo work**     | Current metrics miss commercial teams that rely on open tools but build in closed repos.              | Opt‑in read-only access to determine software bill of materials for private repos                                                                     |
+| **DevX panel data**       | Usage ≠ satisfaction; we lack ground truth on pain points and improvements in the DevX.               | Collect opt-in qualitative DevX survey data from onchain builders                                                                                     |
+| **Spend baseline**        | Cannot link OSS funding to robust estimates of dollars saved on infra/tooling.                        | Collect opt-in spend data from onchain builders.                                                                                                      |
+| **Counterfactual output** | No counterfactual group to compare against; correlation ≠ causation.                                  | Implement synthetic‑control or diff‑in‑diff using comparable ecosystems (e.g., Solana, Starknet).                                                     |
+| **Usage telemetry**       | Current metrics miss actual usage patterns of tools like IDEs and testing frameworks.                 | Ship opt-in telemetry plugins or create open standards (and incentives) for voluntary reporting.                                                      |
+| **Time to deploy**        | First commit and test‑net activity are often private and hard to link to eventual mainnet deployment. | Opt-in read-only repo access to high-level development history; linking testnet deployments to Superchain deployments (eg, via small builder grants). |
 
 ### Research questions to track over time
 
-Optimism also needs to monitor a concise set of *outcome metrics* over the next year. This table sketches three high-leverage research tracks.
+Optimism also needs to monitor a concise set of _outcome metrics_ over the next year. This table sketches three high-leverage research tracks.
 
-| Focus | Hypothesis | Core metric(s) | Methodology |
-| --- | --- | --- | --- |
-| **Center of gravity** | Retro incentives pull marginal dev hours toward Superchain-facing tooling. | % of dependent repos whose primary deployment is the Superchain. | Expand dependency graph coverage for peer ecosystems; track the CoG index quarterly. |
-| **Rate of innovation** | Better tooling shortens the idea-to-mainnet cycle and boosts project velocity. | Median days: first commit → first mainnet tx → first 1 ETH in gas; monthly first-time deployments. | Combine private-repo opt-ins, testnet data, and early-stage builder programs to capture pre-mainnet work. |
-| **Long-term value** | A robust tooling layer spawns more “blue-chip” apps (TVL > $100M or >1M txns/mo). | Count of apps crossing threshold per cohort year; aggregate dev-hours or $ saved; incremental Collective revenue. | Gather qualitative data on DevX and spend; assign marginal credit to devtools; back-test if funded packages are over-represented in future blue-chip apps. |
+| Focus                  | Hypothesis                                                                        | Core metric(s)                                                                                                    | Methodology                                                                                                                                                |
+| ---------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Center of gravity**  | Retro incentives pull marginal dev hours toward Superchain-facing tooling.        | % of dependent repos whose primary deployment is the Superchain.                                                  | Expand dependency graph coverage for peer ecosystems; track the CoG index quarterly.                                                                       |
+| **Rate of innovation** | Better tooling shortens the idea-to-mainnet cycle and boosts project velocity.    | Median days: first commit → first mainnet tx → first 1 ETH in gas; monthly first-time deployments.                | Combine private-repo opt-ins, testnet data, and early-stage builder programs to capture pre-mainnet work.                                                  |
+| **Long-term value**    | A robust tooling layer spawns more “blue-chip” apps (TVL > $100M or >1M txns/mo). | Count of apps crossing threshold per cohort year; aggregate dev-hours or $ saved; incremental Collective revenue. | Gather qualitative data on DevX and spend; assign marginal credit to devtools; back-test if funded packages are over-represented in future blue-chip apps. |
 
 Season 7 establishes a baseline mechanism for rewarding developer tools and tracking their usage across the Superchain. Going forward, the only question that matters is:
 

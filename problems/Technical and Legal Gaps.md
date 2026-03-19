@@ -1,10 +1,11 @@
 ---
 publish: true
-title: "Technical & Legal Gaps"
+title: Technical & Legal Gaps
 tags:
   - problems
   - medium
 created: 2026-02-10
+type: problem
 ---
 
 > [!info] High Urgency — Score: 55

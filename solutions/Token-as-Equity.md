@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Token-as-Equity"
+title: Token-as-Equity
 tags:
   - solutions
   - financial
   - custom
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Financial · Custom

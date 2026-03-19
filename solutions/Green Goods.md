@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "Green Goods"
+title: Green Goods
 tags:
   - solutions
   - financial
   - product
 created: 2026-03-10
+type: solution
 ---
 
 > [!abstract] Financial · Product

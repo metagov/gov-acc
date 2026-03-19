@@ -1,11 +1,12 @@
 ---
 publish: true
-title: "VERP Protocol"
+title: VERP Protocol
 tags:
   - solutions
   - verification
   - genesis
 created: 2026-02-10
+type: solution
 ---
 
 > [!abstract] Verification · Genesis

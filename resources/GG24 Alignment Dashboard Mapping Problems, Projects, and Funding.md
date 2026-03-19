@@ -1,15 +1,21 @@
 ---
 title: "GG24 Alignment Dashboard: Mapping Problems, Projects, and Funding"
-source: "https://gg24-analysis.fly.dev/"
+source: https://gg24-analysis.fly.dev/
 author:
 published:
 created: 2026-01-26
 description:
 tags:
-  - "gitcoin"
-  - "funding mechanism"
-  - "grant"
+  - gitcoin
+  - funding mechanism
+  - grant
+type: resource
+uuid: 469a1510-4661-4b82-a3df-310961c903b3
+can-be-republished: false
+problems: []
+solutions: []
 ---
+
 ---
 
 GG24 is Gitcoin’s largest experiment in problem-first public goods funding, where each domain defines the ecosystem-level gaps it exists to solve. This dashboard brings those problems, the projects addressing them, and the distribution of capital into one place. It helps round operators, donors, and ecosystem stewards see how funding decisions align with the strategic priorities of the Ethereum community.
@@ -44,7 +50,7 @@ All
 
 The problem definitions below are grounded in the domain’s sensemaking research and the round’s eligibility guidance. They describe the systemic gaps the domain seeks to address, framed at the right level of abstraction to remain stable across rounds while still allowing clear classification of diverse projects.
 
-keyboard\_arrow\_right
+keyboard_arrow_right
 
 🔍 Underfunded Core Infrastructure
 
@@ -84,7 +90,7 @@ Sustained funding for clients, compilers, languages, critical libraries, and pro
 
 **Score 5:** Essential, ecosystem-critical infrastructure work with high dependency impact and long-term sustainability benefits.
 
-keyboard\_arrow\_right
+keyboard_arrow_right
 
 🔍 Fragmented Developer Experience
 
@@ -124,7 +130,7 @@ Unified development environments, integrated toolchains, testing frameworks, deb
 
 **Score 5:** Transforms the end-to-end developer experience with cohesive, high-impact tooling used across the ecosystem.
 
-keyboard\_arrow\_right
+keyboard_arrow_right
 
 🔍 Security Gaps and Safety Risks
 
@@ -164,7 +170,7 @@ Static analysis tools, fuzzers, formal verification utilities, secure-by-default
 
 **Score 5:** Core security infrastructure or tooling that significantly strengthens safety across the entire ecosystem.
 
-keyboard\_arrow\_right
+keyboard_arrow_right
 
 🔍 Scalability and Protocol Evolution Gaps
 
@@ -204,7 +210,7 @@ Tooling that supports rollups, sharding, EIPs, execution environments, AA flows,
 
 **Score 5:** Critical enabler of protocol evolution or scaling, with ecosystem-wide utility.
 
-keyboard\_arrow\_right
+keyboard_arrow_right
 
 🔍 Ecosystem Data and Observability Gaps
 
@@ -244,7 +250,7 @@ Open data platforms, indexing systems, analytics APIs, monitoring tools, and obs
 
 **Score 5:** Ecosystem-wide observability or data infrastructure that materially enhances transparency and developer capability.
 
-keyboard\_arrow\_right
+keyboard_arrow_right
 
 🔍 Sustainability and Talent Drain
 
