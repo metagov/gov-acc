@@ -3,12 +3,12 @@ publish: true
 title: "Workshop #3 Agentic Allocation — Share Out"
 subtitle:
 ---
-In our recent gov/acc workshop we examined Agentic Allocation methods for guiding the distribution of DAO funds. The workshop had three stages: Hypotheses, Tests, and Commentary Sandbox. 
+In our recent gov/acc workshop we examined Agentic Allocation methods for guiding the distribution of DAO funds. This was a deeper dive into one particular set of problems around allocation and the potential use of tooling emerging from the machine learning space. The workshop aimed at designing experiments that can be run to test the effectiveness of proposed solutions and tooling. Thus the workshop had three stages: Hypotheses, Tests, and Commentary Sandbox. 
 
 Three hypothesis clusters emerged through clustering and voting. 
 
 - **Evaluation:** Agents can be in charge of monitoring and evaluation — unlocking funds when deliverables are achieved.
-- **Digital Twins:** AI agents that vote on your behalf based on your preferences maintain participation when you're unavailable.
+- **Digital Twins:** AI agents that vote on your behalf based on your preferences and maintain participation when you're unavailable.
 - **Summaries:** AI-powered knowledge tools give voters instant context on proposals, leading to more informed decisions.
 
 
@@ -26,9 +26,9 @@ Each of these was then used as focus areas for proposing a set of experiments to
 
 After another round of voting, three experiments emerged for further discussion, focusing on evaluation tools and digital twins.
 
-- **Evaluation:** Does a panel of agents + humans yield similar evaluations? If not, who yields better evaluations? Design experiment to measure the alignment between agents and humans and the alignment between evaluations and community. This can be accomplished by determining 1. if there is an increase in correlation between decisions and stated goals/objectives, and 2. an increase in overall community member satisfaction.
-- **Digital Twins:** Does the ability to evaluate budget constraints lead to more fiscally responsible voting? Design experiment to measure participants' relationship to and perception of the budget. This work looks to participatory budgeting practices for inspiration.
-- **Summaries:** Will using a digital twin make the owner lazy (i.e. not check what the agent is actually voting for)? This experiment can introduce 'phishing simulation' type proposals to test depth of participant interaction.   
+- **Evaluation:** Does a panel of agents + humans yield similar evaluations? If not, who yields better evaluations? The experiment should be designed to measure the alignment between agents and humans and the alignment between evaluations and the community. This can be accomplished by determining 1. if there is an increase in correlation between decisions and stated goals/objectives, and 2. an increase in overall community member satisfaction.
+- **Budget:** Does the ability to evaluate budget constraints lead to more fiscally responsible voting? The experiment should be designed to measure participants' relationship to and perception of the budget. This work looks to participatory budgeting practices for inspiration.
+- **Digital Twin:** Will using a digital twin make the owner lazy (i.e. not check what the agent is actually voting for)? This experiment can introduce 'phishing simulation' type proposals to test depth of participant interaction.   
 
 From this workshop, we have generated a set of potential experiments that the DAO community could run to better understand the effects of and use cases for Agentic Allocation tools. This by no means maps out the entirety of possible experiments, but we hope that it provides some inspiration for future research in this field.
 
