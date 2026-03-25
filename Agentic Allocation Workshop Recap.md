@@ -1,6 +1,6 @@
 ---
 publish: true
-title: "Workshop #3 Agentic Allocation — Share Out"
+title: "Agentic Allocation — Workshop #3 Recap"
 subtitle:
 ---
 In our recent gov/acc workshop we examined Agentic Allocation methods for guiding the distribution of DAO funds. This was a deeper dive into one particular set of problems around allocation and the potential use of tooling emerging from the machine learning space. The workshop aimed at designing experiments that can be run to test the effectiveness of proposed solutions and tooling. Thus the workshop had three stages: Hypotheses, Tests, and Commentary Sandbox. 
