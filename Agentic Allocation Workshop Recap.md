@@ -35,3 +35,5 @@ From this workshop, we have generated a set of potential experiments that the DA
 We are hosting a workshop at EthCC to help develop working groups that want to bring experiments to life. Agentic allocation and evaluation will likely be one of the working groups and this workshop will help inform that working group. 
 
 You can expect the next update within a few weeks / by the end of April with more information on the working groups and where gov/acc is headed from there.
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSc6h2iKXWwaTCQwKZMbCTBk2d-LpLhjngkWBMrxpOA9ty_0xPVkWGzc8ZFMlavIANvhQ9yOl52zn8C/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
