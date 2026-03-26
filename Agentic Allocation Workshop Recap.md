@@ -11,16 +11,7 @@ Three hypothesis clusters emerged through clustering and voting. 
 - **Digital Twins:** AI agents that vote on your behalf based on your preferences and maintain participation when you're unavailable.
 - **Summaries:** AI-powered knowledge tools give voters instant context on proposals, leading to more informed decisions.
 
-
-```media-slider
-![[Agentic Allocation - gov_acc 3 - Hypothesis-2.jpg| Stage 1: Hypotheses]]
-![[Agentic Allocation - gov_acc 3 - Evaluation.jpg|Stage 2: Evaluation]]
-![[Agentic Allocation - gov_acc 3 - Digital Twin.jpg|Stage 2: Digital Twins]]
-![[Agentic Allocation - gov_acc 3 - Communications and Summaries.jpg|Stage 2: Communications and Summaries]]
-![[Agentic Allocation - gov_acc 3 - Agent _ Human test; preference.jpg|Stage 3: Human/Agent Preferance Test ]]
-![[Agentic Allocation - gov_acc 3 - Budget.jpg|Stage 3: Budget Tooling]]
-![[Agentic Allocation - gov_acc 3 - twins = lazy.jpg|Stage 3: Twins=Lazy?]]
-```
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSx41m3jptIb1cKnKrCn6NNhgEkBQWfIMhDN7tshRSFKz-t7cll2FXpuOxLwKltPVam1NqekSWYHryd/pubembed?start=false&loop=true&delayms=5000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Each of these was then used as focus areas for proposing a set of experiments to test these hypotheses.   
 
@@ -35,5 +26,3 @@ From this workshop, we have generated a set of potential experiments that the DA
 We are hosting a workshop at EthCC to help develop working groups that want to bring experiments to life. Agentic allocation and evaluation will likely be one of the working groups and this workshop will help inform that working group. 
 
 You can expect the next update within a few weeks / by the end of April with more information on the working groups and where gov/acc is headed from there.
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSc6h2iKXWwaTCQwKZMbCTBk2d-LpLhjngkWBMrxpOA9ty_0xPVkWGzc8ZFMlavIANvhQ9yOl52zn8C/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
