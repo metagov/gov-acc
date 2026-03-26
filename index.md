@@ -16,6 +16,7 @@ subtitle: Accelerating Governance Innovation in Web3
 
 Phase 1 research is ongoing. The findings below are preliminary results from the Harmonica structured interview track — one of several data-gathering efforts underway. These will be expanded and refined as additional research streams contribute their findings.
 
+- [[Agentic Allocation Workshop Recap]] — Research output from the third gov/acc workshop
 - **[[Phase 1 Results]]** — Methodology, preliminary findings, and early insights
 - **[[problems/index|Governance Problems]]** — 11 problems ranked by urgency, from Critical to Medium
 - **[[solutions/index|Governance Solutions]]** — 37 proposed solutions organized by category and maturity stage
