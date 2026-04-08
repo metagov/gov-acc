@@ -7,7 +7,10 @@ tags:
 created: 2026-04-08
 ---
 
-Phase 1 research draws on structured interviews with governance practitioners, delegates, researchers, and builders across the web3 ecosystem. This page lists contributors who consented to public attribution. Additional participants contributed under pseudonyms or without attribution consent — their insights are reflected in the research but they are not listed here.
+Phase 1 research draws on structured interviews with governance practitioners, delegates, researchers, and builders across the web3 ecosystem. This page lists contributors who consented to public attribution.
+
+> [!caution] Incomplete list
+> We added the attribution consent question partway through the research. Many early participants were never asked, so this page does not yet reflect all 52 contributors. We are reaching out to collect explicit consent from everyone — this list will grow as we hear back.
 
 > [!info] Want to contribute?
 > We're still collecting perspectives. The interview takes about 20 minutes and is facilitated by AI. **[Participate →](https://app.harmonica.chat/chat?s=hst_a51081812ed9)**
