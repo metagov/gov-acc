@@ -36,6 +36,7 @@ Phase 1 research draws on structured interviews with governance practitioners, d
 | **Eric Alston** | University of Wyoming | Independent researcher | [[Token Voting Failure]] |
 | **Gbiri Oluwaseun** | — | Governance teams | [[Governance Theater]], [[Voting Fatigue]] |
 | **Jeffrey McLarty** | [Agora](https://voteagora.com) | Tooling provider | [[Technical and Legal Gaps]], [[Token Voting Failure]] |
+| **Joseph** | Independent | Independent researcher | [[Technical and Legal Gaps]] |
 | **Joshua Davila** | Independent | Independent researcher | [[Token Voting Failure]], [[Informal Power]] |
 | **Karam** | Yale / Polkadot ecosystem | Governance teams | [[Token Voting Failure]], [[Institutional Amnesia]], [[Grant System Dysfunction]] |
 | **Katashe Solutions** | [Katashe](https://x.com/katasheco) | Independent researcher | [[Voting Fatigue]], [[Delegate Sustainability]] |
