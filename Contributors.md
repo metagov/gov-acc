@@ -17,7 +17,6 @@ Phase 1 research draws on structured interviews with governance practitioners, d
 | Name | Affiliation | Role |
 |------|-------------|------|
 | **Eugene Leventhal** | [Metagov](https://metagov.org) | Executive Director, gov/acc program lead |
-| **Mike Cooper** | [Metagov](https://metagov.org) | Governance Innovation Lab |
 
 ## Contributors
 
@@ -38,10 +37,12 @@ Phase 1 research draws on structured interviews with governance practitioners, d
 | **Karam** | Yale / Polkadot ecosystem | Governance teams | [[Token Voting Failure]], [[Institutional Amnesia]], [[Grant System Dysfunction]] |
 | **Katashe Solutions** | [Katashe](https://x.com/katasheco) | Independent researcher | [[Voting Fatigue]], [[Delegate Sustainability]] |
 | **Martin Schmidt** | Independent | Researcher / builder | [[Technical and Legal Gaps]] |
+| **Mike Cooper** | [Metagov](https://metagov.org) | Governance Innovation Lab | [[Grant System Dysfunction]] |
 | **Rashmi V Abbigeri** | Independent | Governance teams | [[Governance Theater]], [[Over-Reliance on Game Theory]] |
 | **Rosalind Marino** | Independent | Independent researcher | [[Lack of Clear Purpose]], [[Token Voting Failure]], [[Informal Power]] |
 | **Sneha** | Independent | Independent researcher | [[Technical and Legal Gaps]] |
 | **Tino** | [SEEDGov](https://seedgov.org) | Professional delegate | [[Lack of Clear Purpose]], [[Broken Contributor Economies]], [[Voting Fatigue]] |
+| **Trigs** | Independent | Governance teams | [[Token Voting Failure]], [[Governance Theater]], [[Voting Fatigue]] |
 | **Zeugh** | [Coordinerds](https://coordinerds.xyz) | Governance teams | [[Token Voting Failure]], [[Voting Fatigue]], [[Broken Contributor Economies]], [[Governance Theater]] |
 
 *Contributors listed alphabetically. Topics indicate governance problems the contributor provided evidence for during their interview.*
