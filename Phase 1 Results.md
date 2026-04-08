@@ -47,6 +47,14 @@ $$\text{Urgency} = \frac{\text{breadth}}{28} \times 0.6 + \frac{\text{depth}}{5.
 
 This formula surfaces problems that are both widely recognized AND deeply discussed, while allowing specialist concerns with high depth to still rank prominently.
 
+### Limitations
+
+**Frequency is not the same as importance.** Breadth measures how many participants raised a problem, which reflects awareness — not necessarily criticality. The most-mentioned problem may simply be the easiest to recognize, not the most consequential. For example, [[Token Voting Failure]] ranks #1 partly because it is the most visible governance failure, but problems like [[Over-Reliance on Game Theory]] (lower breadth, highest depth) may be more foundational.
+
+Depth partially compensates for this by capturing how much a problem engaged participants — people tend to discuss problems they consider important in greater detail. However, neither metric directly asks "how important is this problem for the ecosystem?" Future research phases will incorporate explicit importance ratings from participants to add this missing dimension.
+
+Readers should treat urgency scores as indicators of practitioner awareness and engagement, not as definitive rankings of governance priority.
+
 ## Preliminary Findings
 
 ### Token Voting is the #1 Governance Concern
