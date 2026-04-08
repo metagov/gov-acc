@@ -5,7 +5,9 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.FeedbackLink({ repo: "metagov/gov-acc" }),
+  ],
   footer: Component.Footer({
     links: {
       "A MetaGov Project": "https://metagov.org",

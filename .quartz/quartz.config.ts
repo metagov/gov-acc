@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: undefined,
+    baseUrl: "gov-acc.metagov.org",
     ignorePatterns: [
       // Readme
       "README.md",
