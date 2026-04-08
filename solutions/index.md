@@ -7,7 +7,7 @@ tags:
 created: 2026-02-10
 ---
 
-Preliminary findings from 49 Harmonica structured interviews. Thirty-seven proposed governance solutions identified so far, organized by category and maturity stage. Solution writeups were synthesized using AI-assisted analysis and may contain elaborations beyond what participants explicitly stated — see [[Phase 1 Results#Methodology|Methodology]] for details. Phase 1 research is ongoing — additional solutions may emerge as other data sources are integrated.
+Preliminary findings from 52 Harmonica structured interviews. Forty-one proposed governance solutions identified so far, organized by category and maturity stage. Solution writeups were synthesized using AI-assisted analysis and may contain elaborations beyond what participants explicitly stated — see [[Phase 1 Results#Methodology|Methodology]] for details. Phase 1 research is ongoing — additional solutions may emerge as other data sources are integrated.
 
 > [!info] Maturity stages
 > Solutions are mapped on a Wardley Map evolution axis:
@@ -66,6 +66,10 @@ Preliminary findings from 49 Harmonica structured interviews. Thirty-seven propo
 | [[Standardized Governance Cycles]] | Custom | 2 | 2 |
 | [[Attestation-Based Governance]] | Product | 1 | 2 |
 | [[Explicit Interest Group Representation]] | Genesis | 1 | 2 |
+| [[QGOV]] | Genesis → Custom | 1 | 1 |
+| [[Forking Protocol]] | Genesis | 1 | 1 |
+| [[Contestable Control]] | Genesis → Custom | 1 | 1 |
+| [[Governance Minimization]] | Genesis → Custom | 1 | 2 |
 
 ### Financial
 | Solution | Maturity | Mentions | Problems Addressed |

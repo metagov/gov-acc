@@ -9,15 +9,17 @@ type: problem
 ---
 
 > [!caution] High Urgency — Score: 71
-> Raised by 24/49 participants · Average 2.5 messages per discussion · 10 solutions proposed
+> Raised by 25/52 participants · Average 2.5 messages per discussion · 10 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
-Participants are overwhelmed by the volume and complexity of governance proposals across multiple DAOs. Wide breadth (24/49) but shallow depth (2.6 messages) suggests this is a near-universal experience but well-understood — people recognize it immediately and do not need to elaborate. The result is declining participation rates and decisions made by shrinking minorities, hollowing out the democratic legitimacy that DAOs claim.
+Participants are overwhelmed by the volume and complexity of governance proposals across multiple DAOs. Wide breadth (25/52) but shallow depth (2.6 messages) suggests this is a near-universal experience but well-understood — people recognize it immediately and do not need to elaborate. The result is declining participation rates and decisions made by shrinking minorities, hollowing out the democratic legitimacy that DAOs claim.
 
 ## Evidence
 
-**Breadth**: 24 out of 49 interviewees raised this problem, making it one of the most widely recognized issues. Half of all participants independently identified voting fatigue, confirming it as a pervasive structural condition rather than an individual failing.
+**Breadth**: 25 out of 52 interviewees raised this problem, making it one of the most widely recognized issues. Half of all participants independently identified voting fatigue, confirming it as a pervasive structural condition rather than an individual failing.
+
+**Voting mechanism fatigue** (Tino, SEEDGov): All decisions are treated with the same heavyweight process regardless of stakes, with discussion periods too long and participants voting to move on rather than to express genuine preferences. In the Scroll DAO, treasury management deliberations dragged on for months as delegates derailed progress, people voted from exhaustion, and then the Foundation paused the DAO entirely — rendering all the deliberation effort wasted.
 
 **Depth**: Averaging just 2.6 messages per discussion — the shallowest in the dataset — this problem required little explanation. Participants typically named it, gave a brief example, and moved on. The low depth does not indicate low importance; rather, it reflects a problem so obvious and well-understood that extensive discussion feels redundant. The challenge is not conceptual but structural.
 
@@ -46,7 +48,7 @@ Fatigue compounds every other governance problem. Even well-designed governance 
 
 ## Participants
 
-Raised by: Eugene, Martin, Trigs, Hima, Raphael, Zeugh, Marlene, Ivey, Adam S., Teije, mart1n, Kaf, Eleanor, Feems, Daniel, Loring, Felix, Hannah, Eric A., Shelby, Aman, Afolabi, Gbiri, Katashe
+Raised by: Eugene, Martin, Trigs, Hima, Raphael, Zeugh, Marlene, Ivey, Adam S., Teije, mart1n, Kaf, Eleanor, Feems, Daniel, Loring, Felix, Hannah, Eric A., Shelby, Aman, Afolabi, Gbiri, Katashe, Tino
 
 ---
 

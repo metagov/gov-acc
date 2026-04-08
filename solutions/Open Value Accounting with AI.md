@@ -42,7 +42,7 @@ At Custom stage (ex 2.0), the conceptual foundations are well-established throug
 
 ## Participant Mentions
 
-Referenced in 2 out of 49 interviews. Felix Fritsch's detailed account of the TEC's experience — initial enthusiasm, growing friction from valuation overhead, and eventual community conflict — provides a compelling evidence base for why AI augmentation is needed. The insight that value accounting is conceptually sound but socially expensive to implement manually positions AI assistance as a necessary enabler rather than a nice-to-have.
+Referenced in 2 out of 52 interviews. Felix Fritsch's detailed account of the TEC's experience — initial enthusiasm, growing friction from valuation overhead, and eventual community conflict — provides a compelling evidence base for why AI augmentation is needed. The insight that value accounting is conceptually sound but socially expensive to implement manually positions AI assistance as a necessary enabler rather than a nice-to-have.
 
 ---
 

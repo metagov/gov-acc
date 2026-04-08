@@ -45,7 +45,7 @@ At Genesis-to-Custom (ex 2), milestone-based fundraising is conceptually well-de
 
 ## Participant Mentions
 
-Referenced in 2 out of 49 interviews. The modest mention count belies the widespread frustration with grant system dysfunction — many participants complained about grant waste without specifically proposing milestone-based alternatives. Those who did mention the concept were typically involved in grant-making and had directly observed the accountability gaps that milestone-based approaches aim to close.
+Referenced in 2 out of 52 interviews. The modest mention count belies the widespread frustration with grant system dysfunction — many participants complained about grant waste without specifically proposing milestone-based alternatives. Those who did mention the concept were typically involved in grant-making and had directly observed the accountability gaps that milestone-based approaches aim to close.
 
 ---
 

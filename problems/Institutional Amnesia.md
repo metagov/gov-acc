@@ -9,7 +9,7 @@ type: problem
 ---
 
 > [!caution] High Urgency — Score: 53
-> Raised by 8/49 participants · Average 4.5 messages per discussion · 5 solutions proposed
+> Raised by 8/52 participants · Average 4.5 messages per discussion · 5 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -17,7 +17,7 @@ DAOs repeatedly lose organizational knowledge as contributors rotate, conversati
 
 ## Evidence
 
-**Breadth**: 8 out of 49 interviewees raised this problem. The narrower breadth likely reflects that institutional amnesia is most acutely felt by long-tenured participants who have watched the same debates recur and the same mistakes repeat across governance cycles. Newer participants may not yet recognize the pattern.
+**Breadth**: 8 out of 52 interviewees raised this problem. The narrower breadth likely reflects that institutional amnesia is most acutely felt by long-tenured participants who have watched the same debates recur and the same mistakes repeat across governance cycles. Newer participants may not yet recognize the pattern.
 
 **Depth**: Averaging 5.8 messages per discussion, this is the second most deeply discussed problem in the dataset. Those who raised it had extensive, often frustrated experiences to share — detailed accounts of knowledge loss, repeated debates, and the organizational cost of starting over. The high depth relative to low breadth marks this as an expert concern: those who see it feel it profoundly.
 

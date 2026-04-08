@@ -9,7 +9,7 @@ type: problem
 ---
 
 > [!warning] Critical Urgency — Score: 88
-> Raised by 28/49 participants · Average 3.5 messages per discussion · 16 solutions proposed
+> Raised by 28/52 participants · Average 3.5 messages per discussion · 16 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -17,7 +17,7 @@ The most widely reported governance failure across the entire research program. 
 
 ## Evidence
 
-**Breadth**: 28 out of 49 interviewees raised this problem, making it the single most widely recognized governance failure in the dataset. Its near-universal prevalence suggests this is not an edge case but a systemic design flaw baked into the dominant governance paradigm.
+**Breadth**: 28 out of 52 interviewees raised this problem, making it the single most widely recognized governance failure in the dataset. Its near-universal prevalence suggests this is not an edge case but a systemic design flaw baked into the dominant governance paradigm.
 
 **Depth**: Averaging 3.7 messages per discussion, participants engaged substantively with this problem — not just flagging it but exploring its mechanics, consequences, and potential remedies. The combination of extreme breadth and solid depth produced the highest composite urgency score in the study.
 

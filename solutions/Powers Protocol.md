@@ -42,7 +42,7 @@ At Genesis stage (ex 1.5), Powers Protocol exists as a well-articulated framewor
 
 ## Participant Mentions
 
-Referenced in 2 out of 49 interviews. The single mention reflects the framework's novelty and its academic orientation — it requires engagement with institutional design theory that most practitioners haven't encountered. However, the ideas it articulates (governance as power allocation, the importance of constraints, the legitimacy question) surfaced implicitly in many more interviews, suggesting that the framework may be articulating something that many practitioners intuit but haven't formalized.
+Referenced in 2 out of 52 interviews. The single mention reflects the framework's novelty and its academic orientation — it requires engagement with institutional design theory that most practitioners haven't encountered. However, the ideas it articulates (governance as power allocation, the importance of constraints, the legitimacy question) surfaced implicitly in many more interviews, suggesting that the framework may be articulating something that many practitioners intuit but haven't formalized.
 
 ---
 

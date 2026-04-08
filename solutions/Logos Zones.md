@@ -43,7 +43,7 @@ At Genesis stage (ex 1.5), Logos Zones is a visionary concept that is still in e
 
 ## Participant Mentions
 
-Referenced in 2 out of 49 interviews. The single mention aligns with the solution's Genesis maturity — it's a forward-looking vision rather than a current practice. However, the underlying insight (that different types of decisions need different governance processes) was widely shared among participants, suggesting that the zone-based approach may gain traction as the limitations of one-size-fits-all governance become more apparent.
+Referenced in 2 out of 52 interviews. The single mention aligns with the solution's Genesis maturity — it's a forward-looking vision rather than a current practice. However, the underlying insight (that different types of decisions need different governance processes) was widely shared among participants, suggesting that the zone-based approach may gain traction as the limitations of one-size-fits-all governance become more apparent.
 
 ---
 

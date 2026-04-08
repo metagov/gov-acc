@@ -9,7 +9,7 @@ type: problem
 ---
 
 > [!info] Medium Urgency — Score: 50
-> Raised by 14/49 participants · Average 2.5 messages per discussion · 8 solutions proposed
+> Raised by 15/52 participants · Average 2.5 messages per discussion · 8 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -17,7 +17,9 @@ Many DAOs lack clear articulation of their purpose, values, and decision-making 
 
 ## Evidence
 
-**Breadth**: 14 out of 49 interviewees raised this problem. The moderate breadth indicates this is recognized across a meaningful cross-section of governance practitioners, though it may be overshadowed by more acute operational problems like token voting failure or governance theater.
+**Breadth**: 15 out of 52 interviewees raised this problem. The moderate breadth indicates this is recognized across a meaningful cross-section of governance practitioners, though it may be overshadowed by more acute operational problems like token voting failure or governance theater.
+
+**Misalignment of interests** (Tino, SEEDGov): Protocol teams want growth, DAOs want efficiency, token holders want price appreciation, and delegates want compensation — with no mechanism to converge these separate goals into a shared north star. Founders and CEOs blame DAOs for protocol failures while DAOs blame external factors, creating a cycle of mutual blame that stems from never having defined shared purpose in the first place.
 
 **Depth**: Averaging 2.7 messages per discussion, the moderate depth suggests participants could identify the problem clearly but found it difficult to elaborate — perhaps because the absence of purpose is easier to name than to analyze. The problem is definitional rather than mechanical: it is about what is missing rather than what is broken.
 
@@ -44,7 +46,7 @@ Purpose gives governance its direction and evaluation criteria. Without it, gove
 
 ## Participants
 
-Raised by: Eugene, Raphael, Carl, Coffee-crusher, Ivey, Arnold, mart1n, Kaf, Rosalind, Shelby, Dani, Hannah, Afolabi, Aman
+Raised by: Eugene, Raphael, Carl, Coffee-crusher, Ivey, Arnold, mart1n, Kaf, Rosalind, Shelby, Dani, Hannah, Afolabi, Aman, Tino
 
 ---
 

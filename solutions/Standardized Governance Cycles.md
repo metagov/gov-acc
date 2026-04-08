@@ -40,7 +40,7 @@ At Custom stage (ex 2.5), several DAOs have implemented governance cycles inform
 
 ## Participant Mentions
 
-Referenced in 2 out of 49 interviews. The single explicit mention belies the broader pattern: multiple participants described DAOs moving toward scheduled governance windows as evidence of the voting fatigue problem. The solution is emerging organically from the problem itself, suggesting it addresses a genuine need. Loring specifically cited it as both evidence of fatigue and a working response.
+Referenced in 2 out of 52 interviews. The single explicit mention belies the broader pattern: multiple participants described DAOs moving toward scheduled governance windows as evidence of the voting fatigue problem. The solution is emerging organically from the problem itself, suggesting it addresses a genuine need. Loring specifically cited it as both evidence of fatigue and a working response.
 
 ---
 

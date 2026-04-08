@@ -8,7 +8,7 @@ subtitle: Accelerating Governance Innovation in Web3
 > If you want to contribute to gov/acc, please consider completing a [Harmonica session](https://app.harmonica.chat/chat?s=hst_a51081812ed9) to map open problems DAOs are facing, their potential solutions, and who is working on them (whether researching or building).
 
 > [!abstract] Phase 1 Preliminary Findings
-> Preliminary results from our Harmonica structured interviews — 49 conversations mapping 11 governance problems, 37 proposed solutions, and 59 actors across the ecosystem. Phase 1 research is ongoing with additional data sources.
+> Preliminary results from our Harmonica structured interviews — 52 conversations mapping 11 governance problems, 41 proposed solutions, and 59 actors across the ecosystem. Phase 1 research is ongoing with additional data sources.
 >
 > **[View Interactive Dashboard →](https://gov-acc-research.netlify.app)**
 
@@ -19,7 +19,7 @@ Phase 1 research is ongoing. The findings below are preliminary results from the
 - **[[Agentic Allocation Workshop Recap]]** — Research output from the third gov/acc workshop
 - **[[Phase 1 Results]]** — Methodology, preliminary findings, and early insights
 - **[[problems/index|Governance Problems]]** — 11 problems ranked by urgency, from Critical to Medium
-- **[[solutions/index|Governance Solutions]]** — 37 proposed solutions organized by category and maturity stage
+- **[[solutions/index|Governance Solutions]]** — 41 proposed solutions organized by category and maturity stage
 
 Early patterns: [[Token Voting Failure]] is the #1 concern (raised by 58% of interview participants), the execution layer is more evolved than deliberation, and knowledge infrastructure represents the largest gap between problem urgency and solution maturity.
 

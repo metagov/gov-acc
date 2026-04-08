@@ -43,7 +43,7 @@ At Genesis-to-Custom (ex 2), the Proto-DAO concept is well-articulated but imple
 
 ## Participant Mentions
 
-Referenced in 4 out of 49 interviews. The solid mention count suggests growing acceptance that premature decentralization is a real problem. Participants who mentioned Proto-DAOs typically had experience with organizations that decentralized too quickly and suffered governance dysfunction as a result. The concept resonated as a pragmatic middle ground between centralized efficiency and decentralized legitimacy.
+Referenced in 4 out of 52 interviews. The solid mention count suggests growing acceptance that premature decentralization is a real problem. Participants who mentioned Proto-DAOs typically had experience with organizations that decentralized too quickly and suffered governance dysfunction as a result. The concept resonated as a pragmatic middle ground between centralized efficiency and decentralized legitimacy.
 
 ---
 

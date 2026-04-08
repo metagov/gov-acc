@@ -42,7 +42,7 @@ At Custom stage (ex 2.5), Signals Protocol has a coherent design and early imple
 
 ## Participant Mentions
 
-Referenced in 4 out of 49 interviews. The mention count suggests meaningful awareness among governance practitioners. Participants who referenced it were typically concerned with the "garbage in, garbage out" problem of governance — if proposals don't reflect community priorities, even perfect voting mechanisms will produce unsatisfying results. Signals Protocol was seen as addressing the upstream problem of priority-setting rather than the downstream problem of decision-making.
+Referenced in 4 out of 52 interviews. The mention count suggests meaningful awareness among governance practitioners. Participants who referenced it were typically concerned with the "garbage in, garbage out" problem of governance — if proposals don't reflect community priorities, even perfect voting mechanisms will produce unsatisfying results. Signals Protocol was seen as addressing the upstream problem of priority-setting rather than the downstream problem of decision-making.
 
 ---
 

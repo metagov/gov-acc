@@ -37,7 +37,7 @@ At Product stage (ex 3.0), attestation-based governance is actively deployed wit
 
 ## Participant Mentions
 
-Referenced in 1 out of 49 interviews (Jeffrey McLarty, Agora). While mentioned by only one participant, the solution represents a significant architectural innovation that challenges widely held assumptions about how on-chain governance must work.
+Referenced in 1 out of 52 interviews (Jeffrey McLarty, Agora). While mentioned by only one participant, the solution represents a significant architectural innovation that challenges widely held assumptions about how on-chain governance must work.
 
 ---
 

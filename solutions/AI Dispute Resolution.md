@@ -24,6 +24,10 @@ The "simulated jury" model works by training or prompting AI systems on a commun
 
 More ambitiously, some approaches envision AI systems that can interpret the intent behind smart contracts when edge cases arise. Smart contracts are notoriously rigid — they execute exactly what was coded, not what was intended. AI dispute resolution could serve as an interpretive layer that mediates between code and intent, particularly in cases where programmatic execution produces outcomes that violate the community's understood norms.
 
+**Restaking protocols** like Eigen and Symbiotic introduce another dimension: they allow economic security to be shared across protocols, creating new possibilities for game-theoretic dispute resolution backed by staked capital. When validators risk slashing for incorrect dispute judgments, the incentive structure for honest resolution is strengthened beyond what reputation alone can provide.
+
+**AI-powered accountability rails** extend the concept beyond dispute resolution into continuous governance monitoring. Rather than waiting for disputes to arise, AI systems could detect deviation from agreed-upon standards in real time — flagging when delegate behavior diverges from commitments, when treasury spending patterns shift unexpectedly, or when governance proposals conflict with established precedent. This shifts from reactive dispute resolution to proactive accountability.
+
 ## Problems Addressed
 
 - [[Technical and Legal Gaps]] — Provides an interpretive layer between rigid smart contract execution and the nuanced reality of governance disputes, helping bridge the gap between code and intent
@@ -39,7 +43,7 @@ At Genesis-to-Custom (ex 2), AI dispute resolution is still largely conceptual w
 
 ## Participant Mentions
 
-Referenced in 2 out of 49 interviews. The low mention count reflects both the novelty of the concept and the fact that dispute resolution, while important, is not the primary pain point for most governance practitioners — they're more focused on day-to-day decision-making than conflict resolution. However, as governance systems mature and more complex disputes arise, this solution may gain significantly more attention.
+Referenced in 2 out of 52 interviews. The low mention count reflects both the novelty of the concept and the fact that dispute resolution, while important, is not the primary pain point for most governance practitioners — they're more focused on day-to-day decision-making than conflict resolution. However, as governance systems mature and more complex disputes arise, this solution may gain significantly more attention.
 
 ---
 

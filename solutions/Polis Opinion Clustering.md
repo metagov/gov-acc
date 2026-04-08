@@ -41,7 +41,7 @@ At Commodity stage (ex 4), Polis is the most mature sensemaking tool in the gove
 
 ## Participant Mentions
 
-Referenced in 5 out of 49 interviews. The high mention count, combined with Commodity maturity, confirms Polis's status as a known and respected tool. Participants frequently referenced it as an example of what effective governance tooling looks like — and as evidence that the sensemaking layer of governance is underdeveloped relative to the voting layer. Several noted that Polis works well for surfacing opinions but doesn't solve the harder problem of integrating sensemaking outputs into binding governance decisions.
+Referenced in 5 out of 52 interviews. The high mention count, combined with Commodity maturity, confirms Polis's status as a known and respected tool. Participants frequently referenced it as an example of what effective governance tooling looks like — and as evidence that the sensemaking layer of governance is underdeveloped relative to the voting layer. Several noted that Polis works well for surfacing opinions but doesn't solve the harder problem of integrating sensemaking outputs into binding governance decisions.
 
 ---
 

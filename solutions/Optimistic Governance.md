@@ -43,7 +43,7 @@ At Product stage (ex 3.5), optimistic governance is well-understood and actively
 
 ## Participant Mentions
 
-Referenced in 4 out of 49 interviews. The solid mention count reflects both the simplicity of the concept and its practical appeal. Participants who mentioned optimistic governance were typically those most frustrated with low voter turnout on routine proposals — they recognized that the solution isn't to increase participation but to reduce unnecessary participation requirements.
+Referenced in 4 out of 52 interviews. The solid mention count reflects both the simplicity of the concept and its practical appeal. Participants who mentioned optimistic governance were typically those most frustrated with low voter turnout on routine proposals — they recognized that the solution isn't to increase participation but to reduce unnecessary participation requirements.
 
 ---
 

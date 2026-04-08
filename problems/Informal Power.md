@@ -9,7 +9,7 @@ type: problem
 ---
 
 > [!caution] High Urgency — Score: 59
-> Raised by 17/49 participants · Average 2.8 messages per discussion · 9 solutions proposed
+> Raised by 17/52 participants · Average 2.8 messages per discussion · 9 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -17,7 +17,7 @@ Power in DAOs often flows through informal channels — social media influence, 
 
 ## Evidence
 
-**Breadth**: 17 out of 49 interviewees raised this problem, placing it in the upper-middle range of prevalence. The participants who raised it tended to be those with extensive DAO experience who had observed the gap between formal governance structures and actual decision-making dynamics firsthand.
+**Breadth**: 17 out of 52 interviewees raised this problem, placing it in the upper-middle range of prevalence. The participants who raised it tended to be those with extensive DAO experience who had observed the gap between formal governance structures and actual decision-making dynamics firsthand.
 
 **Depth**: Averaging 3.0 messages per discussion, participants engaged meaningfully with the mechanics of informal power — how it accumulates, how it is exercised, and why formal governance structures fail to constrain it. The moderate depth reflects a problem that is recognizable but nuanced in its manifestations.
 

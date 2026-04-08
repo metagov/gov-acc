@@ -9,7 +9,7 @@ type: problem
 ---
 
 > [!caution] High Urgency — Score: 68
-> Raised by 20/49 participants · Average 3.2 messages per discussion · 11 solutions proposed
+> Raised by 21/52 participants · Average 3.2 messages per discussion · 12 solutions proposed
 
 *AI-synthesized from participant responses. Data points are faithful to source material; narrative descriptions may contain elaborations beyond what participants stated. See [[Phase 1 Results#Methodology|Methodology]]. Original responses available on request.*
 
@@ -17,7 +17,9 @@ DAOs maintain the appearance of decentralized governance while real decisions ar
 
 ## Evidence
 
-**Breadth**: 20 out of 49 interviewees raised this problem, making it the second most widely recognized issue. Over half of participants independently identified governance theater as a significant concern, suggesting the pattern is visible and frustrating to a majority of governance practitioners.
+**Breadth**: 21 out of 52 interviewees raised this problem, making it the second most widely recognized issue. Over half of participants independently identified governance theater as a significant concern, suggesting the pattern is visible and frustrating to a majority of governance practitioners.
+
+**AIP-1 controversy** (Bianca, University of Lucerne): The Arbitrum Foundation framed AIP-1 as ratification of a pre-existing decision, with tokens moved and converted before the community vote concluded. Bianca documented this case in her book chapter "Code, Community, and Conflict: DAO Disputes" (in *Foundations of Decentralized Organizations*, OUP 2026, co-edited with Kevin Werbach and Eva Michele), showing how formal voting and consensus mechanisms can be presented as democratic while lacking genuine debate — with decisions portrayed as collective actually favoring influential participants.
 
 **Depth**: Averaging 3.5 messages per discussion, the engagement level indicates participants had concrete experiences to share — specific instances of theatrical governance rather than abstract concerns. The moderate depth reflects a problem that is well-understood in its mechanics but emotionally charged in its implications.
 
@@ -38,6 +40,7 @@ When governance is theater, participants lose trust and disengage — accelerati
 - [[Centralized Ops DAO Oversight]] — Explicit centralization of operations with transparent oversight, honest about the tradeoffs rather than hiding them behind theater
 - [[Powers Protocol]] — Formal separation of governance powers to prevent any single entity from controlling the full decision pipeline
 - [[Governable Spaces]] — Grounds governance in clear purpose and community needs, making it harder for processes to become performative
+- [[Governance Minimization]] — Makes explicit what a DAO actually controls versus what it does not, reducing the surface area for theater by being honest about governance scope
 
 ## Related Problems
 
@@ -47,7 +50,7 @@ When governance is theater, participants lose trust and disengage — accelerati
 
 ## Participants
 
-Raised by: Coffee-crusher, Ivey, Carl, Alex S., Marlene, Zeugh, Hima, Trigs, Adam S., Teije, Arnold, mart1n, Kaf, ivan, cory, Wise Dolphin, Dani, Aman, ECVM, Gbiri
+Raised by: Coffee-crusher, Ivey, Carl, Alex S., Marlene, Zeugh, Hima, Trigs, Adam S., Teije, Arnold, mart1n, Kaf, ivan, cory, Wise Dolphin, Dani, Aman, ECVM, Gbiri, Bianca
 
 ---
 

@@ -39,7 +39,7 @@ At Product stage (ex 3.0), Green Goods is deployed on Arbitrum and actively used
 
 ## Participant Mentions
 
-Referenced in 1 out of 49 interviews (Afolabi Aiyeloja, Greenpill). The solution stands out for its end-to-end integration of attestation, impact certification, and capital formation — an unusually complete implementation of the contributor economy stack.
+Referenced in 1 out of 52 interviews (Afolabi Aiyeloja, Greenpill). The solution stands out for its end-to-end integration of attestation, impact certification, and capital formation — an unusually complete implementation of the contributor economy stack.
 
 ---
 
