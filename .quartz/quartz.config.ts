@@ -25,6 +25,7 @@ const config: QuartzConfig = {
       // Internal resources
       "resources/**",
       "internal/**",
+      "docs/**",
 
       // Quartz infrastructure
       ".quartz/**",
