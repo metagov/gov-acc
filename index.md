@@ -3,10 +3,6 @@ publish: true
 title: gov/acc
 subtitle: Accelerating Governance Innovation in Web3
 ---
-
-> [!info] Call to Action
-> If you want to contribute to gov/acc, please consider completing a [Harmonica session](https://app.harmonica.chat/chat?s=hst_a51081812ed9) to map open problems DAOs are facing, their potential solutions, and who is working on them (whether researching or building).
-
 > [!abstract] Leaderboard
 > The resources gathered here, as well as the results from Harmonica, have been combined into a single leaderboard. You can explore it below. 
 >
