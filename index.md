@@ -25,6 +25,7 @@ Phase 1 research is ongoing. The findings below are preliminary results from the
 - **[[Phase 1 Results]]** — Methodology, preliminary findings, and early insights
 - **[[problems/index|Governance Problems]]** — 11 problems ranked by urgency, from Critical to Medium
 - **[[solutions/index|Governance Solutions]]** — 41 proposed solutions organized by category and maturity stage
+- [**Agora Citizens Network Conversation**](https://www.agoracitizen.app/conversation/yJxlEns/analysis?tab=Divisive) - 33 people interacted with this conversation at the start of the gov/acc workshop on Apr 1st at EthCC
 
 Early patterns: [[Token Voting Failure]] is the #1 concern (raised by 58% of interview participants), the execution layer is more evolved than deliberation, and knowledge infrastructure represents the largest gap between problem urgency and solution maturity.
 
